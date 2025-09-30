@@ -3,3 +3,4 @@ tmp/
 genomes/GCA*
 genomes/GCF*
 genomes/*faa
+*egg-info*
