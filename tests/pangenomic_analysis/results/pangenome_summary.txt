@@ -1,0 +1,372 @@
+================================================================================
+PANGENOMIC ANALYSIS SUMMARY
+================================================================================
+
+Species: Synechococcus elongatus
+Number of strains analyzed: 118
+Number of EC numbers searched: 16
+
+CORE/ACCESSORY/ABSENT ANALYSIS
+--------------------------------------------------------------------------------
+Core EC numbers (in all strains): 4
+Accessory EC numbers (in some strains): 4
+Absent EC numbers (in no strains): 8
+
+STRAIN RANKING BY PATHWAY COMPLETENESS
+--------------------------------------------------------------------------------
+1. AS9601_GCF_000015645.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+21. IITB7_GCF_036630095.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+73. MU1412_GCF_019324925.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+25. M14.2_GCF_050422935.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+26. MED4ax_substr._MED4ax_GCF_047497125.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+27. MED4x_substr._MED4x_GCF_047497115.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+28. MED4_GCF_000011465.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+82. PCC_11801_GCF_003846445.2: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+34. MIT_0918_GCF_027359415.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+101. UTEX_3055_GCF_003957805.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+100. UTEX_2973_GCF_000817325.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+99. UTEX_2434_GCF_030544905.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+98. Unknown_GCF_051658205.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+83. PCC_11802_GCF_009498715.2: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+84. PCC_6301_GCF_000010065.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+85. PCC_6301_GCF_022984195.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+86. PCC_6311_GCF_022984265.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+87. PCC_7942_GCF_000012525.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+88. PCC_7943_GCF_022984345.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+22. IITB8_GCF_036630105.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+72. MU1411_GCF_019324985.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+20. IITB7_GCA_036630095.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+14. IITB4_GCA_036630075.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+114. XMU1412_GCF_017696315.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+6. EQPAC1_GCF_000759875.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+7. FACHB-1061_GCF_014698895.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+8. FACHB-242_GCF_014698415.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+9. FACHB-805_GCF_014698905.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+113. XMU1411_GCF_017696075.1: 50.0% complete
+   Fully found: 8, Partial: 5, Absent: 3
+
+12. IITB3_GCA_036630065.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+13. IITB3_GCF_036630065.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+15. IITB4_GCF_036630075.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+16. IITB5_GCA_036630115.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+17. IITB5_GCF_036630115.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+18. IITB6_GCA_036630085.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+19. IITB6_GCF_036630085.1: 50.0% complete
+   Fully found: 8, Partial: 6, Absent: 2
+
+77. MU1417_GCF_019324845.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+76. MU1416_GCF_019324835.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+90. SB_GCF_047305225.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+75. MU1415_GCF_019324885.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+71. MU1410_GCF_019324955.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+74. MU1414_GCF_019324905.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+70. MU1406_GCF_019324945.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+69. MU1405_GCF_019325005.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+89. SB_GCF_000760115.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+102. XMU1401E_GCF_019325115.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+91. SCGC_AAA795-F05_GCF_001180245.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+92. SS2_GCF_000760255.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+116. XMU1419_GCF_017695955.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+115. XMU1414_GCF_017696035.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+112. XMU1410_GCF_017696085.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+109. XMU1406_GCF_017696055.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+108. XMU1405_GCF_017696275.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+107. XMU1404_GCF_017696175.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+105. XMU1402_GCF_017696205.1: 43.8% complete
+   Fully found: 7, Partial: 6, Absent: 3
+
+104. XMU1401_GCF_017696245.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+103. XMU1401_GCF_002812945.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+66. MU1402_GCF_019325055.1: 43.8% complete
+   Fully found: 7, Partial: 6, Absent: 3
+
+97. SS51_GCF_047302855.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+96. SS51_GCF_000760355.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+95. SS35_GCF_047304605.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+94. SS35_GCF_000760275.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+93. SS2_GCF_047302765.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+68. MU1404_GCF_019325015.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+59. MIT_9311_GCF_000760015.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+44. MIT_1327_GCF_001632125.1: 43.8% complete
+   Fully found: 7, Partial: 6, Absent: 3
+
+51. MIT_9201_GCF_047305125.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+45. MIT_1342_GCF_001632145.1: 43.8% complete
+   Fully found: 7, Partial: 6, Absent: 3
+
+43. MIT_1323_GCF_001632025.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+42. MIT_1320_GCF_001632075.1: 43.8% complete
+   Fully found: 7, Partial: 6, Absent: 3
+
+41. MIT_1318_GCF_001632045.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+40. MIT_1313_GCF_001632065.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+39. MIT_1312_GCF_001632005.1: 43.8% complete
+   Fully found: 7, Partial: 6, Absent: 3
+
+35. MIT_0919_GCF_027359375.1: 43.8% complete
+   Fully found: 7, Partial: 6, Absent: 3
+
+29. MIT9313_GCF_000011485.1: 43.8% complete
+   Fully found: 7, Partial: 6, Absent: 3
+
+24. LG_GCF_047302905.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+23. LG_GCF_000760155.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+11. GP2_GCF_047302875.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+10. GP2_GCF_000759885.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+5. CUG1417_GCF_017695975.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+4. CUG1416_GCF_017695965.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+3. CUG1415_GCF_017696015.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+50. MIT_9201_GCF_000759955.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+117. XMU1419_GCF_019325105.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+52. MIT_9202_GCF_000158595.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+55. MIT_9301_GCF_000015965.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+64. MIT_9401_GCF_000760095.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+63. MIT_9322_GCF_000760075.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+62. MIT_9321_GCF_000760055.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+61. MIT_9314_GCF_000760035.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+60. MIT_9312_GCF_000012645.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+2. CCMP1375;_SS120_GCF_000007925.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+58. MIT_9303_GCF_000015705.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+57. MIT_9302_GCF_047947085.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+53. MIT_9211_GCF_000018585.1: 43.8% complete
+   Fully found: 7, Partial: 6, Absent: 3
+
+56. MIT_9302_GCF_000759975.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+54. MIT_9215_GCF_000018065.1: 43.8% complete
+   Fully found: 7, Partial: 5, Absent: 4
+
+78. NATL1A_GCF_000015685.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+38. MIT_1214_GCF_027359355.1: 37.5% complete
+   Fully found: 6, Partial: 6, Absent: 4
+
+49. MIT_9123_GCF_000759935.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+48. MIT_9116_GCF_000759865.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+47. MIT_9107_GCF_047302795.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+46. MIT_9107_GCF_000759855.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+111. XMU1408_GCF_019325045.1: 37.5% complete
+   Fully found: 6, Partial: 6, Absent: 4
+
+110. XMU1408_GCF_003208055.1: 37.5% complete
+   Fully found: 6, Partial: 6, Absent: 4
+
+81. PAC1_GCF_047304675.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+80. PAC1_GCF_000760235.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+30. MIT_0912_GCF_027359595.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+31. MIT_0913_GCF_027359525.1: 37.5% complete
+   Fully found: 6, Partial: 6, Absent: 4
+
+32. MIT_0915_GCF_027359475.1: 37.5% complete
+   Fully found: 6, Partial: 6, Absent: 4
+
+33. MIT_0917_GCF_027359575.1: 37.5% complete
+   Fully found: 6, Partial: 6, Absent: 4
+
+79. NATL2A_GCF_000012465.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+36. MIT_1012_GCF_047302745.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+37. MIT_1013_GCF_027359395.1: 37.5% complete
+   Fully found: 6, Partial: 6, Absent: 4
+
+65. MIT_9515_GCF_000015665.1: 37.5% complete
+   Fully found: 6, Partial: 5, Absent: 5
+
+67. MU1403_GCF_019325065.1: 31.2% complete
+   Fully found: 5, Partial: 7, Absent: 4
+
+106. XMU1403_GCF_003208065.1: 25.0% complete
+   Fully found: 4, Partial: 8, Absent: 4
+
+RECOMMENDATION
+--------------------------------------------------------------------------------
+Best chassis candidate: AS9601_GCF_000015645.1
+Pathway completeness: 50.0%
+Has 8 fully complete EC numbers

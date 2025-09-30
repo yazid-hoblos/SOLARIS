@@ -1,0 +1,92 @@
+accession,organism,strain,assembly_level,date
+GCF_001180245.1,Prochlorococcus marinus,SCGC AAA795-F05,Contig,Unknown
+GCF_017696015.1,Prochlorococcus marinus CUG1415,CUG1415,Contig,Unknown
+GCF_017695965.1,Prochlorococcus marinus CUG1416,CUG1416,Contig,Unknown
+GCF_017695975.1,Prochlorococcus marinus CUG1417,CUG1417,Contig,Unknown
+GCF_000015645.1,Prochlorococcus marinus str. AS9601,AS9601,Complete Genome,Unknown
+GCF_000759875.1,Prochlorococcus marinus str. EQPAC1,EQPAC1,Contig,Unknown
+GCF_000759885.1,Prochlorococcus marinus str. GP2,GP2,Contig,Unknown
+GCF_047302875.1,Prochlorococcus marinus str. GP2,GP2,Complete Genome,Unknown
+GCF_000760155.1,Prochlorococcus marinus str. LG,LG,Contig,Unknown
+GCF_047302905.1,Prochlorococcus marinus str. LG,LG,Complete Genome,Unknown
+GCF_027359595.1,Prochlorococcus marinus str. MIT 0912,MIT 0912,Complete Genome,Unknown
+GCF_027359525.1,Prochlorococcus marinus str. MIT 0913,MIT 0913,Complete Genome,Unknown
+GCF_027359475.1,Prochlorococcus marinus str. MIT 0915,MIT 0915,Complete Genome,Unknown
+GCF_027359575.1,Prochlorococcus marinus str. MIT 0917,MIT 0917,Complete Genome,Unknown
+GCF_027359415.1,Prochlorococcus marinus str. MIT 0918,MIT 0918,Complete Genome,Unknown
+GCF_027359375.1,Prochlorococcus marinus str. MIT 0919,MIT 0919,Complete Genome,Unknown
+GCF_047302745.1,Prochlorococcus marinus str. MIT 1012,MIT 1012,Complete Genome,Unknown
+GCF_027359395.1,Prochlorococcus marinus str. MIT 1013,MIT 1013,Complete Genome,Unknown
+GCF_027359355.1,Prochlorococcus marinus str. MIT 1214,MIT 1214,Complete Genome,Unknown
+GCF_001632005.1,Prochlorococcus marinus str. MIT 1312,MIT 1312,Contig,Unknown
+GCF_001632065.1,Prochlorococcus marinus str. MIT 1313,MIT 1313,Contig,Unknown
+GCF_001632045.1,Prochlorococcus marinus str. MIT 1318,MIT 1318,Contig,Unknown
+GCF_001632075.1,Prochlorococcus marinus str. MIT 1320,MIT 1320,Contig,Unknown
+GCF_001632025.1,Prochlorococcus marinus str. MIT 1323,MIT 1323,Contig,Unknown
+GCF_001632125.1,Prochlorococcus marinus str. MIT 1327,MIT 1327,Contig,Unknown
+GCF_001632145.1,Prochlorococcus marinus str. MIT 1342,MIT 1342,Contig,Unknown
+GCF_000759855.1,Prochlorococcus marinus str. MIT 9107,MIT 9107,Contig,Unknown
+GCF_047302795.1,Prochlorococcus marinus str. MIT 9107,MIT 9107,Complete Genome,Unknown
+GCF_000759865.1,Prochlorococcus marinus str. MIT 9116,MIT 9116,Contig,Unknown
+GCF_000759935.1,Prochlorococcus marinus str. MIT 9123,MIT 9123,Contig,Unknown
+GCF_000759955.1,Prochlorococcus marinus str. MIT 9201,MIT 9201,Contig,Unknown
+GCF_047305125.1,Prochlorococcus marinus str. MIT 9201,MIT 9201,Complete Genome,Unknown
+GCF_000158595.1,Prochlorococcus marinus str. MIT 9202,MIT 9202,Scaffold,Unknown
+GCF_000018585.1,Prochlorococcus marinus str. MIT 9211,MIT 9211,Chromosome,Unknown
+GCF_000018065.1,Prochlorococcus marinus str. MIT 9215,MIT 9215,Complete Genome,Unknown
+GCF_000015965.1,Prochlorococcus marinus str. MIT 9301,MIT 9301,Complete Genome,Unknown
+GCF_000759975.1,Prochlorococcus marinus str. MIT 9302,MIT 9302,Contig,Unknown
+GCF_047947085.1,Prochlorococcus marinus str. MIT 9302,MIT 9302,Complete Genome,Unknown
+GCF_000015705.1,Prochlorococcus marinus str. MIT 9303,MIT 9303,Complete Genome,Unknown
+GCF_000760015.1,Prochlorococcus marinus str. MIT 9311,MIT 9311,Contig,Unknown
+GCF_000012645.1,Prochlorococcus marinus str. MIT 9312,MIT 9312,Complete Genome,Unknown
+GCF_000011485.1,Prochlorococcus marinus str. MIT 9313,MIT9313,Complete Genome,Unknown
+GCF_000760035.1,Prochlorococcus marinus str. MIT 9314,MIT 9314,Contig,Unknown
+GCF_000760055.1,Prochlorococcus marinus str. MIT 9321,MIT 9321,Contig,Unknown
+GCF_000760075.1,Prochlorococcus marinus str. MIT 9322,MIT 9322,Contig,Unknown
+GCF_000760095.1,Prochlorococcus marinus str. MIT 9401,MIT 9401,Contig,Unknown
+GCF_000015665.1,Prochlorococcus marinus str. MIT 9515,MIT 9515,Complete Genome,Unknown
+GCF_019325055.1,Prochlorococcus marinus str. MU1402,MU1402,Contig,Unknown
+GCF_019325065.1,Prochlorococcus marinus str. MU1403,MU1403,Contig,Unknown
+GCF_019325015.1,Prochlorococcus marinus str. MU1404,MU1404,Contig,Unknown
+GCF_019325005.1,Prochlorococcus marinus str. MU1405,MU1405,Contig,Unknown
+GCF_019324945.1,Prochlorococcus marinus str. MU1406,MU1406,Contig,Unknown
+GCF_019324955.1,Prochlorococcus marinus str. MU1410,MU1410,Contig,Unknown
+GCF_019324985.1,Prochlorococcus marinus str. MU1411,MU1411,Contig,Unknown
+GCF_019324925.1,Prochlorococcus marinus str. MU1412,MU1412,Contig,Unknown
+GCF_019324905.1,Prochlorococcus marinus str. MU1414,MU1414,Contig,Unknown
+GCF_019324885.1,Prochlorococcus marinus str. MU1415,MU1415,Contig,Unknown
+GCF_019324835.1,Prochlorococcus marinus str. MU1416,MU1416,Contig,Unknown
+GCF_019324845.1,Prochlorococcus marinus str. MU1417,MU1417,Contig,Unknown
+GCF_000015685.1,Prochlorococcus marinus str. NATL1A,NATL1A,Complete Genome,Unknown
+GCF_000012465.1,Prochlorococcus marinus str. NATL2A,NATL2A,Complete Genome,Unknown
+GCF_000760235.1,Prochlorococcus marinus str. PAC1,PAC1,Contig,Unknown
+GCF_047304675.1,Prochlorococcus marinus str. PAC1,PAC1,Complete Genome,Unknown
+GCF_000760115.1,Prochlorococcus marinus str. SB,SB,Contig,Unknown
+GCF_047305225.1,Prochlorococcus marinus str. SB,SB,Complete Genome,Unknown
+GCF_000760255.1,Prochlorococcus marinus str. SS2,SS2,Contig,Unknown
+GCF_047302765.1,Prochlorococcus marinus str. SS2,SS2,Complete Genome,Unknown
+GCF_000760275.1,Prochlorococcus marinus str. SS35,SS35,Contig,Unknown
+GCF_047304605.1,Prochlorococcus marinus str. SS35,SS35,Complete Genome,Unknown
+GCF_000760355.1,Prochlorococcus marinus str. SS51,SS51,Contig,Unknown
+GCF_047302855.1,Prochlorococcus marinus str. SS51,SS51,Complete Genome,Unknown
+GCF_002812945.1,Prochlorococcus marinus str. XMU1401,XMU1401,Contig,Unknown
+GCF_017696245.1,Prochlorococcus marinus str. XMU1401,XMU1401,Contig,Unknown
+GCF_019325115.1,Prochlorococcus marinus str. XMU1401E,XMU1401E,Contig,Unknown
+GCF_019325045.1,Prochlorococcus marinus str. XMU1408,XMU1408,Contig,Unknown
+GCF_019325105.1,Prochlorococcus marinus str. XMU1419,XMU1419,Contig,Unknown
+GCF_000007925.1,Prochlorococcus marinus subsp. marinus str. CCMP1375,CCMP1375; SS120,Complete Genome,Unknown
+GCF_000011465.1,Prochlorococcus marinus subsp. pastoris str. CCMP1986,MED4,Complete Genome,Unknown
+GCF_047497115.1,Prochlorococcus marinus subsp. pastoris str. CCMP1986,MED4x substr. MED4x,Complete Genome,Unknown
+GCF_047497125.1,Prochlorococcus marinus subsp. pastoris str. CCMP1986,MED4ax substr. MED4ax,Complete Genome,Unknown
+GCF_017696205.1,Prochlorococcus marinus XMU1402,XMU1402,Contig,Unknown
+GCF_003208065.1,Prochlorococcus marinus XMU1403,XMU1403,Contig,Unknown
+GCF_017696175.1,Prochlorococcus marinus XMU1404,XMU1404,Contig,Unknown
+GCF_017696275.1,Prochlorococcus marinus XMU1405,XMU1405,Scaffold,Unknown
+GCF_017696055.1,Prochlorococcus marinus XMU1406,XMU1406,Contig,Unknown
+GCF_003208055.1,Prochlorococcus marinus XMU1408,XMU1408,Contig,Unknown
+GCF_017696085.1,Prochlorococcus marinus XMU1410,XMU1410,Scaffold,Unknown
+GCF_017696075.1,Prochlorococcus marinus XMU1411,XMU1411,Contig,Unknown
+GCF_017696315.1,Prochlorococcus marinus XMU1412,XMU1412,Scaffold,Unknown
+GCF_017696035.1,Prochlorococcus marinus XMU1414,XMU1414,Contig,Unknown
+GCF_017695955.1,Prochlorococcus marinus XMU1419,XMU1419,Contig,Unknown

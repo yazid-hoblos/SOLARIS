@@ -1,0 +1,113 @@
+accession,strain,file,organism
+GCF_001180245.1,SCGC_AAA795-F05,genomes/SCGC_AAA795-F05_GCF_001180245.1.faa,Prochlorococcus marinus
+GCF_017696015.1,CUG1415,genomes/CUG1415_GCF_017696015.1.faa,Prochlorococcus marinus CUG1415
+GCF_017695965.1,CUG1416,genomes/CUG1416_GCF_017695965.1.faa,Prochlorococcus marinus CUG1416
+GCF_017695975.1,CUG1417,genomes/CUG1417_GCF_017695975.1.faa,Prochlorococcus marinus CUG1417
+GCF_000015645.1,AS9601,genomes/AS9601_GCF_000015645.1.faa,Prochlorococcus marinus str. AS9601
+GCF_000759875.1,EQPAC1,genomes/EQPAC1_GCF_000759875.1.faa,Prochlorococcus marinus str. EQPAC1
+GCF_000759885.1,GP2,genomes/GP2_GCF_000759885.1.faa,Prochlorococcus marinus str. GP2
+GCF_047302875.1,GP2,genomes/GP2_GCF_047302875.1.faa,Prochlorococcus marinus str. GP2
+GCF_000760155.1,LG,genomes/LG_GCF_000760155.1.faa,Prochlorococcus marinus str. LG
+GCF_047302905.1,LG,genomes/LG_GCF_047302905.1.faa,Prochlorococcus marinus str. LG
+GCF_027359595.1,MIT_0912,genomes/MIT_0912_GCF_027359595.1.faa,Prochlorococcus marinus str. MIT 0912
+GCF_027359525.1,MIT_0913,genomes/MIT_0913_GCF_027359525.1.faa,Prochlorococcus marinus str. MIT 0913
+GCF_027359475.1,MIT_0915,genomes/MIT_0915_GCF_027359475.1.faa,Prochlorococcus marinus str. MIT 0915
+GCF_027359575.1,MIT_0917,genomes/MIT_0917_GCF_027359575.1.faa,Prochlorococcus marinus str. MIT 0917
+GCF_027359415.1,MIT_0918,genomes/MIT_0918_GCF_027359415.1.faa,Prochlorococcus marinus str. MIT 0918
+GCF_027359375.1,MIT_0919,genomes/MIT_0919_GCF_027359375.1.faa,Prochlorococcus marinus str. MIT 0919
+GCF_047302745.1,MIT_1012,genomes/MIT_1012_GCF_047302745.1.faa,Prochlorococcus marinus str. MIT 1012
+GCF_027359395.1,MIT_1013,genomes/MIT_1013_GCF_027359395.1.faa,Prochlorococcus marinus str. MIT 1013
+GCF_027359355.1,MIT_1214,genomes/MIT_1214_GCF_027359355.1.faa,Prochlorococcus marinus str. MIT 1214
+GCF_001632005.1,MIT_1312,genomes/MIT_1312_GCF_001632005.1.faa,Prochlorococcus marinus str. MIT 1312
+GCF_001632065.1,MIT_1313,genomes/MIT_1313_GCF_001632065.1.faa,Prochlorococcus marinus str. MIT 1313
+GCF_001632045.1,MIT_1318,genomes/MIT_1318_GCF_001632045.1.faa,Prochlorococcus marinus str. MIT 1318
+GCF_001632075.1,MIT_1320,genomes/MIT_1320_GCF_001632075.1.faa,Prochlorococcus marinus str. MIT 1320
+GCF_001632025.1,MIT_1323,genomes/MIT_1323_GCF_001632025.1.faa,Prochlorococcus marinus str. MIT 1323
+GCF_001632125.1,MIT_1327,genomes/MIT_1327_GCF_001632125.1.faa,Prochlorococcus marinus str. MIT 1327
+GCF_001632145.1,MIT_1342,genomes/MIT_1342_GCF_001632145.1.faa,Prochlorococcus marinus str. MIT 1342
+GCF_000759855.1,MIT_9107,genomes/MIT_9107_GCF_000759855.1.faa,Prochlorococcus marinus str. MIT 9107
+GCF_047302795.1,MIT_9107,genomes/MIT_9107_GCF_047302795.1.faa,Prochlorococcus marinus str. MIT 9107
+GCF_000759865.1,MIT_9116,genomes/MIT_9116_GCF_000759865.1.faa,Prochlorococcus marinus str. MIT 9116
+GCF_000759935.1,MIT_9123,genomes/MIT_9123_GCF_000759935.1.faa,Prochlorococcus marinus str. MIT 9123
+GCF_000759955.1,MIT_9201,genomes/MIT_9201_GCF_000759955.1.faa,Prochlorococcus marinus str. MIT 9201
+GCF_047305125.1,MIT_9201,genomes/MIT_9201_GCF_047305125.1.faa,Prochlorococcus marinus str. MIT 9201
+GCF_000158595.1,MIT_9202,genomes/MIT_9202_GCF_000158595.1.faa,Prochlorococcus marinus str. MIT 9202
+GCF_000018585.1,MIT_9211,genomes/MIT_9211_GCF_000018585.1.faa,Prochlorococcus marinus str. MIT 9211
+GCF_000018065.1,MIT_9215,genomes/MIT_9215_GCF_000018065.1.faa,Prochlorococcus marinus str. MIT 9215
+GCF_000015965.1,MIT_9301,genomes/MIT_9301_GCF_000015965.1.faa,Prochlorococcus marinus str. MIT 9301
+GCF_000759975.1,MIT_9302,genomes/MIT_9302_GCF_000759975.1.faa,Prochlorococcus marinus str. MIT 9302
+GCF_047947085.1,MIT_9302,genomes/MIT_9302_GCF_047947085.1.faa,Prochlorococcus marinus str. MIT 9302
+GCF_000015705.1,MIT_9303,genomes/MIT_9303_GCF_000015705.1.faa,Prochlorococcus marinus str. MIT 9303
+GCF_000760015.1,MIT_9311,genomes/MIT_9311_GCF_000760015.1.faa,Prochlorococcus marinus str. MIT 9311
+GCF_000012645.1,MIT_9312,genomes/MIT_9312_GCF_000012645.1.faa,Prochlorococcus marinus str. MIT 9312
+GCF_000011485.1,MIT9313,genomes/MIT9313_GCF_000011485.1.faa,Prochlorococcus marinus str. MIT 9313
+GCF_000760035.1,MIT_9314,genomes/MIT_9314_GCF_000760035.1.faa,Prochlorococcus marinus str. MIT 9314
+GCF_000760055.1,MIT_9321,genomes/MIT_9321_GCF_000760055.1.faa,Prochlorococcus marinus str. MIT 9321
+GCF_000760075.1,MIT_9322,genomes/MIT_9322_GCF_000760075.1.faa,Prochlorococcus marinus str. MIT 9322
+GCF_000760095.1,MIT_9401,genomes/MIT_9401_GCF_000760095.1.faa,Prochlorococcus marinus str. MIT 9401
+GCF_000015665.1,MIT_9515,genomes/MIT_9515_GCF_000015665.1.faa,Prochlorococcus marinus str. MIT 9515
+GCF_019325055.1,MU1402,genomes/MU1402_GCF_019325055.1.faa,Prochlorococcus marinus str. MU1402
+GCF_019325065.1,MU1403,genomes/MU1403_GCF_019325065.1.faa,Prochlorococcus marinus str. MU1403
+GCF_019325015.1,MU1404,genomes/MU1404_GCF_019325015.1.faa,Prochlorococcus marinus str. MU1404
+GCF_019325005.1,MU1405,genomes/MU1405_GCF_019325005.1.faa,Prochlorococcus marinus str. MU1405
+GCF_019324945.1,MU1406,genomes/MU1406_GCF_019324945.1.faa,Prochlorococcus marinus str. MU1406
+GCF_019324955.1,MU1410,genomes/MU1410_GCF_019324955.1.faa,Prochlorococcus marinus str. MU1410
+GCF_019324985.1,MU1411,genomes/MU1411_GCF_019324985.1.faa,Prochlorococcus marinus str. MU1411
+GCF_019324925.1,MU1412,genomes/MU1412_GCF_019324925.1.faa,Prochlorococcus marinus str. MU1412
+GCF_019324905.1,MU1414,genomes/MU1414_GCF_019324905.1.faa,Prochlorococcus marinus str. MU1414
+GCF_019324885.1,MU1415,genomes/MU1415_GCF_019324885.1.faa,Prochlorococcus marinus str. MU1415
+GCF_019324835.1,MU1416,genomes/MU1416_GCF_019324835.1.faa,Prochlorococcus marinus str. MU1416
+GCF_019324845.1,MU1417,genomes/MU1417_GCF_019324845.1.faa,Prochlorococcus marinus str. MU1417
+GCF_000015685.1,NATL1A,genomes/NATL1A_GCF_000015685.1.faa,Prochlorococcus marinus str. NATL1A
+GCF_000012465.1,NATL2A,genomes/NATL2A_GCF_000012465.1.faa,Prochlorococcus marinus str. NATL2A
+GCF_000760235.1,PAC1,genomes/PAC1_GCF_000760235.1.faa,Prochlorococcus marinus str. PAC1
+GCF_047304675.1,PAC1,genomes/PAC1_GCF_047304675.1.faa,Prochlorococcus marinus str. PAC1
+GCF_000760115.1,SB,genomes/SB_GCF_000760115.1.faa,Prochlorococcus marinus str. SB
+GCF_047305225.1,SB,genomes/SB_GCF_047305225.1.faa,Prochlorococcus marinus str. SB
+GCF_000760255.1,SS2,genomes/SS2_GCF_000760255.1.faa,Prochlorococcus marinus str. SS2
+GCF_047302765.1,SS2,genomes/SS2_GCF_047302765.1.faa,Prochlorococcus marinus str. SS2
+GCF_000760275.1,SS35,genomes/SS35_GCF_000760275.1.faa,Prochlorococcus marinus str. SS35
+GCF_047304605.1,SS35,genomes/SS35_GCF_047304605.1.faa,Prochlorococcus marinus str. SS35
+GCF_000760355.1,SS51,genomes/SS51_GCF_000760355.1.faa,Prochlorococcus marinus str. SS51
+GCF_047302855.1,SS51,genomes/SS51_GCF_047302855.1.faa,Prochlorococcus marinus str. SS51
+GCF_002812945.1,XMU1401,genomes/XMU1401_GCF_002812945.1.faa,Prochlorococcus marinus str. XMU1401
+GCF_017696245.1,XMU1401,genomes/XMU1401_GCF_017696245.1.faa,Prochlorococcus marinus str. XMU1401
+GCF_019325115.1,XMU1401E,genomes/XMU1401E_GCF_019325115.1.faa,Prochlorococcus marinus str. XMU1401E
+GCF_019325045.1,XMU1408,genomes/XMU1408_GCF_019325045.1.faa,Prochlorococcus marinus str. XMU1408
+GCF_019325105.1,XMU1419,genomes/XMU1419_GCF_019325105.1.faa,Prochlorococcus marinus str. XMU1419
+GCF_000007925.1,CCMP1375;_SS120,genomes/CCMP1375;_SS120_GCF_000007925.1.faa,Prochlorococcus marinus subsp. marinus str. CCMP1375
+GCF_000011465.1,MED4,genomes/MED4_GCF_000011465.1.faa,Prochlorococcus marinus subsp. pastoris str. CCMP1986
+GCF_047497115.1,MED4x_substr._MED4x,genomes/MED4x_substr._MED4x_GCF_047497115.1.faa,Prochlorococcus marinus subsp. pastoris str. CCMP1986
+GCF_047497125.1,MED4ax_substr._MED4ax,genomes/MED4ax_substr._MED4ax_GCF_047497125.1.faa,Prochlorococcus marinus subsp. pastoris str. CCMP1986
+GCF_017696205.1,XMU1402,genomes/XMU1402_GCF_017696205.1.faa,Prochlorococcus marinus XMU1402
+GCF_003208065.1,XMU1403,genomes/XMU1403_GCF_003208065.1.faa,Prochlorococcus marinus XMU1403
+GCF_017696175.1,XMU1404,genomes/XMU1404_GCF_017696175.1.faa,Prochlorococcus marinus XMU1404
+GCF_017696275.1,XMU1405,genomes/XMU1405_GCF_017696275.1.faa,Prochlorococcus marinus XMU1405
+GCF_017696055.1,XMU1406,genomes/XMU1406_GCF_017696055.1.faa,Prochlorococcus marinus XMU1406
+GCF_003208055.1,XMU1408,genomes/XMU1408_GCF_003208055.1.faa,Prochlorococcus marinus XMU1408
+GCF_017696085.1,XMU1410,genomes/XMU1410_GCF_017696085.1.faa,Prochlorococcus marinus XMU1410
+GCF_017696075.1,XMU1411,genomes/XMU1411_GCF_017696075.1.faa,Prochlorococcus marinus XMU1411
+GCF_017696315.1,XMU1412,genomes/XMU1412_GCF_017696315.1.faa,Prochlorococcus marinus XMU1412
+GCF_017696035.1,XMU1414,genomes/XMU1414_GCF_017696035.1.faa,Prochlorococcus marinus XMU1414
+GCF_017695955.1,XMU1419,genomes/XMU1419_GCF_017695955.1.faa,Prochlorococcus marinus XMU1419
+GCF_051658205.1,Unknown,genomes/Unknown_GCF_051658205.1.faa,Synechococcus elongatus
+GCF_014698895.1,FACHB-1061,genomes/FACHB-1061_GCF_014698895.1.faa,Synechococcus elongatus FACHB-1061
+GCF_014698415.1,FACHB-242,genomes/FACHB-242_GCF_014698415.1.faa,Synechococcus elongatus FACHB-242
+GCF_036630065.1,IITB3,genomes/IITB3_GCF_036630065.1.faa,Synechococcus elongatus IITB3
+GCF_036630075.1,IITB4,genomes/IITB4_GCF_036630075.1.faa,Synechococcus elongatus IITB4
+GCF_036630115.1,IITB5,genomes/IITB5_GCF_036630115.1.faa,Synechococcus elongatus IITB5
+GCF_036630085.1,IITB6,genomes/IITB6_GCF_036630085.1.faa,Synechococcus elongatus IITB6
+GCF_036630095.1,IITB7,genomes/IITB7_GCF_036630095.1.faa,Synechococcus elongatus IITB7
+GCF_036630105.1,IITB8,genomes/IITB8_GCF_036630105.1.faa,Synechococcus elongatus IITB8
+GCF_050422935.1,M14.2,genomes/M14.2_GCF_050422935.1.faa,Synechococcus elongatus M14.2
+GCF_003846445.2,PCC_11801,genomes/PCC_11801_GCF_003846445.2.faa,Synechococcus elongatus PCC 11801
+GCF_009498715.2,PCC_11802,genomes/PCC_11802_GCF_009498715.2.faa,Synechococcus elongatus PCC 11802
+GCF_022984195.1,PCC_6301,genomes/PCC_6301_GCF_022984195.1.faa,Synechococcus elongatus PCC 6301
+GCF_000010065.1,PCC_6301,genomes/PCC_6301_GCF_000010065.1.faa,Synechococcus elongatus PCC 6301
+GCF_022984265.1,PCC_6311,genomes/PCC_6311_GCF_022984265.1.faa,Synechococcus elongatus PCC 6311
+GCF_000012525.1,PCC_7942,genomes/PCC_7942_GCF_000012525.1.faa,Synechococcus elongatus PCC 7942 = FACHB-805
+GCF_014698905.1,FACHB-805,genomes/FACHB-805_GCF_014698905.1.faa,Synechococcus elongatus PCC 7942 = FACHB-805
+GCF_030544905.1,UTEX_2434,genomes/UTEX_2434_GCF_030544905.1.faa,Synechococcus elongatus PCC 7942 = FACHB-805
+GCF_022984345.1,PCC_7943,genomes/PCC_7943_GCF_022984345.1.faa,Synechococcus elongatus PCC 7943
+GCF_000817325.1,UTEX_2973,genomes/UTEX_2973_GCF_000817325.1.faa,Synechococcus elongatus UTEX 2973
+GCF_003957805.1,UTEX_3055,genomes/UTEX_3055_GCF_003957805.1.faa,Synechococcus elongatus UTEX 3055
