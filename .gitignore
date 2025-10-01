@@ -4,3 +4,4 @@ genomes/GCA*
 genomes/GCF*
 genomes/*faa
 *egg-info*
+geckodriver.log
