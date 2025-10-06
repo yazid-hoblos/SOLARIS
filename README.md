@@ -3,15 +3,6 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![iGEM 2025](https://img.shields.io/badge/iGEM-2025-orange.svg)](https://2025.igem.wiki/evry-paris-saclay/)
 
-If your team competes in the [**Software & AI** village](https://villages.igem.org) or wants to
-apply for the [**Best Software Tool** prize](https://competition.igem.org/judging/special-prizes), you **MUST** host all the
-source code of your team's software tool in this repository, `main` branch. By the **Wiki Freeze**, a
-[release](https://docs.gitlab.com/ee/user/project/releases/) will be automatically created as the judging artifact of
-this software tool. You will be able to keep working on your software after the Grand Jamboree.
-
-> If your team does not have any software tool, you can totally ignore this repository. If left unchanged, this
-repository will be automatically deleted by the end of the season.
-
 ## Description
 
 **SOLARIS** is a comprehensive bioinformatics toolkit designed for **metabolic engineering** and **synthetic biology** applications. It enables researchers to identify optimal microbial hosts for heterologous pathway implementation through advanced genomic analysis, pathway profiling, and economic optimization.
