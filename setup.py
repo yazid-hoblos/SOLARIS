@@ -30,9 +30,12 @@ setup(
             'sphinx-rtd-theme>=0.5',
         ],
     },
+    # Pangenomic analyzer
     entry_points={
         'console_scripts': [
             'solaris=solaris.cli:main',
+            'solaris-pathway-profiler=solaris.pathway_profiler.cli:main',
+            'solaris-pangenomic-analyzer=solaris.pangenomic_analyzer.cli:main',
         ],
     },
     classifiers=[

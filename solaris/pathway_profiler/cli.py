@@ -3,6 +3,12 @@
 CLI interface for pathway profiler tool.
 """
 
+import warnings
+
+# Suppress numpy warnings about subnormal values
+warnings.filterwarnings("ignore", message="The value of the smallest subnormal.*is zero", category=UserWarning)
+warnings.filterwarnings("ignore", category=UserWarning, module="numpy")
+
 def setup_pathway_parser(parser):
     """Add pathway_profiler subcommands."""
     
@@ -31,7 +37,7 @@ def setup_pathway_parser(parser):
                          help='Generate analysis plots and visualizations')
     workflow.add_argument('--interactive', action='store_true',
                          help='Force interactive pathway selection even if --pathway is provided')
-    workflow.add_argument('--taxonomy', default='1117', #2 Bacteria
+    workflow.add_argument('--taxonomy', default='2', # 1117 Bacteria
                          help='NCBI taxonomy ID for UniProt search (default: "2" for Bacteria)')
     workflow.add_argument('--reviewed-only', action='store_true',
                          help='Only retrieve reviewed (Swiss-Prot) entries from UniProt')
@@ -157,10 +163,21 @@ def handle_pathway_mapper(args):
     
     elif args.pathway_command == 'get-profiles':
         from .pfamHandler import PfamHandler
+        from pathlib import Path
+        
         pfam_handler = PfamHandler(args.pfam_db)
-        success, pfam_versions = pfam_handler.run(args.input, output_hmm_file=args.output)
+        
+        # Create output directory and files in the same location as the output HMM file
+        output_path = Path(args.output)
+        output_dir = output_path.parent
+        versions_file = output_dir / 'pfam_versions.txt'
+        
+        success, pfam_versions = pfam_handler.run(args.input, 
+                                                  versions_file=str(versions_file),
+                                                  output_hmm_file=args.output)
         if success:
             print(f"✅ HMM profiles extracted to {args.output}")
+            print(f"✅ Pfam versions saved to {versions_file}")
         else:
             print("❌ Failed to extract HMM profiles")
     
@@ -284,9 +301,14 @@ def run_complete_workflow(args):
     
     from .pfamHandler import PfamHandler
     pfam_handler = PfamHandler(args.pfam_db)
-    success, pfam_versions = pfam_handler.run(str(ec_pfam_file), output_hmm_file=str(hmm_file))
+    versions_file = output_dir / "pfam_versions.txt"
+    
+    success, pfam_versions = pfam_handler.run(str(ec_pfam_file), 
+                                              versions_file=str(versions_file),
+                                              output_hmm_file=str(hmm_file))
     if success:
         print(f"✅ HMM profiles saved to {hmm_file}")
+        print(f"✅ Pfam versions saved to {versions_file}")
     else:
         print("❌ Failed to extract HMM profiles")
         return

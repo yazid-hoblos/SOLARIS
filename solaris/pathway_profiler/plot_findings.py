@@ -9,6 +9,11 @@ import seaborn as sns
 from pathlib import Path
 import numpy as np
 import sys
+import warnings
+
+# Suppress numpy warnings about subnormal values
+warnings.filterwarnings("ignore", message="The value of the smallest subnormal.*is zero", category=UserWarning)
+warnings.filterwarnings("ignore", category=UserWarning, module="numpy")
 
 # Set style
 sns.set_style("whitegrid")
@@ -390,6 +395,237 @@ def create_summary_figure(ec_results, output_file='plots/00_summary_dashboard.pn
     print(f"✓ Saved to {output_file}")
 
 
+def plot_pathway_completeness_radar(ec_results, output_file='plots/08_pathway_completeness.png'):
+    """Create a radar chart showing pathway completeness metrics."""
+    print(f"Creating pathway completeness radar: {output_file}")
+    
+    if len(ec_results) == 0:
+        print("⚠ No data for radar chart, skipping")
+        return
+    
+    # Calculate metrics
+    total_ecs = len(ec_results)
+    fully_found = len(ec_results[ec_results['Status'] == 'FULLY_FOUND'])
+    partially_found = len(ec_results[ec_results['Status'] == 'PARTIALLY_FOUND'])
+    avg_coverage = ec_results['Coverage_%'].mean()
+    total_hits = ec_results['Total_hits'].sum()
+    unique_proteins = ec_results['Unique_proteins_with_hits'].sum()
+    
+    # Normalize metrics to 0-100 scale
+    metrics = {
+        'Fully Detected\n(%)': (fully_found / total_ecs) * 100,
+        'Partially Detected\n(%)': ((fully_found + partially_found) / total_ecs) * 100,
+        'Avg Coverage\n(%)': avg_coverage,
+        'Hit Density\n(hits/EC)': min((total_hits / total_ecs) / 10 * 100, 100),  # Scale by 10
+        'Protein Diversity\n(proteins/EC)': min((unique_proteins / total_ecs) / 5 * 100, 100)  # Scale by 5
+    }
+    
+    # Create radar chart
+    fig, ax = plt.subplots(figsize=(10, 10), subplot_kw=dict(projection='polar'))
+    
+    angles = np.linspace(0, 2 * np.pi, len(metrics), endpoint=False).tolist()
+    values = list(metrics.values())
+    labels = list(metrics.keys())
+    
+    # Close the plot
+    angles += angles[:1]
+    values += values[:1]
+    
+    ax.plot(angles, values, 'o-', linewidth=2, color='#2ecc71', alpha=0.8)
+    ax.fill(angles, values, alpha=0.25, color='#2ecc71')
+    
+    ax.set_xticks(angles[:-1])
+    ax.set_xticklabels(labels, fontsize=10)
+    ax.set_ylim(0, 100)
+    ax.set_yticks([20, 40, 60, 80, 100])
+    ax.set_yticklabels(['20%', '40%', '60%', '80%', '100%'])
+    ax.grid(True)
+    
+    ax.set_title('Pathway Analysis Completeness Profile', fontsize=14, weight='bold', pad=30)
+    
+    plt.savefig(output_file)
+    plt.close()
+    print(f"✓ Saved to {output_file}")
+
+
+def plot_hit_quality_analysis(detailed_hits, output_file='plots/09_hit_quality.png'):
+    """Create a comprehensive hit quality analysis with multiple subplots."""
+    print(f"Creating hit quality analysis: {output_file}")
+    
+    if len(detailed_hits) == 0:
+        print("⚠ No hits for quality analysis, skipping")
+        return
+    
+    fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 12))
+    fig.suptitle('Hit Quality Analysis', fontsize=16, weight='bold')
+    
+    # 1. Score vs Coverage scatter
+    if 'score' in detailed_hits.columns and 'alignment_coverage' in detailed_hits.columns:
+        ax1.scatter(detailed_hits['score'], detailed_hits['alignment_coverage'], 
+                   alpha=0.6, s=30, c='#3498db')
+        ax1.set_xlabel('Hit Score', fontsize=11, weight='bold')
+        ax1.set_ylabel('Alignment Coverage', fontsize=11, weight='bold')
+        ax1.set_title('Score vs Alignment Coverage', fontsize=12, weight='bold')
+        ax1.grid(True, alpha=0.3)
+    else:
+        ax1.text(0.5, 0.5, 'Alignment coverage\ndata not available', 
+                ha='center', va='center', transform=ax1.transAxes, fontsize=12)
+    
+    # 2. Hit length distribution
+    if 'hit_length' in detailed_hits.columns:
+        ax2.hist(detailed_hits['hit_length'], bins=30, color='#e74c3c', alpha=0.7, edgecolor='black')
+        ax2.set_xlabel('Hit Length (amino acids)', fontsize=11, weight='bold')
+        ax2.set_ylabel('Count', fontsize=11, weight='bold')
+        ax2.set_title('Hit Length Distribution', fontsize=12, weight='bold')
+        ax2.axvline(detailed_hits['hit_length'].median(), color='orange', 
+                   linestyle='--', linewidth=2, label=f"Median: {detailed_hits['hit_length'].median():.0f}")
+        ax2.legend()
+    else:
+        ax2.text(0.5, 0.5, 'Hit length\ndata not available', 
+                ha='center', va='center', transform=ax2.transAxes, fontsize=12)
+    
+    # 3. E-value vs Score correlation
+    if 'score' in detailed_hits.columns:
+        ax3.scatter(detailed_hits['score'], -np.log10(detailed_hits['evalue']), 
+                   alpha=0.6, s=30, c='#9b59b6')
+        ax3.set_xlabel('Hit Score', fontsize=11, weight='bold')
+        ax3.set_ylabel('-log10(E-value)', fontsize=11, weight='bold')
+        ax3.set_title('Score vs E-value Correlation', fontsize=12, weight='bold')
+        ax3.grid(True, alpha=0.3)
+        
+        # Add correlation coefficient
+        corr = np.corrcoef(detailed_hits['score'], -np.log10(detailed_hits['evalue']))[0, 1]
+        ax3.text(0.05, 0.95, f'Correlation: {corr:.3f}', transform=ax3.transAxes, 
+                bbox=dict(boxstyle='round', facecolor='white', alpha=0.8))
+    
+    # 4. Top performing Pfam domains
+    if 'Pfam_ID' in detailed_hits.columns:
+        pfam_performance = detailed_hits.groupby('Pfam_ID').agg({
+            'score': 'mean',
+            'evalue': lambda x: -np.log10(x).mean()
+        }).round(2)
+        pfam_performance = pfam_performance.sort_values('score', ascending=False).head(10)
+        
+        bars = ax4.barh(range(len(pfam_performance)), pfam_performance['score'], 
+                       color='#f39c12', alpha=0.8)
+        ax4.set_yticks(range(len(pfam_performance)))
+        ax4.set_yticklabels(pfam_performance.index, fontsize=9)
+        ax4.set_xlabel('Average Score', fontsize=11, weight='bold')
+        ax4.set_title('Top 10 Pfam Domains by Score', fontsize=12, weight='bold')
+        
+        # Add score labels
+        for i, bar in enumerate(bars):
+            width = bar.get_width()
+            ax4.text(width + 0.1, bar.get_y() + bar.get_height()/2, 
+                    f'{width:.1f}', va='center', fontsize=8)
+    else:
+        ax4.text(0.5, 0.5, 'Pfam ID\ndata not available', 
+                ha='center', va='center', transform=ax4.transAxes, fontsize=12)
+    
+    plt.tight_layout()
+    plt.savefig(output_file)
+    plt.close()
+    print(f"✓ Saved to {output_file}")
+
+
+def plot_comparative_analysis(ec_results, output_file='plots/10_comparative_analysis.png'):
+    """Create comparative analysis plots showing relationships between metrics."""
+    print(f"Creating comparative analysis: {output_file}")
+    
+    if len(ec_results) == 0:
+        print("⚠ No data for comparative analysis, skipping")
+        return
+    
+    fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 12))
+    fig.suptitle('Comparative Metrics Analysis', fontsize=16, weight='bold')
+    
+    # 1. Coverage vs Hits scatter
+    colors = ['#2ecc71' if s == 'FULLY_FOUND' else '#f39c12' if s == 'PARTIALLY_FOUND' else '#e74c3c' 
+              for s in ec_results['Status']]
+    
+    scatter = ax1.scatter(ec_results['Coverage_%'], ec_results['Total_hits'], 
+                         c=colors, alpha=0.7, s=60)
+    ax1.set_xlabel('Pfam Domain Coverage (%)', fontsize=11, weight='bold')
+    ax1.set_ylabel('Total Hits', fontsize=11, weight='bold')
+    ax1.set_title('Coverage vs Hit Count', fontsize=12, weight='bold')
+    ax1.grid(True, alpha=0.3)
+    
+    # Add trend line
+    if len(ec_results) > 3:
+        z = np.polyfit(ec_results['Coverage_%'], ec_results['Total_hits'], 1)
+        p = np.poly1d(z)
+        ax1.plot(ec_results['Coverage_%'], p(ec_results['Coverage_%']), 'r--', alpha=0.8)
+    
+    # 2. Domain complexity (Total domains vs Found domains)
+    ax2.scatter(ec_results['Total_Pfam_domains'], ec_results['Found_Pfam_domains'], 
+               c=colors, alpha=0.7, s=60)
+    ax2.plot([0, ec_results['Total_Pfam_domains'].max()], 
+             [0, ec_results['Total_Pfam_domains'].max()], 'r--', alpha=0.5, label='Perfect match')
+    ax2.set_xlabel('Total Pfam Domains', fontsize=11, weight='bold')
+    ax2.set_ylabel('Found Pfam Domains', fontsize=11, weight='bold')
+    ax2.set_title('Domain Detection Efficiency', fontsize=12, weight='bold')
+    ax2.legend()
+    ax2.grid(True, alpha=0.3)
+    
+    # 3. EC number complexity distribution
+    complexity_bins = [(1, 'Simple (1 domain)'), (2, 'Moderate (2 domains)'), 
+                      (3, 'Complex (3 domains)'), (float('inf'), 'Very Complex (4+ domains)')]
+    
+    complexity_counts = []
+    complexity_labels = []
+    prev_val = 0
+    
+    for val, label in complexity_bins:
+        if val == float('inf'):
+            count = len(ec_results[ec_results['Total_Pfam_domains'] > prev_val])
+        else:
+            count = len(ec_results[ec_results['Total_Pfam_domains'] == val])
+        complexity_counts.append(count)
+        complexity_labels.append(f"{label}\n({count} ECs)")
+        prev_val = val
+    
+    wedges, texts, autotexts = ax3.pie(complexity_counts, labels=complexity_labels, 
+                                      autopct='%1.1f%%', startangle=90,
+                                      colors=['#3498db', '#f39c12', '#e74c3c', '#9b59b6'])
+    ax3.set_title('EC Number Complexity Distribution', fontsize=12, weight='bold')
+    
+    # 4. Performance matrix
+    performance_data = ec_results.groupby('Status').agg({
+        'Coverage_%': 'mean',
+        'Total_hits': 'mean',
+        'Unique_proteins_with_hits': 'mean'
+    }).round(1)
+    
+    # Create a heatmap-style visualization
+    metrics = ['Coverage_%', 'Total_hits', 'Unique_proteins_with_hits']
+    statuses = performance_data.index.tolist()
+    
+    # Normalize data for heatmap (0-1 scale)
+    normalized_data = performance_data.copy()
+    for col in metrics:
+        max_val = performance_data[col].max()
+        if max_val > 0:
+            normalized_data[col] = performance_data[col] / max_val
+    
+    im = ax4.imshow(normalized_data.T, cmap='RdYlGn', aspect='auto')
+    ax4.set_xticks(range(len(statuses)))
+    ax4.set_xticklabels([s.replace('_', ' ').title() for s in statuses], rotation=45)
+    ax4.set_yticks(range(len(metrics)))
+    ax4.set_yticklabels(['Avg Coverage (%)', 'Avg Hits', 'Avg Proteins'])
+    ax4.set_title('Performance by Status', fontsize=12, weight='bold')
+    
+    # Add text annotations
+    for i in range(len(metrics)):
+        for j in range(len(statuses)):
+            ax4.text(j, i, f'{performance_data.iloc[j, i]}', 
+                    ha='center', va='center', fontsize=10, weight='bold')
+    
+    plt.tight_layout()
+    plt.savefig(output_file)
+    plt.close()
+    print(f"✓ Saved to {output_file}")
+
+
 def main():
     # Create output directory
     Path('plots').mkdir(exist_ok=True)
@@ -410,6 +646,9 @@ def main():
         plot_evalue_distribution(detailed_hits)
         plot_score_distribution(detailed_hits)
         plot_pfam_heatmap(ec_results, detailed_hits)
+        plot_pathway_completeness_radar(ec_results)
+        plot_hit_quality_analysis(detailed_hits)
+        plot_comparative_analysis(ec_results)
         
         print("\n" + "=" * 80)
         print("✓ All visualizations generated successfully!")
@@ -422,6 +661,9 @@ def main():
         print("  05_evalue_distribution.png - E-value distributions")
         print("  06_score_distribution.png - Score vs E-value scatter")
         print("  07_pfam_heatmap.png - Pfam domain heatmap")
+        print("  08_pathway_completeness.png - Pathway completeness radar")
+        print("  09_hit_quality.png - Hit quality analysis")
+        print("  10_comparative_analysis.png - Comparative metrics analysis")
         
     except Exception as e:
         print(f"Error: {e}", file=sys.stderr)

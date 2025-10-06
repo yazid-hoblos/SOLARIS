@@ -1,0 +1,603 @@
+EC_number	UniProt_ID	Protein_Name	Pfam_ID	Species
+1.2.1.75	A0A7C2PIX3	Unknown	PF00106	Chloroflexus sp
+1.2.1.75	A0A7C2PIX3	Unknown	PF13561	Chloroflexus sp
+1.2.1.75	A0A841L016	Unknown	PF00106	Polymorphobacter multimanifer
+1.2.1.75	A0A841L016	Unknown	PF13561	Polymorphobacter multimanifer
+1.2.1.75	A0A0P8CE70	Unknown	PF00106	Porphyrobacter sp. HL-46
+5.4.1.3	A9WC36	2-methylfumaryl-CoA isomerase	PF02515	Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl)
+5.4.1.3	A0A143QD19	Unknown	PF02515	Rhodococcus sp. PBTS 1
+5.4.1.3	A0A178M3F6	2-methylfumaryl-CoA isomerase	PF02515	Chloroflexus islandicus
+5.4.1.3	A0A2H1ICG7	Unknown	PF02515	Brevibacterium sp. 239c
+5.4.1.3	A0A2H1IHC6	Unknown	PF02515	Brevibacterium sp. Mu109
+5.4.1.3	A0A2P2EC02	Unknown	PF02515	Candidatus Phycosocius bacilliformis
+5.4.1.3	A0A2S6R6G5	Unknown	PF02515	Alphaproteobacteria bacterium MarineAlpha10_Bin2
+5.4.1.3	A0A6N0ZA54	Unknown	PF02515	Accumulibacter sp
+5.4.1.3	A0A7J5WWB8	Unknown	PF02515	Gordonia sp. YY1
+5.4.1.3	A0A7K0D7P3	Unknown	PF02515	Nocardia macrotermitis
+5.4.1.3	A0A7W6FQ90	Unknown	PF02515	Sphingobium jiangsuense
+5.4.1.3	A0A7W6LPY2	Unknown	PF02515	Sphingobium scionense
+5.4.1.3	A0A7W6W9J6	Unknown	PF02515	Roseospira visakhapatnamensis
+5.4.1.3	A0A7X5XQ28	Unknown	PF02515	Sphingopyxis italica
+5.4.1.3	A0A7Z0ITE2	Unknown	PF02515	Nocardioides panzhihuensis
+5.4.1.3	A0A839XN73	Unknown	PF02515	Prauserella sediminis
+5.4.1.3	A0A841IYZ5	Unknown	PF02515	Sphingobium subterraneum
+5.4.1.3	A0A846RV04	Unknown	PF02515	Brevibacterium marinum
+5.4.1.3	A0A931DMF0	Unknown	PF02515	Actinomadura viridis
+5.4.1.3	A0A935JHN9	Unknown	PF02515	Propionivibrio sp
+5.4.1.3	A0AB38WYM9	Unknown	PF02515	Roseovarius sp. EC-SD190
+5.4.1.3	A0A173KZG6	Unknown	PF02515	Sphingobium sp. EP60837
+5.4.1.3	A0A2H1JU57	Unknown	PF02515	Brevibacterium aurantiacum
+5.4.1.3	A0A2H1L556	Unknown	PF02515	Brevibacterium jeotgali
+5.4.1.3	A0A369Q272	Unknown	PF02515	Alteripontixanthobacter maritimus
+5.4.1.3	A0A369Q272	Unknown	PF00108	Alteripontixanthobacter maritimus
+6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF02785	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
+6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF00289	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
+6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF00364	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
+6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF02786	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
+6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF18140	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
+6.4.1.3	P54541	Putative propionyl-CoA carboxylase beta chain	PF01039	Bacillus subtilis (strain 168)
+6.4.1.3	P81185	Propionyl-CoA carboxylase alpha chain	PF00289	Myxococcus xanthus
+6.4.1.3	P53003	Propionyl-CoA carboxylase beta chain	PF01039	Saccharopolyspora erythraea (strain ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338)
+6.4.1.3	Q168G2	Propionyl-CoA carboxylase beta chain	PF01039	Roseobacter denitrificans (strain ATCC 33942 / OCh 114)
+6.4.1.3	Q06101	Propionyl-CoA carboxylase beta chain	PF01039	Rhodococcus erythropolis
+6.4.1.3	Q3J4E3	Propionyl-CoA carboxylase beta chain	PF01039	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
+6.4.1.3	A0A2A2ALG8	Biotin carboxylase	PF02785	Vandammella animalimorsus
+6.4.1.3	A0A2A2ALG8	Biotin carboxylase	PF00289	Vandammella animalimorsus
+6.4.1.3	A0A2A2ALG8	Biotin carboxylase	PF00364	Vandammella animalimorsus
+6.4.1.3	A0A2A2ALG8	Biotin carboxylase	PF02786	Vandammella animalimorsus
+6.4.1.3	A0A2A2ALG8	Biotin carboxylase	PF18140	Vandammella animalimorsus
+6.4.1.3	A0A2G6EIT4	Biotin carboxylase	PF02785	Gammaproteobacteria bacterium
+6.4.1.3	A0A2G6EIT4	Biotin carboxylase	PF00289	Gammaproteobacteria bacterium
+6.4.1.3	A0A2G6EIT4	Biotin carboxylase	PF00364	Gammaproteobacteria bacterium
+6.4.1.3	A0A2G6EIT4	Biotin carboxylase	PF02786	Gammaproteobacteria bacterium
+6.4.1.3	A0A2G6EIT4	Biotin carboxylase	PF18140	Gammaproteobacteria bacterium
+6.4.1.3	A0A6N6T950	Biotin carboxylase	PF02785	Candidatus Contendobacter sp
+6.4.1.3	A0A6N6T950	Biotin carboxylase	PF00289	Candidatus Contendobacter sp
+6.4.1.3	A0A6N6T950	Biotin carboxylase	PF00364	Candidatus Contendobacter sp
+6.4.1.3	A0A6N6T950	Biotin carboxylase	PF02786	Candidatus Contendobacter sp
+6.4.1.3	A0A6N6T950	Biotin carboxylase	PF18140	Candidatus Contendobacter sp
+6.4.1.3	A0A7C1SRE3	Biotin carboxylase	PF02785	Porticoccus sp
+6.4.1.3	A0A7C1SRE3	Biotin carboxylase	PF00289	Porticoccus sp
+6.4.1.3	A0A7C1SRE3	Biotin carboxylase	PF00364	Porticoccus sp
+6.4.1.3	A0A7C1SRE3	Biotin carboxylase	PF02786	Porticoccus sp
+6.4.1.3	A0A7C1SRE3	Biotin carboxylase	PF18140	Porticoccus sp
+6.4.1.3	A0A0F7JXL6	Biotin carboxylase	PF02785	Sedimenticola thiotaurini
+6.4.1.3	A0A0F7JXL6	Biotin carboxylase	PF00289	Sedimenticola thiotaurini
+6.4.1.3	A0A0F7JXL6	Biotin carboxylase	PF00364	Sedimenticola thiotaurini
+6.4.1.3	A0A0F7JXL6	Biotin carboxylase	PF02786	Sedimenticola thiotaurini
+6.4.1.3	A0A0F7JXL6	Biotin carboxylase	PF18140	Sedimenticola thiotaurini
+6.4.1.3	A0A2E2KJN1	Biotin carboxylase	PF02785	Oceanospirillaceae bacterium
+6.4.1.3	A0A2E2KJN1	Biotin carboxylase	PF00289	Oceanospirillaceae bacterium
+6.4.1.3	A0A2E2KJN1	Biotin carboxylase	PF00364	Oceanospirillaceae bacterium
+6.4.1.3	A0A2E2KJN1	Biotin carboxylase	PF21139	Oceanospirillaceae bacterium
+6.4.1.3	A0A2E2KJN1	Biotin carboxylase	PF02786	Oceanospirillaceae bacterium
+6.4.1.3	A0A2E2KJN1	Biotin carboxylase	PF18140	Oceanospirillaceae bacterium
+6.4.1.3	A0A3D4RXP9	Biotin carboxylase	PF02785	Chromatiaceae bacterium
+6.4.1.3	A0A3D4RXP9	Biotin carboxylase	PF00289	Chromatiaceae bacterium
+6.4.1.3	A0A3D4RXP9	Biotin carboxylase	PF00364	Chromatiaceae bacterium
+6.4.1.3	A0A3D4RXP9	Biotin carboxylase	PF02786	Chromatiaceae bacterium
+6.4.1.3	A0A3D4RXP9	Biotin carboxylase	PF18140	Chromatiaceae bacterium
+6.4.1.3	A0A3M1RYB9	Biotin carboxylase	PF02785	Gammaproteobacteria bacterium
+6.4.1.3	A0A3M1RYB9	Biotin carboxylase	PF00289	Gammaproteobacteria bacterium
+6.4.1.3	A0A3M1RYB9	Biotin carboxylase	PF00364	Gammaproteobacteria bacterium
+6.4.1.3	A0A3M1RYB9	Biotin carboxylase	PF02786	Gammaproteobacteria bacterium
+6.4.1.3	A0A3M1RYB9	Biotin carboxylase	PF18140	Gammaproteobacteria bacterium
+6.4.1.3	A0A964PNR7	Biotin carboxylase	PF02785	Gammaproteobacteria bacterium
+6.4.1.3	A0A964PNR7	Biotin carboxylase	PF00289	Gammaproteobacteria bacterium
+6.4.1.3	A0A964PNR7	Biotin carboxylase	PF00364	Gammaproteobacteria bacterium
+6.4.1.3	A0A964PNR7	Biotin carboxylase	PF02786	Gammaproteobacteria bacterium
+6.4.1.3	A0A964PNR7	Biotin carboxylase	PF18140	Gammaproteobacteria bacterium
+6.4.1.3	A0A966S9T3	Biotin carboxylase	PF02785	Gammaproteobacteria bacterium
+6.4.1.3	A0A966S9T3	Biotin carboxylase	PF00289	Gammaproteobacteria bacterium
+6.4.1.3	A0A966S9T3	Biotin carboxylase	PF00364	Gammaproteobacteria bacterium
+6.4.1.3	A0A966S9T3	Biotin carboxylase	PF02786	Gammaproteobacteria bacterium
+6.4.1.3	A0A966S9T3	Biotin carboxylase	PF18140	Gammaproteobacteria bacterium
+6.4.1.3	A0A2Z2NRW1	Biotin carboxylase	PF02785	Granulosicoccus antarcticus IMCC3135
+6.4.1.3	A0A2Z2NRW1	Biotin carboxylase	PF00289	Granulosicoccus antarcticus IMCC3135
+6.4.1.3	A0A2Z2NRW1	Biotin carboxylase	PF00364	Granulosicoccus antarcticus IMCC3135
+6.4.1.3	A0A2Z2NRW1	Biotin carboxylase	PF02786	Granulosicoccus antarcticus IMCC3135
+6.4.1.3	A0A2Z2NRW1	Biotin carboxylase	PF18140	Granulosicoccus antarcticus IMCC3135
+6.4.1.3	A0A5C7ZLF0	Biotin carboxylase	PF02785	Dokdonella sp
+6.4.1.3	A0A5C7ZLF0	Biotin carboxylase	PF00289	Dokdonella sp
+6.4.1.3	A0A5C7ZLF0	Biotin carboxylase	PF00364	Dokdonella sp
+6.4.1.3	A0A5C7ZLF0	Biotin carboxylase	PF02786	Dokdonella sp
+6.4.1.3	A0A5C7ZLF0	Biotin carboxylase	PF18140	Dokdonella sp
+6.4.1.3	A0A7U7GDY4	Biotin carboxylase	PF02785	Candidatus Contendobacter odensis Run_B_J11
+6.4.1.3	A0A7U7GDY4	Biotin carboxylase	PF00289	Candidatus Contendobacter odensis Run_B_J11
+6.4.1.3	A0A7U7GDY4	Biotin carboxylase	PF00364	Candidatus Contendobacter odensis Run_B_J11
+6.4.1.3	A0A7U7GDY4	Biotin carboxylase	PF02786	Candidatus Contendobacter odensis Run_B_J11
+6.4.1.3	A0A7U7GDY4	Biotin carboxylase	PF18140	Candidatus Contendobacter odensis Run_B_J11
+6.4.1.3	A0A916CI28	Biotin carboxylase	PF02785	Gammaproteobacteria bacterium
+6.4.1.3	A0A916CI28	Biotin carboxylase	PF00289	Gammaproteobacteria bacterium
+6.4.1.3	A0A916CI28	Biotin carboxylase	PF00364	Gammaproteobacteria bacterium
+6.4.1.3	A0A916CI28	Biotin carboxylase	PF02786	Gammaproteobacteria bacterium
+6.4.1.3	A0A916CI28	Biotin carboxylase	PF18140	Gammaproteobacteria bacterium
+6.4.1.3	A0A948LZ88	Biotin carboxylase	PF02785	Gammaproteobacteria bacterium
+6.4.1.3	A0A948LZ88	Biotin carboxylase	PF00289	Gammaproteobacteria bacterium
+6.4.1.3	A0A948LZ88	Biotin carboxylase	PF00364	Gammaproteobacteria bacterium
+6.4.1.3	A0A948LZ88	Biotin carboxylase	PF02786	Gammaproteobacteria bacterium
+6.4.1.3	A0A948LZ88	Biotin carboxylase	PF18140	Gammaproteobacteria bacterium
+6.4.1.3	A0A1D2S721	Biotin carboxylase	PF02785	Comamonas sp. SCN 65-56
+6.4.1.3	A0A1D2S721	Biotin carboxylase	PF00289	Comamonas sp. SCN 65-56
+6.4.1.3	A0A1D2S721	Biotin carboxylase	PF00364	Comamonas sp. SCN 65-56
+6.4.1.3	A0A1D2S721	Biotin carboxylase	PF02786	Comamonas sp. SCN 65-56
+6.4.1.3	A0A1D2S721	Biotin carboxylase	PF18140	Comamonas sp. SCN 65-56
+6.4.1.3	A0A5B8S0J8	Biotin carboxylase	PF02785	Comamonas flocculans
+6.4.1.3	A0A5B8S0J8	Biotin carboxylase	PF00289	Comamonas flocculans
+6.4.1.3	A0A5B8S0J8	Biotin carboxylase	PF00364	Comamonas flocculans
+6.4.1.3	A0A5B8S0J8	Biotin carboxylase	PF02786	Comamonas flocculans
+6.4.1.3	A0A5B8S0J8	Biotin carboxylase	PF18140	Comamonas flocculans
+6.4.1.3	A0A935IEP3	Biotin carboxylase	PF02785	Gammaproteobacteria bacterium
+6.4.1.3	A0A935IEP3	Biotin carboxylase	PF00289	Gammaproteobacteria bacterium
+6.4.1.3	A0A935IEP3	Biotin carboxylase	PF00364	Gammaproteobacteria bacterium
+6.4.1.3	A0A935IEP3	Biotin carboxylase	PF02786	Gammaproteobacteria bacterium
+6.4.1.3	A0A935IEP3	Biotin carboxylase	PF18140	Gammaproteobacteria bacterium
+4.2.1.148	A9WC34	Beta-methylmalyl-CoA dehydratase	PF19315	Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl)
+4.2.1.148	Q3IZ78	Mesaconyl-CoA hydratase	PF19315	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
+4.2.1.148	A0A0J5QFX8	Unknown	PF19315	Puniceibacterium sp. IMCC21224
+4.2.1.148	A0A1K2FQB9	Unknown	PF19315	Streptomyces sp. F-1
+4.2.1.148	A0A1V0RQG4	Unknown	PF19315	Roseovarius mucosus
+4.2.1.148	A0A220W7T7	Unknown	PF19315	Sphingorhabdus sp. SMR4y
+4.2.1.148	A0A231GXK5	Unknown	PF01575	Nocardia cerradoensis
+4.2.1.148	A0A2H3KFU1	Beta-methylmalyl-CoA dehydratase	PF19315	Candidatus Chloroploca asiatica
+4.2.1.148	A0A2H5YN85	Unknown	PF19315	bacterium HR25
+4.2.1.148	A0A2N7W506	Unknown	PF01575	Paraburkholderia rhynchosiae
+4.2.1.148	A0A2R8BAY3	Unknown	PF19315	Ascidiaceihabitans donghaensis
+4.2.1.148	A0A2S6R4I1	Unknown	PF19315	Alphaproteobacteria bacterium MarineAlpha10_Bin2
+4.2.1.148	A0A2S6SCG0	Unknown	No Pfam	Alphaproteobacteria bacterium MarineAlpha8_Bin1
+4.2.1.148	A0A2S6URS1	Unknown	PF19315	Alphaproteobacteria bacterium MarineAlpha3_Bin5
+4.2.1.148	A0A446CQA8	Unknown	PF01575	Achromobacter veterisilvae
+4.2.1.148	A0A498QGV8	Unknown	No Pfam	Mycobacterium pseudokansasii
+4.2.1.148	A0A679JF76	Unknown	PF19315	Methylobacterium bullatum
+4.2.1.148	A0A6G4ZT86	Unknown	PF19315	Chlamydiota bacterium
+4.2.1.148	A0A6J4TQB4	Unknown	PF19315	uncultured Solirubrobacteraceae bacterium
+4.2.1.148	A0A7W6H0K2	Unknown	PF19315	Sulfitobacter undariae
+4.2.1.148	A0A7Z0DP41	Unknown	PF19315	Nocardioides panzhihuensis
+4.2.1.148	A0A833J4P4	Unknown	PF13452	Methylorubrum populi
+4.2.1.148	A0A833J4P4	Unknown	PF01575	Methylorubrum populi
+4.2.1.148	A0A852VS16	Unknown	PF19315	Janibacter cremeus
+4.2.1.148	A0A916IPW7	Unknown	PF19315	Cupriavidus yeoncheonensis
+4.2.1.148	A0A975RE50	Unknown	PF19315	Amycolatopsis sp. CA-230715
+4.1.3.24	B6E2X2	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Rhodobacter capsulatus
+4.1.3.24	Q3J5L6	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
+4.1.3.24	S5N020	Malyl-CoA/beta-methylmalyl-CoA/citramalyl-CoA lyase	PF03328	Chloroflexus aurantiacus
+4.1.3.24	A9WC35	Malyl-CoA/beta-methylmalyl-CoA/citramalyl-CoA lyase	PF03328	Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl)
+4.1.3.24	A3PGR7	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Cereibacter sphaeroides (strain ATCC 17029 / ATH 2.4.9)
+4.1.3.24	A4WVF5	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Cereibacter sphaeroides (strain ATCC 17025 / ATH 2.4.3)
+4.1.3.24	B9KLE8	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Cereibacter sphaeroides (strain KD131 / KCTC 12085)
+4.1.3.24	D5AR83	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Rhodobacter capsulatus (strain ATCC BAA-309 / NBRC 16581 / SB1003)
+4.1.3.24	A0A7C2PLG5	Malyl-CoA/beta-methylmalyl-CoA/citramalyl-CoA lyase	PF03328	Chloroflexus sp
+4.1.3.24	A0A073IZ31	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Pseudosulfitobacter pseudonitzschiae
+4.1.3.24	A0A0B4ECM2	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Leisingera sp. ANG1
+4.1.3.24	A0A0P1H3Q6	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Thalassovita mediterranea
+4.1.3.24	A0A0P7IYJ7	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Aliiroseovarius crassostreae
+4.1.3.24	A0A1G3G0I9	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Rhodobacteraceae bacterium GWF1_65_7
+4.1.3.24	A0A1H5T098	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Jhaorihella thermophila
+4.1.3.24	A0A1H8KZ45	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Gemmobacter aquatilis
+4.1.3.24	A0A1I4JG48	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Shimia aestuarii
+4.1.3.24	A0A1I6HVP6	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Yoonia tamlensis
+4.1.3.24	A0A1I6U1A7	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Sulfitobacter marinus
+4.1.3.24	A0A1M5REF7	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Cognatishimia maritima
+4.1.3.24	A0A1M6Z889	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Roseovarius marisflavi
+4.1.3.24	A0A1N7KSS5	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Phaeovulum vinaykumarii
+4.1.3.24	A0A1R3X4L3	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Yoonia rosea
+4.1.3.24	A0A1X7A7A3	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Roseovarius gaetbuli
+4.1.3.24	A0A1Y5RLM0	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Falsiruegeria litorea R37
+5.1.99.1	Q3IZP4	Ethylmalonyl-CoA/methylmalonyl-CoA epimerase	PF13669	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
+5.1.99.1	A0A0P7IIS4	methylmalonyl-CoA epimerase	PF13669	Aliiroseovarius crassostreae
+5.1.99.1	A0A132BZZ3	methylmalonyl-CoA epimerase	PF13669	Tritonibacter horizontis
+5.1.99.1	A0A177HBW5	methylmalonyl-CoA epimerase	PF13669	Rhodobacteraceae bacterium SB2
+5.1.99.1	A0A179BXI2	methylmalonyl-CoA epimerase	PF13669	Rhizobium leguminosarum
+5.1.99.1	A0A1E2S1X0	methylmalonyl-CoA epimerase	PF13669	Methyloligella halotolerans
+5.1.99.1	A0A1V1UDV7	methylmalonyl-CoA epimerase	PF13669	Roseovarius sp. A-2
+5.1.99.1	A0A1V1UKY7	methylmalonyl-CoA epimerase	PF13669	Roseovarius sp. A-2
+5.1.99.1	A0A1X6YJB1	methylmalonyl-CoA epimerase	PF13669	Roseivivax jejudonensis
+5.1.99.1	A0A1X6ZNK2	methylmalonyl-CoA epimerase	PF13669	Roseovarius gaetbuli
+5.1.99.1	A0A1Y5S0J0	methylmalonyl-CoA epimerase	PF13669	Falsiruegeria litorea R37
+5.1.99.1	A0A1Y5SMY4	methylmalonyl-CoA epimerase	PF13669	Pseudoruegeria aquimaris
+5.1.99.1	A0A1Y5SRB9	methylmalonyl-CoA epimerase	PF13669	Pseudooctadecabacter jejudonensis
+5.1.99.1	A0A1Y5T750	methylmalonyl-CoA epimerase	PF13669	Palleronia marisminoris
+5.1.99.1	A0A212A8H4	methylmalonyl-CoA epimerase	PF13669	Haematobacter genomosp. 1
+5.1.99.1	A0A291GH01	methylmalonyl-CoA epimerase	PF13669	Celeribacter ethanolicus
+5.1.99.1	A0A2A3B0A9	methylmalonyl-CoA epimerase	PF13669	Mesorhizobium sp. WSM4313
+5.1.99.1	A0A2A3D8R5	methylmalonyl-CoA epimerase	PF13669	Mesorhizobium sp. WSM3860
+5.1.99.1	A0A2A4LEY5	methylmalonyl-CoA epimerase	PF13669	Alphaproteobacteria bacterium
+5.1.99.1	A0A2A4Q9P2	methylmalonyl-CoA epimerase	PF13669	Paracoccaceae bacterium
+5.1.99.1	A0A2A5EPV1	methylmalonyl-CoA epimerase	PF13669	Rhodobiaceae bacterium
+5.1.99.1	A0A2A6FDF7	methylmalonyl-CoA epimerase	PF13669	Mesorhizobium sanjuanii
+5.1.99.1	A0A2A6JFG4	methylmalonyl-CoA epimerase	PF13669	Rhizobium chutanense
+5.1.99.1	A0A2D5QEG5	methylmalonyl-CoA epimerase	PF13669	Porticoccus sp
+5.1.99.1	A0A2D6CQX7	methylmalonyl-CoA epimerase	PF13669	Acidiferrobacteraceae bacterium
+4.1.3.25	Q3J5L6	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
+4.1.3.25	S5N020	Malyl-CoA/beta-methylmalyl-CoA/citramalyl-CoA lyase	PF03328	Chloroflexus aurantiacus
+4.1.3.25	A9WC35	Malyl-CoA/beta-methylmalyl-CoA/citramalyl-CoA lyase	PF03328	Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl)
+4.1.3.25	A0A7C2PLG5	Malyl-CoA/beta-methylmalyl-CoA/citramalyl-CoA lyase	PF03328	Chloroflexus sp
+4.1.3.25	A0A653Y444	Unknown	PF03328	Bosea sp. 62
+4.1.3.25	A0A7W6AIA8	Unknown	PF03328	Methylobacterium brachythecii
+4.1.3.25	A0A7W6CVY5	Unknown	PF03328	Hansschlegelia beijingensis
+4.1.3.25	A0A7W6CYI3	Unknown	PF03328	Hansschlegelia beijingensis
+4.1.3.25	A0A7W6U000	Unknown	PF03328	Bradyrhizobium sp. CIR48
+4.1.3.25	A0A7W7AD87	Unknown	PF03328	Novosphingobium taihuense
+4.1.3.25	A0A7Y9YIR6	Unknown	PF03328	Nocardioides marinus
+4.1.3.25	A0A839NUV0	Unknown	PF03328	Methylobacterium sp. R2-1
+4.1.3.25	A0A840BTB2	Unknown	PF03328	Chelatococcus caeni
+4.1.3.25	A0A840SJ72	Unknown	PF03328	Amaricoccus macauensis
+4.1.3.25	A0A9W4RB54	Unknown	PF03328	Hyphomicrobiales bacterium
+4.1.3.25	A0A564WC25	Unknown	PF03328	Candidatus Defluviicoccus seviourii
+4.1.3.25	A0A7W7N4W3	Unknown	PF03328	Brevundimonas bullata
+4.1.3.25	A0A841KHM6	Unknown	PF03328	Chelatococcus composti
+4.1.3.25	A0A848JQI4	Unknown	PF03328	Xanthobacter sp. SG618
+4.1.3.25	A0A7W3NV19	Unknown	PF03328	Streptomyces murinus
+4.1.3.25	A0A7W6WJE6	Unknown	PF03328	Roseospira goensis
+4.1.3.25	A0A839SZK8	Unknown	PF03328	Limibacillus halophilus
+4.1.3.25	A0A840ZL06	Unknown	PF03328	Methylorubrum rhodinum
+4.1.3.25	A0A7W5XZK4	Unknown	PF03328	Rhizobium sp. BK650
+4.1.3.25	A0A7W6AK89	Unknown	PF03328	Methylobacterium brachythecii
+4.2.1.116	A0A0C3N2C6	Unknown	PF00378	Thauera sp. SWB20
+4.2.1.116	A0A1K0JS59	Unknown	PF00378	Cupriavidus necator
+4.2.1.116	A0A1N7RIN3	Unknown	PF00378	Paraburkholderia piptadeniae
+4.2.1.116	A0A212KTX1	Unknown	PF00378	Chlamydiales bacterium SCGC AG-110-M15
+4.2.1.116	A0A2C9ELK2	Unknown	PF00378	Pseudomonas protegens (strain DSM 19095 / LMG 27888 / CFBP 6595 / CHA0)
+4.2.1.116	A0A2C9EN16	Unknown	PF00378	Pseudomonas protegens (strain DSM 19095 / LMG 27888 / CFBP 6595 / CHA0)
+4.2.1.116	A0A2C9ER07	Unknown	PF00378	Pseudomonas protegens (strain DSM 19095 / LMG 27888 / CFBP 6595 / CHA0)
+4.2.1.116	A0A2N9LXM6	Unknown	PF00378	Candidatus Sulfopaludibacter sp. SbA3
+4.2.1.116	A0A2U3L474	Unknown	PF00378	Syntrophobacter sp. SbD1
+4.2.1.116	A0A2U3LKQ2	Unknown	PF00378	Candidatus Sulfopaludibacter sp. SbA4
+4.2.1.116	A0A375CQ16	Unknown	PF00378	Cupriavidus taiwanensis
+4.2.1.116	A0A383RSW4	Unknown	PF00378	Pseudomonas reidholzensis
+4.2.1.116	A0A449II58	Unknown	PF00378	Pseudomonas fragi
+4.2.1.116	A0A653T385	Unknown	PF00378	Luteimonas sp. 9C
+4.2.1.116	A0A7W9L2Q8	Unknown	PF00378	Prosthecomicrobium pneumaticum
+4.2.1.116	A0A975X566	Unknown	PF00378	Cupriavidus taiwanensis
+4.2.1.116	A0A976A3J4	Unknown	PF00378	Cupriavidus taiwanensis
+4.2.1.116	A0AAX3FQP2	Unknown	PF00378	Pseudomonas chlororaphis
+4.2.1.116	F8GWY7	Unknown	PF00378	Cupriavidus necator (strain ATCC 43291 / DSM 13513 / CCUG 52238 / LMG 8453 / N-1)
+4.2.1.116	S0FV53	Unknown	PF00378	Desulfotignum phosphitoxidans DSM 13687
+4.2.1.116	A0A066PRP3	Unknown	PF00378	Acidiphilium sp. JA12-A1
+4.2.1.116	A0A0T6AEQ9	Unknown	PF00378	Candidatus Rokubacteria bacterium CSP1-6
+4.2.1.116	A0A1S2NAB7	Unknown	PF00378	Massilia timonae
+4.2.1.116	A0A248UIT7	Unknown	PF00378	Ochrobactrum quorumnocens
+4.2.1.116	A0A256F3L6	Unknown	PF00378	Brucella rhizosphaerae
+1.1.1.298	P39831	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	PF00106	Escherichia coli (strain K12)
+1.1.1.298	P75894	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli (strain K12)
+1.1.1.298	P69936	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	PF00106	Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)
+1.1.1.298	Q83RE8	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	PF00106	Shigella flexneri
+1.1.1.298	Q8FHD2	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	PF00106	Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)
+1.1.1.298	Q8X505	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	PF00106	Escherichia coli O157:H7
+1.1.1.298	P69935	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	PF00106	Salmonella typhi
+1.1.1.298	A7MFX7	Probable malonic semialdehyde reductase RutE	PF00881	Cronobacter sakazakii (strain ATCC BAA-894)
+1.1.1.298	B7LFB8	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli (strain 55989 / EAEC)
+1.1.1.298	B7NLB8	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O7:K1 (strain IAI39 / ExPEC)
+1.1.1.298	Q0TJ59	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O6:K15:H31 (strain 536 / UPEC)
+1.1.1.298	Q1RDK9	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli (strain UTI89 / UPEC)
+1.1.1.298	Q3Z3A5	Probable malonic semialdehyde reductase RutE	PF00881	Shigella sonnei (strain Ss046)
+1.1.1.298	A1A9R3	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O1:K1 / APEC
+1.1.1.298	A6T798	Probable malonic semialdehyde reductase RutE	PF00881	Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578)
+1.1.1.298	B5YU50	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O157:H7 (strain EC4115 / EHEC)
+1.1.1.298	B7M8Z3	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O8 (strain IAI1)
+1.1.1.298	B7MIF5	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O45:K1 (strain S88 / ExPEC)
+1.1.1.298	B7N3G4	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O17:K52:H18 (strain UMN026 / ExPEC)
+1.1.1.298	C4ZQD6	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli (strain K12 / MC4100 / BW2952)
+1.1.1.298	Q8FJ44	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)
+1.1.1.298	A7ZKB3	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O139:H28 (strain E24377A / ETEC)
+1.1.1.298	A7ZYW3	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli O9:H4 (strain HS)
+1.1.1.298	B1IV89	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli (strain ATCC 8739 / DSM 1576 / NBRC 3972 / NCIMB 8545 / WDCM 00012 / Crooks)
+1.1.1.298	B1X9C9	Probable malonic semialdehyde reductase RutE	PF00881	Escherichia coli (strain K12 / DH10B)
+5.4.99.2	O86028	Methylmalonyl-CoA mutase	PF02310	Rhizobium meliloti (strain 1021)
+5.4.99.2	O86028	Methylmalonyl-CoA mutase	PF01642	Rhizobium meliloti (strain 1021)
+5.4.99.2	P11653	Methylmalonyl-CoA mutase large subunit	PF02310	Propionibacterium freudenreichii subsp. shermanii
+5.4.99.2	P11653	Methylmalonyl-CoA mutase large subunit	PF01642	Propionibacterium freudenreichii subsp. shermanii
+5.4.99.2	P27253	Methylmalonyl-CoA mutase	PF02310	Escherichia coli (strain K12)
+5.4.99.2	P27253	Methylmalonyl-CoA mutase	PF01642	Escherichia coli (strain K12)
+5.4.99.2	P11652	Methylmalonyl-CoA mutase small subunit	PF01642	Propionibacterium freudenreichii subsp. shermanii
+5.4.99.2	Q05065	Methylmalonyl-CoA mutase large subunit	PF02310	Streptomyces virginiae
+5.4.99.2	Q05065	Methylmalonyl-CoA mutase large subunit	PF01642	Streptomyces virginiae
+5.4.99.2	P9WJK7	Probable methylmalonyl-CoA mutase small subunit	PF01642	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+5.4.99.2	Q05064	Methylmalonyl-CoA mutase small subunit	PF01642	Streptomyces virginiae
+5.4.99.2	P9WJK4	Probable methylmalonyl-CoA mutase large subunit	PF02310	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)
+5.4.99.2	P9WJK4	Probable methylmalonyl-CoA mutase large subunit	PF01642	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)
+5.4.99.2	Q3J4D7	Methylmalonyl-CoA mutase	PF02310	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
+5.4.99.2	Q3J4D7	Methylmalonyl-CoA mutase	PF01642	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
+5.4.99.2	Q59677	Methylmalonyl-CoA mutase large subunit	PF02310	Porphyromonas gingivalis (strain ATCC BAA-308 / W83)
+5.4.99.2	Q59677	Methylmalonyl-CoA mutase large subunit	PF01642	Porphyromonas gingivalis (strain ATCC BAA-308 / W83)
+5.4.99.2	P65488	Probable methylmalonyl-CoA mutase large subunit	PF02310	Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)
+5.4.99.2	P65488	Probable methylmalonyl-CoA mutase large subunit	PF01642	Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)
+5.4.99.2	P9WJK5	Probable methylmalonyl-CoA mutase large subunit	PF02310	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+5.4.99.2	P9WJK5	Probable methylmalonyl-CoA mutase large subunit	PF01642	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+5.4.99.2	Q59676	Methylmalonyl-CoA mutase small subunit	PF01642	Porphyromonas gingivalis (strain ATCC BAA-308 / W83)
+5.4.99.2	P65486	Probable methylmalonyl-CoA mutase small subunit	PF01642	Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97)
+5.4.99.2	P9WJK6	Probable methylmalonyl-CoA mutase small subunit	PF01642	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)
+5.4.99.2	A0A132PRX6	Probable methylmalonyl-CoA mutase large subunit	PF02310	Mycolicibacterium wolinskyi
+5.4.99.2	A0A132PRX6	Probable methylmalonyl-CoA mutase large subunit	PF01642	Mycolicibacterium wolinskyi
+5.4.99.2	A0A3G6J6L8	Probable methylmalonyl-CoA mutase large subunit	PF02310	Corynebacterium choanae
+5.4.99.2	A0A3G6J6L8	Probable methylmalonyl-CoA mutase large subunit	PF01642	Corynebacterium choanae
+5.4.99.2	A0A7I7U8X2	Probable methylmalonyl-CoA mutase large subunit	PF02310	Mycolicibacterium parafortuitum
+5.4.99.2	A0A7I7U8X2	Probable methylmalonyl-CoA mutase large subunit	PF01642	Mycolicibacterium parafortuitum
+5.4.99.2	A0A4P7RKT2	Probable methylmalonyl-CoA mutase large subunit	PF02310	Rhodococcus sp. PAMC28705
+5.4.99.2	A0A4P7RKT2	Probable methylmalonyl-CoA mutase large subunit	PF01642	Rhodococcus sp. PAMC28705
+5.4.99.2	A0A7G8PPD9	Methylmalonyl-CoA mutase small subunit	PF01642	Mycolicibacterium fluoranthenivorans
+5.4.99.2	A0A8B3FLS6	Methylmalonyl-CoA mutase small subunit	PF01642	Propionibacterium australiense
+5.4.99.2	A0A9E2NG09	Methylmalonyl-CoA mutase small subunit	PF01642	Mycobacterium sp
+5.4.99.2	X8CG60	Methylmalonyl-CoA mutase small subunit	PF01642	Mycobacterium intracellulare 1956
+5.4.99.2	A0A0B7NT26	Methylmalonyl-CoA mutase small subunit	PF01642	Propionibacterium freudenreichii subsp. freudenreichii
+5.4.99.2	A0A1G4WCV0	Methylmalonyl-CoA mutase small subunit	PF01642	Mycolicibacterium fluoranthenivorans
+4.2.1.2	P05042	Fumarate hydratase class II	PF10415	Escherichia coli (strain K12)
+4.2.1.2	P05042	Fumarate hydratase class II	PF00206	Escherichia coli (strain K12)
+4.2.1.2	P0AC33	Fumarate hydratase class I, aerobic	PF05681	Escherichia coli (strain K12)
+4.2.1.2	P0AC33	Fumarate hydratase class I, aerobic	PF05683	Escherichia coli (strain K12)
+4.2.1.2	P14407	Fumarate hydratase class I, anaerobic	PF05681	Escherichia coli (strain K12)
+4.2.1.2	P14407	Fumarate hydratase class I, anaerobic	PF05683	Escherichia coli (strain K12)
+4.2.1.2	P9WN93	Fumarate hydratase class II	PF10415	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+4.2.1.2	P9WN93	Fumarate hydratase class II	PF00206	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+4.2.1.2	P95331	Fumarate hydratase class II	PF10415	Myxococcus xanthus (strain DK1622)
+4.2.1.2	P95331	Fumarate hydratase class II	PF00206	Myxococcus xanthus (strain DK1622)
+4.2.1.2	Q92PB6	Fumarate hydratase class II	PF10415	Rhizobium meliloti (strain 1021)
+4.2.1.2	Q92PB6	Fumarate hydratase class II	PF00206	Rhizobium meliloti (strain 1021)
+4.2.1.2	P28894	Fumarate hydratase class II 2	PF10415	Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110)
+4.2.1.2	P28894	Fumarate hydratase class II 2	PF00206	Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110)
+4.2.1.2	Q9ZCQ4	Fumarate hydratase class II	PF10415	Rickettsia prowazekii (strain Madrid E)
+4.2.1.2	Q9ZCQ4	Fumarate hydratase class II	PF00206	Rickettsia prowazekii (strain Madrid E)
+4.2.1.2	Q51404	Fumarate hydratase class II 2	PF10415	Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)
+4.2.1.2	Q51404	Fumarate hydratase class II 2	PF00206	Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)
+4.2.1.2	P0ACX5	Fumarase D	PF10965	Escherichia coli (strain K12)
+4.2.1.2	P07343	Fumarate hydratase class II	PF10415	Bacillus subtilis (strain 168)
+4.2.1.2	P07343	Fumarate hydratase class II	PF00206	Bacillus subtilis (strain 168)
+4.2.1.2	O25883	Fumarate hydratase class II	PF10415	Helicobacter pylori (strain ATCC 700392 / 26695)
+4.2.1.2	O25883	Fumarate hydratase class II	PF00206	Helicobacter pylori (strain ATCC 700392 / 26695)
+4.2.1.2	P64172	Fumarate hydratase class II	PF10415	Staphylococcus aureus (strain Mu50 / ATCC 700699)
+4.2.1.2	P64172	Fumarate hydratase class II	PF00206	Staphylococcus aureus (strain Mu50 / ATCC 700699)
+4.2.1.2	P9WN92	Fumarate hydratase class II	PF10415	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)
+4.2.1.2	P9WN92	Fumarate hydratase class II	PF00206	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)
+4.2.1.2	Q7V024	Fumarate hydratase class II	PF10415	Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4)
+4.2.1.2	Q7V024	Fumarate hydratase class II	PF00206	Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4)
+4.2.1.2	Q7VR50	Fumarate hydratase class II	PF10415	Blochmanniella floridana
+4.2.1.2	Q7VR50	Fumarate hydratase class II	PF00206	Blochmanniella floridana
+4.2.1.2	Q7WG65	Fumarate hydratase class II	PF10415	Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50)
+4.2.1.2	Q7WG65	Fumarate hydratase class II	PF00206	Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50)
+4.2.1.2	Q81F85	Fumarate hydratase class II	PF10415	Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711)
+4.2.1.2	Q81F85	Fumarate hydratase class II	PF00206	Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711)
+4.2.1.2	Q83CL8	Fumarate hydratase class II	PF10415	Coxiella burnetii (strain RSA 493 / Nine Mile phase I)
+4.2.1.2	Q83CL8	Fumarate hydratase class II	PF00206	Coxiella burnetii (strain RSA 493 / Nine Mile phase I)
+4.2.1.2	Q88M20	Fumarate hydratase class II	PF10415	Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440)
+4.2.1.2	Q88M20	Fumarate hydratase class II	PF00206	Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440)
+4.2.1.2	Q89XM2	Fumarate hydratase class II 1	PF10415	Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110)
+4.2.1.2	Q89XM2	Fumarate hydratase class II 1	PF00206	Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110)
+4.2.1.2	Q8D2L3	Fumarate hydratase class II	PF10415	Wigglesworthia glossinidia brevipalpis
+4.2.1.2	Q8D2L3	Fumarate hydratase class II	PF00206	Wigglesworthia glossinidia brevipalpis
+4.2.1.2	Q8F9L0	Fumarate hydratase class II	PF10415	Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601)
+4.2.1.2	Q8F9L0	Fumarate hydratase class II	PF00206	Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601)
+4.2.1.2	Q8FQP8	Fumarate hydratase class II	PF10415	Corynebacterium efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 11189 / NBRC 100395)
+4.2.1.2	Q8FQP8	Fumarate hydratase class II	PF00206	Corynebacterium efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 11189 / NBRC 100395)
+4.2.1.2	Q8YB50	Fumarate hydratase class II	PF10415	Brucella melitensis biotype 1 (strain ATCC 23456 / CCUG 17765 / NCTC 10094 / 16M)
+4.2.1.2	Q8YB50	Fumarate hydratase class II	PF00206	Brucella melitensis biotype 1 (strain ATCC 23456 / CCUG 17765 / NCTC 10094 / 16M)
+4.2.1.153	A9WC41	Mesaconyl-C(4)-CoA hydratase	No Pfam	Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl)
+4.2.1.153	A0A220W5Q3	Unknown	PF13452	Sphingorhabdus sp. SMR4y
+4.2.1.153	A0A221K5G2	Unknown	No Pfam	Pseudosulfitobacter pseudonitzschiae
+4.2.1.153	A0A222E039	Unknown	PF13452	Antarctobacter heliothermus
+4.2.1.153	A0A2H1IC29	Unknown	PF13452	Brevibacterium sp. 239c
+4.2.1.153	A0A2H6AXJ3	Unknown	PF13452	bacterium HR40
+4.2.1.153	A0A2J7VXU8	Unknown	PF13452	Variovorax sp. B4
+4.2.1.153	A0A2R8CDJ5	Unknown	PF13452	Falsiruegeria mediterranea M17
+4.2.1.153	A0A2S6R1R4	Unknown	PF13452	Alphaproteobacteria bacterium MarineAlpha10_Bin1
+4.2.1.153	A0A5E6PS20	Unknown	PF13452	Pseudomonas fluorescens
+4.2.1.153	A0A5E6WXI4	Unknown	PF13452	Pseudomonas fluorescens
+4.2.1.153	A0A5E6ZTC7	Unknown	No Pfam	Pseudomonas fluorescens
+4.2.1.153	A0A5E7CTT4	Unknown	PF13452	Pseudomonas fluorescens
+4.2.1.153	A0A5E7EMG8	Unknown	PF13452	Pseudomonas fluorescens
+4.2.1.153	A0A6S6ZTM0	Unknown	PF13452	Achromobacter animicus
+4.2.1.153	A0A6S7E7J8	Unknown	PF13452	Achromobacter piechaudii
+4.2.1.153	A0A6S7ETX4	Unknown	PF13452	Achromobacter anxifer
+4.2.1.153	A0A7K0D904	Unknown	PF13452	Nocardia macrotermitis
+4.2.1.153	A0A7K0DPB4	Unknown	PF13452	Nocardia aurantia
+4.2.1.153	A0A7U7IBH9	Unknown	PF13452	Zestomonas carbonaria
+4.2.1.153	A0A7W5DED4	Unknown	PF13452	Variovorax sp. Sphag1AA
+4.2.1.153	A0A7W6CGH5	Unknown	PF13452	Novosphingobium sediminicola
+4.2.1.153	A0A7W6SW05	Unknown	PF13452	Bradyrhizobium sp. SBR1B
+4.2.1.153	A0A7W6WA83	Unknown	PF13452	Roseospira visakhapatnamensis
+4.2.1.153	A0A7W6XLC1	Unknown	PF13452	Bradyrhizobium sp. CIR48
+6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF02785	Mycobacterium triplex
+6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF00289	Mycobacterium triplex
+6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF00364	Mycobacterium triplex
+6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF01039	Mycobacterium triplex
+6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF02786	Mycobacterium triplex
+6.4.1.2	A0A081B9D4	acetyl-CoA carboxylase	PF02785	Tepidicaulis marinus
+6.4.1.2	A0A081B9D4	acetyl-CoA carboxylase	PF00289	Tepidicaulis marinus
+6.4.1.2	A0A081B9D4	acetyl-CoA carboxylase	PF00364	Tepidicaulis marinus
+6.4.1.2	A0A081B9D4	acetyl-CoA carboxylase	PF01039	Tepidicaulis marinus
+6.4.1.2	A0A081B9D4	acetyl-CoA carboxylase	PF02786	Tepidicaulis marinus
+6.4.1.2	A0A089RU72	Unknown	PF03255	Ligilactobacillus salivarius
+6.4.1.2	A0A0C4YE17	acetyl-CoA carboxylase	PF02785	Cupriavidus basilensis
+6.4.1.2	A0A0C4YE17	acetyl-CoA carboxylase	PF00289	Cupriavidus basilensis
+6.4.1.2	A0A0C4YE17	acetyl-CoA carboxylase	PF00364	Cupriavidus basilensis
+6.4.1.2	A0A0C4YE17	acetyl-CoA carboxylase	PF01039	Cupriavidus basilensis
+6.4.1.2	A0A0C4YE17	acetyl-CoA carboxylase	PF02786	Cupriavidus basilensis
+6.4.1.2	A0A0F0FR67	acetyl-CoA carboxylase	PF02785	Burkholderiaceae bacterium 16
+6.4.1.2	A0A0F0FR67	acetyl-CoA carboxylase	PF00289	Burkholderiaceae bacterium 16
+6.4.1.2	A0A0F0FR67	acetyl-CoA carboxylase	PF00364	Burkholderiaceae bacterium 16
+6.4.1.2	A0A0F0FR67	acetyl-CoA carboxylase	PF01039	Burkholderiaceae bacterium 16
+6.4.1.2	A0A0F0FR67	acetyl-CoA carboxylase	PF02786	Burkholderiaceae bacterium 16
+6.4.1.2	A0A0H2ZVE2	acetyl-CoA carboxylase	PF02785	Mycobacterium avium (strain 104)
+6.4.1.2	A0A0H2ZVE2	acetyl-CoA carboxylase	PF00289	Mycobacterium avium (strain 104)
+6.4.1.2	A0A0H2ZVE2	acetyl-CoA carboxylase	PF00364	Mycobacterium avium (strain 104)
+6.4.1.2	A0A0H2ZVE2	acetyl-CoA carboxylase	PF01039	Mycobacterium avium (strain 104)
+6.4.1.2	A0A0H2ZVE2	acetyl-CoA carboxylase	PF02786	Mycobacterium avium (strain 104)
+6.4.1.2	A0A0K2YFF3	acetyl-CoA carboxylase	PF02785	Rhodococcus sp. RD6.2
+6.4.1.2	A0A0K2YFF3	acetyl-CoA carboxylase	PF00289	Rhodococcus sp. RD6.2
+6.4.1.2	A0A0K2YFF3	acetyl-CoA carboxylase	PF00364	Rhodococcus sp. RD6.2
+6.4.1.2	A0A0K2YFF3	acetyl-CoA carboxylase	PF01039	Rhodococcus sp. RD6.2
+6.4.1.2	A0A0K2YFF3	acetyl-CoA carboxylase	PF02786	Rhodococcus sp. RD6.2
+6.4.1.2	A0A0M9IQ22	Unknown	PF01039	Enterobacter cloacae
+6.4.1.2	A0A0Q4S3E8	acetyl-CoA carboxylase	PF02785	Acidovorax sp. Leaf78
+6.4.1.2	A0A0Q4S3E8	acetyl-CoA carboxylase	PF00289	Acidovorax sp. Leaf78
+6.4.1.2	A0A0Q4S3E8	acetyl-CoA carboxylase	PF00364	Acidovorax sp. Leaf78
+6.4.1.2	A0A0Q4S3E8	acetyl-CoA carboxylase	PF01039	Acidovorax sp. Leaf78
+6.4.1.2	A0A0Q4S3E8	acetyl-CoA carboxylase	PF02786	Acidovorax sp. Leaf78
+6.4.1.2	A0A0Q7LJE7	acetyl-CoA carboxylase	PF02785	Variovorax sp. Root473
+6.4.1.2	A0A0Q7LJE7	acetyl-CoA carboxylase	PF00289	Variovorax sp. Root473
+6.4.1.2	A0A0Q7LJE7	acetyl-CoA carboxylase	PF00364	Variovorax sp. Root473
+6.4.1.2	A0A0Q7LJE7	acetyl-CoA carboxylase	PF01039	Variovorax sp. Root473
+6.4.1.2	A0A0Q7LJE7	acetyl-CoA carboxylase	PF02786	Variovorax sp. Root473
+6.4.1.2	A0A0Q8GZ95	acetyl-CoA carboxylase	PF02785	Pelomonas sp. Root662
+6.4.1.2	A0A0Q8GZ95	acetyl-CoA carboxylase	PF00289	Pelomonas sp. Root662
+6.4.1.2	A0A0Q8GZ95	acetyl-CoA carboxylase	PF00364	Pelomonas sp. Root662
+6.4.1.2	A0A0Q8GZ95	acetyl-CoA carboxylase	PF01039	Pelomonas sp. Root662
+6.4.1.2	A0A0Q8GZ95	acetyl-CoA carboxylase	PF02786	Pelomonas sp. Root662
+6.4.1.2	A0A109W246	acetyl-CoA carboxylase	PF02785	Actinomyces radicidentis
+6.4.1.2	A0A109W246	acetyl-CoA carboxylase	PF00289	Actinomyces radicidentis
+6.4.1.2	A0A109W246	acetyl-CoA carboxylase	PF00364	Actinomyces radicidentis
+6.4.1.2	A0A109W246	acetyl-CoA carboxylase	PF01039	Actinomyces radicidentis
+6.4.1.2	A0A109W246	acetyl-CoA carboxylase	PF02786	Actinomyces radicidentis
+6.4.1.2	A0A109W246	acetyl-CoA carboxylase	PF00293	Actinomyces radicidentis
+6.4.1.2	A0A150LBU0	Unknown	PF01039	Saccharococcus caldoxylosilyticus
+6.4.1.2	A0A1A0L176	acetyl-CoA carboxylase	PF02785	Gordonia sp. 852002-10350_SCH5691597
+6.4.1.2	A0A1A0L176	acetyl-CoA carboxylase	PF00289	Gordonia sp. 852002-10350_SCH5691597
+6.4.1.2	A0A1A0L176	acetyl-CoA carboxylase	PF00364	Gordonia sp. 852002-10350_SCH5691597
+6.4.1.2	A0A1A0L176	acetyl-CoA carboxylase	PF01039	Gordonia sp. 852002-10350_SCH5691597
+6.4.1.2	A0A1A0L176	acetyl-CoA carboxylase	PF02786	Gordonia sp. 852002-10350_SCH5691597
+6.4.1.2	A0A1A2GAM5	acetyl-CoA carboxylase	PF02785	Mycobacterium sp. 852002-51057_SCH5723018
+6.4.1.2	A0A1A2GAM5	acetyl-CoA carboxylase	PF00289	Mycobacterium sp. 852002-51057_SCH5723018
+6.4.1.2	A0A1A2GAM5	acetyl-CoA carboxylase	PF00364	Mycobacterium sp. 852002-51057_SCH5723018
+6.4.1.2	A0A1A2GAM5	acetyl-CoA carboxylase	PF01039	Mycobacterium sp. 852002-51057_SCH5723018
+6.4.1.2	A0A1A2GAM5	acetyl-CoA carboxylase	PF02786	Mycobacterium sp. 852002-51057_SCH5723018
+6.4.1.2	A0A1A2SY04	acetyl-CoA carboxylase	PF02785	Mycobacterium mantenii
+6.4.1.2	A0A1A2SY04	acetyl-CoA carboxylase	PF00289	Mycobacterium mantenii
+6.4.1.2	A0A1A2SY04	acetyl-CoA carboxylase	PF00364	Mycobacterium mantenii
+6.4.1.2	A0A1A2SY04	acetyl-CoA carboxylase	PF01039	Mycobacterium mantenii
+6.4.1.2	A0A1A2SY04	acetyl-CoA carboxylase	PF02786	Mycobacterium mantenii
+6.4.1.2	A0A1A3L2R8	acetyl-CoA carboxylase	PF02785	Mycobacterium asiaticum
+6.4.1.2	A0A1A3L2R8	acetyl-CoA carboxylase	PF00289	Mycobacterium asiaticum
+6.4.1.2	A0A1A3L2R8	acetyl-CoA carboxylase	PF00364	Mycobacterium asiaticum
+6.4.1.2	A0A1A3L2R8	acetyl-CoA carboxylase	PF01039	Mycobacterium asiaticum
+6.4.1.2	A0A1A3L2R8	acetyl-CoA carboxylase	PF02786	Mycobacterium asiaticum
+6.4.1.2	A0A1A3Q366	acetyl-CoA carboxylase	PF02785	Mycobacterium sp. 1245111.1
+6.4.1.2	A0A1A3Q366	acetyl-CoA carboxylase	PF00289	Mycobacterium sp. 1245111.1
+6.4.1.2	A0A1A3Q366	acetyl-CoA carboxylase	PF00364	Mycobacterium sp. 1245111.1
+6.4.1.2	A0A1A3Q366	acetyl-CoA carboxylase	PF01039	Mycobacterium sp. 1245111.1
+6.4.1.2	A0A1A3Q366	acetyl-CoA carboxylase	PF02786	Mycobacterium sp. 1245111.1
+6.4.1.2	A0A1B1NAJ3	Unknown	PF01039	Serinicoccus hydrothermalis
+6.4.1.2	A0A1B7UAM5	acetyl-CoA carboxylase	PF02785	Mycobacterium sp. 852002-40037_SCH5390672
+6.4.1.2	A0A1B7UAM5	acetyl-CoA carboxylase	PF00289	Mycobacterium sp. 852002-40037_SCH5390672
+6.4.1.2	A0A1B7UAM5	acetyl-CoA carboxylase	PF00364	Mycobacterium sp. 852002-40037_SCH5390672
+6.4.1.2	A0A1B7UAM5	acetyl-CoA carboxylase	PF01039	Mycobacterium sp. 852002-40037_SCH5390672
+6.4.1.2	A0A1B7UAM5	acetyl-CoA carboxylase	PF02786	Mycobacterium sp. 852002-40037_SCH5390672
+6.4.1.2	A0A1B9DE01	acetyl-CoA carboxylase	PF02785	Mycobacterium malmoense
+6.4.1.2	A0A1B9DE01	acetyl-CoA carboxylase	PF00289	Mycobacterium malmoense
+6.4.1.2	A0A1B9DE01	acetyl-CoA carboxylase	PF00364	Mycobacterium malmoense
+6.4.1.2	A0A1B9DE01	acetyl-CoA carboxylase	PF01039	Mycobacterium malmoense
+6.4.1.2	A0A1B9DE01	acetyl-CoA carboxylase	PF02786	Mycobacterium malmoense
+6.4.1.2	A0A1D7W3F7	Unknown	PF01039	Brevibacterium aurantiacum
+6.4.1.2	A0A1H1VAA8	acetyl-CoA carboxylase	PF02785	Halopseudomonas litoralis
+6.4.1.2	A0A1H1VAA8	acetyl-CoA carboxylase	PF00289	Halopseudomonas litoralis
+6.4.1.2	A0A1H1VAA8	acetyl-CoA carboxylase	PF00364	Halopseudomonas litoralis
+6.4.1.2	A0A1H1VAA8	acetyl-CoA carboxylase	PF01039	Halopseudomonas litoralis
+6.4.1.2	A0A1H1VAA8	acetyl-CoA carboxylase	PF02786	Halopseudomonas litoralis
+6.4.1.2	A0A1H2E0D0	acetyl-CoA carboxylase	PF02785	Pseudomonas pohangensis
+6.4.1.2	A0A1H2E0D0	acetyl-CoA carboxylase	PF00289	Pseudomonas pohangensis
+6.4.1.2	A0A1H2E0D0	acetyl-CoA carboxylase	PF00364	Pseudomonas pohangensis
+6.4.1.2	A0A1H2E0D0	acetyl-CoA carboxylase	PF01039	Pseudomonas pohangensis
+6.4.1.2	A0A1H2E0D0	acetyl-CoA carboxylase	PF02786	Pseudomonas pohangensis
+6.4.1.2	A0A1H3EUD3	acetyl-CoA carboxylase	PF02785	Delftia lacustris
+6.4.1.2	A0A1H3EUD3	acetyl-CoA carboxylase	PF00289	Delftia lacustris
+6.4.1.2	A0A1H3EUD3	acetyl-CoA carboxylase	PF00364	Delftia lacustris
+6.4.1.2	A0A1H3EUD3	acetyl-CoA carboxylase	PF01039	Delftia lacustris
+6.4.1.2	A0A1H3EUD3	acetyl-CoA carboxylase	PF02786	Delftia lacustris
+1.3.5.1	P0AC47	Fumarate reductase iron-sulfur subunit	PF13085	Escherichia coli (strain K12)
+1.3.5.1	P0AC47	Fumarate reductase iron-sulfur subunit	PF13237	Escherichia coli (strain K12)
+1.3.5.1	P00363	Fumarate reductase flavoprotein subunit	PF00890	Escherichia coli (strain K12)
+1.3.5.1	P00363	Fumarate reductase flavoprotein subunit	PF02910	Escherichia coli (strain K12)
+1.3.5.1	P07014	Succinate dehydrogenase iron-sulfur subunit	PF13085	Escherichia coli (strain K12)
+1.3.5.1	P07014	Succinate dehydrogenase iron-sulfur subunit	PF13534	Escherichia coli (strain K12)
+1.3.5.1	P0AC41	Succinate dehydrogenase flavoprotein subunit	PF00890	Escherichia coli (strain K12)
+1.3.5.1	P0AC41	Succinate dehydrogenase flavoprotein subunit	PF02910	Escherichia coli (strain K12)
+1.3.5.1	P17412	Fumarate reductase flavoprotein subunit	PF00890	Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W)
+1.3.5.1	P17412	Fumarate reductase flavoprotein subunit	PF02910	Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W)
+1.3.5.1	P17596	Fumarate reductase iron-sulfur subunit	PF13085	Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W)
+1.3.5.1	P17596	Fumarate reductase iron-sulfur subunit	PF13183	Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W)
+1.3.5.1	P08065	Succinate dehydrogenase flavoprotein subunit	PF00890	Bacillus subtilis (strain 168)
+1.3.5.1	P08065	Succinate dehydrogenase flavoprotein subunit	PF02910	Bacillus subtilis (strain 168)
+1.3.5.1	P08066	Succinate dehydrogenase iron-sulfur subunit	PF13085	Bacillus subtilis (strain 168)
+1.3.5.1	P08066	Succinate dehydrogenase iron-sulfur subunit	PF13183	Bacillus subtilis (strain 168)
+1.3.5.1	P0AC48	Fumarate reductase iron-sulfur subunit	PF13085	Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)
+1.3.5.1	P0AC48	Fumarate reductase iron-sulfur subunit	PF13237	Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC)
+1.3.5.1	P0AC50	Fumarate reductase iron-sulfur subunit	PF13085	Shigella flexneri
+1.3.5.1	P0AC50	Fumarate reductase iron-sulfur subunit	PF13237	Shigella flexneri
+1.3.5.1	V3TQ67	Fumarate reductase flavoprotein subunit	PF00890	Serratia sp. (strain ATCC 39006)
+1.3.5.1	V3TQ67	Fumarate reductase flavoprotein subunit	PF02910	Serratia sp. (strain ATCC 39006)
+1.3.5.1	P20921	Fumarate reductase iron-sulfur subunit	PF13085	Proteus vulgaris
+1.3.5.1	P20921	Fumarate reductase iron-sulfur subunit	PF13237	Proteus vulgaris
+1.3.5.1	P0AC49	Fumarate reductase iron-sulfur subunit	PF13085	Escherichia coli O157:H7
+1.3.5.1	P0AC49	Fumarate reductase iron-sulfur subunit	PF13237	Escherichia coli O157:H7
+1.3.5.1	Q4UN71	Succinate dehydrogenase iron-sulfur subunit	PF13085	Rickettsia felis (strain ATCC VR-1525 / URRWXCal2)
+1.3.5.1	Q4UN71	Succinate dehydrogenase iron-sulfur subunit	PF13534	Rickettsia felis (strain ATCC VR-1525 / URRWXCal2)
+1.3.5.1	Q8ZQU2	Succinate dehydrogenase iron-sulfur subunit	PF13085	Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)
+1.3.5.1	Q8ZQU2	Succinate dehydrogenase iron-sulfur subunit	PF13534	Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720)
+1.3.5.1	P51053	Succinate dehydrogenase iron-sulfur subunit	PF13085	Coxiella burnetii (strain RSA 493 / Nine Mile phase I)
+1.3.5.1	P51053	Succinate dehydrogenase iron-sulfur subunit	PF13534	Coxiella burnetii (strain RSA 493 / Nine Mile phase I)
+1.3.5.1	Q1RGP3	Succinate dehydrogenase iron-sulfur subunit	PF13085	Rickettsia bellii (strain RML369-C)
+1.3.5.1	Q1RGP3	Succinate dehydrogenase iron-sulfur subunit	PF13534	Rickettsia bellii (strain RML369-C)
+1.3.5.1	Q9ZEA1	Succinate dehydrogenase iron-sulfur subunit	PF13085	Rickettsia prowazekii (strain Madrid E)
+1.3.5.1	Q9ZEA1	Succinate dehydrogenase iron-sulfur subunit	PF13534	Rickettsia prowazekii (strain Madrid E)
+1.3.5.1	G4V4G6	Succinate dehydrogenase flavoprotein subunit	PF00890	Serratia sp. (strain ATCC 39006)
+1.3.5.1	G4V4G6	Succinate dehydrogenase flavoprotein subunit	PF02910	Serratia sp. (strain ATCC 39006)
+1.3.5.1	Q68XS0	Succinate dehydrogenase iron-sulfur subunit	PF13085	Rickettsia typhi (strain ATCC VR-144 / Wilmington)
+1.3.5.1	Q68XS0	Succinate dehydrogenase iron-sulfur subunit	PF13534	Rickettsia typhi (strain ATCC VR-144 / Wilmington)
+1.3.5.1	Q92JJ8	Succinate dehydrogenase iron-sulfur subunit	PF13085	Rickettsia conorii (strain ATCC VR-613 / Malish 7)
+1.3.5.1	Q92JJ8	Succinate dehydrogenase iron-sulfur subunit	PF13534	Rickettsia conorii (strain ATCC VR-613 / Malish 7)
+1.3.5.1	P44894	Fumarate reductase flavoprotein subunit	PF00890	Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd)
+1.3.5.1	P44894	Fumarate reductase flavoprotein subunit	PF02910	Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd)
+1.3.5.1	P9WN89	Fumarate reductase iron-sulfur subunit	PF13085	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+1.3.5.1	P9WN89	Fumarate reductase iron-sulfur subunit	PF13183	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+1.3.5.1	P9WN90	Fumarate reductase flavoprotein subunit	PF00890	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)
+1.3.5.1	P9WN90	Fumarate reductase flavoprotein subunit	PF02910	Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh)
+1.3.5.1	P9WN91	Fumarate reductase flavoprotein subunit	PF00890	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+1.3.5.1	P9WN91	Fumarate reductase flavoprotein subunit	PF02910	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+6.2.1.36	A0A0P8AYB2	Unknown	No Pfam	Porphyrobacter sp. HL-46
+1.3.1.84	P26646	Probable acrylyl-CoA reductase AcuI	PF08240	Escherichia coli (strain K12)
+1.3.1.84	P26646	Probable acrylyl-CoA reductase AcuI	PF00107	Escherichia coli (strain K12)
+1.3.1.84	Q3J6K9	Acrylyl-CoA reductase AcuI	PF08240	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
+1.3.1.84	Q3J6K9	Acrylyl-CoA reductase AcuI	PF00107	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
+1.3.1.84	Q5LS56	Acrylyl-CoA reductase AcuI	PF08240	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
+1.3.1.84	Q5LS56	Acrylyl-CoA reductase AcuI	PF00107	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
+1.3.1.84	W8STS0	Unknown	PF08240	Escherichia coli
+1.3.1.84	W8STS0	Unknown	PF00107	Escherichia coli
+1.3.1.84	A0A011MU65	Unknown	PF08240	Candidatus Accumulibacter sp. SK-11
+1.3.1.84	A0A011MU65	Unknown	PF00107	Candidatus Accumulibacter sp. SK-11
+1.3.1.84	A0A011QQ95	Unknown	PF08240	Accumulibacter regalis
+1.3.1.84	A0A011QQ95	Unknown	PF00107	Accumulibacter regalis
+1.3.1.84	A0A075FA83	Unknown	PF08240	uncultured bacterium pBIO2079
+1.3.1.84	A0A075FA83	Unknown	PF00107	uncultured bacterium pBIO2079
+1.3.1.84	A0A075FBN4	Unknown	PF08240	uncultured bacterium pBIO2155
+1.3.1.84	A0A075FBN4	Unknown	PF00107	uncultured bacterium pBIO2155
+1.3.1.84	A0A080M4K5	Unknown	PF08240	Candidatus Accumulibacter cognatus
+1.3.1.84	A0A080M4K5	Unknown	PF00107	Candidatus Accumulibacter cognatus
+1.3.1.84	A0A086IEV2	Unknown	PF08240	Klebsiella pneumoniae
+1.3.1.84	A0A086IEV2	Unknown	PF00107	Klebsiella pneumoniae
+1.3.1.84	A0A087D151	Unknown	PF08240	Bifidobacterium pullorum subsp. saeculare DSM 6531 = LMG 14934
+1.3.1.84	A0A087D151	Unknown	PF00107	Bifidobacterium pullorum subsp. saeculare DSM 6531 = LMG 14934
+1.3.1.84	A0A0D1EJI5	Unknown	PF08240	Jannaschia aquimarina
+1.3.1.84	A0A0D1EJI5	Unknown	PF00107	Jannaschia aquimarina
+1.3.1.84	A0A0M9EJ66	Unknown	PF08240	Shimia sp. SK013
+1.3.1.84	A0A0M9EJ66	Unknown	PF00107	Shimia sp. SK013
+1.3.1.84	A0A0P1E3D3	Unknown	PF08240	Ruegeria atlantica
+1.3.1.84	A0A0P1E3D3	Unknown	PF00107	Ruegeria atlantica
+1.3.1.84	A0A0P1ETB0	Unknown	PF08240	Shimia marina
+1.3.1.84	A0A0P1ETB0	Unknown	PF00107	Shimia marina
+1.3.1.84	A0A0P1GJR3	Unknown	PF08240	Tritonibacter multivorans
+1.3.1.84	A0A0P1GJR3	Unknown	PF00107	Tritonibacter multivorans
+1.3.1.84	A0A0P1H922	Unknown	PF08240	Thalassovita mediterranea
+1.3.1.84	A0A0P1H922	Unknown	PF00107	Thalassovita mediterranea
+1.3.1.84	A0A0Q0JH92	Unknown	PF08240	Pseudoalteromonas sp. P1-26
+1.3.1.84	A0A0Q0JH92	Unknown	PF00107	Pseudoalteromonas sp. P1-26
+1.3.1.84	A0A128FFH4	Unknown	PF08240	Grimontia celer
+1.3.1.84	A0A128FFH4	Unknown	PF00107	Grimontia celer
+1.3.1.84	A0A128FKG7	Unknown	PF08240	Grimontia marina
+1.3.1.84	A0A128FKG7	Unknown	PF00107	Grimontia marina
+1.3.1.84	A0A142WSS2	Unknown	PF08240	Planctomyces sp. SH-PL14
+1.3.1.84	A0A142WSS2	Unknown	PF00107	Planctomyces sp. SH-PL14
+1.3.1.84	A0A1K0IPY6	Unknown	PF08240	Cupriavidus necator
+1.3.1.84	A0A1K0IPY6	Unknown	PF00107	Cupriavidus necator
+1.3.1.84	A0A1M4MV49	Unknown	PF08240	Donghicola eburneus
+1.3.1.84	A0A1M4MV49	Unknown	PF00107	Donghicola eburneus
+1.3.1.84	A0A1M5Z5E9	Unknown	PF08240	Vibrio aerogenes CECT 7868
+1.3.1.84	A0A1M5Z5E9	Unknown	PF00107	Vibrio aerogenes CECT 7868
+1.3.1.84	A0A1Q2HZQ4	Unknown	PF00107	Corynebacterium glaucum

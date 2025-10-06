@@ -1,0 +1,241 @@
+strain,accession,hits,unique_ecs,ec_results_file,results_df
+XMU1401E,GCF_019325115.1,60,6,results/batch/XMU1401E_GCF_019325115.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         66                         11
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         21                         10
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1401,GCF_002812945.1,60,6,results/batch/XMU1401_GCF_002812945.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         66                         11
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         21                         10
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1401,GCF_017696245.1,60,6,results/batch/XMU1401_GCF_017696245.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         66                         11
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         21                         10
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1402,GCF_017696205.1,58,7,results/batch/XMU1402_GCF_017696205.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         78                         13
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         19                          8
+7    5.4.99.2  PARTIALLY_FOUND  ...          9                          1
+8     1.3.5.1      FULLY_FOUND  ...        136                         13
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84  PARTIALLY_FOUND  ...          3                          1
+
+[12 rows x 7 columns]"
+XMU1403,GCF_003208065.1,64,5,results/batch/XMU1403_GCF_003208065.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298      FULLY_FOUND  ...         79                         11
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         21                         10
+7    5.4.99.2  PARTIALLY_FOUND  ...          9                          1
+8     1.3.5.1      FULLY_FOUND  ...        177                         18
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1        NOT_FOUND  ...          0                          0
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1404,GCF_017696175.1,56,6,results/batch/XMU1404_GCF_017696175.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         66                         11
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         19                          8
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1405,GCF_017696275.1,61,6,results/batch/XMU1405_GCF_017696275.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         72                         12
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         20                          9
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        150                         15
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1406,GCF_017696055.1,57,6,results/batch/XMU1406_GCF_017696055.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         66                         11
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         19                          8
+7    5.4.99.2  PARTIALLY_FOUND  ...          9                          1
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1408,GCF_003208055.1,62,5,results/batch/XMU1408_GCF_003208055.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298      FULLY_FOUND  ...         85                         12
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         20                          9
+7    5.4.99.2  PARTIALLY_FOUND  ...          9                          1
+8     1.3.5.1      FULLY_FOUND  ...        177                         18
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1        NOT_FOUND  ...          0                          0
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1408,GCF_019325045.1,63,5,results/batch/XMU1408_GCF_019325045.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298      FULLY_FOUND  ...         85                         12
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         20                          9
+7    5.4.99.2  PARTIALLY_FOUND  ...          9                          1
+8     1.3.5.1      FULLY_FOUND  ...        177                         18
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1        NOT_FOUND  ...          0                          0
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1410,GCF_017696085.1,61,6,results/batch/XMU1410_GCF_017696085.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         72                         12
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         20                          9
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1411,GCF_017696075.1,64,7,results/batch/XMU1411_GCF_017696075.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         66                         11
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         18                          8
+7    5.4.99.2  PARTIALLY_FOUND  ...          9                          1
+8     1.3.5.1      FULLY_FOUND  ...        177                         17
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84      FULLY_FOUND  ...         12                          2
+
+[12 rows x 7 columns]"
+XMU1412,GCF_017696315.1,64,7,results/batch/XMU1412_GCF_017696315.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         84                         14
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         20                          9
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84      FULLY_FOUND  ...          6                          1
+
+[12 rows x 7 columns]"
+XMU1414,GCF_017696035.1,62,8,results/batch/XMU1414_GCF_017696035.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         72                         12
+4    4.1.3.24      FULLY_FOUND  ...          8                          1
+5    4.1.3.25      FULLY_FOUND  ...          3                          1
+6     6.4.1.3  PARTIALLY_FOUND  ...         20                          9
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1419,GCF_017695955.1,62,6,results/batch/XMU1419_GCF_017695955.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         78                         13
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         20                          9
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"
+XMU1419,GCF_019325105.1,62,6,results/batch/XMU1419_GCF_019325105.1_ec_results.csv,"    EC_number           Status  ... Total_hits  Unique_proteins_with_hits
+0     5.4.1.3        NOT_FOUND  ...          0                          0
+1     4.2.1.2  PARTIALLY_FOUND  ...         88                          3
+2   4.2.1.148        NOT_FOUND  ...          0                          0
+3   1.1.1.298  PARTIALLY_FOUND  ...         78                         13
+4    4.1.3.24        NOT_FOUND  ...          0                          0
+5    4.1.3.25        NOT_FOUND  ...          0                          0
+6     6.4.1.3  PARTIALLY_FOUND  ...         20                          9
+7    5.4.99.2  PARTIALLY_FOUND  ...         18                          2
+8     1.3.5.1      FULLY_FOUND  ...        145                         14
+9   4.2.1.153        NOT_FOUND  ...          0                          0
+10   5.1.99.1      FULLY_FOUND  ...          1                          1
+11   1.3.1.84        NOT_FOUND  ...          0                          0
+
+[12 rows x 7 columns]"

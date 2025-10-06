@@ -1,0 +1,1246 @@
+target,EC_number,Protein_Name,Pfam_ID,UniProt_ID,Species,query_hmm,evalue,score
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P39831,Escherichia coli (strain K12),adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69936,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q83RE8,Shigella flexneri,adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8FHD2,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8X505,Escherichia coli O157:H7,adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69935,Salmonella typhi,adh_short,3.7e-68,226.2
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P39831,Escherichia coli (strain K12),adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69936,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q83RE8,Shigella flexneri,adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8FHD2,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8X505,Escherichia coli O157:H7,adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69935,Salmonella typhi,adh_short,1.52e-55,185.0
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P39831,Escherichia coli (strain K12),adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69936,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q83RE8,Shigella flexneri,adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8FHD2,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8X505,Escherichia coli O157:H7,adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69935,Salmonella typhi,adh_short,8.24e-51,169.6
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P39831,Escherichia coli (strain K12),adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69936,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q83RE8,Shigella flexneri,adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8FHD2,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8X505,Escherichia coli O157:H7,adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69935,Salmonella typhi,adh_short,3.08e-30,102.4
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P39831,Escherichia coli (strain K12),adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69936,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q83RE8,Shigella flexneri,adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8FHD2,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8X505,Escherichia coli O157:H7,adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69935,Salmonella typhi,adh_short,6.28e-21,72.1
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P39831,Escherichia coli (strain K12),adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69936,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q83RE8,Shigella flexneri,adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8FHD2,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8X505,Escherichia coli O157:H7,adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69935,Salmonella typhi,adh_short,7.39e-21,71.8
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,P75894,Escherichia coli (strain K12),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,A7MFX7,Cronobacter sakazakii (strain ATCC BAA-894),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,B7LFB8,Escherichia coli (strain 55989 / EAEC),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,B7NLB8,Escherichia coli O7:K1 (strain IAI39 / ExPEC),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,Q0TJ59,Escherichia coli O6:K15:H31 (strain 536 / UPEC),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,Q1RDK9,Escherichia coli (strain UTI89 / UPEC),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,Q3Z3A5,Shigella sonnei (strain Ss046),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,A1A9R3,Escherichia coli O1:K1 / APEC,Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,A6T798,Klebsiella pneumoniae subsp. pneumoniae (strain ATCC 700721 / MGH 78578),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,B5YU50,Escherichia coli O157:H7 (strain EC4115 / EHEC),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,B7M8Z3,Escherichia coli O8 (strain IAI1),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,B7MIF5,Escherichia coli O45:K1 (strain S88 / ExPEC),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,B7N3G4,Escherichia coli O17:K52:H18 (strain UMN026 / ExPEC),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,C4ZQD6,Escherichia coli (strain K12 / MC4100 / BW2952),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,Q8FJ44,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,A7ZKB3,Escherichia coli O139:H28 (strain E24377A / ETEC),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,A7ZYW3,Escherichia coli O9:H4 (strain HS),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,B1IV89,Escherichia coli (strain ATCC 8739 / DSM 1576 / NBRC 3972 / NCIMB 8545 / WDCM 00012 / Crooks),Nitroreductase,7.63e-21,72.3
+WP_011244739.1,1.1.1.298,Probable malonic semialdehyde reductase RutE,PF00881,B1X9C9,Escherichia coli (strain K12 / DH10B),Nitroreductase,7.63e-21,72.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P39831,Escherichia coli (strain K12),adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69936,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q83RE8,Shigella flexneri,adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8FHD2,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8X505,Escherichia coli O157:H7,adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69935,Salmonella typhi,adh_short,8.94e-20,68.3
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P39831,Escherichia coli (strain K12),adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69936,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q83RE8,Shigella flexneri,adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8FHD2,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,Q8X505,Escherichia coli O157:H7,adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,P69935,Salmonella typhi,adh_short,2.12e-09,34.4
+WP_272948005.1,1.2.1.75,Unknown,PF13561,A0A7C2PIX3,Chloroflexus sp,adh_short_C2,1.1e-83,277.7
+WP_272948005.1,1.2.1.75,Unknown,PF13561,A0A841L016,Polymorphobacter multimanifer,adh_short_C2,1.1e-83,277.7
+WP_011243157.1,1.2.1.75,Unknown,PF13561,A0A7C2PIX3,Chloroflexus sp,adh_short_C2,3.23e-69,230.4
+WP_011243157.1,1.2.1.75,Unknown,PF13561,A0A841L016,Polymorphobacter multimanifer,adh_short_C2,3.23e-69,230.4
+WP_011243157.1,1.2.1.75,Unknown,PF00106,A0A7C2PIX3,Chloroflexus sp,adh_short,3.7e-68,226.2
+WP_011243157.1,1.2.1.75,Unknown,PF00106,A0A841L016,Polymorphobacter multimanifer,adh_short,3.7e-68,226.2
+WP_011243157.1,1.2.1.75,Unknown,PF00106,A0A0P8CE70,Porphyrobacter sp. HL-46,adh_short,3.7e-68,226.2
+WP_011242343.1,1.2.1.75,Unknown,PF13561,A0A7C2PIX3,Chloroflexus sp,adh_short_C2,3.76e-63,210.5
+WP_011242343.1,1.2.1.75,Unknown,PF13561,A0A841L016,Polymorphobacter multimanifer,adh_short_C2,3.76e-63,210.5
+WP_011242343.1,1.2.1.75,Unknown,PF00106,A0A7C2PIX3,Chloroflexus sp,adh_short,1.52e-55,185.0
+WP_011242343.1,1.2.1.75,Unknown,PF00106,A0A841L016,Polymorphobacter multimanifer,adh_short,1.52e-55,185.0
+WP_011242343.1,1.2.1.75,Unknown,PF00106,A0A0P8CE70,Porphyrobacter sp. HL-46,adh_short,1.52e-55,185.0
+WP_011242366.1,1.2.1.75,Unknown,PF00106,A0A7C2PIX3,Chloroflexus sp,adh_short,8.24e-51,169.6
+WP_011242366.1,1.2.1.75,Unknown,PF00106,A0A841L016,Polymorphobacter multimanifer,adh_short,8.24e-51,169.6
+WP_011242366.1,1.2.1.75,Unknown,PF00106,A0A0P8CE70,Porphyrobacter sp. HL-46,adh_short,8.24e-51,169.6
+WP_011242366.1,1.2.1.75,Unknown,PF13561,A0A7C2PIX3,Chloroflexus sp,adh_short_C2,4.43e-42,141.6
+WP_011242366.1,1.2.1.75,Unknown,PF13561,A0A841L016,Polymorphobacter multimanifer,adh_short_C2,4.43e-42,141.6
+WP_011243836.1,1.2.1.75,Unknown,PF00106,A0A7C2PIX3,Chloroflexus sp,adh_short,3.08e-30,102.4
+WP_011243836.1,1.2.1.75,Unknown,PF00106,A0A841L016,Polymorphobacter multimanifer,adh_short,3.08e-30,102.4
+WP_011243836.1,1.2.1.75,Unknown,PF00106,A0A0P8CE70,Porphyrobacter sp. HL-46,adh_short,3.08e-30,102.4
+WP_011243836.1,1.2.1.75,Unknown,PF13561,A0A7C2PIX3,Chloroflexus sp,adh_short_C2,9.79e-24,81.5
+WP_011243836.1,1.2.1.75,Unknown,PF13561,A0A841L016,Polymorphobacter multimanifer,adh_short_C2,9.79e-24,81.5
+WP_272948005.1,1.2.1.75,Unknown,PF00106,A0A7C2PIX3,Chloroflexus sp,adh_short,6.28e-21,72.1
+WP_272948005.1,1.2.1.75,Unknown,PF00106,A0A841L016,Polymorphobacter multimanifer,adh_short,6.28e-21,72.1
+WP_272948005.1,1.2.1.75,Unknown,PF00106,A0A0P8CE70,Porphyrobacter sp. HL-46,adh_short,6.28e-21,72.1
+WP_011378491.1,1.2.1.75,Unknown,PF00106,A0A7C2PIX3,Chloroflexus sp,adh_short,7.39e-21,71.8
+WP_011378491.1,1.2.1.75,Unknown,PF00106,A0A841L016,Polymorphobacter multimanifer,adh_short,7.39e-21,71.8
+WP_011378491.1,1.2.1.75,Unknown,PF00106,A0A0P8CE70,Porphyrobacter sp. HL-46,adh_short,7.39e-21,71.8
+WP_011378442.1,1.2.1.75,Unknown,PF00106,A0A7C2PIX3,Chloroflexus sp,adh_short,8.94e-20,68.3
+WP_011378442.1,1.2.1.75,Unknown,PF00106,A0A841L016,Polymorphobacter multimanifer,adh_short,8.94e-20,68.3
+WP_011378442.1,1.2.1.75,Unknown,PF00106,A0A0P8CE70,Porphyrobacter sp. HL-46,adh_short,8.94e-20,68.3
+WP_011378442.1,1.2.1.75,Unknown,PF13561,A0A7C2PIX3,Chloroflexus sp,adh_short_C2,1.31e-13,48.4
+WP_011378442.1,1.2.1.75,Unknown,PF13561,A0A841L016,Polymorphobacter multimanifer,adh_short_C2,1.31e-13,48.4
+WP_011378491.1,1.2.1.75,Unknown,PF13561,A0A7C2PIX3,Chloroflexus sp,adh_short_C2,7.9e-12,42.5
+WP_011378491.1,1.2.1.75,Unknown,PF13561,A0A841L016,Polymorphobacter multimanifer,adh_short_C2,7.9e-12,42.5
+WP_011242991.1,1.2.1.75,Unknown,PF00106,A0A7C2PIX3,Chloroflexus sp,adh_short,2.12e-09,34.4
+WP_011242991.1,1.2.1.75,Unknown,PF00106,A0A841L016,Polymorphobacter multimanifer,adh_short,2.12e-09,34.4
+WP_011242991.1,1.2.1.75,Unknown,PF00106,A0A0P8CE70,Porphyrobacter sp. HL-46,adh_short,2.12e-09,34.4
+WP_011243371.1,1.3.1.84,Probable acrylyl-CoA reductase AcuI,PF00107,P26646,Escherichia coli (strain K12),ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF00107,Q3J6K9,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF00107,Q5LS56,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,W8STS0,Escherichia coli,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A011MU65,Candidatus Accumulibacter sp. SK-11,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A011QQ95,Accumulibacter regalis,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A075FA83,uncultured bacterium pBIO2079,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A075FBN4,uncultured bacterium pBIO2155,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A080M4K5,Candidatus Accumulibacter cognatus,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A086IEV2,Klebsiella pneumoniae,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A087D151,Bifidobacterium pullorum subsp. saeculare DSM 6531 = LMG 14934,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A0D1EJI5,Jannaschia aquimarina,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A0M9EJ66,Shimia sp. SK013,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A0P1E3D3,Ruegeria atlantica,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A0P1ETB0,Shimia marina,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A0P1GJR3,Tritonibacter multivorans,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A0P1H922,Thalassovita mediterranea,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A0Q0JH92,Pseudoalteromonas sp. P1-26,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A128FFH4,Grimontia celer,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A128FKG7,Grimontia marina,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A142WSS2,Planctomyces sp. SH-PL14,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A1K0IPY6,Cupriavidus necator,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A1M4MV49,Donghicola eburneus,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A1M5Z5E9,Vibrio aerogenes CECT 7868,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Unknown,PF00107,A0A1Q2HZQ4,Corynebacterium glaucum,ADH_zinc_N,7.17e-26,88.0
+WP_011243371.1,1.3.1.84,Probable acrylyl-CoA reductase AcuI,PF08240,P26646,Escherichia coli (strain K12),ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF08240,Q3J6K9,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF08240,Q5LS56,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,W8STS0,Escherichia coli,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A011MU65,Candidatus Accumulibacter sp. SK-11,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A011QQ95,Accumulibacter regalis,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A075FA83,uncultured bacterium pBIO2079,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A075FBN4,uncultured bacterium pBIO2155,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A080M4K5,Candidatus Accumulibacter cognatus,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A086IEV2,Klebsiella pneumoniae,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A087D151,Bifidobacterium pullorum subsp. saeculare DSM 6531 = LMG 14934,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A0D1EJI5,Jannaschia aquimarina,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A0M9EJ66,Shimia sp. SK013,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A0P1E3D3,Ruegeria atlantica,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A0P1ETB0,Shimia marina,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A0P1GJR3,Tritonibacter multivorans,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A0P1H922,Thalassovita mediterranea,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A0Q0JH92,Pseudoalteromonas sp. P1-26,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A128FFH4,Grimontia celer,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A128FKG7,Grimontia marina,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A142WSS2,Planctomyces sp. SH-PL14,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A1K0IPY6,Cupriavidus necator,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A1M4MV49,Donghicola eburneus,ADH_N,6.87e-25,84.7
+WP_011243371.1,1.3.1.84,Unknown,PF08240,A0A1M5Z5E9,Vibrio aerogenes CECT 7868,ADH_N,6.87e-25,84.7
+WP_423218607.1,1.3.1.84,Probable acrylyl-CoA reductase AcuI,PF00107,P26646,Escherichia coli (strain K12),ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF00107,Q3J6K9,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF00107,Q5LS56,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,W8STS0,Escherichia coli,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A011MU65,Candidatus Accumulibacter sp. SK-11,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A011QQ95,Accumulibacter regalis,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A075FA83,uncultured bacterium pBIO2079,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A075FBN4,uncultured bacterium pBIO2155,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A080M4K5,Candidatus Accumulibacter cognatus,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A086IEV2,Klebsiella pneumoniae,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A087D151,Bifidobacterium pullorum subsp. saeculare DSM 6531 = LMG 14934,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A0D1EJI5,Jannaschia aquimarina,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A0M9EJ66,Shimia sp. SK013,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A0P1E3D3,Ruegeria atlantica,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A0P1ETB0,Shimia marina,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A0P1GJR3,Tritonibacter multivorans,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A0P1H922,Thalassovita mediterranea,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A0Q0JH92,Pseudoalteromonas sp. P1-26,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A128FFH4,Grimontia celer,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A128FKG7,Grimontia marina,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A142WSS2,Planctomyces sp. SH-PL14,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A1K0IPY6,Cupriavidus necator,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A1M4MV49,Donghicola eburneus,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A1M5Z5E9,Vibrio aerogenes CECT 7868,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Unknown,PF00107,A0A1Q2HZQ4,Corynebacterium glaucum,ADH_zinc_N,3.43e-24,82.6
+WP_423218607.1,1.3.1.84,Probable acrylyl-CoA reductase AcuI,PF08240,P26646,Escherichia coli (strain K12),ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF08240,Q3J6K9,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF08240,Q5LS56,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,W8STS0,Escherichia coli,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A011MU65,Candidatus Accumulibacter sp. SK-11,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A011QQ95,Accumulibacter regalis,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A075FA83,uncultured bacterium pBIO2079,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A075FBN4,uncultured bacterium pBIO2155,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A080M4K5,Candidatus Accumulibacter cognatus,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A086IEV2,Klebsiella pneumoniae,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A087D151,Bifidobacterium pullorum subsp. saeculare DSM 6531 = LMG 14934,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A0D1EJI5,Jannaschia aquimarina,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A0M9EJ66,Shimia sp. SK013,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A0P1E3D3,Ruegeria atlantica,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A0P1ETB0,Shimia marina,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A0P1GJR3,Tritonibacter multivorans,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A0P1H922,Thalassovita mediterranea,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A0Q0JH92,Pseudoalteromonas sp. P1-26,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A128FFH4,Grimontia celer,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A128FKG7,Grimontia marina,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A142WSS2,Planctomyces sp. SH-PL14,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A1K0IPY6,Cupriavidus necator,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A1M4MV49,Donghicola eburneus,ADH_N,2.27e-19,66.9
+WP_423218607.1,1.3.1.84,Unknown,PF08240,A0A1M5Z5E9,Vibrio aerogenes CECT 7868,ADH_N,2.27e-19,66.9
+WP_011377394.1,1.3.1.84,Probable acrylyl-CoA reductase AcuI,PF08240,P26646,Escherichia coli (strain K12),ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF08240,Q3J6K9,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF08240,Q5LS56,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,W8STS0,Escherichia coli,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A011MU65,Candidatus Accumulibacter sp. SK-11,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A011QQ95,Accumulibacter regalis,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A075FA83,uncultured bacterium pBIO2079,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A075FBN4,uncultured bacterium pBIO2155,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A080M4K5,Candidatus Accumulibacter cognatus,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A086IEV2,Klebsiella pneumoniae,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A087D151,Bifidobacterium pullorum subsp. saeculare DSM 6531 = LMG 14934,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A0D1EJI5,Jannaschia aquimarina,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A0M9EJ66,Shimia sp. SK013,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A0P1E3D3,Ruegeria atlantica,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A0P1ETB0,Shimia marina,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A0P1GJR3,Tritonibacter multivorans,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A0P1H922,Thalassovita mediterranea,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A0Q0JH92,Pseudoalteromonas sp. P1-26,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A128FFH4,Grimontia celer,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A128FKG7,Grimontia marina,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A142WSS2,Planctomyces sp. SH-PL14,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A1K0IPY6,Cupriavidus necator,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A1M4MV49,Donghicola eburneus,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Unknown,PF08240,A0A1M5Z5E9,Vibrio aerogenes CECT 7868,ADH_N,1.78e-17,60.8
+WP_011377394.1,1.3.1.84,Probable acrylyl-CoA reductase AcuI,PF00107,P26646,Escherichia coli (strain K12),ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF00107,Q3J6K9,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Acrylyl-CoA reductase AcuI,PF00107,Q5LS56,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,W8STS0,Escherichia coli,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A011MU65,Candidatus Accumulibacter sp. SK-11,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A011QQ95,Accumulibacter regalis,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A075FA83,uncultured bacterium pBIO2079,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A075FBN4,uncultured bacterium pBIO2155,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A080M4K5,Candidatus Accumulibacter cognatus,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A086IEV2,Klebsiella pneumoniae,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A087D151,Bifidobacterium pullorum subsp. saeculare DSM 6531 = LMG 14934,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A0D1EJI5,Jannaschia aquimarina,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A0M9EJ66,Shimia sp. SK013,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A0P1E3D3,Ruegeria atlantica,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A0P1ETB0,Shimia marina,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A0P1GJR3,Tritonibacter multivorans,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A0P1H922,Thalassovita mediterranea,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A0Q0JH92,Pseudoalteromonas sp. P1-26,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A128FFH4,Grimontia celer,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A128FKG7,Grimontia marina,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A142WSS2,Planctomyces sp. SH-PL14,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A1K0IPY6,Cupriavidus necator,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A1M4MV49,Donghicola eburneus,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A1M5Z5E9,Vibrio aerogenes CECT 7868,ADH_zinc_N,1.02e-12,45.5
+WP_011377394.1,1.3.1.84,Unknown,PF00107,A0A1Q2HZQ4,Corynebacterium glaucum,ADH_zinc_N,1.02e-12,45.5
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,1.74e-95,317.9
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P00363,Escherichia coli (strain K12),Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,P0AC41,Escherichia coli (strain K12),Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,P08065,Bacillus subtilis (strain 168),Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,V3TQ67,Serratia sp. (strain ATCC 39006),Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,G4V4G6,Serratia sp. (strain ATCC 39006),Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Succ_DH_flav_C,1.91e-32,109.3
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,P0AC47,Escherichia coli (strain K12),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,P07014,Escherichia coli (strain K12),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,P17596,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,P08066,Bacillus subtilis (strain 168),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,P0AC48,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,P0AC50,Shigella flexneri,Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,P20921,Proteus vulgaris,Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,P0AC49,Escherichia coli O157:H7,Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,Q4UN71,Rickettsia felis (strain ATCC VR-1525 / URRWXCal2),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,Q8ZQU2,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,P51053,Coxiella burnetii (strain RSA 493 / Nine Mile phase I),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,Q1RGP3,Rickettsia bellii (strain RML369-C),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,Q9ZEA1,Rickettsia prowazekii (strain Madrid E),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,Q68XS0,Rickettsia typhi (strain ATCC VR-144 / Wilmington),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,Q92JJ8,Rickettsia conorii (strain ATCC VR-613 / Malish 7),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,P9WN89,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Fer2_3,6e-22,75.0
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P00363,Escherichia coli (strain K12),Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,P0AC41,Escherichia coli (strain K12),Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,P08065,Bacillus subtilis (strain 168),Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,V3TQ67,Serratia sp. (strain ATCC 39006),Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,G4V4G6,Serratia sp. (strain ATCC 39006),Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Succ_DH_flav_C,2.38e-17,60.4
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P17596,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),Fer4_8,1.39e-14,51.7
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,P08066,Bacillus subtilis (strain 168),Fer4_8,1.39e-14,51.7
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P9WN89,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Fer4_8,1.39e-14,51.7
+WP_011378159.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,9.49e-13,45.4
+WP_011377880.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,1.33e-10,38.3
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC47,Escherichia coli (strain K12),Fer4_10,1.72e-10,38.0
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC48,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Fer4_10,1.72e-10,38.0
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC50,Shigella flexneri,Fer4_10,1.72e-10,38.0
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P20921,Proteus vulgaris,Fer4_10,1.72e-10,38.0
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC49,Escherichia coli O157:H7,Fer4_10,1.72e-10,38.0
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,P07014,Escherichia coli (strain K12),Fer4_17,4.83e-10,37.2
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q4UN71,Rickettsia felis (strain ATCC VR-1525 / URRWXCal2),Fer4_17,4.83e-10,37.2
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q8ZQU2,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),Fer4_17,4.83e-10,37.2
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,P51053,Coxiella burnetii (strain RSA 493 / Nine Mile phase I),Fer4_17,4.83e-10,37.2
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q1RGP3,Rickettsia bellii (strain RML369-C),Fer4_17,4.83e-10,37.2
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q9ZEA1,Rickettsia prowazekii (strain Madrid E),Fer4_17,4.83e-10,37.2
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q68XS0,Rickettsia typhi (strain ATCC VR-144 / Wilmington),Fer4_17,4.83e-10,37.2
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q92JJ8,Rickettsia conorii (strain ATCC VR-613 / Malish 7),Fer4_17,4.83e-10,37.2
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC47,Escherichia coli (strain K12),Fer4_10,5.63e-10,36.4
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC48,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Fer4_10,5.63e-10,36.4
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC50,Shigella flexneri,Fer4_10,5.63e-10,36.4
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P20921,Proteus vulgaris,Fer4_10,5.63e-10,36.4
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC49,Escherichia coli O157:H7,Fer4_10,5.63e-10,36.4
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC47,Escherichia coli (strain K12),Fer4_10,2.03e-09,34.6
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC48,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Fer4_10,2.03e-09,34.6
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC50,Shigella flexneri,Fer4_10,2.03e-09,34.6
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P20921,Proteus vulgaris,Fer4_10,2.03e-09,34.6
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC49,Escherichia coli O157:H7,Fer4_10,2.03e-09,34.6
+WP_011243298.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC47,Escherichia coli (strain K12),Fer4_10,3.68e-09,33.7
+WP_011243298.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC48,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Fer4_10,3.68e-09,33.7
+WP_011243298.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC50,Shigella flexneri,Fer4_10,3.68e-09,33.7
+WP_011243298.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P20921,Proteus vulgaris,Fer4_10,3.68e-09,33.7
+WP_011243298.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC49,Escherichia coli O157:H7,Fer4_10,3.68e-09,33.7
+WP_011377549.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,4.01e-09,33.4
+WP_011244273.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC47,Escherichia coli (strain K12),Fer4_10,6.21e-09,33.0
+WP_011244273.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC48,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Fer4_10,6.21e-09,33.0
+WP_011244273.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC50,Shigella flexneri,Fer4_10,6.21e-09,33.0
+WP_011244273.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P20921,Proteus vulgaris,Fer4_10,6.21e-09,33.0
+WP_011244273.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC49,Escherichia coli O157:H7,Fer4_10,6.21e-09,33.0
+WP_011243037.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC47,Escherichia coli (strain K12),Fer4_10,9.09e-09,32.5
+WP_011243037.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC48,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Fer4_10,9.09e-09,32.5
+WP_011243037.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC50,Shigella flexneri,Fer4_10,9.09e-09,32.5
+WP_011243037.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P20921,Proteus vulgaris,Fer4_10,9.09e-09,32.5
+WP_011243037.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC49,Escherichia coli O157:H7,Fer4_10,9.09e-09,32.5
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P17596,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),Fer4_8,2.43e-08,31.7
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,P08066,Bacillus subtilis (strain 168),Fer4_8,2.43e-08,31.7
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P9WN89,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Fer4_8,2.43e-08,31.7
+WP_011244229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,3.57e-08,30.3
+WP_011377934.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,4.96e-08,29.8
+WP_011242885.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,6.97e-08,29.3
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P17596,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),Fer4_8,7.97e-08,30.1
+WP_011242523.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,P08066,Bacillus subtilis (strain 168),Fer4_8,7.97e-08,30.1
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P9WN89,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Fer4_8,7.97e-08,30.1
+WP_011378298.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,8.93e-08,29.0
+WP_011242908.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,1.68e-07,28.1
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,P07014,Escherichia coli (strain K12),Fer4_17,1.93e-07,28.9
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q4UN71,Rickettsia felis (strain ATCC VR-1525 / URRWXCal2),Fer4_17,1.93e-07,28.9
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q8ZQU2,Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720),Fer4_17,1.93e-07,28.9
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,P51053,Coxiella burnetii (strain RSA 493 / Nine Mile phase I),Fer4_17,1.93e-07,28.9
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q1RGP3,Rickettsia bellii (strain RML369-C),Fer4_17,1.93e-07,28.9
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q9ZEA1,Rickettsia prowazekii (strain Madrid E),Fer4_17,1.93e-07,28.9
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q68XS0,Rickettsia typhi (strain ATCC VR-144 / Wilmington),Fer4_17,1.93e-07,28.9
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,Q92JJ8,Rickettsia conorii (strain ATCC VR-613 / Malish 7),Fer4_17,1.93e-07,28.9
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC47,Escherichia coli (strain K12),Fer4_10,2.36e-07,28.0
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC48,Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC),Fer4_10,2.36e-07,28.0
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC50,Shigella flexneri,Fer4_10,2.36e-07,28.0
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P20921,Proteus vulgaris,Fer4_10,2.36e-07,28.0
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13237,P0AC49,Escherichia coli O157:H7,Fer4_10,2.36e-07,28.0
+WP_011377912.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,3.82e-07,26.9
+WP_011242552.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,7.12e-07,26.0
+WP_011243397.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,7.28e-07,26.0
+WP_011242603.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,1.04e-06,25.5
+WP_011378061.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,2.11e-06,24.5
+WP_011377457.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,2.22e-06,24.4
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P17596,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),Fer4_8,2.52e-06,25.3
+WP_011378437.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,P08066,Bacillus subtilis (strain 168),Fer4_8,2.52e-06,25.3
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P9WN89,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Fer4_8,2.52e-06,25.3
+WP_011243324.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,3.07e-06,23.9
+WP_407830100.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,3.6e-06,23.7
+WP_011378455.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P00363,Escherichia coli (strain K12),FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P0AC41,Escherichia coli (strain K12),FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P17412,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P08065,Bacillus subtilis (strain 168),FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,V3TQ67,Serratia sp. (strain ATCC 39006),FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,G4V4G6,Serratia sp. (strain ATCC 39006),FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P44894,Haemophilus influenzae (strain ATCC 51907 / DSM 11121 / KW20 / Rd),FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN90,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,P9WN91,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FAD_binding_2,4.76e-06,23.3
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P17596,Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / CCUG 13145 / JCM 31913 / LMG 7466 / NCTC 11488 / FDC 602W),Fer4_8,5.06e-06,24.3
+WP_011378517.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,P08066,Bacillus subtilis (strain 168),Fer4_8,5.06e-06,24.3
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,P9WN89,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Fer4_8,5.06e-06,24.3
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A0C3N2C6,Thauera sp. SWB20,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A1K0JS59,Cupriavidus necator,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A1N7RIN3,Paraburkholderia piptadeniae,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A212KTX1,Chlamydiales bacterium SCGC AG-110-M15,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A2C9ELK2,Pseudomonas protegens (strain DSM 19095 / LMG 27888 / CFBP 6595 / CHA0),ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A2C9EN16,Pseudomonas protegens (strain DSM 19095 / LMG 27888 / CFBP 6595 / CHA0),ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A2C9ER07,Pseudomonas protegens (strain DSM 19095 / LMG 27888 / CFBP 6595 / CHA0),ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A2N9LXM6,Candidatus Sulfopaludibacter sp. SbA3,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A2U3L474,Syntrophobacter sp. SbD1,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A2U3LKQ2,Candidatus Sulfopaludibacter sp. SbA4,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A375CQ16,Cupriavidus taiwanensis,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A383RSW4,Pseudomonas reidholzensis,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A449II58,Pseudomonas fragi,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A653T385,Luteimonas sp. 9C,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A7W9L2Q8,Prosthecomicrobium pneumaticum,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A975X566,Cupriavidus taiwanensis,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A976A3J4,Cupriavidus taiwanensis,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0AAX3FQP2,Pseudomonas chlororaphis,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,F8GWY7,Cupriavidus necator (strain ATCC 43291 / DSM 13513 / CCUG 52238 / LMG 8453 / N-1),ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,S0FV53,Desulfotignum phosphitoxidans DSM 13687,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A066PRP3,Acidiphilium sp. JA12-A1,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A0T6AEQ9,Candidatus Rokubacteria bacterium CSP1-6,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A1S2NAB7,Massilia timonae,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A248UIT7,Ochrobactrum quorumnocens,ECH_1,3.33e-74,246.7
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A256F3L6,Brucella rhizosphaerae,ECH_1,3.33e-74,246.7
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,P05042,Escherichia coli (strain K12),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,P9WN93,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,P95331,Myxococcus xanthus (strain DK1622),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q92PB6,Rhizobium meliloti (strain 1021),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II 2,PF00206,P28894,Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q9ZCQ4,Rickettsia prowazekii (strain Madrid E),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II 2,PF00206,Q51404,Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,P07343,Bacillus subtilis (strain 168),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,O25883,Helicobacter pylori (strain ATCC 700392 / 26695),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,P64172,Staphylococcus aureus (strain Mu50 / ATCC 700699),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,P9WN92,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7V024,Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7VR50,Blochmanniella floridana,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7WG65,Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q81F85,Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q83CL8,Coxiella burnetii (strain RSA 493 / Nine Mile phase I),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q88M20,Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II 1,PF00206,Q89XM2,Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8D2L3,Wigglesworthia glossinidia brevipalpis,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8F9L0,Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8FQP8,Corynebacterium efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 11189 / NBRC 100395),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8YB50,Brucella melitensis biotype 1 (strain ATCC 23456 / CCUG 17765 / NCTC 10094 / 16M),Lyase_1,6.29e-109,361.4
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,P05042,Escherichia coli (strain K12),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,P9WN93,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,P95331,Myxococcus xanthus (strain DK1622),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q92PB6,Rhizobium meliloti (strain 1021),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II 2,PF00206,P28894,Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q9ZCQ4,Rickettsia prowazekii (strain Madrid E),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II 2,PF00206,Q51404,Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,P07343,Bacillus subtilis (strain 168),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,O25883,Helicobacter pylori (strain ATCC 700392 / 26695),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,P64172,Staphylococcus aureus (strain Mu50 / ATCC 700699),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,P9WN92,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7V024,Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7VR50,Blochmanniella floridana,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7WG65,Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q81F85,Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q83CL8,Coxiella burnetii (strain RSA 493 / Nine Mile phase I),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q88M20,Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II 1,PF00206,Q89XM2,Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8D2L3,Wigglesworthia glossinidia brevipalpis,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8F9L0,Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8FQP8,Corynebacterium efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 11189 / NBRC 100395),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8YB50,Brucella melitensis biotype 1 (strain ATCC 23456 / CCUG 17765 / NCTC 10094 / 16M),Lyase_1,1.53e-77,258.3
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,P05042,Escherichia coli (strain K12),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,P9WN93,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,P95331,Myxococcus xanthus (strain DK1622),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q92PB6,Rhizobium meliloti (strain 1021),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II 2,PF00206,P28894,Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q9ZCQ4,Rickettsia prowazekii (strain Madrid E),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II 2,PF00206,Q51404,Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,P07343,Bacillus subtilis (strain 168),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,O25883,Helicobacter pylori (strain ATCC 700392 / 26695),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,P64172,Staphylococcus aureus (strain Mu50 / ATCC 700699),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,P9WN92,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7V024,Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7VR50,Blochmanniella floridana,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7WG65,Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q81F85,Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q83CL8,Coxiella burnetii (strain RSA 493 / Nine Mile phase I),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q88M20,Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II 1,PF00206,Q89XM2,Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8D2L3,Wigglesworthia glossinidia brevipalpis,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8F9L0,Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8FQP8,Corynebacterium efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 11189 / NBRC 100395),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8YB50,Brucella melitensis biotype 1 (strain ATCC 23456 / CCUG 17765 / NCTC 10094 / 16M),Lyase_1,1.08e-62,209.6
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,P05042,Escherichia coli (strain K12),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,P9WN93,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,P95331,Myxococcus xanthus (strain DK1622),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q92PB6,Rhizobium meliloti (strain 1021),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II 2,PF10415,P28894,Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q9ZCQ4,Rickettsia prowazekii (strain Madrid E),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II 2,PF10415,Q51404,Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,P07343,Bacillus subtilis (strain 168),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,O25883,Helicobacter pylori (strain ATCC 700392 / 26695),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,P64172,Staphylococcus aureus (strain Mu50 / ATCC 700699),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,P9WN92,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q7V024,Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q7VR50,Blochmanniella floridana,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q7WG65,Bordetella bronchiseptica (strain ATCC BAA-588 / NCTC 13252 / RB50),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q81F85,Bacillus cereus (strain ATCC 14579 / DSM 31 / CCUG 7414 / JCM 2152 / NBRC 15305 / NCIMB 9373 / NCTC 2599 / NRRL B-3711),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q83CL8,Coxiella burnetii (strain RSA 493 / Nine Mile phase I),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q88M20,Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II 1,PF10415,Q89XM2,Bradyrhizobium diazoefficiens (strain JCM 10833 / BCRC 13528 / IAM 13628 / NBRC 14792 / USDA 110),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q8D2L3,Wigglesworthia glossinidia brevipalpis,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q8F9L0,Leptospira interrogans serogroup Icterohaemorrhagiae serovar Lai (strain 56601),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q8FQP8,Corynebacterium efficiens (strain DSM 44549 / YS-314 / AJ 12310 / JCM 11189 / NBRC 100395),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q8YB50,Brucella melitensis biotype 1 (strain ATCC 23456 / CCUG 17765 / NCTC 10094 / 16M),FumaraseC_C,6.14e-23,78.4
+WP_011243199.1,5.1.99.1,Ethylmalonyl-CoA/methylmalonyl-CoA epimerase,PF13669,Q3IZP4,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A0P7IIS4,Aliiroseovarius crassostreae,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A132BZZ3,Tritonibacter horizontis,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A177HBW5,Rhodobacteraceae bacterium SB2,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A179BXI2,Rhizobium leguminosarum,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1E2S1X0,Methyloligella halotolerans,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1V1UDV7,Roseovarius sp. A-2,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1V1UKY7,Roseovarius sp. A-2,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1X6YJB1,Roseivivax jejudonensis,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1X6ZNK2,Roseovarius gaetbuli,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5S0J0,Falsiruegeria litorea R37,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5SMY4,Pseudoruegeria aquimaris,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5SRB9,Pseudooctadecabacter jejudonensis,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5T750,Palleronia marisminoris,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A212A8H4,Haematobacter genomosp. 1,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A291GH01,Celeribacter ethanolicus,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A3B0A9,Mesorhizobium sp. WSM4313,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A3D8R5,Mesorhizobium sp. WSM3860,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A4LEY5,Alphaproteobacteria bacterium,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A4Q9P2,Paracoccaceae bacterium,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A5EPV1,Rhodobiaceae bacterium,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A6FDF7,Mesorhizobium sanjuanii,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A6JFG4,Rhizobium chutanense,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2D5QEG5,Porticoccus sp,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2D6CQX7,Acidiferrobacteraceae bacterium,Glyoxalase_4,1.07e-09,35.9
+WP_011377628.1,5.1.99.1,Ethylmalonyl-CoA/methylmalonyl-CoA epimerase,PF13669,Q3IZP4,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A0P7IIS4,Aliiroseovarius crassostreae,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A132BZZ3,Tritonibacter horizontis,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A177HBW5,Rhodobacteraceae bacterium SB2,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A179BXI2,Rhizobium leguminosarum,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1E2S1X0,Methyloligella halotolerans,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1V1UDV7,Roseovarius sp. A-2,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1V1UKY7,Roseovarius sp. A-2,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1X6YJB1,Roseivivax jejudonensis,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1X6ZNK2,Roseovarius gaetbuli,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5S0J0,Falsiruegeria litorea R37,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5SMY4,Pseudoruegeria aquimaris,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5SRB9,Pseudooctadecabacter jejudonensis,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5T750,Palleronia marisminoris,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A212A8H4,Haematobacter genomosp. 1,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A291GH01,Celeribacter ethanolicus,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A3B0A9,Mesorhizobium sp. WSM4313,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A3D8R5,Mesorhizobium sp. WSM3860,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A4LEY5,Alphaproteobacteria bacterium,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A4Q9P2,Paracoccaceae bacterium,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A5EPV1,Rhodobiaceae bacterium,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A6FDF7,Mesorhizobium sanjuanii,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A6JFG4,Rhizobium chutanense,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2D5QEG5,Porticoccus sp,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2D6CQX7,Acidiferrobacteraceae bacterium,Glyoxalase_4,1.69e-09,35.3
+WP_011242427.1,5.1.99.1,Ethylmalonyl-CoA/methylmalonyl-CoA epimerase,PF13669,Q3IZP4,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A0P7IIS4,Aliiroseovarius crassostreae,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A132BZZ3,Tritonibacter horizontis,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A177HBW5,Rhodobacteraceae bacterium SB2,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A179BXI2,Rhizobium leguminosarum,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1E2S1X0,Methyloligella halotolerans,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1V1UDV7,Roseovarius sp. A-2,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1V1UKY7,Roseovarius sp. A-2,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1X6YJB1,Roseivivax jejudonensis,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1X6ZNK2,Roseovarius gaetbuli,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5S0J0,Falsiruegeria litorea R37,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5SMY4,Pseudoruegeria aquimaris,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5SRB9,Pseudooctadecabacter jejudonensis,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A1Y5T750,Palleronia marisminoris,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A212A8H4,Haematobacter genomosp. 1,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A291GH01,Celeribacter ethanolicus,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A3B0A9,Mesorhizobium sp. WSM4313,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A3D8R5,Mesorhizobium sp. WSM3860,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A4LEY5,Alphaproteobacteria bacterium,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A4Q9P2,Paracoccaceae bacterium,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A5EPV1,Rhodobiaceae bacterium,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A6FDF7,Mesorhizobium sanjuanii,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2A6JFG4,Rhizobium chutanense,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2D5QEG5,Porticoccus sp,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,methylmalonyl-CoA epimerase,PF13669,A0A2D6CQX7,Acidiferrobacteraceae bacterium,Glyoxalase_4,4.94e-07,27.3
+WP_011242415.1,5.4.1.3,Unknown,PF00108,A0A369Q272,Alteripontixanthobacter maritimus,Thiolase_N,9.03e-08,29.1
+WP_011378007.1,5.4.99.2,Methylmalonyl-CoA mutase,PF02310,O86028,Rhizobium meliloti (strain 1021),B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Methylmalonyl-CoA mutase large subunit,PF02310,P11653,Propionibacterium freudenreichii subsp. shermanii,B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Methylmalonyl-CoA mutase,PF02310,P27253,Escherichia coli (strain K12),B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Methylmalonyl-CoA mutase large subunit,PF02310,Q05065,Streptomyces virginiae,B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,P9WJK4,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Methylmalonyl-CoA mutase,PF02310,Q3J4D7,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Methylmalonyl-CoA mutase large subunit,PF02310,Q59677,Porphyromonas gingivalis (strain ATCC BAA-308 / W83),B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,P65488,Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97),B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,P9WJK5,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A132PRX6,Mycolicibacterium wolinskyi,B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A3G6J6L8,Corynebacterium choanae,B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A7I7U8X2,Mycolicibacterium parafortuitum,B12-binding,4.78e-19,65.7
+WP_011378007.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A4P7RKT2,Rhodococcus sp. PAMC28705,B12-binding,4.78e-19,65.7
+WP_011242392.1,5.4.99.2,Methylmalonyl-CoA mutase,PF02310,O86028,Rhizobium meliloti (strain 1021),B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Methylmalonyl-CoA mutase large subunit,PF02310,P11653,Propionibacterium freudenreichii subsp. shermanii,B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Methylmalonyl-CoA mutase,PF02310,P27253,Escherichia coli (strain K12),B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Methylmalonyl-CoA mutase large subunit,PF02310,Q05065,Streptomyces virginiae,B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,P9WJK4,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Methylmalonyl-CoA mutase,PF02310,Q3J4D7,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Methylmalonyl-CoA mutase large subunit,PF02310,Q59677,Porphyromonas gingivalis (strain ATCC BAA-308 / W83),B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,P65488,Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97),B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,P9WJK5,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A132PRX6,Mycolicibacterium wolinskyi,B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A3G6J6L8,Corynebacterium choanae,B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A7I7U8X2,Mycolicibacterium parafortuitum,B12-binding,3.01e-13,47.0
+WP_011242392.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A4P7RKT2,Rhodococcus sp. PAMC28705,B12-binding,3.01e-13,47.0
+WP_039755810.1,5.4.99.2,Methylmalonyl-CoA mutase,PF02310,O86028,Rhizobium meliloti (strain 1021),B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Methylmalonyl-CoA mutase large subunit,PF02310,P11653,Propionibacterium freudenreichii subsp. shermanii,B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Methylmalonyl-CoA mutase,PF02310,P27253,Escherichia coli (strain K12),B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Methylmalonyl-CoA mutase large subunit,PF02310,Q05065,Streptomyces virginiae,B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,P9WJK4,Mycobacterium tuberculosis (strain CDC 1551 / Oshkosh),B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Methylmalonyl-CoA mutase,PF02310,Q3J4D7,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Methylmalonyl-CoA mutase large subunit,PF02310,Q59677,Porphyromonas gingivalis (strain ATCC BAA-308 / W83),B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,P65488,Mycobacterium bovis (strain ATCC BAA-935 / AF2122/97),B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,P9WJK5,Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv),B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A132PRX6,Mycolicibacterium wolinskyi,B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A3G6J6L8,Corynebacterium choanae,B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A7I7U8X2,Mycolicibacterium parafortuitum,B12-binding,2.96e-06,24.4
+WP_039755810.1,5.4.99.2,Probable methylmalonyl-CoA mutase large subunit,PF02310,A0A4P7RKT2,Rhodococcus sp. PAMC28705,B12-binding,2.96e-06,24.4
+WP_011242365.1,6.4.1.2,Unknown,PF03255,A0A089RU72,Ligilactobacillus salivarius,ACCA,3.39e-143,473.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A024JXA5,Mycobacterium triplex,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A081B9D4,Tepidicaulis marinus,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0C4YE17,Cupriavidus basilensis,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0F0FR67,Burkholderiaceae bacterium 16,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0H2ZVE2,Mycobacterium avium (strain 104),CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0K2YFF3,Rhodococcus sp. RD6.2,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q4S3E8,Acidovorax sp. Leaf78,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q7LJE7,Variovorax sp. Root473,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q8GZ95,Pelomonas sp. Root662,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A109W246,Actinomyces radicidentis,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2SY04,Mycobacterium mantenii,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3L2R8,Mycobacterium asiaticum,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3Q366,Mycobacterium sp. 1245111.1,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B9DE01,Mycobacterium malmoense,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H1VAA8,Halopseudomonas litoralis,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H2E0D0,Pseudomonas pohangensis,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H3EUD3,Delftia lacustris,CPSase_L_D2,6.47e-113,372.7
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A024JXA5,Mycobacterium triplex,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A081B9D4,Tepidicaulis marinus,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0C4YE17,Cupriavidus basilensis,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0F0FR67,Burkholderiaceae bacterium 16,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0H2ZVE2,Mycobacterium avium (strain 104),CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0K2YFF3,Rhodococcus sp. RD6.2,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q4S3E8,Acidovorax sp. Leaf78,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q7LJE7,Variovorax sp. Root473,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q8GZ95,Pelomonas sp. Root662,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A109W246,Actinomyces radicidentis,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2SY04,Mycobacterium mantenii,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3L2R8,Mycobacterium asiaticum,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3Q366,Mycobacterium sp. 1245111.1,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B9DE01,Mycobacterium malmoense,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H1VAA8,Halopseudomonas litoralis,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H2E0D0,Pseudomonas pohangensis,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H3EUD3,Delftia lacustris,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A024JXA5,Mycobacterium triplex,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A081B9D4,Tepidicaulis marinus,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A0C4YE17,Cupriavidus basilensis,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A0F0FR67,Burkholderiaceae bacterium 16,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A0H2ZVE2,Mycobacterium avium (strain 104),Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A0K2YFF3,Rhodococcus sp. RD6.2,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A0Q4S3E8,Acidovorax sp. Leaf78,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A0Q7LJE7,Variovorax sp. Root473,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A0Q8GZ95,Pelomonas sp. Root662,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A109W246,Actinomyces radicidentis,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1A2SY04,Mycobacterium mantenii,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1A3L2R8,Mycobacterium asiaticum,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1A3Q366,Mycobacterium sp. 1245111.1,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1B9DE01,Mycobacterium malmoense,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1H1VAA8,Halopseudomonas litoralis,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1H2E0D0,Pseudomonas pohangensis,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF00289,A0A1H3EUD3,Delftia lacustris,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A024JXA5,Mycobacterium triplex,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A081B9D4,Tepidicaulis marinus,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A0C4YE17,Cupriavidus basilensis,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A0F0FR67,Burkholderiaceae bacterium 16,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A0H2ZVE2,Mycobacterium avium (strain 104),Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A0K2YFF3,Rhodococcus sp. RD6.2,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A0Q4S3E8,Acidovorax sp. Leaf78,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A0Q7LJE7,Variovorax sp. Root473,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A0Q8GZ95,Pelomonas sp. Root662,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A109W246,Actinomyces radicidentis,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1A2SY04,Mycobacterium mantenii,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1A3L2R8,Mycobacterium asiaticum,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1A3Q366,Mycobacterium sp. 1245111.1,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1B9DE01,Mycobacterium malmoense,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1H1VAA8,Halopseudomonas litoralis,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1H2E0D0,Pseudomonas pohangensis,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.2,acetyl-CoA carboxylase,PF02785,A0A1H3EUD3,Delftia lacustris,Biotin_carb_C,5.41e-42,139.6
+WP_011244596.1,6.4.1.2,acetyl-CoA carboxylase,PF00293,A0A109W246,Actinomyces radicidentis,NUDIX,2.06e-25,86.6
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A024JXA5,Mycobacterium triplex,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A081B9D4,Tepidicaulis marinus,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0C4YE17,Cupriavidus basilensis,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0F0FR67,Burkholderiaceae bacterium 16,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0H2ZVE2,Mycobacterium avium (strain 104),Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0K2YFF3,Rhodococcus sp. RD6.2,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0Q4S3E8,Acidovorax sp. Leaf78,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0Q7LJE7,Variovorax sp. Root473,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0Q8GZ95,Pelomonas sp. Root662,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A109W246,Actinomyces radicidentis,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A2SY04,Mycobacterium mantenii,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A3L2R8,Mycobacterium asiaticum,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A3Q366,Mycobacterium sp. 1245111.1,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1B9DE01,Mycobacterium malmoense,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1H1VAA8,Halopseudomonas litoralis,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1H2E0D0,Pseudomonas pohangensis,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1H3EUD3,Delftia lacustris,Biotin_lipoyl,1.66e-24,82.8
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A024JXA5,Mycobacterium triplex,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A081B9D4,Tepidicaulis marinus,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0C4YE17,Cupriavidus basilensis,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0F0FR67,Burkholderiaceae bacterium 16,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0H2ZVE2,Mycobacterium avium (strain 104),Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0K2YFF3,Rhodococcus sp. RD6.2,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A0M9IQ22,Enterobacter cloacae,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0Q4S3E8,Acidovorax sp. Leaf78,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0Q7LJE7,Variovorax sp. Root473,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0Q8GZ95,Pelomonas sp. Root662,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A109W246,Actinomyces radicidentis,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A150LBU0,Saccharococcus caldoxylosilyticus,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A2SY04,Mycobacterium mantenii,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A3L2R8,Mycobacterium asiaticum,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A3Q366,Mycobacterium sp. 1245111.1,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A1B1NAJ3,Serinicoccus hydrothermalis,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1B9DE01,Mycobacterium malmoense,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A1D7W3F7,Brevibacterium aurantiacum,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1H1VAA8,Halopseudomonas litoralis,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1H2E0D0,Pseudomonas pohangensis,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1H3EUD3,Delftia lacustris,Carboxyl_trans,1.49e-21,73.9
+WP_011243168.1,6.4.1.2,acetyl-CoA carboxylase,PF00293,A0A109W246,Actinomyces radicidentis,NUDIX,3.61e-21,72.9
+WP_011244138.1,6.4.1.2,acetyl-CoA carboxylase,PF00293,A0A109W246,Actinomyces radicidentis,NUDIX,2.71e-20,70.1
+WP_011377492.1,6.4.1.2,acetyl-CoA carboxylase,PF00293,A0A109W246,Actinomyces radicidentis,NUDIX,4.12e-20,69.5
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A024JXA5,Mycobacterium triplex,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A081B9D4,Tepidicaulis marinus,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0C4YE17,Cupriavidus basilensis,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0F0FR67,Burkholderiaceae bacterium 16,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0H2ZVE2,Mycobacterium avium (strain 104),Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0K2YFF3,Rhodococcus sp. RD6.2,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0Q4S3E8,Acidovorax sp. Leaf78,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0Q7LJE7,Variovorax sp. Root473,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0Q8GZ95,Pelomonas sp. Root662,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A109W246,Actinomyces radicidentis,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A2SY04,Mycobacterium mantenii,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A3L2R8,Mycobacterium asiaticum,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A3Q366,Mycobacterium sp. 1245111.1,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1B9DE01,Mycobacterium malmoense,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1H1VAA8,Halopseudomonas litoralis,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1H2E0D0,Pseudomonas pohangensis,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1H3EUD3,Delftia lacustris,Biotin_lipoyl,7.06e-18,61.6
+WP_011377412.1,6.4.1.2,acetyl-CoA carboxylase,PF00293,A0A109W246,Actinomyces radicidentis,NUDIX,6.25e-14,49.5
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A024JXA5,Mycobacterium triplex,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A081B9D4,Tepidicaulis marinus,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0C4YE17,Cupriavidus basilensis,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0F0FR67,Burkholderiaceae bacterium 16,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0H2ZVE2,Mycobacterium avium (strain 104),CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0K2YFF3,Rhodococcus sp. RD6.2,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q4S3E8,Acidovorax sp. Leaf78,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q7LJE7,Variovorax sp. Root473,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q8GZ95,Pelomonas sp. Root662,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A109W246,Actinomyces radicidentis,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2SY04,Mycobacterium mantenii,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3L2R8,Mycobacterium asiaticum,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3Q366,Mycobacterium sp. 1245111.1,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B9DE01,Mycobacterium malmoense,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H1VAA8,Halopseudomonas litoralis,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H2E0D0,Pseudomonas pohangensis,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H3EUD3,Delftia lacustris,CPSase_L_D2,1.2e-12,45.1
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A024JXA5,Mycobacterium triplex,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A081B9D4,Tepidicaulis marinus,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0C4YE17,Cupriavidus basilensis,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0F0FR67,Burkholderiaceae bacterium 16,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0H2ZVE2,Mycobacterium avium (strain 104),Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0K2YFF3,Rhodococcus sp. RD6.2,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A0M9IQ22,Enterobacter cloacae,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0Q4S3E8,Acidovorax sp. Leaf78,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0Q7LJE7,Variovorax sp. Root473,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A0Q8GZ95,Pelomonas sp. Root662,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A109W246,Actinomyces radicidentis,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A150LBU0,Saccharococcus caldoxylosilyticus,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A2SY04,Mycobacterium mantenii,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A3L2R8,Mycobacterium asiaticum,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1A3Q366,Mycobacterium sp. 1245111.1,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A1B1NAJ3,Serinicoccus hydrothermalis,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1B9DE01,Mycobacterium malmoense,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A1D7W3F7,Brevibacterium aurantiacum,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1H1VAA8,Halopseudomonas litoralis,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1H2E0D0,Pseudomonas pohangensis,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,acetyl-CoA carboxylase,PF01039,A0A1H3EUD3,Delftia lacustris,Carboxyl_trans,1.04e-11,41.4
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A024JXA5,Mycobacterium triplex,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A081B9D4,Tepidicaulis marinus,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0C4YE17,Cupriavidus basilensis,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0F0FR67,Burkholderiaceae bacterium 16,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0H2ZVE2,Mycobacterium avium (strain 104),CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0K2YFF3,Rhodococcus sp. RD6.2,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q4S3E8,Acidovorax sp. Leaf78,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q7LJE7,Variovorax sp. Root473,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q8GZ95,Pelomonas sp. Root662,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A109W246,Actinomyces radicidentis,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2SY04,Mycobacterium mantenii,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3L2R8,Mycobacterium asiaticum,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3Q366,Mycobacterium sp. 1245111.1,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B9DE01,Mycobacterium malmoense,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H1VAA8,Halopseudomonas litoralis,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H2E0D0,Pseudomonas pohangensis,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H3EUD3,Delftia lacustris,CPSase_L_D2,5.05e-09,33.3
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A024JXA5,Mycobacterium triplex,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A081B9D4,Tepidicaulis marinus,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0C4YE17,Cupriavidus basilensis,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0F0FR67,Burkholderiaceae bacterium 16,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0H2ZVE2,Mycobacterium avium (strain 104),CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0K2YFF3,Rhodococcus sp. RD6.2,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q4S3E8,Acidovorax sp. Leaf78,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q7LJE7,Variovorax sp. Root473,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q8GZ95,Pelomonas sp. Root662,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A109W246,Actinomyces radicidentis,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2SY04,Mycobacterium mantenii,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3L2R8,Mycobacterium asiaticum,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3Q366,Mycobacterium sp. 1245111.1,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B9DE01,Mycobacterium malmoense,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H1VAA8,Halopseudomonas litoralis,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H2E0D0,Pseudomonas pohangensis,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H3EUD3,Delftia lacustris,CPSase_L_D2,3.76e-08,30.4
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A024JXA5,Mycobacterium triplex,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A081B9D4,Tepidicaulis marinus,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0C4YE17,Cupriavidus basilensis,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0F0FR67,Burkholderiaceae bacterium 16,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0H2ZVE2,Mycobacterium avium (strain 104),CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0K2YFF3,Rhodococcus sp. RD6.2,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q4S3E8,Acidovorax sp. Leaf78,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q7LJE7,Variovorax sp. Root473,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A0Q8GZ95,Pelomonas sp. Root662,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A109W246,Actinomyces radicidentis,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A2SY04,Mycobacterium mantenii,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3L2R8,Mycobacterium asiaticum,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1A3Q366,Mycobacterium sp. 1245111.1,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1B9DE01,Mycobacterium malmoense,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H1VAA8,Halopseudomonas litoralis,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H2E0D0,Pseudomonas pohangensis,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,acetyl-CoA carboxylase,PF02786,A0A1H3EUD3,Delftia lacustris,CPSase_L_D2,7.7e-07,26.1
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A024JXA5,Mycobacterium triplex,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A081B9D4,Tepidicaulis marinus,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0C4YE17,Cupriavidus basilensis,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0F0FR67,Burkholderiaceae bacterium 16,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0H2ZVE2,Mycobacterium avium (strain 104),Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0K2YFF3,Rhodococcus sp. RD6.2,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0Q4S3E8,Acidovorax sp. Leaf78,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0Q7LJE7,Variovorax sp. Root473,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A0Q8GZ95,Pelomonas sp. Root662,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A109W246,Actinomyces radicidentis,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A0L176,Gordonia sp. 852002-10350_SCH5691597,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A2GAM5,Mycobacterium sp. 852002-51057_SCH5723018,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A2SY04,Mycobacterium mantenii,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A3L2R8,Mycobacterium asiaticum,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1A3Q366,Mycobacterium sp. 1245111.1,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1B7UAM5,Mycobacterium sp. 852002-40037_SCH5390672,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1B9DE01,Mycobacterium malmoense,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1H1VAA8,Halopseudomonas litoralis,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1H2E0D0,Pseudomonas pohangensis,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.2,acetyl-CoA carboxylase,PF00364,A0A1H3EUD3,Delftia lacustris,Biotin_lipoyl,9.75e-06,22.7
+WP_011243131.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF02786,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2A2ALG8,Vandammella animalimorsus,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2G6EIT4,Gammaproteobacteria bacterium,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A6N6T950,Candidatus Contendobacter sp,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7C1SRE3,Porticoccus sp,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A0F7JXL6,Sedimenticola thiotaurini,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2E2KJN1,Oceanospirillaceae bacterium,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3D4RXP9,Chromatiaceae bacterium,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3M1RYB9,Gammaproteobacteria bacterium,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A964PNR7,Gammaproteobacteria bacterium,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A966S9T3,Gammaproteobacteria bacterium,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5C7ZLF0,Dokdonella sp,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A916CI28,Gammaproteobacteria bacterium,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A948LZ88,Gammaproteobacteria bacterium,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A1D2S721,Comamonas sp. SCN 65-56,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5B8S0J8,Comamonas flocculans,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.3,Biotin carboxylase,PF02786,A0A935IEP3,Gammaproteobacteria bacterium,CPSase_L_D2,6.47e-113,372.7
+WP_011242491.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF02786,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2A2ALG8,Vandammella animalimorsus,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2G6EIT4,Gammaproteobacteria bacterium,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A6N6T950,Candidatus Contendobacter sp,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7C1SRE3,Porticoccus sp,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A0F7JXL6,Sedimenticola thiotaurini,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2E2KJN1,Oceanospirillaceae bacterium,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3D4RXP9,Chromatiaceae bacterium,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3M1RYB9,Gammaproteobacteria bacterium,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A964PNR7,Gammaproteobacteria bacterium,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A966S9T3,Gammaproteobacteria bacterium,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5C7ZLF0,Dokdonella sp,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A916CI28,Gammaproteobacteria bacterium,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A948LZ88,Gammaproteobacteria bacterium,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A1D2S721,Comamonas sp. SCN 65-56,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5B8S0J8,Comamonas flocculans,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02786,A0A935IEP3,Gammaproteobacteria bacterium,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF00289,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF00289,P81185,Myxococcus xanthus,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A2A2ALG8,Vandammella animalimorsus,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A2G6EIT4,Gammaproteobacteria bacterium,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A6N6T950,Candidatus Contendobacter sp,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A7C1SRE3,Porticoccus sp,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A0F7JXL6,Sedimenticola thiotaurini,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A2E2KJN1,Oceanospirillaceae bacterium,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A3D4RXP9,Chromatiaceae bacterium,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A3M1RYB9,Gammaproteobacteria bacterium,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A964PNR7,Gammaproteobacteria bacterium,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A966S9T3,Gammaproteobacteria bacterium,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A5C7ZLF0,Dokdonella sp,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A916CI28,Gammaproteobacteria bacterium,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A948LZ88,Gammaproteobacteria bacterium,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A1D2S721,Comamonas sp. SCN 65-56,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A5B8S0J8,Comamonas flocculans,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF00289,A0A935IEP3,Gammaproteobacteria bacterium,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF02785,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A2A2ALG8,Vandammella animalimorsus,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A2G6EIT4,Gammaproteobacteria bacterium,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A6N6T950,Candidatus Contendobacter sp,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A7C1SRE3,Porticoccus sp,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A0F7JXL6,Sedimenticola thiotaurini,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A2E2KJN1,Oceanospirillaceae bacterium,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A3D4RXP9,Chromatiaceae bacterium,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A3M1RYB9,Gammaproteobacteria bacterium,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A964PNR7,Gammaproteobacteria bacterium,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A966S9T3,Gammaproteobacteria bacterium,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A5C7ZLF0,Dokdonella sp,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A916CI28,Gammaproteobacteria bacterium,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A948LZ88,Gammaproteobacteria bacterium,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A1D2S721,Comamonas sp. SCN 65-56,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A5B8S0J8,Comamonas flocculans,Biotin_carb_C,5.41e-42,139.6
+WP_011242491.1,6.4.1.3,Biotin carboxylase,PF02785,A0A935IEP3,Gammaproteobacteria bacterium,Biotin_carb_C,5.41e-42,139.6
+WP_011243856.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF00364,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2A2ALG8,Vandammella animalimorsus,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2G6EIT4,Gammaproteobacteria bacterium,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A6N6T950,Candidatus Contendobacter sp,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A7C1SRE3,Porticoccus sp,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A0F7JXL6,Sedimenticola thiotaurini,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2E2KJN1,Oceanospirillaceae bacterium,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A3D4RXP9,Chromatiaceae bacterium,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A3M1RYB9,Gammaproteobacteria bacterium,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A964PNR7,Gammaproteobacteria bacterium,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A966S9T3,Gammaproteobacteria bacterium,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A5C7ZLF0,Dokdonella sp,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A916CI28,Gammaproteobacteria bacterium,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A948LZ88,Gammaproteobacteria bacterium,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A1D2S721,Comamonas sp. SCN 65-56,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A5B8S0J8,Comamonas flocculans,Biotin_lipoyl,1.66e-24,82.8
+WP_011243856.1,6.4.1.3,Biotin carboxylase,PF00364,A0A935IEP3,Gammaproteobacteria bacterium,Biotin_lipoyl,1.66e-24,82.8
+WP_011244449.1,6.4.1.3,Putative propionyl-CoA carboxylase beta chain,PF01039,P54541,Bacillus subtilis (strain 168),Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.3,Propionyl-CoA carboxylase beta chain,PF01039,P53003,Saccharopolyspora erythraea (strain ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338),Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.3,Propionyl-CoA carboxylase beta chain,PF01039,Q168G2,Roseobacter denitrificans (strain ATCC 33942 / OCh 114),Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.3,Propionyl-CoA carboxylase beta chain,PF01039,Q06101,Rhodococcus erythropolis,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.3,Propionyl-CoA carboxylase beta chain,PF01039,Q3J4E3,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),Carboxyl_trans,1.49e-21,73.9
+WP_011377850.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF00364,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2A2ALG8,Vandammella animalimorsus,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2G6EIT4,Gammaproteobacteria bacterium,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A6N6T950,Candidatus Contendobacter sp,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A7C1SRE3,Porticoccus sp,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A0F7JXL6,Sedimenticola thiotaurini,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2E2KJN1,Oceanospirillaceae bacterium,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A3D4RXP9,Chromatiaceae bacterium,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A3M1RYB9,Gammaproteobacteria bacterium,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A964PNR7,Gammaproteobacteria bacterium,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A966S9T3,Gammaproteobacteria bacterium,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A5C7ZLF0,Dokdonella sp,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A916CI28,Gammaproteobacteria bacterium,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A948LZ88,Gammaproteobacteria bacterium,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A1D2S721,Comamonas sp. SCN 65-56,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A5B8S0J8,Comamonas flocculans,Biotin_lipoyl,7.06e-18,61.6
+WP_011377850.1,6.4.1.3,Biotin carboxylase,PF00364,A0A935IEP3,Gammaproteobacteria bacterium,Biotin_lipoyl,7.06e-18,61.6
+WP_011244040.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF02786,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2A2ALG8,Vandammella animalimorsus,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2G6EIT4,Gammaproteobacteria bacterium,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A6N6T950,Candidatus Contendobacter sp,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7C1SRE3,Porticoccus sp,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A0F7JXL6,Sedimenticola thiotaurini,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2E2KJN1,Oceanospirillaceae bacterium,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3D4RXP9,Chromatiaceae bacterium,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3M1RYB9,Gammaproteobacteria bacterium,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A964PNR7,Gammaproteobacteria bacterium,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A966S9T3,Gammaproteobacteria bacterium,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5C7ZLF0,Dokdonella sp,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A916CI28,Gammaproteobacteria bacterium,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A948LZ88,Gammaproteobacteria bacterium,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A1D2S721,Comamonas sp. SCN 65-56,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5B8S0J8,Comamonas flocculans,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.3,Biotin carboxylase,PF02786,A0A935IEP3,Gammaproteobacteria bacterium,CPSase_L_D2,1.2e-12,45.1
+WP_011242365.1,6.4.1.3,Putative propionyl-CoA carboxylase beta chain,PF01039,P54541,Bacillus subtilis (strain 168),Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.3,Propionyl-CoA carboxylase beta chain,PF01039,P53003,Saccharopolyspora erythraea (strain ATCC 11635 / DSM 40517 / JCM 4748 / NBRC 13426 / NCIMB 8594 / NRRL 2338),Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.3,Propionyl-CoA carboxylase beta chain,PF01039,Q168G2,Roseobacter denitrificans (strain ATCC 33942 / OCh 114),Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.3,Propionyl-CoA carboxylase beta chain,PF01039,Q06101,Rhodococcus erythropolis,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.3,Propionyl-CoA carboxylase beta chain,PF01039,Q3J4E3,Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.),Carboxyl_trans,1.04e-11,41.4
+WP_011243247.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF02786,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2A2ALG8,Vandammella animalimorsus,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2G6EIT4,Gammaproteobacteria bacterium,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A6N6T950,Candidatus Contendobacter sp,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7C1SRE3,Porticoccus sp,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A0F7JXL6,Sedimenticola thiotaurini,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2E2KJN1,Oceanospirillaceae bacterium,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3D4RXP9,Chromatiaceae bacterium,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3M1RYB9,Gammaproteobacteria bacterium,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A964PNR7,Gammaproteobacteria bacterium,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A966S9T3,Gammaproteobacteria bacterium,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5C7ZLF0,Dokdonella sp,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A916CI28,Gammaproteobacteria bacterium,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A948LZ88,Gammaproteobacteria bacterium,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A1D2S721,Comamonas sp. SCN 65-56,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5B8S0J8,Comamonas flocculans,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.3,Biotin carboxylase,PF02786,A0A935IEP3,Gammaproteobacteria bacterium,CPSase_L_D2,5.05e-09,33.3
+WP_011242929.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF02786,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2A2ALG8,Vandammella animalimorsus,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2G6EIT4,Gammaproteobacteria bacterium,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A6N6T950,Candidatus Contendobacter sp,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7C1SRE3,Porticoccus sp,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A0F7JXL6,Sedimenticola thiotaurini,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2E2KJN1,Oceanospirillaceae bacterium,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3D4RXP9,Chromatiaceae bacterium,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3M1RYB9,Gammaproteobacteria bacterium,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A964PNR7,Gammaproteobacteria bacterium,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A966S9T3,Gammaproteobacteria bacterium,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5C7ZLF0,Dokdonella sp,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A916CI28,Gammaproteobacteria bacterium,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A948LZ88,Gammaproteobacteria bacterium,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A1D2S721,Comamonas sp. SCN 65-56,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5B8S0J8,Comamonas flocculans,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.3,Biotin carboxylase,PF02786,A0A935IEP3,Gammaproteobacteria bacterium,CPSase_L_D2,3.76e-08,30.4
+WP_011242442.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF02786,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2A2ALG8,Vandammella animalimorsus,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2G6EIT4,Gammaproteobacteria bacterium,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A6N6T950,Candidatus Contendobacter sp,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7C1SRE3,Porticoccus sp,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A0F7JXL6,Sedimenticola thiotaurini,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2E2KJN1,Oceanospirillaceae bacterium,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3D4RXP9,Chromatiaceae bacterium,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A3M1RYB9,Gammaproteobacteria bacterium,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A964PNR7,Gammaproteobacteria bacterium,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A966S9T3,Gammaproteobacteria bacterium,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5C7ZLF0,Dokdonella sp,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A916CI28,Gammaproteobacteria bacterium,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A948LZ88,Gammaproteobacteria bacterium,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A1D2S721,Comamonas sp. SCN 65-56,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A5B8S0J8,Comamonas flocculans,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.3,Biotin carboxylase,PF02786,A0A935IEP3,Gammaproteobacteria bacterium,CPSase_L_D2,7.7e-07,26.1
+WP_011377875.1,6.4.1.3,Propionyl-CoA carboxylase alpha chain,PF00364,Q5LUF3,Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3),Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2A2ALG8,Vandammella animalimorsus,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2G6EIT4,Gammaproteobacteria bacterium,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A6N6T950,Candidatus Contendobacter sp,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A7C1SRE3,Porticoccus sp,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A0F7JXL6,Sedimenticola thiotaurini,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2E2KJN1,Oceanospirillaceae bacterium,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A3D4RXP9,Chromatiaceae bacterium,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A3M1RYB9,Gammaproteobacteria bacterium,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A964PNR7,Gammaproteobacteria bacterium,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A966S9T3,Gammaproteobacteria bacterium,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A2Z2NRW1,Granulosicoccus antarcticus IMCC3135,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A5C7ZLF0,Dokdonella sp,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A7U7GDY4,Candidatus Contendobacter odensis Run_B_J11,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A916CI28,Gammaproteobacteria bacterium,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A948LZ88,Gammaproteobacteria bacterium,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A1D2S721,Comamonas sp. SCN 65-56,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A5B8S0J8,Comamonas flocculans,Biotin_lipoyl,9.75e-06,22.7
+WP_011377875.1,6.4.1.3,Biotin carboxylase,PF00364,A0A935IEP3,Gammaproteobacteria bacterium,Biotin_lipoyl,9.75e-06,22.7
