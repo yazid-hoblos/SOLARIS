@@ -1,0 +1,39 @@
+{
+  "docker": {
+    "image": "alpine:latest",
+    "remove": true,
+    "network_disabled": false,
+    "mem_limit": "256m",
+    "cpu_period": 100000,
+    "cpu_quota": 50000,
+    "copied_files": [
+      "config/tools.json",
+      "config/databases.json"
+    ]
+  },
+  "security": {
+    "allowed_commands": ["ls", "cat", "echo", "grep", "find", "wc", "curl", "cd", "wget", "awk", "cut","wget","python"],
+    "allowed_flags": {
+      "ls": ["-l", "-a", "-h", "-t", "-r"],
+      "cat": ["-n", "-b"]
+    },
+    "blocked_patterns": ["rm", "sudo", "$("]
+  },
+  "llm": {
+    "format_version": "1.0",
+    "expected_keys": ["command", "purpose"],
+    "model": "mistral",
+    "online_model": "accounts/fireworks/models/llama-v3p3-70b-instruct",
+    "provider": "openai",
+    "prompt": "config/prompt.txt",
+    "toolset": "config/tools.json",
+    "use_online": true,
+    "max_iterations": 5,
+    "max_tokens": 1500
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "bioprod.log"
+  }
+}
