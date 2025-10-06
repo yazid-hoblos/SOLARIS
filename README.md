@@ -1,138 +1,157 @@
-# SOLARIS - Toolkit for Heterologous Pathway Transfer for Metabolic Engineering
+# Team Evry-Paris-Saclay 2025 Software Tool
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![iGEM 2025](https://img.shields.io/badge/iGEM-2025-orange.svg)](https://2025.igem.wiki/evry-paris-saclay/)
 
-**SOLARIS** is a comprehensive bioinformatics toolkit designed for **metabolic engineering** and **synthetic biology** applications. It enables researchers to identify optimal microbial hosts for heterologous pathway implementation through advanced genomic analysis and pathway profiling.
+If your team competes in the [**Software & AI** village](https://villages.igem.org) or wants to
+apply for the [**Best Software Tool** prize](https://competition.igem.org/judging/special-prizes), you **MUST** host all the
+source code of your team's software tool in this repository, `main` branch. By the **Wiki Freeze**, a
+[release](https://docs.gitlab.com/ee/user/project/releases/) will be automatically created as the judging artifact of
+this software tool. You will be able to keep working on your software after the Grand Jamboree.
 
-> Developed by **Team Evry-Paris-Saclay** for iGEM 2025 - [Visit our Wiki](https://2025.igem.wiki/evry-paris-saclay/)
+> If your team does not have any software tool, you can totally ignore this repository. If left unchanged, this
+repository will be automatically deleted by the end of the season.
 
-## 🚀 Key Features
+## Description
 
-### 🧬 **Pathway Profiler**
-- **KEGG Pathway Integration**: Extract enzyme information from KEGG pathways and modules
-- **UniProt Data Mining**: Retrieve protein sequences and Pfam domain annotations
-- **HMM Profile Generation**: Create custom HMM profiles for pathway-specific protein families
-- **Genome Screening**: Search target genomes for pathway enzymes using sensitive HMM searches
-- **Interactive Visualization**: Generate pathway completion plots and enzyme distribution analysis
+**SOLARIS** is a comprehensive bioinformatics toolkit designed for **metabolic engineering** and **synthetic biology** applications. It enables researchers to identify optimal microbial hosts for heterologous pathway implementation through advanced genomic analysis, pathway profiling, and economic optimization.
 
-### 🔍 **Pangenomic Analyzer**
-- **Multi-Strain Comparison**: Analyze pathway completeness across 100+ bacterial strains simultaneously
-- **Advanced Clustering**: Hierarchical clustering and similarity analysis for strain selection
-- **Scalable Visualization**: Intelligent plot management for large datasets with automatic crowding control
-- **Strain Ranking**: Identify optimal hosts based on pathway completeness scores
-- **Comprehensive Reporting**: Generate detailed analysis reports with statistical summaries
+Developed by **Team Evry-Paris-Saclay** for iGEM 2025, SOLARIS addresses critical challenges in metabolic engineering by providing integrated tools for pathway analysis, strain comparison, product valorization, and AI-assisted workflow automation. Visit our [team wiki](https://2025.igem.wiki/evry-paris-saclay/) for project context and results.
 
-### 💰 **Product Valorization**
-- **Pathway Economics**: KEGG-driven sub-pathway enumeration with energetic cost modeling
-- **Route Optimization**: Rank metabolic routes by ATP usage, redox balance, and complexity
-- **Pyruvate Valorization**: Convert excess pyruvate into valuable products (lactate, ethanol, etc.)
-- **Bioenergetic Analysis**: Assess O₂ consumption, CO₂ release, and literature precedent
-- **Visual Integration**: Highlight optimal pathways on KEGG pathway maps
+### Key Features
 
-### 🤖 **BIOMERA (BioProd Agent)**
-- **AI-Powered Automation**: World-first bioproduction AI agent specialized in molecular biology tasks
-- **Task Automation**: Automate complex biotechnology workflows for non-experts
-- **Tool Integration**: Run any biotool through Docker container execution
-- **Pipeline Management**: Design pathways, run analyses, and enhance molecules automatically
-- **Flexible Deployment**: Local models (Ollama) or cloud-based AI services
+**🧬 Pathway Profiler**
+- Extract enzyme information from KEGG pathways and modules
+- Retrieve protein sequences and Pfam domain annotations from UniProt
+- Generate custom HMM profiles for pathway-specific protein families
+- Screen target genomes for pathway enzymes using sensitive HMM searches
+- Create interactive pathway completion plots and enzyme distribution analysis
 
+**🔍 Pangenomic Analyzer**
+- Analyze pathway completeness across 100+ bacterial strains simultaneously
+- Perform hierarchical clustering and similarity analysis for strain selection
+- Generate scalable visualizations with intelligent plot management for large datasets
+- Rank strains by pathway completeness scores with comprehensive reporting
 
-### 🎯 **End-to-End Workflow**
-- **Seamless Integration**: pathway_profiler outputs feed into pangenomic_analyzer and product_valorization
-- **AI-Assisted Analysis**: BIOMERA can automate entire analysis pipelines
-- **Automated Processing**: Complete pathway-to-strain-to-economics analysis
-- **Flexible Usage**: Run individual modules or complete workflows based on your needs
-- **Batch Processing**: Handle large genomic datasets efficiently
+**💰 Product Valorization**
+- Enumerate sub-pathways with energetic cost modeling using KEGG data
+- Rank metabolic routes by ATP usage, redox balance, and reaction complexity
+- Analyze pyruvate valorization to convert excess metabolites into valuable products
+- Assess O₂ consumption, CO₂ release, and literature precedent for pathway feasibility
 
-## 🔬 Scientific Applications
+**🤖 BIOMERA (BioProd Agent)**
+- World-first bioproduction AI agent specialized in molecular biology tasks
+- Automate complex biotechnology workflows for non-experts
+- Execute any biotool through Docker container integration
+- Manage complete analysis pipelines with local or cloud-based AI models
 
-SOLARIS addresses critical challenges in **metabolic engineering**:
+### Background
 
-- **Host Selection**: Identify bacterial strains with highest native pathway completeness
-- **Gap Analysis**: Determine missing enzymes needed for pathway implementation
-- **Comparative Genomics**: Compare pathway presence across diverse microbial species
-- **Strain Engineering**: Guide targeted genetic modifications for pathway optimization
+SOLARIS addresses fundamental challenges in **strain selection** and **pathway optimization** for metabolic engineering. Traditional approaches require manual analysis of individual genomes and pathways, which is time-consuming and error-prone when working with large datasets. Our toolkit automates this process while adding economic analysis and AI-powered workflow management.
 
-**Use Cases:**
-- 🌱 **Biofuel Production**: Find optimal hosts and economically viable pathways for renewable fuels
-- 💊 **Pharmaceutical Manufacturing**: Screen for natural product biosynthesis with cost optimization
-- 🧪 **Industrial Biotechnology**: Identify strains and valorize byproducts for chemical production
-- 🌿 **Carbon Fixation**: Analyze CO₂ fixation pathways and pyruvate valorization strategies
-- 🤖 **Automated Research**: Let AI agents handle complex multi-tool bioinformatics workflows
-- 💰 **Economic Optimization**: Evaluate pathway economics and metabolite valorization potential
+**Differentiating Factors:**
+- **Integrated workflow**: Seamless integration from pathway extraction to strain ranking to economic analysis
+- **Large-scale analysis**: Tested with 122+ strains with intelligent visualization management
+- **Economic modeling**: First tool to integrate bioenergetic cost analysis with pathway screening
+- **AI automation**: First bioinformatics toolkit with integrated AI agent for workflow automation
+- **Open source**: Fully open-source with comprehensive documentation and examples
 
-## 📦 Installation
+## Installation
 
 ### Requirements
+
+SOLARIS requires Python 3.8 or higher and has been tested on Linux, macOS, and Windows (via WSL). The following system dependencies are required:
+
 - **Python 3.8+** (tested with Python 3.8-3.11)
 - **HMMER3** (for HMM profile searching)
 - **Docker** (for BIOMERA AI agent functionality)
-- **Ollama** (optional, for local AI models in BIOMERA)
 - **Internet connection** (for KEGG and UniProt data retrieval)
 
-### Quick Install
+Optional dependencies:
+- **Ollama** (for local AI models in BIOMERA)
+- **Pfam database** (download from [Pfam FTP](http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/))
 
+### Installation Steps
+
+1. **Clone the repository**
 ```bash
-# Clone the repository
 git clone https://gitlab.igem.org/2025/software-tools/evry-paris-saclay.git
 cd evry-paris-saclay
-
-# Install SOLARIS and dependencies
-pip install -e .
-
-# Verify installation
-solaris --help
 ```
 
-### System Dependencies
+2. **Install Python dependencies**
+```bash
+pip install -e .
+```
 
-**Install HMMER3 (required for HMM searching):**
-
+3. **Install HMMER3** (required for HMM searching)
 ```bash
 # Ubuntu/Debian
 sudo apt-get install hmmer
 
-# macOS
+# macOS with Homebrew
 brew install hmmer
 
 # Conda (all platforms)
 conda install -c bioconda hmmer
 ```
 
-### Development Install
+4. **Install Docker** (for BIOMERA AI agent)
+```bash
+# Follow instructions at https://docs.docker.com/engine/install/
+# Ensure Docker is running and accessible
+docker --version
+```
 
-For developers who want to contribute:
+5. **Set up BIOMERA** (optional, for AI agent functionality)
+```bash
+cd biomera/
+pip install -r requirements.txt
+
+# For local AI models, install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+ollama pull mistral
+```
+
+6. **Verify installation**
+```bash
+solaris --help
+python -c "import solaris; print('SOLARIS installed successfully')"
+```
+
+### Development Installation
+
+For contributors and developers:
 
 ```bash
 # Install with development dependencies
 pip install -e ".[dev,docs]"
 
-# Run tests
-pytest tests/
+# Install pre-commit hooks
+pre-commit install
 
-# Format code
-black solaris/
-flake8 solaris/
+# Run tests to verify everything works
+pytest tests/ -v
 ```
 
-## 🚀 Quick Start
+## Usage
 
-### Complete Workflow Example
+### Basic Usage
 
-Analyze carbon fixation pathway (Calvin cycle) across Synechococcus strains:
+The simplest way to use SOLARIS is through the complete workflow command. Here's a minimal example analyzing carbon fixation pathways across Synechococcus strains:
 
 ```bash
-# Step 1: Extract pathway information from KEGG
+# Complete workflow: pathway extraction → HMM generation → strain analysis
+# Step 1: Extract pathway enzymes from KEGG
 solaris pathway_profiler extract-ec --pathway map00720 --output pfam_ids.txt
 
-# Step 2: Generate HMM profiles for pathway enzymes
+# Step 2: Generate HMM profiles
 solaris pathway_profiler get-profiles \
     --input pfam_ids.txt \
     --pfam-db /path/to/pfam \
     --output selected_pfam.hmm
 
-# Step 3: Analyze pathway completeness across all strains
+# Step 3: Analyze all strains
 solaris pangenomic_analyzer complete \
     --genomes-dir genomes/ \
     --hmm-file selected_pfam.hmm \
@@ -140,9 +159,19 @@ solaris pangenomic_analyzer complete \
     --clustered-plots
 ```
 
-### Individual Module Usage
+**Expected Output:**
+```
+Analyzing 122 strains for carbon fixation pathway (map00720)...
+✓ Found 21 target enzymes in pathway
+✓ Generated HMM profiles for 45 Pfam domains
+✓ Completed analysis for 122/122 strains
+✓ Top strain: MIT_9107 (95.2% pathway completeness)
+✓ Generated clustered heatmap and dendrogram plots
+```
 
-**Pathway Profiler - Single Genome Analysis:**
+### Individual Module Examples
+
+**1. Pathway Profiler - Single Genome Analysis**
 ```bash
 # Complete workflow for one genome
 solaris pathway_profiler workflow \
@@ -152,255 +181,217 @@ solaris pathway_profiler workflow \
     --output-dir results/ \
     --plot
 ```
+Output: EC coverage analysis, pathway completion plots, enzyme distribution charts
 
-**Pangenomic Analyzer - Multi-Strain Comparison:**
+**2. Pangenomic Analyzer - Compare Multiple Strains**
 ```bash
-# Compare pathway presence across multiple strains
+# Multi-strain comparison with clustering
 solaris pangenomic_analyzer complete \
     --genomes-dir genomes/ \
-    --hmm-file pathway_profiles.hmm \
-    --ec-pfam-mapping enzyme_mapping.txt \
-    --plot
-```
-
-**BIOMERA AI Agent - Automated Analysis:**
-```bash
-# Start the AI agent for interactive biotechnology tasks
-cd biomera/
-python main.py
-
-# Or run specific tasks through the API
-python api.py
-```
-
-**Product Valorization - Economic Route Analysis:**
-```python
-# Find and rank pyruvate valorization pathways
-import solaris.product_valorization.search as search
-
-# Analyze pyruvate valorization in carbon fixation pathway
-search.visualize_best_subpathway("map00720", "C00022")  # pyruvate
-
-# Get cost analysis for specific pathways
-import solaris.product_valorization.cost as cost
-pathway_cost, details = cost.subpathway_cost_relative([("R00959", 1)])
-```
-
-### Expected Output
-
-**Analysis Results:**
-- `comparison_matrix.csv` - Strain × enzyme presence/absence matrix
-- `strain_rankings.csv` - Strains ranked by pathway completeness
-- `pfam_ids.txt` - EC-Pfam domain mappings
-
-**Visualizations:**
-- `comparison_heatmap.png` - Pathway completeness heatmap
-- `strain_dendrogram.png` - Hierarchical clustering of strains
-- `completeness_distribution.png` - Pathway completeness statistics
-
-## 📊 Example Results
-
-```
-Top 5 Strains by Pathway Completeness:
-1. MIT_9107_GCF_000759855.1    - 95.2% complete (20/21 enzymes)
-2. MED4_GCF_000011465.1        - 90.5% complete (19/21 enzymes) 
-3. AS9601_GCF_000015645.1      - 85.7% complete (18/21 enzymes)
-4. CCMP1375_GCF_000007925.1    - 81.0% complete (17/21 enzymes)
-5. MIT_9123_GCF_000759935.1    - 76.2% complete (16/21 enzymes)
-
-Average pathway completeness: 73.4%
-Strains with >80% completeness: 23/122 (18.9%)
-```
-
-## 🏗️ Project Structure
-
-```
-solaris/
-├── cli.py                    # Main CLI entry point
-├── pathway_profiler/         # Pathway analysis module
-│   ├── keggModuleDiscoverer.py   # KEGG pathway extraction
-│   ├── uniprotHandler.py        # UniProt data retrieval
-│   ├── pfamHandler.py           # HMM profile generation
-│   ├── hmmSearcher.py           # Genome searching
-│   └── mapping_analysis.py     # Results analysis
-├── pangenomic_analyzer/      # Multi-strain comparison module
-│   ├── strain_manager.py        # Strain data management
-│   ├── batch_analyzer.py        # HMM batch processing
-│   ├── pathway_analyzer.py      # Pathway completeness analysis
-│   └── visualization_manager.py # Advanced plotting
-├── product_valorization/     # Economic pathway analysis
-│   ├── search.py                # Sub-pathway enumeration
-│   ├── cost.py                  # Energetic cost modeling
-│   └── demo.py                  # Usage examples
-└── tests/                    # Test suite
-
-biomera/                      # AI Agent (separate application)
-├── main.py                   # Agent entry point
-├── api.py                    # Web API interface
-├── model/                    # AI model configurations
-├── config/                   # Agent settings
-└── utils/                    # Supporting utilities
-```
-
-## 🔧 Advanced Usage
-
-### Custom Pathway Analysis
-
-```bash
-# Analyze custom enzyme list
-echo -e "1.1.1.1\n2.3.1.15\n4.2.1.2" > custom_enzymes.txt
-
-solaris pathway_profiler extract-ec \
-    --pathway custom_enzymes.txt \
-    --output custom_pfam_ids.txt
-```
-
-### Large Dataset Processing
-
-```bash
-# Handle 100+ strains with optimized settings
-solaris pangenomic_analyzer complete \
-    --genomes-dir large_dataset/ \
     --hmm-file profiles.hmm \
     --ec-pfam-mapping pfam_ids.txt \
-    --parallel \
-    --max-workers 8 \
     --clustered-plots
 ```
+Output: Strain rankings, comparison matrix, hierarchical clustering dendrograms
 
-### Advanced Module Integration
-
-```bash
-# Economic analysis of top strains from pangenomic analysis
-# 1. Find best strains
-solaris pangenomic_analyzer complete --genomes-dir genomes/ --hmm-file profiles.hmm --ec-pfam-mapping pfam_ids.txt
-
-# 2. Analyze valorization potential for excess metabolites
-python -c "
+**3. Product Valorization - Economic Analysis**
+```python
+# Analyze pyruvate valorization options
 import solaris.product_valorization.search as search
-search.visualize_best_subpathway('map00720', 'C00022')  # pyruvate valorization
-"
+search.visualize_best_subpathway("map00720", "C00022")  # Opens KEGG browser
+```
+Output: Economic pathway ranking, KEGG pathway visualization with highlighted routes
 
-# 3. Use BIOMERA to automate the entire workflow
+**4. BIOMERA AI Agent - Automated Workflow**
+```bash
 cd biomera/
 python main.py
-# Tell agent: 'Analyze carbon fixation pathways in Synechococcus strains and find pyruvate valorization routes'
+```
+```
+🤖 BIOMERA: How can I help with your bioproduction analysis?
+User: Analyze carbon fixation in Synechococcus and find the best strains
+🤖 BIOMERA: Running complete SOLARIS workflow...
+    → Extracting KEGG pathway map00720
+    → Generating HMM profiles  
+    → Analyzing 122 genomes
+    → Ranking strains by completeness
+    ✓ Complete! Top strain: MIT_9107 (95.2%)
 ```
 
-### Integration with External Tools
+### Advanced Usage Examples
 
-SOLARIS outputs are compatible with:
-- **R/Bioconductor** - CSV matrices for statistical analysis
-- **Cytoscape** - Network analysis of strain relationships  
-- **KEGG Mapper** - Enhanced pathway visualization with cost annotations
-- **PhyloTree** - Phylogenetic analysis integration
-- **Docker Ecosystem** - All biotools accessible through BIOMERA agent
-- **Web APIs** - BIOMERA provides RESTful access to all functionalities
-
-## 🧪 Testing and Validation
-
-The toolkit has been validated with:
-- **122 Synechococcus strains** for carbon fixation analysis
-- **Multiple KEGG pathways** including biosynthesis and central metabolism
-- **Various genome sizes** from 1.5 Mb to 10+ Mb
-- **Cross-platform compatibility** (Linux, macOS, Windows/WSL)
-
-Run the test suite:
+**Custom Pathway Analysis:**
 ```bash
-pytest tests/ -v
-pytest tests/test_pathway_profiler.py::test_kegg_extraction
-pytest tests/test_pangenomic_analyzer.py::test_strain_comparison
+# Analyze user-defined enzyme list
+echo -e "1.1.1.1\n2.3.1.15\n4.2.1.2" > my_enzymes.txt
+solaris pathway_profiler extract-ec --pathway my_enzymes.txt --output custom_pfam.txt
 ```
 
-## 📚 Documentation
+**Large Dataset Processing:**
+```bash
+# Optimize for 200+ genomes
+solaris pangenomic_analyzer complete \
+    --genomes-dir massive_dataset/ \
+    --parallel --max-workers 16 \
+    --hmm-file profiles.hmm \
+    --ec-pfam-mapping pfam_ids.txt
+```
 
-- **[Pathway Profiler Guide](solaris/pathway_profiler/README.md)** - Detailed pathway analysis documentation
-- **[Pangenomic Analyzer Guide](solaris/pangenomic_analyzer/README.md)** - Multi-strain comparison manual
-- **[BIOMERA Agent Guide](biomera/README.md)** - AI agent setup and usage instructions  
-- **[Product Valorization Guide](solaris/product_valorization/README.md)** - Economic pathway analysis manual
-- **[API Reference](docs/)** - Complete API documentation
-- **[Examples](examples/)** - Tutorial notebooks and sample datasets
+**Economic Route Comparison:**
+```python
+import solaris.product_valorization.cost as cost
+# Compare lactate vs ethanol production from pyruvate  
+lactate_cost, _ = cost.subpathway_cost_relative([("R00703", 1)])  # pyruvate → lactate
+ethanol_cost, _ = cost.subpathway_cost_relative([("R00754", 1), ("R00710", 1)])  # pyruvate → ethanol
+print(f"Lactate route cost: {lactate_cost:.2f}, Ethanol route cost: {ethanol_cost:.2f}")
+```
 
-## 🤝 Contributing
+For more sophisticated examples including multi-pathway analysis, custom visualization, and integration with external databases, see the [examples directory](examples/) and individual module documentation.
 
-We welcome contributions from the bioinformatics and synthetic biology communities!
+## Contributing
 
-### Development Setup
+We welcome contributions from the bioinformatics and synthetic biology communities! SOLARIS is designed to be extensible and we encourage community involvement to expand its capabilities.
+
+### Getting Started
+
+If you want to contribute to SOLARIS, here's how to set up your development environment:
 
 ```bash
-# Fork the repository and clone
+# Fork the repository on GitLab and clone your fork
 git clone https://gitlab.igem.org/YOUR_USERNAME/evry-paris-saclay.git
 cd evry-paris-saclay
 
-# Create development environment
+# Create a virtual environment
 python -m venv venv
-source venv/bin/activate  # or `venv\Scripts\activate` on Windows
-pip install -e ".[dev]"
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Run tests before making changes
-pytest tests/
+# Install in development mode with all dependencies
+pip install -e ".[dev,docs]"
+
+# Install pre-commit hooks for code quality
+pre-commit install
+
+# Run tests to make sure everything works
+pytest tests/ -v
 ```
 
-### Contribution Guidelines
+### Requirements for Contributions
 
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/amazing-feature`)
-3. **Add tests** for new functionality
-4. **Ensure** all tests pass (`pytest tests/`)
-5. **Format** code (`black solaris/` and `flake8 solaris/`)
-6. **Commit** changes (`git commit -m 'Add amazing feature'`)
-7. **Push** to branch (`git push origin feature/amazing-feature`)
-8. **Open** a Merge Request
+Before submitting a contribution, please ensure:
 
-### Areas for Contribution
+1. **Code Quality**: All code passes `black` formatting and `flake8` linting
+2. **Testing**: New features include comprehensive tests with >80% coverage
+3. **Documentation**: Functions and classes include docstrings, README updates for new features
+4. **Compatibility**: Changes work across Python 3.8-3.11 and major platforms
 
-- 🧬 **New pathway databases** (BioCyc, Reactome integration)
-- 🔍 **Alternative search methods** (BLAST, Diamond)
-- 📊 **Advanced visualizations** (interactive plots, web interface)
-- 🚀 **Performance optimizations** (parallel processing, caching)
-- 🤖 **AI agent enhancements** (new tools, improved reasoning)
-- 💰 **Economic modeling** (thermodynamics, toxicity, market prices)
-- 🔌 **Tool integrations** (more biotools for BIOMERA)
-- 📖 **Documentation** (tutorials, examples, translations)
+### Development Workflow
 
-## 📄 License
+1. **Create a feature branch** from `main`
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+2. **Make your changes** following our coding standards
+   ```bash
+   # Format code
+   black solaris/ biomera/
+   
+   # Check for issues  
+   flake8 solaris/ biomera/
+   
+   # Run tests
+   pytest tests/ -v --cov=solaris
+   ```
 
-## 🏆 Team Evry-Paris-Saclay 2025
+3. **Commit your changes** with descriptive messages
+   ```bash
+   git add .
+   git commit -m "Add feature: brief description of what you added"
+   ```
 
-**SOLARIS** was developed by Team Evry-Paris-Saclay for iGEM 2025.
+4. **Push and create a merge request**
+   ```bash
+   git push origin feature/your-feature-name
+   # Then create a merge request on GitLab
+   ```
 
-### Core Development Team
-- **Software Architecture & Implementation**
-- **Bioinformatics Algorithm Design**  
-- **User Interface & Documentation**
-- **Testing & Validation**
+### Areas We're Looking For Help
+
+- **New pathway databases**: Integration with BioCyc, Reactome, MetaCyc
+- **Alternative search algorithms**: BLAST, Diamond, MMseqs2 integration  
+- **Enhanced visualizations**: Interactive plots, web dashboards, 3D pathway maps
+- **Performance improvements**: Parallel processing, caching, memory optimization
+- **AI agent capabilities**: New biotechnology tools, improved reasoning, workflow templates
+- **Economic modeling**: Thermodynamic feasibility, toxicity assessment, market analysis
+- **Platform support**: Windows native support, cloud deployment, containerization
+- **Documentation**: Tutorials, video guides, translated documentation
+
+### Testing Guidelines
+
+We use pytest for testing. When adding new features:
+
+```bash
+# Run specific test modules
+pytest tests/test_pathway_profiler.py -v
+pytest tests/test_pangenomic_analyzer.py -v
+
+# Run with coverage reporting
+pytest tests/ --cov=solaris --cov-report=html
+
+# Test specific functionality
+pytest tests/ -k "test_kegg_extraction"
+```
+
+For BIOMERA AI agent testing, you may need Docker and AI model access:
+```bash
+# Test with mock AI responses
+BIOMERA_TEST_MODE=mock pytest tests/test_biomera.py
+
+# Test with actual AI models (requires API keys)
+pytest tests/test_biomera.py -v --ai-integration
+```
+
+These instructions help ensure code quality and make your contributions valuable to the entire community. Thank you for helping make SOLARIS better!
+
+## Authors and acknowledgment
+
+### Team Evry-Paris-Saclay 2025
+
+**SOLARIS** was developed by Team Evry-Paris-Saclay for iGEM 2025 as our contribution to advancing metabolic engineering and synthetic biology research.
 
 ### Acknowledgments
 
-- **iGEM Foundation** for providing the platform and support
-- **KEGG Database** for pathway information
-- **UniProt Consortium** for protein sequence data
-- **Pfam Database** for protein family annotations
-- **HMMER Development Team** for search algorithms
-- **Open Source Community** for foundational tools and libraries
+We extend our gratitude to the following contributors:
+
+- **Georgy** - [@georgyzaouk](https://github.com/georgyzaouk)
+- **Akshay** - [@crakshay1](https://github.com/crakshay1)
+- **Yazid** - [@yazid-hoblos](https://github.com/yazid-hoblos)
+- **Colombe** - [@colombearchambaud](https://github.com/colombearchambaud)
+- **Matheo** - [@paradoxe-tech](https://github.com/paradoxe-tech)
+- **Kenan**
+- **Ada**
+
 
 ### Citation
 
-If you use SOLARIS in your research, please cite:
+If you use SOLARIS in your research, please cite our work:
 
+```bibtex
+@software{evry_paris_saclay_2025,
+  title={SOLARIS: Toolkit for Heterologous Pathway Transfer for Metabolic Engineering},
+  author={Team Evry-Paris-Saclay},
+  year={2025},
+  organization={iGEM Foundation},
+  url={https://gitlab.igem.org/2025/software-tools/evry-paris-saclay/},
+  note={iGEM 2025 Software Tools Competition}
+}
 ```
-Team Evry-Paris-Saclay (2025). SOLARIS: Toolkit for Heterologous Pathway Transfer 
-for Metabolic Engineering. iGEM 2025 Software Tools. 
-https://gitlab.igem.org/2025/software-tools/evry-paris-saclay/
-```
 
-## 🔗 Links
+### Links
 
-- **[Team Wiki](https://2025.igem.wiki/evry-paris-saclay/)** - Project overview and results
-- **[GitLab Repository](https://gitlab.igem.org/2025/software-tools/evry-paris-saclay/)** - Source code
-- **[iGEM 2025](https://2025.igem.wiki/)** - International Genetically Engineered Machine competition
+- **[Team Wiki](https://2025.igem.wiki/evry-paris-saclay/)** - Complete project documentation and results
+- **[GitLab Repository](https://gitlab.igem.org/2025/software-tools/evry-paris-saclay/)** - Source code and development
 - **[Software & AI Village](https://villages.igem.org)** - iGEM software community
+- **[iGEM 2025](https://2025.igem.wiki/)** - International Genetically Engineered Machine competition
 
----
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
