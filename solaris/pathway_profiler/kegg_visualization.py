@@ -10,9 +10,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.firefox.service import Service
 import re
 import argparse
-
 
 def prepare_kegg_mapper_data(ec_results):
     color_map = {
@@ -35,7 +35,8 @@ def setup_driver(headless=True):
     if headless:
         firefox_options.add_argument('--headless')
     
-    driver = webdriver.Firefox(options=firefox_options)
+    service = Service(log_path='/dev/null')
+    driver = webdriver.Firefox(options=firefox_options, service=service)
     return driver
 
 def get_colored_pathway_url(driver, mapper_data):
@@ -63,7 +64,7 @@ def get_colored_pathway_url(driver, mapper_data):
     for link in links:
         text = link.text.strip()
         if re.match(r'^map\d+', text):
-            if '01100' in text:  # skip "map01100"
+            if '01100' in text or '01120' in text:  # skip "map01100"
                 continue
             first_pathway_link = link
             break

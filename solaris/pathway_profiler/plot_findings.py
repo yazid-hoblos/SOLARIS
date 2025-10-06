@@ -18,9 +18,14 @@ plt.rcParams['savefig.bbox'] = 'tight'
 
 def load_results():
     """Load analysis results."""
+    if len(sys.argv) < 3:
+        print("Usage: python plot_findings.py <ec_results.csv> <detailed_hits.csv>")
+        exit(1)
+    ec_results = sys.argv[1] 
+    detailed_hits = sys.argv[2]
     print("Loading results...")
-    ec_results = pd.read_csv('ec_results.csv')
-    detailed_hits = pd.read_csv('detailed_hits.csv')
+    ec_results = pd.read_csv(ec_results)
+    detailed_hits = pd.read_csv(detailed_hits)
     print(f"✓ Loaded {len(ec_results)} EC numbers and {len(detailed_hits)} hits")
     return ec_results, detailed_hits
 
@@ -226,7 +231,7 @@ def plot_evalue_distribution(detailed_hits, output_file='plots/05_evalue_distrib
             ec_log_evalues['log_evalue'] = -np.log10(ec_log_evalues['evalue'])
             
             sns.boxplot(data=ec_log_evalues, y='EC_number', x='log_evalue', 
-                       order=ec_order, ax=ax2, palette='Set2')
+                       order=ec_order, ax=ax2, hue='EC_number', palette='Set2', legend=False)
             ax2.set_xlabel('-log10(E-value)', fontsize=11, weight='bold')
             ax2.set_ylabel('EC Number', fontsize=11, weight='bold')
             ax2.set_title('E-value Distribution by EC Number', fontsize=12, weight='bold')

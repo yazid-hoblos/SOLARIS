@@ -282,18 +282,29 @@ def create_detailed_hits_report(ec_pfam_df, hits_df, output_file='detailed_hits.
     """
     print(f"Creating detailed hits report: {output_file}")
     
-    # Merge with EC information
+    # Check what columns are available in ec_pfam_df
+    available_cols = ['EC_number', 'Protein_Name', 'Pfam_ID']
+    if 'UniProt_ID' in ec_pfam_df.columns:
+        available_cols.append('UniProt_ID')
+    if 'Species' in ec_pfam_df.columns:
+        available_cols.append('Species')
+    
+    # Merge with EC information using available columns
     detailed = hits_df.merge(
-        ec_pfam_df[['EC_number', 'Protein_Name', 'Pfam_ID', 'Pfam_Description']],
+        ec_pfam_df[available_cols],
         left_on='pfam_id',
         right_on='Pfam_ID',
         how='left'
     )
     
-    # Reorder columns
-    cols = ['target', 'EC_number', 'Protein_Name', 'Pfam_ID', 'Pfam_Description', 
-            'query_hmm', 'evalue', 'score']
-    detailed = detailed[cols]
+    # Reorder columns based on what's available
+    base_cols = ['target', 'EC_number', 'Protein_Name', 'Pfam_ID', 'query_hmm', 'evalue', 'score']
+    if 'UniProt_ID' in detailed.columns:
+        base_cols.insert(4, 'UniProt_ID')
+    if 'Species' in detailed.columns:
+        base_cols.insert(-3, 'Species')
+    
+    detailed = detailed[base_cols]
     
     # Sort by EC number and E-value
     detailed = detailed.sort_values(['EC_number', 'evalue'])
@@ -305,9 +316,9 @@ def create_detailed_hits_report(ec_pfam_df, hits_df, output_file='detailed_hits.
 
 def main():
     # Configuration
-    pfam_ids_file = 'pfam_ids.txt'
-    hmm_file = 'selected_pfam.hmm'
-    hits_table_file = 'hits_table.txt'
+    pfam_ids_file = sys.argv[1] if len(sys.argv) > 1 else 'pfam_ids.txt'
+    hmm_file = sys.argv[2] 
+    hits_table_file = sys.argv[3] 
     
     # Check files exist
     required_files = [pfam_ids_file, hmm_file, hits_table_file]

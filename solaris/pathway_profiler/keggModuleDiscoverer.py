@@ -4,7 +4,7 @@ from typing import Set, List, Dict, Optional, Tuple
 from Bio.KEGG import REST
 
 
-class KEGGModuleDiscovery:
+class KEGGModuleDiscoverer:
     def __init__(self, delay: float = 0.1):
         """
         KEGG pathway module discovery and analysis tool
@@ -14,6 +14,7 @@ class KEGGModuleDiscovery:
         """
         self.delay = delay
         self.module_cache = {}  # Cache module data to avoid repeated API calls
+        self.pathway_list_cache = None  # Cache pathway list
         
     def _standardize_pathway_id(self, pathway_id: str) -> str:
         """Convert pathway ID to standard KEGG format"""
@@ -21,6 +22,165 @@ class KEGGModuleDiscovery:
             return pathway_id
         else:
             return f"ko{pathway_id}"
+    
+    def search_pathways_by_name(self, search_term: str) -> Dict[str, List[Dict[str, str]]]:
+        """
+        Search for KEGG pathways and modules by name
+        
+        Args:
+            search_term: Pathway/module name or keyword to search for
+            
+        Returns:
+            Dictionary with 'pathways' and 'modules' keys, each containing list of matches
+        """
+        try:
+            print(f"Searching for pathways and modules matching '{search_term}'...")
+            
+            # Get list of all KEGG pathways if not cached
+            if self.pathway_list_cache is None:
+                print("Fetching pathway and module lists from KEGG (this may take a moment)...")
+                pathway_list = REST.kegg_list("pathway").read()
+                module_list = REST.kegg_list("module").read()
+                self.pathway_list_cache = (pathway_list, module_list)
+            else:
+                pathway_list, module_list = self.pathway_list_cache
+            
+            pathway_matches = []
+            module_matches = []
+            
+            # Search modules
+            print("  Searching in modules...")
+            for line in module_list.strip().split('\n'):
+                if '\t' in line:
+                    module_id, module_name = line.split('\t', 1)
+                    module_id = module_id.replace('md:', '')
+                    # Search case-insensitive in module name
+                    if search_term.lower() in module_name.lower():
+                        module_matches.append({
+                            'id': module_id,
+                            'name': module_name,
+                            'type': 'module'
+                        })
+            
+            # Search pathways
+            print("  Searching in pathways...")
+            for line in pathway_list.strip().split('\n'):
+                if '\t' in line:
+                    pathway_id, pathway_name = line.split('\t', 1)
+                    pathway_id = pathway_id.replace('path:', '')
+                    
+                    # Search case-insensitive in pathway name
+                    if search_term.lower() in pathway_name.lower():
+                        # Extract map number (e.g., map00010 -> 00010)
+                        map_number = pathway_id.replace('map', '')
+                        ko_id = f"ko{map_number}"
+                        
+                        pathway_matches.append({
+                            'id': pathway_id,
+                            'map_number': map_number,
+                            'name': pathway_name,
+                            'ko_id': ko_id,
+                            'type': 'pathway'
+                        })
+            
+            print(f"Found {len(pathway_matches)} matching pathways and {len(module_matches)} matching modules")
+            
+            return {
+                'pathways': pathway_matches,
+                'modules': module_matches
+            }
+            
+        except Exception as e:
+            print(f"Error searching pathways: {e}")
+            return {'pathways': [], 'modules': []}
+    
+    def interactive_pathway_search(self) -> Tuple[Optional[str], Optional[str]]:
+        """
+        Interactive pathway/module search by name
+        
+        Returns:
+            Tuple of (selected_id, type) where type is 'pathway' or 'module', or (None, None) if cancelled
+        """
+        print(f"\n{'='*60}")
+        print(f"PATHWAY/MODULE SEARCH")
+        print(f"{'='*60}")
+        
+        while True:
+            search_term = input("\nEnter pathway/module name or keyword to search (or 'skip' to enter ID directly): ").strip()
+            
+            if search_term.lower() == 'skip':
+                # entity_type = input("Enter type (pathway/module): ").strip().lower()
+                entity_id = input(f"Enter KEGG ID: ").strip()
+                return entity_id
+            
+            if not search_term:
+                print("Please enter a search term")
+                continue
+            
+            # Search for pathways and modules
+            results = self.search_pathways_by_name(search_term)
+            pathway_matches = results['pathways']
+            module_matches = results['modules']
+            
+            total_matches = len(pathway_matches) + len(module_matches)
+            
+            if total_matches == 0:
+                print(f"No pathways or modules found matching '{search_term}'")
+                retry = input("Try another search? (y/n): ").strip().lower()
+                if retry != 'y':
+                    return None, None
+                continue
+            
+            # Display matches - pathways first, then modules
+            print(f"\n{'#':<4} {'Type':<10} {'ID':<12} {'Name':<50}")
+            print("-" * 80)
+            
+            all_matches = []
+            
+            # Add pathways
+            for pathway in pathway_matches:
+                all_matches.append(pathway)
+            
+            # Add modules
+            for module in module_matches:
+                all_matches.append(module)
+            
+            # Display all matches
+            for i, match in enumerate(all_matches):
+                name = match['name'][:47] + "..." if len(match['name']) > 50 else match['name']
+                match_type = match['type'].capitalize()
+                match_id = match.get('map_number', match.get('id', ''))
+                
+                print(f"{i+1:<4} {match_type:<10} {match_id:<12} {name:<50}")
+            
+            # Get user selection
+            while True:
+                try:
+                    choice = input(f"\nSelect item (1-{len(all_matches)}) or 'back' to search again: ").strip().lower()
+                    
+                    if choice == 'back':
+                        break
+                    
+                    if choice.isdigit():
+                        idx = int(choice) - 1
+                        if 0 <= idx < len(all_matches):
+                            selected = all_matches[idx]
+                            print(f"\nSelected: {selected['name']}")
+                            
+                            if selected['type'] == 'pathway':
+                                print(f"Pathway ID: {selected['ko_id']}")
+                                return selected['ko_id'], 'pathway'
+                            else:  # module
+                                print(f"Module ID: {selected['id']}")
+                                return selected['id'], 'module'
+                        else:
+                            print(f"Please enter a number between 1 and {len(all_matches)}")
+                    else:
+                        print("Invalid input")
+                        
+                except KeyboardInterrupt:
+                    print("\nSearch cancelled")
+                    return None, None
     
     def discover_pathway_modules(self, pathway_id: str) -> List[Dict[str, str]]:
         """
@@ -258,10 +418,30 @@ class KEGGModuleDiscovery:
         else:
             raise ValueError("Granularity must be 'pathway', 'modules', or 'reactions'")
     
+    def extract_module_components(self, module_id: str) -> Dict:
+        """
+        Extract EC numbers from a single module
+        
+        Args:
+            module_id: KEGG module ID (e.g., 'M00376')
+            
+        Returns:
+            Dictionary with module information and EC numbers
+        """
+        module_info = self._get_module_info(module_id)
+        ec_numbers = self.get_module_ec_numbers(module_id)
+        
+        return {
+            'module_id': module_id,
+            'granularity': 'single_module',
+            'module_info': module_info,
+            'ec_numbers': ec_numbers,
+            'ec_count': len(ec_numbers)
+        }
+    
     def interactive_module_selection(self, pathway_id: str) -> Dict:
         """
-        Interactive workflow for module selection
-        Implements the user workflow you described
+        Interactive workflow for module selection within a pathway
         """
         print(f"\n{'='*60}")
         print(f"PATHWAY ANALYSIS: {pathway_id}")
@@ -306,10 +486,11 @@ class KEGGModuleDiscovery:
                         ec_numbers = self.get_module_ec_numbers(module_id)
                         return {
                             'pathway_id': pathway_id,
-                            'granularity': 'single_module',  # <- ADD THIS LINE
+                            'granularity': 'single_module',
                             'selected_module': selected_module,
                             'ec_numbers': ec_numbers,
-                            'ec_count': len(ec_numbers)}
+                            'ec_count': len(ec_numbers)
+                        }
                     else:
                         print(f"Please enter a number between 1 and {len(modules)}")
                 else:
@@ -330,8 +511,9 @@ class KEGGModuleDiscovery:
             filename: Base filename (will add appropriate suffix)
         """
         if not filename:
-            pathway_id = results.get('pathway_id', 'pathway').replace('ko', '').replace('map', '')
-            filename = f"kegg_extraction_{pathway_id}"
+            entity_id = results.get('pathway_id') or results.get('module_id', 'entity')
+            entity_id = entity_id.replace('ko', '').replace('map', '')
+            filename = f"kegg_extraction_{entity_id}"
         
         granularity = results.get('granularity', 'unknown')
         
@@ -378,19 +560,25 @@ class KEGGModuleDiscovery:
             
         elif granularity == 'single_module':
             # Save single module results
-            module_info = results['selected_module']
-            module_id = module_info['id']
+            if 'selected_module' in results:
+                module_info = results['selected_module']
+                module_id = module_info['id']
+            else:
+                module_info = results.get('module_info', {})
+                module_id = results.get('module_id', 'unknown')
             
-            ec_file = f"{filename}_{module_id}_ec_numbers.txt"
+            ec_file = f"{filename}_ec_numbers.txt"
             with open(ec_file, 'w') as f:
                 f.write(f"# EC numbers from KEGG module: {module_id}\n")
-                f.write(f"# Module name: {module_info['name']}\n")
+                f.write(f"# Module name: {module_info.get('name', 'N/A')}\n")
                 f.write(f"# Total EC numbers: {results['ec_count']}\n\n")
                 
                 for ec in sorted(results['ec_numbers']):
                     f.write(f"{ec}\n")
             
             print(f"Saved {results['ec_count']} EC numbers from {module_id} to {ec_file}")
+        return filename
+
 
 def main():
     """
@@ -398,20 +586,31 @@ def main():
     """
     import sys
     
-    print("KEGG Pathway Module Discovery Tool")
+    print("KEGG Pathway/Module Discovery Tool")
     print("=" * 40)
     
-    # Get pathway ID from user
-    if len(sys.argv) > 1:
-        pathway_id = sys.argv[1]
-    else:
-        pathway_id = input("Enter KEGG pathway ID (e.g., ko00720, map00010, 00720): ").strip()
-    
     # Initialize the tool
-    discoverer = KEGGModuleDiscovery(delay=0.1)
+    discoverer = KEGGModuleDiscoverer(delay=0.1)
     
-    # Run interactive module selection
-    results = discoverer.interactive_module_selection(pathway_id)
+    # Step 1: Search for pathway/module by name or enter ID directly
+    if len(sys.argv) > 1:
+        entity_id = sys.argv[1]
+        entity_type = sys.argv[2] if len(sys.argv) > 2 else 'pathway'
+    else:
+        entity_id = discoverer.interactive_pathway_search()
+        
+        if not entity_id:
+            print("No pathway or module selected. Exiting.")
+            return
+    
+    # # Step 2: Handle based on type
+    # if entity_type == 'module':
+    #     # Direct module extraction
+    #     print(f"\nExtracting EC numbers from module {entity_id}...")
+    #     results = discoverer.extract_module_components(entity_id)
+    # else:
+    #     # Pathway - run interactive module selection
+    results = discoverer.interactive_module_selection(entity_id)
 
     if results:
         # Save results

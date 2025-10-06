@@ -1,0 +1,699 @@
+target,EC_number,Protein_Name,Pfam_ID,UniProt_ID,Species,query_hmm,evalue,score
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0AA40VUU8,Komarekiella delphini-convector SJRDD-AB1,adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4KWQ4,Trichormus variabilis NIES-23,adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A6L9YXD1,Moorena sp. SIO4A3,adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A926TQI3,Leptolyngbya sp. FACHB-321,adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4M252,Calothrix parasitica NIES-267,adh_short,3.7e-68,226.2
+WP_011243157.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A8J7AE34,aff. Roholtiella sp. LEGE 12411,adh_short,3.7e-68,226.2
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0AA40VUU8,Komarekiella delphini-convector SJRDD-AB1,adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4KWQ4,Trichormus variabilis NIES-23,adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A6L9YXD1,Moorena sp. SIO4A3,adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A926TQI3,Leptolyngbya sp. FACHB-321,adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4M252,Calothrix parasitica NIES-267,adh_short,1.52e-55,185.0
+WP_011242343.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A8J7AE34,aff. Roholtiella sp. LEGE 12411,adh_short,1.52e-55,185.0
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0AA40VUU8,Komarekiella delphini-convector SJRDD-AB1,adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4KWQ4,Trichormus variabilis NIES-23,adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A6L9YXD1,Moorena sp. SIO4A3,adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A926TQI3,Leptolyngbya sp. FACHB-321,adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4M252,Calothrix parasitica NIES-267,adh_short,8.24e-51,169.6
+WP_011242366.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A8J7AE34,aff. Roholtiella sp. LEGE 12411,adh_short,8.24e-51,169.6
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0AA40VUU8,Komarekiella delphini-convector SJRDD-AB1,adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4KWQ4,Trichormus variabilis NIES-23,adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A6L9YXD1,Moorena sp. SIO4A3,adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A926TQI3,Leptolyngbya sp. FACHB-321,adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4M252,Calothrix parasitica NIES-267,adh_short,3.08e-30,102.4
+WP_011243836.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A8J7AE34,aff. Roholtiella sp. LEGE 12411,adh_short,3.08e-30,102.4
+WP_011242461.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.07e-27,93.9
+WP_011243239.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,8.63e-23,78.2
+WP_011242762.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.75e-22,77.2
+WP_011243682.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,5.76e-22,75.6
+WP_011244002.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.34e-21,74.4
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0AA40VUU8,Komarekiella delphini-convector SJRDD-AB1,adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4KWQ4,Trichormus variabilis NIES-23,adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A6L9YXD1,Moorena sp. SIO4A3,adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A926TQI3,Leptolyngbya sp. FACHB-321,adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4M252,Calothrix parasitica NIES-267,adh_short,6.28e-21,72.1
+WP_272948005.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A8J7AE34,aff. Roholtiella sp. LEGE 12411,adh_short,6.28e-21,72.1
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0AA40VUU8,Komarekiella delphini-convector SJRDD-AB1,adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4KWQ4,Trichormus variabilis NIES-23,adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A6L9YXD1,Moorena sp. SIO4A3,adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A926TQI3,Leptolyngbya sp. FACHB-321,adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4M252,Calothrix parasitica NIES-267,adh_short,7.39e-21,71.8
+WP_011378491.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A8J7AE34,aff. Roholtiella sp. LEGE 12411,adh_short,7.39e-21,71.8
+WP_011243496.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.56e-20,71.0
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0AA40VUU8,Komarekiella delphini-convector SJRDD-AB1,adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4KWQ4,Trichormus variabilis NIES-23,adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A6L9YXD1,Moorena sp. SIO4A3,adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A926TQI3,Leptolyngbya sp. FACHB-321,adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4M252,Calothrix parasitica NIES-267,adh_short,8.94e-20,68.3
+WP_011378442.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A8J7AE34,aff. Roholtiella sp. LEGE 12411,adh_short,8.94e-20,68.3
+WP_011378292.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.86e-19,67.5
+WP_011243390.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,3.68e-17,60.2
+WP_011243763.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,7.4e-17,59.2
+WP_011243692.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,2.98e-16,57.3
+WP_011243778.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.07e-15,55.5
+WP_011244502.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,5.03e-15,53.3
+WP_011378169.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.44e-14,51.9
+WP_011242769.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.27e-13,48.8
+WP_011377481.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,5.13e-12,43.7
+WP_011243655.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,9.11e-12,42.9
+WP_011378223.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,2.93e-11,41.2
+WP_011243336.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,6.06e-10,37.0
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0AA40VUU8,Komarekiella delphini-convector SJRDD-AB1,adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4KWQ4,Trichormus variabilis NIES-23,adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A6L9YXD1,Moorena sp. SIO4A3,adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A926TQI3,Leptolyngbya sp. FACHB-321,adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A1Z4M252,Calothrix parasitica NIES-267,adh_short,2.12e-09,34.4
+WP_011242991.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF00106,A0A8J7AE34,aff. Roholtiella sp. LEGE 12411,adh_short,2.12e-09,34.4
+WP_011377915.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,2.42e-09,35.1
+WP_011377989.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.04e-07,29.9
+WP_011243911.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.23e-07,29.6
+WP_011242881.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.25e-07,29.6
+WP_011377504.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.58e-07,29.3
+WP_011244795.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,1.22e-06,26.4
+WP_011243755.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,2.55e-06,25.4
+WP_011243467.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,3.02e-06,25.2
+WP_011377807.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,3.49e-06,25.0
+WP_011377690.1,1.1.1.298,NADP-dependent 3-hydroxy acid dehydrogenase YdfG,PF13649,A0A6L9YXD1,Moorena sp. SIO4A3,Methyltransf_25,6.63e-06,24.1
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,1.74e-95,317.9
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,1.74e-95,317.9
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,1.81e-49,166.3
+WP_011377658.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A0D6AAC9,Geminocystis sp. NIES-3708,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A6B3M7B8,Symploca sp. SIO2E9,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A6P0KEF5,Symploca sp. SIO3C6,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A841WH79,Nostoc sp. 2RC,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A856MQG3,Brasilonema sennae CENA114,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A939KUG9,Hormoscilla sp. GUM202,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A9D7VFN3,Nostoc sp. GBBB01,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A9Q5ZCJ0,Nostoc linckia z8,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,K9WG01,Allocoleopsis franciscana PCC 7113,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A1T4ZH39,Planktothrix sp. PCC 11201,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A920KSA3,Prochlorococcus sp,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A367QCR0,Nostoc minutum NIES-26,Succ_DH_flav_C,1.91e-32,109.3
+WP_011377658.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A6P0NNH0,Okeania sp. SIO2C2,Succ_DH_flav_C,1.91e-32,109.3
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,A0A6J4VNK4,uncultured Synechococcales cyanobacterium,Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,A0A846SV15,Synechococcaceae cyanobacterium SM1_2_3,Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,A0A920GA37,Prochlorococcus sp,Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,G5J171,Crocosphaera watsonii WH 0003,Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,Q7NCN4,Gloeobacter violaceus (strain ATCC 29082 / PCC 7421),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13085,U5QBN3,Gloeobacter kilaueensis (strain ATCC BAA-2537 / CCAP 1431/1 / ULC 316 / JS1),Fer2_3,6e-22,75.0
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13085,A0A0M2PSI7,Prochlorothrix hollandica PCC 9006 = CALU 1027,Fer2_3,6e-22,75.0
+WP_011378229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF02910,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A0D6AAC9,Geminocystis sp. NIES-3708,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A6B3M7B8,Symploca sp. SIO2E9,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A6P0KEF5,Symploca sp. SIO3C6,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A841WH79,Nostoc sp. 2RC,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A856MQG3,Brasilonema sennae CENA114,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A939KUG9,Hormoscilla sp. GUM202,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A9D7VFN3,Nostoc sp. GBBB01,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A9Q5ZCJ0,Nostoc linckia z8,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,K9WG01,Allocoleopsis franciscana PCC 7113,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A1T4ZH39,Planktothrix sp. PCC 11201,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A920KSA3,Prochlorococcus sp,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A367QCR0,Nostoc minutum NIES-26,Succ_DH_flav_C,2.38e-17,60.4
+WP_011378229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF02910,A0A6P0NNH0,Okeania sp. SIO2C2,Succ_DH_flav_C,2.38e-17,60.4
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,A0A6J4VNK4,uncultured Synechococcales cyanobacterium,Fer4_8,1.39e-14,51.7
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,G5J171,Crocosphaera watsonii WH 0003,Fer4_8,1.39e-14,51.7
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,Q7NCN4,Gloeobacter violaceus (strain ATCC 29082 / PCC 7421),Fer4_8,1.39e-14,51.7
+WP_011244684.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,U5QBN3,Gloeobacter kilaueensis (strain ATCC BAA-2537 / CCAP 1431/1 / ULC 316 / JS1),Fer4_8,1.39e-14,51.7
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,A0A0M2PSI7,Prochlorothrix hollandica PCC 9006 = CALU 1027,Fer4_8,1.39e-14,51.7
+WP_011378159.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,9.49e-13,45.4
+WP_011378159.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,9.49e-13,45.4
+WP_011377880.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,1.33e-10,38.3
+WP_011377880.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,1.33e-10,38.3
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,A0A846SV15,Synechococcaceae cyanobacterium SM1_2_3,Fer4_17,4.83e-10,37.2
+WP_011244684.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,A0A920GA37,Prochlorococcus sp,Fer4_17,4.83e-10,37.2
+WP_011377549.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,4.01e-09,33.4
+WP_011377549.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,4.01e-09,33.4
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,A0A6J4VNK4,uncultured Synechococcales cyanobacterium,Fer4_8,2.43e-08,31.7
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,G5J171,Crocosphaera watsonii WH 0003,Fer4_8,2.43e-08,31.7
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,Q7NCN4,Gloeobacter violaceus (strain ATCC 29082 / PCC 7421),Fer4_8,2.43e-08,31.7
+WP_011244829.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,U5QBN3,Gloeobacter kilaueensis (strain ATCC BAA-2537 / CCAP 1431/1 / ULC 316 / JS1),Fer4_8,2.43e-08,31.7
+WP_011244829.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,A0A0M2PSI7,Prochlorothrix hollandica PCC 9006 = CALU 1027,Fer4_8,2.43e-08,31.7
+WP_011244229.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,3.57e-08,30.3
+WP_011244229.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,3.57e-08,30.3
+WP_011377934.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,4.96e-08,29.8
+WP_011377934.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,4.96e-08,29.8
+WP_011242885.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,6.97e-08,29.3
+WP_011242885.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,6.97e-08,29.3
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,A0A6J4VNK4,uncultured Synechococcales cyanobacterium,Fer4_8,7.97e-08,30.1
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,G5J171,Crocosphaera watsonii WH 0003,Fer4_8,7.97e-08,30.1
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,Q7NCN4,Gloeobacter violaceus (strain ATCC 29082 / PCC 7421),Fer4_8,7.97e-08,30.1
+WP_011242523.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,U5QBN3,Gloeobacter kilaueensis (strain ATCC BAA-2537 / CCAP 1431/1 / ULC 316 / JS1),Fer4_8,7.97e-08,30.1
+WP_011242523.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,A0A0M2PSI7,Prochlorothrix hollandica PCC 9006 = CALU 1027,Fer4_8,7.97e-08,30.1
+WP_011378298.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,8.93e-08,29.0
+WP_011378298.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,8.93e-08,29.0
+WP_011242908.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,1.68e-07,28.1
+WP_011242908.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,1.68e-07,28.1
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,A0A846SV15,Synechococcaceae cyanobacterium SM1_2_3,Fer4_17,1.93e-07,28.9
+WP_011243298.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13534,A0A920GA37,Prochlorococcus sp,Fer4_17,1.93e-07,28.9
+WP_011377912.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,3.82e-07,26.9
+WP_011377912.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,3.82e-07,26.9
+WP_011242552.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,7.12e-07,26.0
+WP_011242552.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,7.12e-07,26.0
+WP_011243397.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,7.28e-07,26.0
+WP_011243397.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,7.28e-07,26.0
+WP_011242537.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF00504,A0A6J4VNK4,uncultured Synechococcales cyanobacterium,Chloroa_b-bind,7.29e-07,27.1
+WP_011242603.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,1.04e-06,25.5
+WP_011242603.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,1.04e-06,25.5
+WP_011378061.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,2.11e-06,24.5
+WP_011378061.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,2.11e-06,24.5
+WP_011377457.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,2.22e-06,24.4
+WP_011377457.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,2.22e-06,24.4
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,A0A6J4VNK4,uncultured Synechococcales cyanobacterium,Fer4_8,2.52e-06,25.3
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,G5J171,Crocosphaera watsonii WH 0003,Fer4_8,2.52e-06,25.3
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,Q7NCN4,Gloeobacter violaceus (strain ATCC 29082 / PCC 7421),Fer4_8,2.52e-06,25.3
+WP_011378437.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,U5QBN3,Gloeobacter kilaueensis (strain ATCC BAA-2537 / CCAP 1431/1 / ULC 316 / JS1),Fer4_8,2.52e-06,25.3
+WP_011378437.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,A0A0M2PSI7,Prochlorothrix hollandica PCC 9006 = CALU 1027,Fer4_8,2.52e-06,25.3
+WP_011243324.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,3.07e-06,23.9
+WP_011243324.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,3.07e-06,23.9
+WP_407830100.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,3.6e-06,23.7
+WP_407830100.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,3.6e-06,23.7
+WP_011378455.1,1.3.5.1,Fumarate reductase flavoprotein subunit,PF00890,A0A846SVX3,Synechococcaceae cyanobacterium SM1_2_3,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0D6AAC9,Geminocystis sp. NIES-3708,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6B3M7B8,Symploca sp. SIO2E9,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0KEF5,Symploca sp. SIO3C6,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A841WH79,Nostoc sp. 2RC,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A856MQG3,Brasilonema sennae CENA114,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A939KUG9,Hormoscilla sp. GUM202,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9D7VFN3,Nostoc sp. GBBB01,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A9Q5ZCJ0,Nostoc linckia z8,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,K9WG01,Allocoleopsis franciscana PCC 7113,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,P73479,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A1T4ZH39,Planktothrix sp. PCC 11201,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A3M9ZCD7,Leptolyngbya sp. IPPAS B-1204,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A7Z9BUF9,Planktothrix paucivesiculata PCC 9631,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A920KSA3,Prochlorococcus sp,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A0M2PYM6,Prochlorothrix hollandica PCC 9006 = CALU 1027,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A367QCR0,Nostoc minutum NIES-26,FAD_binding_2,4.76e-06,23.3
+WP_011378455.1,1.3.5.1,Succinate dehydrogenase flavoprotein subunit,PF00890,A0A6P0NNH0,Okeania sp. SIO2C2,FAD_binding_2,4.76e-06,23.3
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,A0A6J4VNK4,uncultured Synechococcales cyanobacterium,Fer4_8,5.06e-06,24.3
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,G5J171,Crocosphaera watsonii WH 0003,Fer4_8,5.06e-06,24.3
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,Q7NCN4,Gloeobacter violaceus (strain ATCC 29082 / PCC 7421),Fer4_8,5.06e-06,24.3
+WP_011378517.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF13183,U5QBN3,Gloeobacter kilaueensis (strain ATCC BAA-2537 / CCAP 1431/1 / ULC 316 / JS1),Fer4_8,5.06e-06,24.3
+WP_011378517.1,1.3.5.1,Succinate dehydrogenase iron-sulfur subunit,PF13183,A0A0M2PSI7,Prochlorothrix hollandica PCC 9006 = CALU 1027,Fer4_8,5.06e-06,24.3
+WP_265575013.1,1.3.5.1,Fumarate reductase iron-sulfur subunit,PF00504,A0A6J4VNK4,uncultured Synechococcales cyanobacterium,Chloroa_b-bind,5.49e-06,24.3
+WP_011377638.1,4.2.1.116,Unknown,PF00378,A0A563VRQ7,Hyella patelloides LEGE 07179,ECH_1,3.33e-74,246.7
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7V024,Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7U8I1,Parasynechococcus marenigrum (strain WH8102),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7VA47,Prochlorococcus marinus (strain SARG / CCMP1375 / SS120),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7V5R2,Prochlorococcus marinus (strain MIT 9313),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q55674,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8DIP7,Thermosynechococcus vestitus (strain NIES-2133 / IAM M-273 / BP-1),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A4P5VM45,Cyanobium sp,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A551YRI1,Microcystis sp. M_QC_C_20170808_M3Col,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A552Q9W5,Microcystis panniformis Mp_MB_F_20051200_S9,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A857CZB1,Microcystis aeruginosa FD4,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A552HGU0,Microcystis viridis Mv_BB_P_19951000_S68D,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A076HAY6,Synechococcus sp. KORDI-100,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0A2AI00,Prochlorococcus marinus str. MIT 9314,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0C1YI25,Lyngbya confervoides BDU141951,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0D6AEV9,Geminocystis sp. NIES-3708,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0P4UR57,Leptolyngbya sp. NIES-2104,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1D8TWP5,Moorena producens PAL-8-15-08-1,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1D9G434,Moorena producens (strain JHB),Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1L9QMS8,Roseofilum reptotaenium AO1-A,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1U7J744,Phormidium tenue NIES-30,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1U9WX49,Planktothrix agardhii No365,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1U9WY33,Planktothrix agardhii NIVA-CYA 68,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1Z9LMN3,Cyanobacteria bacterium TMED188,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A251WBB5,Alkalinema sp. CACIAM 70d,Lyase_1,6.29e-109,361.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A2D4YWV8,Synechococcus sp. CPC35,Lyase_1,6.29e-109,361.4
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7V024,Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7U8I1,Parasynechococcus marenigrum (strain WH8102),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7VA47,Prochlorococcus marinus (strain SARG / CCMP1375 / SS120),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7V5R2,Prochlorococcus marinus (strain MIT 9313),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q55674,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8DIP7,Thermosynechococcus vestitus (strain NIES-2133 / IAM M-273 / BP-1),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A4P5VM45,Cyanobium sp,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A551YRI1,Microcystis sp. M_QC_C_20170808_M3Col,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A552Q9W5,Microcystis panniformis Mp_MB_F_20051200_S9,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A857CZB1,Microcystis aeruginosa FD4,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A552HGU0,Microcystis viridis Mv_BB_P_19951000_S68D,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A076HAY6,Synechococcus sp. KORDI-100,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0A2AI00,Prochlorococcus marinus str. MIT 9314,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0C1YI25,Lyngbya confervoides BDU141951,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0D6AEV9,Geminocystis sp. NIES-3708,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0P4UR57,Leptolyngbya sp. NIES-2104,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1D8TWP5,Moorena producens PAL-8-15-08-1,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1D9G434,Moorena producens (strain JHB),Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1L9QMS8,Roseofilum reptotaenium AO1-A,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1U7J744,Phormidium tenue NIES-30,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1U9WX49,Planktothrix agardhii No365,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1U9WY33,Planktothrix agardhii NIVA-CYA 68,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1Z9LMN3,Cyanobacteria bacterium TMED188,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A251WBB5,Alkalinema sp. CACIAM 70d,Lyase_1,1.53e-77,258.3
+WP_039755911.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A2D4YWV8,Synechococcus sp. CPC35,Lyase_1,1.53e-77,258.3
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7V024,Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7U8I1,Parasynechococcus marenigrum (strain WH8102),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7VA47,Prochlorococcus marinus (strain SARG / CCMP1375 / SS120),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q7V5R2,Prochlorococcus marinus (strain MIT 9313),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q55674,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,Q8DIP7,Thermosynechococcus vestitus (strain NIES-2133 / IAM M-273 / BP-1),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A4P5VM45,Cyanobium sp,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A551YRI1,Microcystis sp. M_QC_C_20170808_M3Col,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A552Q9W5,Microcystis panniformis Mp_MB_F_20051200_S9,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A857CZB1,Microcystis aeruginosa FD4,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A552HGU0,Microcystis viridis Mv_BB_P_19951000_S68D,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A076HAY6,Synechococcus sp. KORDI-100,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0A2AI00,Prochlorococcus marinus str. MIT 9314,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0C1YI25,Lyngbya confervoides BDU141951,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0D6AEV9,Geminocystis sp. NIES-3708,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A0P4UR57,Leptolyngbya sp. NIES-2104,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1D8TWP5,Moorena producens PAL-8-15-08-1,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1D9G434,Moorena producens (strain JHB),Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1L9QMS8,Roseofilum reptotaenium AO1-A,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1U7J744,Phormidium tenue NIES-30,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1U9WX49,Planktothrix agardhii No365,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1U9WY33,Planktothrix agardhii NIVA-CYA 68,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A1Z9LMN3,Cyanobacteria bacterium TMED188,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A251WBB5,Alkalinema sp. CACIAM 70d,Lyase_1,1.08e-62,209.6
+WP_011377532.1,4.2.1.2,Fumarate hydratase class II,PF00206,A0A2D4YWV8,Synechococcus sp. CPC35,Lyase_1,1.08e-62,209.6
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q7V024,Prochlorococcus marinus subsp. pastoris (strain CCMP1986 / NIES-2087 / MED4),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q7U8I1,Parasynechococcus marenigrum (strain WH8102),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q7VA47,Prochlorococcus marinus (strain SARG / CCMP1375 / SS120),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q7V5R2,Prochlorococcus marinus (strain MIT 9313),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q55674,Synechocystis sp. (strain ATCC 27184 / PCC 6803 / Kazusa),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,Q8DIP7,Thermosynechococcus vestitus (strain NIES-2133 / IAM M-273 / BP-1),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A4P5VM45,Cyanobium sp,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A551YRI1,Microcystis sp. M_QC_C_20170808_M3Col,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A552Q9W5,Microcystis panniformis Mp_MB_F_20051200_S9,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A857CZB1,Microcystis aeruginosa FD4,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A552HGU0,Microcystis viridis Mv_BB_P_19951000_S68D,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A076HAY6,Synechococcus sp. KORDI-100,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A0A2AI00,Prochlorococcus marinus str. MIT 9314,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A0C1YI25,Lyngbya confervoides BDU141951,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A0D6AEV9,Geminocystis sp. NIES-3708,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A0P4UR57,Leptolyngbya sp. NIES-2104,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A1D8TWP5,Moorena producens PAL-8-15-08-1,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A1D9G434,Moorena producens (strain JHB),FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A1L9QMS8,Roseofilum reptotaenium AO1-A,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A1U7J744,Phormidium tenue NIES-30,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A1U9WX49,Planktothrix agardhii No365,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A1U9WY33,Planktothrix agardhii NIVA-CYA 68,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A1Z9LMN3,Cyanobacteria bacterium TMED188,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A251WBB5,Alkalinema sp. CACIAM 70d,FumaraseC_C,6.14e-23,78.4
+WP_011242850.1,4.2.1.2,Fumarate hydratase class II,PF10415,A0A2D4YWV8,Synechococcus sp. CPC35,FumaraseC_C,6.14e-23,78.4
+WP_011243199.1,5.1.99.1,Unknown,PF00903,A0A0N7Z562,Leptolyngbya sp. NIES-2104,Glyoxalase,6.63e-31,104.5
+WP_011242468.1,5.1.99.1,Unknown,PF00903,A0A0N7Z562,Leptolyngbya sp. NIES-2104,Glyoxalase,3.3e-19,66.8
+WP_011377628.1,5.1.99.1,Unknown,PF00903,A0A0N7Z562,Leptolyngbya sp. NIES-2104,Glyoxalase,2.95e-17,60.5
+WP_011377511.1,5.1.99.1,Unknown,PF00903,A0A0N7Z562,Leptolyngbya sp. NIES-2104,Glyoxalase,1.6e-12,45.2
+WP_011243199.1,5.1.99.1,Unknown,PF13669,A0A956U7Y4,Cyanobacteria bacterium HKST-UBA01,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,Unknown,PF13669,A0A968TW56,Calothrix sp. SM1_5_4,Glyoxalase_4,1.07e-09,35.9
+WP_011243199.1,5.1.99.1,Unknown,PF13669,A0A949IDS5,Cyanobacteria bacterium REEB67,Glyoxalase_4,1.07e-09,35.9
+WP_011377628.1,5.1.99.1,Unknown,PF13669,A0A956U7Y4,Cyanobacteria bacterium HKST-UBA01,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,Unknown,PF13669,A0A968TW56,Calothrix sp. SM1_5_4,Glyoxalase_4,1.69e-09,35.3
+WP_011377628.1,5.1.99.1,Unknown,PF13669,A0A949IDS5,Cyanobacteria bacterium REEB67,Glyoxalase_4,1.69e-09,35.3
+WP_011242427.1,5.1.99.1,Unknown,PF00903,A0A0N7Z562,Leptolyngbya sp. NIES-2104,Glyoxalase,1.81e-07,28.9
+WP_011242427.1,5.1.99.1,Unknown,PF13669,A0A956U7Y4,Cyanobacteria bacterium HKST-UBA01,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,Unknown,PF13669,A0A968TW56,Calothrix sp. SM1_5_4,Glyoxalase_4,4.94e-07,27.3
+WP_011242427.1,5.1.99.1,Unknown,PF13669,A0A949IDS5,Cyanobacteria bacterium REEB67,Glyoxalase_4,4.94e-07,27.3
+WP_011243876.1,5.1.99.1,Unknown,PF00903,A0A0N7Z562,Leptolyngbya sp. NIES-2104,Glyoxalase,5e-07,27.5
+WP_011378007.1,5.4.99.2,methylmalonyl-CoA mutase,PF02310,A0A968UR75,Microcoleus sp. SM1_3_4,B12-binding,4.78e-19,65.7
+WP_011242392.1,5.4.99.2,methylmalonyl-CoA mutase,PF02310,A0A968UR75,Microcoleus sp. SM1_3_4,B12-binding,3.01e-13,47.0
+WP_039755810.1,5.4.99.2,methylmalonyl-CoA mutase,PF02310,A0A968UR75,Microcoleus sp. SM1_3_4,B12-binding,2.96e-06,24.4
+WP_011242365.1,6.4.1.2,Unknown,PF03255,A0A6M0B6A9,Moorena sp. SIO3I6,ACCA,3.39e-143,473.7
+WP_011243131.1,6.4.1.2,Unknown,PF02786,A0A6P0S7A5,Symploca sp. SIO2D2,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,Unknown,PF02786,A0A956QWV1,Cyanobacteria bacterium HKST-UBA02,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,Unknown,PF02786,A0A354AXK8,Synechococcales bacterium UBA10510,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,Unknown,PF02786,A0A354WLG3,Planktothrix sp. UBA10369,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,Unknown,PF02786,A0A3C1RLW2,Planktothrix sp. UBA8407,CPSase_L_D2,6.47e-113,372.7
+WP_011243131.1,6.4.1.2,Unknown,PF02786,A0A3D0PBE3,Synechococcales bacterium UBA8647,CPSase_L_D2,6.47e-113,372.7
+WP_011242491.1,6.4.1.2,Unknown,PF02786,A0A6P0S7A5,Symploca sp. SIO2D2,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,Unknown,PF02786,A0A956QWV1,Cyanobacteria bacterium HKST-UBA02,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,Unknown,PF02786,A0A354AXK8,Synechococcales bacterium UBA10510,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,Unknown,PF02786,A0A354WLG3,Planktothrix sp. UBA10369,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,Unknown,PF02786,A0A3C1RLW2,Planktothrix sp. UBA8407,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,Unknown,PF02786,A0A3D0PBE3,Synechococcales bacterium UBA8647,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.2,Unknown,PF00289,A0A6P0S7A5,Symploca sp. SIO2D2,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,Unknown,PF00289,A0A956QWV1,Cyanobacteria bacterium HKST-UBA02,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,Unknown,PF00289,A0A354AXK8,Synechococcales bacterium UBA10510,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,Unknown,PF00289,A0A354WLG3,Planktothrix sp. UBA10369,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,Unknown,PF00289,A0A968UFG8,Hydrococcus sp. SU_1_0,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,Unknown,PF00289,A0A3C1RLW2,Planktothrix sp. UBA8407,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.2,Unknown,PF00289,A0A3D0PBE3,Synechococcales bacterium UBA8647,Biotin_carb_N,1.68e-46,154.6
+WP_011243856.1,6.4.1.2,Unknown,PF00364,A0A956ZCF5,Cyanobacteria bacterium HKST-UBA01,Biotin_lipoyl,1.66e-24,82.8
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A6M0BEM7,Moorena sp. SIO3I6,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A6P1ZR27,Nodularia sp.,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A846BTG7,Symploca sp. SIO1B1,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A969C8C8,Synechococcales cyanobacterium RU_4_20,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A9E6UZU6,Nostocales cyanobacterium,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A6P0SWG8,Moorena sp. SIO2I5,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A7X3TEG1,Synechococcus sp. SB0668_bin_13,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A7X6HSM9,Microcoleus sp. SU_5_6,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A3M1LEH1,Cyanobacteria bacterium J083,Carboxyl_trans,1.49e-21,73.9
+WP_011244449.1,6.4.1.2,Unknown,PF01039,A0A956TYC6,Cyanobacteria bacterium HKST-UBA06,Carboxyl_trans,1.49e-21,73.9
+WP_011377850.1,6.4.1.2,Unknown,PF00364,A0A956ZCF5,Cyanobacteria bacterium HKST-UBA01,Biotin_lipoyl,7.06e-18,61.6
+WP_011244040.1,6.4.1.2,Unknown,PF02786,A0A6P0S7A5,Symploca sp. SIO2D2,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,Unknown,PF02786,A0A956QWV1,Cyanobacteria bacterium HKST-UBA02,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,Unknown,PF02786,A0A354AXK8,Synechococcales bacterium UBA10510,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,Unknown,PF02786,A0A354WLG3,Planktothrix sp. UBA10369,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,Unknown,PF02786,A0A3C1RLW2,Planktothrix sp. UBA8407,CPSase_L_D2,1.2e-12,45.1
+WP_011244040.1,6.4.1.2,Unknown,PF02786,A0A3D0PBE3,Synechococcales bacterium UBA8647,CPSase_L_D2,1.2e-12,45.1
+WP_011244449.1,6.4.1.2,Unknown,PF17848,A0A6M0BEM7,Moorena sp. SIO3I6,Zn_ribbon_ACC,7.97e-12,42.5
+WP_011244449.1,6.4.1.2,Unknown,PF17848,A0A6P1ZR27,Nodularia sp.,Zn_ribbon_ACC,7.97e-12,42.5
+WP_011244449.1,6.4.1.2,Unknown,PF17848,A0A846BTG7,Symploca sp. SIO1B1,Zn_ribbon_ACC,7.97e-12,42.5
+WP_011244449.1,6.4.1.2,Unknown,PF17848,A0A969C8C8,Synechococcales cyanobacterium RU_4_20,Zn_ribbon_ACC,7.97e-12,42.5
+WP_011244449.1,6.4.1.2,Unknown,PF17848,A0A9E6UZU6,Nostocales cyanobacterium,Zn_ribbon_ACC,7.97e-12,42.5
+WP_011244449.1,6.4.1.2,Unknown,PF17848,A0A6P0SWG8,Moorena sp. SIO2I5,Zn_ribbon_ACC,7.97e-12,42.5
+WP_011244449.1,6.4.1.2,Unknown,PF17848,A0A7X3TEG1,Synechococcus sp. SB0668_bin_13,Zn_ribbon_ACC,7.97e-12,42.5
+WP_011244449.1,6.4.1.2,Unknown,PF17848,A0A7X6HSM9,Microcoleus sp. SU_5_6,Zn_ribbon_ACC,7.97e-12,42.5
+WP_011244449.1,6.4.1.2,Unknown,PF17848,A0A3M1LEH1,Cyanobacteria bacterium J083,Zn_ribbon_ACC,7.97e-12,42.5
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A6M0BEM7,Moorena sp. SIO3I6,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A6P1ZR27,Nodularia sp.,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A846BTG7,Symploca sp. SIO1B1,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A969C8C8,Synechococcales cyanobacterium RU_4_20,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A9E6UZU6,Nostocales cyanobacterium,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A6P0SWG8,Moorena sp. SIO2I5,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A7X3TEG1,Synechococcus sp. SB0668_bin_13,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A7X6HSM9,Microcoleus sp. SU_5_6,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A3M1LEH1,Cyanobacteria bacterium J083,Carboxyl_trans,1.04e-11,41.4
+WP_011242365.1,6.4.1.2,Unknown,PF01039,A0A956TYC6,Cyanobacteria bacterium HKST-UBA06,Carboxyl_trans,1.04e-11,41.4
+WP_011243247.1,6.4.1.2,Unknown,PF02786,A0A6P0S7A5,Symploca sp. SIO2D2,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,Unknown,PF02786,A0A956QWV1,Cyanobacteria bacterium HKST-UBA02,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,Unknown,PF02786,A0A354AXK8,Synechococcales bacterium UBA10510,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,Unknown,PF02786,A0A354WLG3,Planktothrix sp. UBA10369,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,Unknown,PF02786,A0A3C1RLW2,Planktothrix sp. UBA8407,CPSase_L_D2,5.05e-09,33.3
+WP_011243247.1,6.4.1.2,Unknown,PF02786,A0A3D0PBE3,Synechococcales bacterium UBA8647,CPSase_L_D2,5.05e-09,33.3
+WP_011242929.1,6.4.1.2,Unknown,PF02786,A0A6P0S7A5,Symploca sp. SIO2D2,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,Unknown,PF02786,A0A956QWV1,Cyanobacteria bacterium HKST-UBA02,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,Unknown,PF02786,A0A354AXK8,Synechococcales bacterium UBA10510,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,Unknown,PF02786,A0A354WLG3,Planktothrix sp. UBA10369,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,Unknown,PF02786,A0A3C1RLW2,Planktothrix sp. UBA8407,CPSase_L_D2,3.76e-08,30.4
+WP_011242929.1,6.4.1.2,Unknown,PF02786,A0A3D0PBE3,Synechococcales bacterium UBA8647,CPSase_L_D2,3.76e-08,30.4
+WP_011242442.1,6.4.1.2,Unknown,PF02786,A0A6P0S7A5,Symploca sp. SIO2D2,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,Unknown,PF02786,A0A956QWV1,Cyanobacteria bacterium HKST-UBA02,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,Unknown,PF02786,A0A354AXK8,Synechococcales bacterium UBA10510,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,Unknown,PF02786,A0A354WLG3,Planktothrix sp. UBA10369,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,Unknown,PF02786,A0A3C1RLW2,Planktothrix sp. UBA8407,CPSase_L_D2,7.7e-07,26.1
+WP_011242442.1,6.4.1.2,Unknown,PF02786,A0A3D0PBE3,Synechococcales bacterium UBA8647,CPSase_L_D2,7.7e-07,26.1
+WP_011377875.1,6.4.1.2,Unknown,PF00364,A0A956ZCF5,Cyanobacteria bacterium HKST-UBA01,Biotin_lipoyl,9.75e-06,22.7
+WP_011243131.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF02786,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,CPSase_L_D2,6.47e-113,372.7
+WP_011242491.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF02786,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,CPSase_L_D2,7.11e-86,284.4
+WP_011242491.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF00289,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,Biotin_carb_N,1.68e-46,154.6
+WP_011242491.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF02785,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,Biotin_carb_C,5.41e-42,139.6
+WP_011243856.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF00364,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,Biotin_lipoyl,1.66e-24,82.8
+WP_011377850.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF00364,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,Biotin_lipoyl,7.06e-18,61.6
+WP_011244040.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF02786,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,CPSase_L_D2,1.2e-12,45.1
+WP_011243247.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF02786,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,CPSase_L_D2,5.05e-09,33.3
+WP_011242929.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF02786,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,CPSase_L_D2,3.76e-08,30.4
+WP_011242442.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF02786,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,CPSase_L_D2,7.7e-07,26.1
+WP_011377875.1,6.4.1.3,Biotin-dependent 3-methylcrotonyl-coenzyme A carboxylase alpha1 subunit,PF00364,A0A846T903,Synechococcaceae cyanobacterium SM1_2_3,Biotin_lipoyl,9.75e-06,22.7

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CyanoTools - Cyanobacterial Systems Biology Toolkit
+Solaris - Toolkit for heterologous pathway transfer for metabolic engineering
 """
 
 import argparse
@@ -8,8 +8,8 @@ import sys
 
 def main():
     parser = argparse.ArgumentParser(
-        prog='biomera',
-        description='Biomera: Toolkit for heterologous pathway transfer for metabolic engineering',
+        prog='solaris',
+        description='SOLARIS: Toolkit for heterologous pathway transfer for metabolic engineering',
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     
@@ -17,11 +17,11 @@ def main():
     
     # Pathway Mapper subcommand
     pathway_parser = subparsers.add_parser(
-        'pathway-mapper',
+        'pathway_profiler',
         help='EC-based pathway profiling and pangenomic analysis'
     )
     # Import pathway_mapper CLI and add its arguments
-    from biomera.pathway_mapper.cli import setup_pathway_parser
+    from solaris.pathway_profiler.cli import setup_pathway_parser
     setup_pathway_parser(pathway_parser)
     
     # Add other subcommands here
@@ -35,8 +35,8 @@ def main():
         sys.exit(1)
     
     # Route to appropriate feature
-    if args.command == 'pathway-mapper':
-        from biomera.pathway_mapper.cli import handle_pathway_mapper
+    if args.command == 'pathway_profiler':
+        from solaris.pathway_profiler.cli import handle_pathway_mapper
         handle_pathway_mapper(args)
     
     # elif args.command == 'feature2':
