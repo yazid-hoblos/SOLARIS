@@ -384,5 +384,3 @@ If you use SOLARIS in your research, please cite our work:
 - **[GitLab Repository](https://gitlab.igem.org/2025/software-tools/evry-paris-saclay/)** - Source code and development
 - **[Software & AI Village](https://villages.igem.org)** - iGEM software community
 - **[iGEM 2025](https://2025.igem.wiki/)** - International Genetically Engineered Machine competition
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
