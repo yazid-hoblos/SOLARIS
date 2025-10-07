@@ -1,0 +1,472 @@
+accession,strain,file,organism,genus
+GCF_001180245.1,SCGC_AAA795-F05,cyanobacteria_proteomes/SCGC_AAA795-F05_GCF_001180245.1.faa,Prochlorococcus marinus,Prochlorococcus
+GCF_017696015.1,CUG1415,cyanobacteria_proteomes/CUG1415_GCF_017696015.1.faa,Prochlorococcus marinus CUG1415,Prochlorococcus
+GCF_017695965.1,CUG1416,cyanobacteria_proteomes/CUG1416_GCF_017695965.1.faa,Prochlorococcus marinus CUG1416,Prochlorococcus
+GCF_017695975.1,CUG1417,cyanobacteria_proteomes/CUG1417_GCF_017695975.1.faa,Prochlorococcus marinus CUG1417,Prochlorococcus
+GCF_000015645.1,AS9601,cyanobacteria_proteomes/AS9601_GCF_000015645.1.faa,Prochlorococcus marinus str. AS9601,Prochlorococcus
+GCF_000759875.1,EQPAC1,cyanobacteria_proteomes/EQPAC1_GCF_000759875.1.faa,Prochlorococcus marinus str. EQPAC1,Prochlorococcus
+GCF_000759885.1,GP2,cyanobacteria_proteomes/GP2_GCF_000759885.1.faa,Prochlorococcus marinus str. GP2,Prochlorococcus
+GCF_047302875.1,GP2,cyanobacteria_proteomes/GP2_GCF_047302875.1.faa,Prochlorococcus marinus str. GP2,Prochlorococcus
+GCF_000760155.1,LG,cyanobacteria_proteomes/LG_GCF_000760155.1.faa,Prochlorococcus marinus str. LG,Prochlorococcus
+GCF_047302905.1,LG,cyanobacteria_proteomes/LG_GCF_047302905.1.faa,Prochlorococcus marinus str. LG,Prochlorococcus
+GCF_027359595.1,MIT_0912,cyanobacteria_proteomes/MIT_0912_GCF_027359595.1.faa,Prochlorococcus marinus str. MIT 0912,Prochlorococcus
+GCF_027359525.1,MIT_0913,cyanobacteria_proteomes/MIT_0913_GCF_027359525.1.faa,Prochlorococcus marinus str. MIT 0913,Prochlorococcus
+GCF_027359475.1,MIT_0915,cyanobacteria_proteomes/MIT_0915_GCF_027359475.1.faa,Prochlorococcus marinus str. MIT 0915,Prochlorococcus
+GCF_027359575.1,MIT_0917,cyanobacteria_proteomes/MIT_0917_GCF_027359575.1.faa,Prochlorococcus marinus str. MIT 0917,Prochlorococcus
+GCF_027359415.1,MIT_0918,cyanobacteria_proteomes/MIT_0918_GCF_027359415.1.faa,Prochlorococcus marinus str. MIT 0918,Prochlorococcus
+GCF_027359375.1,MIT_0919,cyanobacteria_proteomes/MIT_0919_GCF_027359375.1.faa,Prochlorococcus marinus str. MIT 0919,Prochlorococcus
+GCF_047302745.1,MIT_1012,cyanobacteria_proteomes/MIT_1012_GCF_047302745.1.faa,Prochlorococcus marinus str. MIT 1012,Prochlorococcus
+GCF_027359395.1,MIT_1013,cyanobacteria_proteomes/MIT_1013_GCF_027359395.1.faa,Prochlorococcus marinus str. MIT 1013,Prochlorococcus
+GCF_027359355.1,MIT_1214,cyanobacteria_proteomes/MIT_1214_GCF_027359355.1.faa,Prochlorococcus marinus str. MIT 1214,Prochlorococcus
+GCF_001632005.1,MIT_1312,cyanobacteria_proteomes/MIT_1312_GCF_001632005.1.faa,Prochlorococcus marinus str. MIT 1312,Prochlorococcus
+GCF_001632065.1,MIT_1313,cyanobacteria_proteomes/MIT_1313_GCF_001632065.1.faa,Prochlorococcus marinus str. MIT 1313,Prochlorococcus
+GCF_001632045.1,MIT_1318,cyanobacteria_proteomes/MIT_1318_GCF_001632045.1.faa,Prochlorococcus marinus str. MIT 1318,Prochlorococcus
+GCF_001632075.1,MIT_1320,cyanobacteria_proteomes/MIT_1320_GCF_001632075.1.faa,Prochlorococcus marinus str. MIT 1320,Prochlorococcus
+GCF_001632025.1,MIT_1323,cyanobacteria_proteomes/MIT_1323_GCF_001632025.1.faa,Prochlorococcus marinus str. MIT 1323,Prochlorococcus
+GCF_001632125.1,MIT_1327,cyanobacteria_proteomes/MIT_1327_GCF_001632125.1.faa,Prochlorococcus marinus str. MIT 1327,Prochlorococcus
+GCF_001632145.1,MIT_1342,cyanobacteria_proteomes/MIT_1342_GCF_001632145.1.faa,Prochlorococcus marinus str. MIT 1342,Prochlorococcus
+GCF_000759855.1,MIT_9107,cyanobacteria_proteomes/MIT_9107_GCF_000759855.1.faa,Prochlorococcus marinus str. MIT 9107,Prochlorococcus
+GCF_047302795.1,MIT_9107,cyanobacteria_proteomes/MIT_9107_GCF_047302795.1.faa,Prochlorococcus marinus str. MIT 9107,Prochlorococcus
+GCF_000759865.1,MIT_9116,cyanobacteria_proteomes/MIT_9116_GCF_000759865.1.faa,Prochlorococcus marinus str. MIT 9116,Prochlorococcus
+GCF_000759935.1,MIT_9123,cyanobacteria_proteomes/MIT_9123_GCF_000759935.1.faa,Prochlorococcus marinus str. MIT 9123,Prochlorococcus
+GCF_000759955.1,MIT_9201,cyanobacteria_proteomes/MIT_9201_GCF_000759955.1.faa,Prochlorococcus marinus str. MIT 9201,Prochlorococcus
+GCF_047305125.1,MIT_9201,cyanobacteria_proteomes/MIT_9201_GCF_047305125.1.faa,Prochlorococcus marinus str. MIT 9201,Prochlorococcus
+GCF_000158595.1,MIT_9202,cyanobacteria_proteomes/MIT_9202_GCF_000158595.1.faa,Prochlorococcus marinus str. MIT 9202,Prochlorococcus
+GCF_000018585.1,MIT_9211,cyanobacteria_proteomes/MIT_9211_GCF_000018585.1.faa,Prochlorococcus marinus str. MIT 9211,Prochlorococcus
+GCF_000018065.1,MIT_9215,cyanobacteria_proteomes/MIT_9215_GCF_000018065.1.faa,Prochlorococcus marinus str. MIT 9215,Prochlorococcus
+GCF_000015965.1,MIT_9301,cyanobacteria_proteomes/MIT_9301_GCF_000015965.1.faa,Prochlorococcus marinus str. MIT 9301,Prochlorococcus
+GCF_000759975.1,MIT_9302,cyanobacteria_proteomes/MIT_9302_GCF_000759975.1.faa,Prochlorococcus marinus str. MIT 9302,Prochlorococcus
+GCF_047947085.1,MIT_9302,cyanobacteria_proteomes/MIT_9302_GCF_047947085.1.faa,Prochlorococcus marinus str. MIT 9302,Prochlorococcus
+GCF_000015705.1,MIT_9303,cyanobacteria_proteomes/MIT_9303_GCF_000015705.1.faa,Prochlorococcus marinus str. MIT 9303,Prochlorococcus
+GCF_000760015.1,MIT_9311,cyanobacteria_proteomes/MIT_9311_GCF_000760015.1.faa,Prochlorococcus marinus str. MIT 9311,Prochlorococcus
+GCF_000012645.1,MIT_9312,cyanobacteria_proteomes/MIT_9312_GCF_000012645.1.faa,Prochlorococcus marinus str. MIT 9312,Prochlorococcus
+GCF_000011485.1,MIT9313,cyanobacteria_proteomes/MIT9313_GCF_000011485.1.faa,Prochlorococcus marinus str. MIT 9313,Prochlorococcus
+GCF_000760035.1,MIT_9314,cyanobacteria_proteomes/MIT_9314_GCF_000760035.1.faa,Prochlorococcus marinus str. MIT 9314,Prochlorococcus
+GCF_000760055.1,MIT_9321,cyanobacteria_proteomes/MIT_9321_GCF_000760055.1.faa,Prochlorococcus marinus str. MIT 9321,Prochlorococcus
+GCF_000760075.1,MIT_9322,cyanobacteria_proteomes/MIT_9322_GCF_000760075.1.faa,Prochlorococcus marinus str. MIT 9322,Prochlorococcus
+GCF_000760095.1,MIT_9401,cyanobacteria_proteomes/MIT_9401_GCF_000760095.1.faa,Prochlorococcus marinus str. MIT 9401,Prochlorococcus
+GCF_000015665.1,MIT_9515,cyanobacteria_proteomes/MIT_9515_GCF_000015665.1.faa,Prochlorococcus marinus str. MIT 9515,Prochlorococcus
+GCF_019325055.1,MU1402,cyanobacteria_proteomes/MU1402_GCF_019325055.1.faa,Prochlorococcus marinus str. MU1402,Prochlorococcus
+GCF_019325065.1,MU1403,cyanobacteria_proteomes/MU1403_GCF_019325065.1.faa,Prochlorococcus marinus str. MU1403,Prochlorococcus
+GCF_019325015.1,MU1404,cyanobacteria_proteomes/MU1404_GCF_019325015.1.faa,Prochlorococcus marinus str. MU1404,Prochlorococcus
+GCF_019325005.1,MU1405,cyanobacteria_proteomes/MU1405_GCF_019325005.1.faa,Prochlorococcus marinus str. MU1405,Prochlorococcus
+GCF_019324945.1,MU1406,cyanobacteria_proteomes/MU1406_GCF_019324945.1.faa,Prochlorococcus marinus str. MU1406,Prochlorococcus
+GCF_019324955.1,MU1410,cyanobacteria_proteomes/MU1410_GCF_019324955.1.faa,Prochlorococcus marinus str. MU1410,Prochlorococcus
+GCF_019324985.1,MU1411,cyanobacteria_proteomes/MU1411_GCF_019324985.1.faa,Prochlorococcus marinus str. MU1411,Prochlorococcus
+GCF_019324925.1,MU1412,cyanobacteria_proteomes/MU1412_GCF_019324925.1.faa,Prochlorococcus marinus str. MU1412,Prochlorococcus
+GCF_019324905.1,MU1414,cyanobacteria_proteomes/MU1414_GCF_019324905.1.faa,Prochlorococcus marinus str. MU1414,Prochlorococcus
+GCF_019324885.1,MU1415,cyanobacteria_proteomes/MU1415_GCF_019324885.1.faa,Prochlorococcus marinus str. MU1415,Prochlorococcus
+GCF_019324835.1,MU1416,cyanobacteria_proteomes/MU1416_GCF_019324835.1.faa,Prochlorococcus marinus str. MU1416,Prochlorococcus
+GCF_019324845.1,MU1417,cyanobacteria_proteomes/MU1417_GCF_019324845.1.faa,Prochlorococcus marinus str. MU1417,Prochlorococcus
+GCF_000015685.1,NATL1A,cyanobacteria_proteomes/NATL1A_GCF_000015685.1.faa,Prochlorococcus marinus str. NATL1A,Prochlorococcus
+GCF_000012465.1,NATL2A,cyanobacteria_proteomes/NATL2A_GCF_000012465.1.faa,Prochlorococcus marinus str. NATL2A,Prochlorococcus
+GCF_000760235.1,PAC1,cyanobacteria_proteomes/PAC1_GCF_000760235.1.faa,Prochlorococcus marinus str. PAC1,Prochlorococcus
+GCF_047304675.1,PAC1,cyanobacteria_proteomes/PAC1_GCF_047304675.1.faa,Prochlorococcus marinus str. PAC1,Prochlorococcus
+GCF_000760115.1,SB,cyanobacteria_proteomes/SB_GCF_000760115.1.faa,Prochlorococcus marinus str. SB,Prochlorococcus
+GCF_047305225.1,SB,cyanobacteria_proteomes/SB_GCF_047305225.1.faa,Prochlorococcus marinus str. SB,Prochlorococcus
+GCF_000760255.1,SS2,cyanobacteria_proteomes/SS2_GCF_000760255.1.faa,Prochlorococcus marinus str. SS2,Prochlorococcus
+GCF_047302765.1,SS2,cyanobacteria_proteomes/SS2_GCF_047302765.1.faa,Prochlorococcus marinus str. SS2,Prochlorococcus
+GCF_000760275.1,SS35,cyanobacteria_proteomes/SS35_GCF_000760275.1.faa,Prochlorococcus marinus str. SS35,Prochlorococcus
+GCF_047304605.1,SS35,cyanobacteria_proteomes/SS35_GCF_047304605.1.faa,Prochlorococcus marinus str. SS35,Prochlorococcus
+GCF_000760355.1,SS51,cyanobacteria_proteomes/SS51_GCF_000760355.1.faa,Prochlorococcus marinus str. SS51,Prochlorococcus
+GCF_047302855.1,SS51,cyanobacteria_proteomes/SS51_GCF_047302855.1.faa,Prochlorococcus marinus str. SS51,Prochlorococcus
+GCF_002812945.1,XMU1401,cyanobacteria_proteomes/XMU1401_GCF_002812945.1.faa,Prochlorococcus marinus str. XMU1401,Prochlorococcus
+GCF_017696245.1,XMU1401,cyanobacteria_proteomes/XMU1401_GCF_017696245.1.faa,Prochlorococcus marinus str. XMU1401,Prochlorococcus
+GCF_019325115.1,XMU1401E,cyanobacteria_proteomes/XMU1401E_GCF_019325115.1.faa,Prochlorococcus marinus str. XMU1401E,Prochlorococcus
+GCF_019325045.1,XMU1408,cyanobacteria_proteomes/XMU1408_GCF_019325045.1.faa,Prochlorococcus marinus str. XMU1408,Prochlorococcus
+GCF_019325105.1,XMU1419,cyanobacteria_proteomes/XMU1419_GCF_019325105.1.faa,Prochlorococcus marinus str. XMU1419,Prochlorococcus
+GCF_000007925.1,CCMP1375;_SS120,cyanobacteria_proteomes/CCMP1375;_SS120_GCF_000007925.1.faa,Prochlorococcus marinus subsp. marinus str. CCMP1375,Prochlorococcus
+GCF_000011465.1,MED4,cyanobacteria_proteomes/MED4_GCF_000011465.1.faa,Prochlorococcus marinus subsp. pastoris str. CCMP1986,Prochlorococcus
+GCF_047497115.1,MED4x_substr._MED4x,cyanobacteria_proteomes/MED4x_substr._MED4x_GCF_047497115.1.faa,Prochlorococcus marinus subsp. pastoris str. CCMP1986,Prochlorococcus
+GCF_047497125.1,MED4ax_substr._MED4ax,cyanobacteria_proteomes/MED4ax_substr._MED4ax_GCF_047497125.1.faa,Prochlorococcus marinus subsp. pastoris str. CCMP1986,Prochlorococcus
+GCF_017696205.1,XMU1402,cyanobacteria_proteomes/XMU1402_GCF_017696205.1.faa,Prochlorococcus marinus XMU1402,Prochlorococcus
+GCF_003208065.1,XMU1403,cyanobacteria_proteomes/XMU1403_GCF_003208065.1.faa,Prochlorococcus marinus XMU1403,Prochlorococcus
+GCF_017696175.1,XMU1404,cyanobacteria_proteomes/XMU1404_GCF_017696175.1.faa,Prochlorococcus marinus XMU1404,Prochlorococcus
+GCF_017696275.1,XMU1405,cyanobacteria_proteomes/XMU1405_GCF_017696275.1.faa,Prochlorococcus marinus XMU1405,Prochlorococcus
+GCF_017696055.1,XMU1406,cyanobacteria_proteomes/XMU1406_GCF_017696055.1.faa,Prochlorococcus marinus XMU1406,Prochlorococcus
+GCF_003208055.1,XMU1408,cyanobacteria_proteomes/XMU1408_GCF_003208055.1.faa,Prochlorococcus marinus XMU1408,Prochlorococcus
+GCF_017696085.1,XMU1410,cyanobacteria_proteomes/XMU1410_GCF_017696085.1.faa,Prochlorococcus marinus XMU1410,Prochlorococcus
+GCF_017696075.1,XMU1411,cyanobacteria_proteomes/XMU1411_GCF_017696075.1.faa,Prochlorococcus marinus XMU1411,Prochlorococcus
+GCF_017696315.1,XMU1412,cyanobacteria_proteomes/XMU1412_GCF_017696315.1.faa,Prochlorococcus marinus XMU1412,Prochlorococcus
+GCF_017696035.1,XMU1414,cyanobacteria_proteomes/XMU1414_GCF_017696035.1.faa,Prochlorococcus marinus XMU1414,Prochlorococcus
+GCF_017695955.1,XMU1419,cyanobacteria_proteomes/XMU1419_GCF_017695955.1.faa,Prochlorococcus marinus XMU1419,Prochlorococcus
+GCF_964203435.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_964203435.1.faa,Synechococcus sp.,Synechococcus
+GCF_000009725.1,PCC_6803,cyanobacteria_proteomes/PCC_6803_GCF_000009725.1.faa,Synechocystis sp. PCC 6803,Synechocystis
+GCF_000270265.1,GT-S,cyanobacteria_proteomes/GT-S_GCF_000270265.1.faa,Synechocystis sp. PCC 6803,Synechocystis
+GCF_000340785.1,PCC_6803,cyanobacteria_proteomes/PCC_6803_GCF_000340785.1.faa,Synechocystis sp. PCC 6803,Synechocystis
+GCF_001318385.1,PCC_6803_substr._GT-G,cyanobacteria_proteomes/PCC_6803_substr._GT-G_GCF_001318385.1.faa,Synechocystis sp. PCC 6803,Synechocystis
+GCF_011392055.1,PCC_6803,cyanobacteria_proteomes/PCC_6803_GCF_011392055.1.faa,Synechocystis sp. PCC 6803,Synechocystis
+GCF_018845095.1,PCC_6803,cyanobacteria_proteomes/PCC_6803_GCF_018845095.1.faa,Synechocystis sp. PCC 6803,Synechocystis
+GCF_022869765.1,PCC_6803_substr._GT-T,cyanobacteria_proteomes/PCC_6803_substr._GT-T_GCF_022869765.1.faa,Synechocystis sp. PCC 6803,Synechocystis
+GCF_026127295.1,PCC_6803,cyanobacteria_proteomes/PCC_6803_GCF_026127295.1.faa,Synechocystis sp. PCC 6803,Synechocystis
+GCF_050408035.1,PCC_6803,cyanobacteria_proteomes/PCC_6803_GCF_050408035.1.faa,Synechocystis sp. PCC 6803,Synechocystis
+GCF_000284135.1,PCC_6803_substr._GT-I,cyanobacteria_proteomes/PCC_6803_substr._GT-I_GCF_000284135.1.faa,Synechocystis sp. PCC 6803 substr. GT-I,Synechocystis
+GCF_046846445.1,PCC_6803_substr._GT-T,cyanobacteria_proteomes/PCC_6803_substr._GT-T_GCF_046846445.1.faa,Synechocystis sp. PCC 6803 substr. GT-T,Synechocystis
+GCF_046847935.1,PCC_6803_substr._GT-T,cyanobacteria_proteomes/PCC_6803_substr._GT-T_GCF_046847935.1.faa,Synechocystis sp. PCC 6803 substr. GT-T,Synechocystis
+GCF_046847945.1,PCC_6803_substr._GT-T,cyanobacteria_proteomes/PCC_6803_substr._GT-T_GCF_046847945.1.faa,Synechocystis sp. PCC 6803 substr. GT-T,Synechocystis
+GCF_046847955.1,PCC_6803_substr._GT-T,cyanobacteria_proteomes/PCC_6803_substr._GT-T_GCF_046847955.1.faa,Synechocystis sp. PCC 6803 substr. GT-T,Synechocystis
+GCF_000284215.1,PCC_6803_substr._PCC-N,cyanobacteria_proteomes/PCC_6803_substr._PCC-N_GCF_000284215.1.faa,Synechocystis sp. PCC 6803 substr. PCC-N,Synechocystis
+GCF_000284455.1,PCC_6803_substr._PCC-P,cyanobacteria_proteomes/PCC_6803_substr._PCC-P_GCF_000284455.1.faa,Synechocystis sp. PCC 6803 substr. PCC-P,Synechocystis
+GCF_051658205.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_051658205.1.faa,Synechococcus elongatus,Synechococcus
+GCF_014698895.1,FACHB-1061,cyanobacteria_proteomes/FACHB-1061_GCF_014698895.1.faa,Synechococcus elongatus FACHB-1061,Synechococcus
+GCF_014698415.1,FACHB-242,cyanobacteria_proteomes/FACHB-242_GCF_014698415.1.faa,Synechococcus elongatus FACHB-242,Synechococcus
+GCF_036630065.1,IITB3,cyanobacteria_proteomes/IITB3_GCF_036630065.1.faa,Synechococcus elongatus IITB3,Synechococcus
+GCF_036630075.1,IITB4,cyanobacteria_proteomes/IITB4_GCF_036630075.1.faa,Synechococcus elongatus IITB4,Synechococcus
+GCF_036630115.1,IITB5,cyanobacteria_proteomes/IITB5_GCF_036630115.1.faa,Synechococcus elongatus IITB5,Synechococcus
+GCF_036630085.1,IITB6,cyanobacteria_proteomes/IITB6_GCF_036630085.1.faa,Synechococcus elongatus IITB6,Synechococcus
+GCF_036630095.1,IITB7,cyanobacteria_proteomes/IITB7_GCF_036630095.1.faa,Synechococcus elongatus IITB7,Synechococcus
+GCF_036630105.1,IITB8,cyanobacteria_proteomes/IITB8_GCF_036630105.1.faa,Synechococcus elongatus IITB8,Synechococcus
+GCF_050422935.1,M14.2,cyanobacteria_proteomes/M14.2_GCF_050422935.1.faa,Synechococcus elongatus M14.2,Synechococcus
+GCF_003846445.2,PCC_11801,cyanobacteria_proteomes/PCC_11801_GCF_003846445.2.faa,Synechococcus elongatus PCC 11801,Synechococcus
+GCF_009498715.2,PCC_11802,cyanobacteria_proteomes/PCC_11802_GCF_009498715.2.faa,Synechococcus elongatus PCC 11802,Synechococcus
+GCF_022984195.1,PCC_6301,cyanobacteria_proteomes/PCC_6301_GCF_022984195.1.faa,Synechococcus elongatus PCC 6301,Synechococcus
+GCF_000010065.1,PCC_6301,cyanobacteria_proteomes/PCC_6301_GCF_000010065.1.faa,Synechococcus elongatus PCC 6301,Synechococcus
+GCF_022984265.1,PCC_6311,cyanobacteria_proteomes/PCC_6311_GCF_022984265.1.faa,Synechococcus elongatus PCC 6311,Synechococcus
+GCF_000012525.1,PCC_7942,cyanobacteria_proteomes/PCC_7942_GCF_000012525.1.faa,Synechococcus elongatus PCC 7942 = FACHB-805,Synechococcus
+GCF_014698905.1,FACHB-805,cyanobacteria_proteomes/FACHB-805_GCF_014698905.1.faa,Synechococcus elongatus PCC 7942 = FACHB-805,Synechococcus
+GCF_030544905.1,UTEX_2434,cyanobacteria_proteomes/UTEX_2434_GCF_030544905.1.faa,Synechococcus elongatus PCC 7942 = FACHB-805,Synechococcus
+GCF_022984345.1,PCC_7943,cyanobacteria_proteomes/PCC_7943_GCF_022984345.1.faa,Synechococcus elongatus PCC 7943,Synechococcus
+GCF_000817325.1,UTEX_2973,cyanobacteria_proteomes/UTEX_2973_GCF_000817325.1.faa,Synechococcus elongatus UTEX 2973,Synechococcus
+GCF_003957805.1,UTEX_3055,cyanobacteria_proteomes/UTEX_3055_GCF_003957805.1.faa,Synechococcus elongatus UTEX 3055,Synechococcus
+GCF_035638895.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_035638895.1.faa,Nostoc sp.,Nostoc
+GCF_036916555.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916555.1.faa,Nostoc sp.,Nostoc
+GCF_036916575.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916575.1.faa,Nostoc sp.,Nostoc
+GCF_036916595.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916595.1.faa,Nostoc sp.,Nostoc
+GCF_036916615.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916615.1.faa,Nostoc sp.,Nostoc
+GCF_036916635.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916635.1.faa,Nostoc sp.,Nostoc
+GCF_036916655.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916655.1.faa,Nostoc sp.,Nostoc
+GCF_036916675.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916675.1.faa,Nostoc sp.,Nostoc
+GCF_036916695.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916695.1.faa,Nostoc sp.,Nostoc
+GCF_036916715.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916715.1.faa,Nostoc sp.,Nostoc
+GCF_036916735.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916735.1.faa,Nostoc sp.,Nostoc
+GCF_036916755.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916755.1.faa,Nostoc sp.,Nostoc
+GCF_036916775.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916775.1.faa,Nostoc sp.,Nostoc
+GCF_036916795.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916795.1.faa,Nostoc sp.,Nostoc
+GCF_036916815.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916815.1.faa,Nostoc sp.,Nostoc
+GCF_036916835.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916835.1.faa,Nostoc sp.,Nostoc
+GCF_036916855.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916855.1.faa,Nostoc sp.,Nostoc
+GCF_036916875.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916875.1.faa,Nostoc sp.,Nostoc
+GCF_036916895.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916895.1.faa,Nostoc sp.,Nostoc
+GCF_036916915.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916915.1.faa,Nostoc sp.,Nostoc
+GCF_036916935.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916935.1.faa,Nostoc sp.,Nostoc
+GCF_036916955.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916955.1.faa,Nostoc sp.,Nostoc
+GCF_036916975.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916975.1.faa,Nostoc sp.,Nostoc
+GCF_036916985.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036916985.1.faa,Nostoc sp.,Nostoc
+GCF_036917015.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917015.1.faa,Nostoc sp.,Nostoc
+GCF_036917035.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917035.1.faa,Nostoc sp.,Nostoc
+GCF_036917055.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917055.1.faa,Nostoc sp.,Nostoc
+GCF_036917075.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917075.1.faa,Nostoc sp.,Nostoc
+GCF_036917095.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917095.1.faa,Nostoc sp.,Nostoc
+GCF_036917115.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917115.1.faa,Nostoc sp.,Nostoc
+GCF_036917135.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917135.1.faa,Nostoc sp.,Nostoc
+GCF_036917155.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917155.1.faa,Nostoc sp.,Nostoc
+GCF_036917175.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917175.1.faa,Nostoc sp.,Nostoc
+GCF_036917195.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917195.1.faa,Nostoc sp.,Nostoc
+GCF_036917215.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917215.1.faa,Nostoc sp.,Nostoc
+GCF_036917235.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917235.1.faa,Nostoc sp.,Nostoc
+GCF_036917255.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917255.1.faa,Nostoc sp.,Nostoc
+GCF_036917275.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917275.1.faa,Nostoc sp.,Nostoc
+GCF_036917295.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917295.1.faa,Nostoc sp.,Nostoc
+GCF_036917315.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917315.1.faa,Nostoc sp.,Nostoc
+GCF_036917335.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917335.1.faa,Nostoc sp.,Nostoc
+GCF_036917355.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917355.1.faa,Nostoc sp.,Nostoc
+GCF_036917375.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917375.1.faa,Nostoc sp.,Nostoc
+GCF_036917395.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917395.1.faa,Nostoc sp.,Nostoc
+GCF_036917415.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917415.1.faa,Nostoc sp.,Nostoc
+GCF_036917435.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917435.1.faa,Nostoc sp.,Nostoc
+GCF_036917455.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917455.1.faa,Nostoc sp.,Nostoc
+GCF_036917465.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917465.1.faa,Nostoc sp.,Nostoc
+GCF_036917495.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917495.1.faa,Nostoc sp.,Nostoc
+GCF_036917515.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917515.1.faa,Nostoc sp.,Nostoc
+GCF_036917535.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917535.1.faa,Nostoc sp.,Nostoc
+GCF_036917555.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917555.1.faa,Nostoc sp.,Nostoc
+GCF_036917575.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917575.1.faa,Nostoc sp.,Nostoc
+GCF_036917595.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917595.1.faa,Nostoc sp.,Nostoc
+GCF_036917615.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917615.1.faa,Nostoc sp.,Nostoc
+GCF_036917635.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917635.1.faa,Nostoc sp.,Nostoc
+GCF_036917655.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917655.1.faa,Nostoc sp.,Nostoc
+GCF_036917675.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917675.1.faa,Nostoc sp.,Nostoc
+GCF_036917695.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917695.1.faa,Nostoc sp.,Nostoc
+GCF_036917715.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917715.1.faa,Nostoc sp.,Nostoc
+GCF_036917735.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917735.1.faa,Nostoc sp.,Nostoc
+GCF_036917755.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917755.1.faa,Nostoc sp.,Nostoc
+GCF_036917775.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917775.1.faa,Nostoc sp.,Nostoc
+GCF_036917795.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917795.1.faa,Nostoc sp.,Nostoc
+GCF_036917815.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917815.1.faa,Nostoc sp.,Nostoc
+GCF_036917835.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917835.1.faa,Nostoc sp.,Nostoc
+GCF_036917855.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917855.1.faa,Nostoc sp.,Nostoc
+GCF_036917875.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917875.1.faa,Nostoc sp.,Nostoc
+GCF_036917895.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917895.1.faa,Nostoc sp.,Nostoc
+GCF_036917915.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917915.1.faa,Nostoc sp.,Nostoc
+GCF_036917935.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917935.1.faa,Nostoc sp.,Nostoc
+GCF_036917955.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917955.1.faa,Nostoc sp.,Nostoc
+GCF_036917975.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917975.1.faa,Nostoc sp.,Nostoc
+GCF_036917995.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036917995.1.faa,Nostoc sp.,Nostoc
+GCF_036918015.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918015.1.faa,Nostoc sp.,Nostoc
+GCF_036918035.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918035.1.faa,Nostoc sp.,Nostoc
+GCF_036918055.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918055.1.faa,Nostoc sp.,Nostoc
+GCF_036918075.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918075.1.faa,Nostoc sp.,Nostoc
+GCF_036918095.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918095.1.faa,Nostoc sp.,Nostoc
+GCF_036918115.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918115.1.faa,Nostoc sp.,Nostoc
+GCF_036918155.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918155.1.faa,Nostoc sp.,Nostoc
+GCF_036918175.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918175.1.faa,Nostoc sp.,Nostoc
+GCF_036918195.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918195.1.faa,Nostoc sp.,Nostoc
+GCF_036918215.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918215.1.faa,Nostoc sp.,Nostoc
+GCF_036918225.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918225.1.faa,Nostoc sp.,Nostoc
+GCF_036918245.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918245.1.faa,Nostoc sp.,Nostoc
+GCF_036918275.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918275.1.faa,Nostoc sp.,Nostoc
+GCF_036918295.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918295.1.faa,Nostoc sp.,Nostoc
+GCF_036918375.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036918375.1.faa,Nostoc sp.,Nostoc
+GCF_036919455.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919455.1.faa,Nostoc sp.,Nostoc
+GCF_036919475.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919475.1.faa,Nostoc sp.,Nostoc
+GCF_036919495.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919495.1.faa,Nostoc sp.,Nostoc
+GCF_036919515.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919515.1.faa,Nostoc sp.,Nostoc
+GCF_036919535.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919535.1.faa,Nostoc sp.,Nostoc
+GCF_036919555.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919555.1.faa,Nostoc sp.,Nostoc
+GCF_036919575.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919575.1.faa,Nostoc sp.,Nostoc
+GCF_036919595.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919595.1.faa,Nostoc sp.,Nostoc
+GCF_036919615.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919615.1.faa,Nostoc sp.,Nostoc
+GCF_036919635.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919635.1.faa,Nostoc sp.,Nostoc
+GCF_036919655.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919655.1.faa,Nostoc sp.,Nostoc
+GCF_036919675.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919675.1.faa,Nostoc sp.,Nostoc
+GCF_036919695.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919695.1.faa,Nostoc sp.,Nostoc
+GCF_036919715.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919715.1.faa,Nostoc sp.,Nostoc
+GCF_036919735.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919735.1.faa,Nostoc sp.,Nostoc
+GCF_036919755.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919755.1.faa,Nostoc sp.,Nostoc
+GCF_036919765.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919765.1.faa,Nostoc sp.,Nostoc
+GCF_036919795.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919795.1.faa,Nostoc sp.,Nostoc
+GCF_036919815.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919815.1.faa,Nostoc sp.,Nostoc
+GCF_036919835.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919835.1.faa,Nostoc sp.,Nostoc
+GCF_036919855.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919855.1.faa,Nostoc sp.,Nostoc
+GCF_036919875.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919875.1.faa,Nostoc sp.,Nostoc
+GCF_036919895.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_036919895.1.faa,Nostoc sp.,Nostoc
+GCF_037000565.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_037000565.1.faa,Nostoc sp.,Nostoc
+GCF_041747015.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_041747015.1.faa,Nostoc sp.,Nostoc
+GCF_014698495.1,FACHB-252,cyanobacteria_proteomes/FACHB-252_GCF_014698495.1.faa,Nostoc punctiforme FACHB-252,Nostoc
+GCF_000020025.1,ATCC_29133;_PCC_73102,cyanobacteria_proteomes/ATCC_29133;_PCC_73102_GCF_000020025.1.faa,Nostoc punctiforme PCC 73102,Nostoc
+GCF_037619055.1,UO1,cyanobacteria_proteomes/UO1_GCF_037619055.1.faa,Nostoc punctiforme UO1,Nostoc
+GCF_009856605.1,0441,cyanobacteria_proteomes/0441_GCF_009856605.1.faa,Trichormus variabilis 0441,Anabaena
+GCF_014222145.1,9RC,cyanobacteria_proteomes/9RC_GCF_014222145.1.faa,Trichormus variabilis 9RC,Anabaena
+GCF_020102815.1,A2,cyanobacteria_proteomes/A2_GCF_020102815.1.faa,Trichormus variabilis A2,Anabaena
+GCF_014222135.1,ARAD,cyanobacteria_proteomes/ARAD_GCF_014222135.1.faa,Trichormus variabilis ARAD,Anabaena
+GCF_000204075.1,ATCC_29413,cyanobacteria_proteomes/ATCC_29413_GCF_000204075.1.faa,Trichormus variabilis ATCC 29413,Anabaena
+GCF_014698355.1,FACHB-164,cyanobacteria_proteomes/FACHB-164_GCF_014698355.1.faa,Trichormus variabilis FACHB-164,Anabaena
+GCF_014697155.1,FACHB-171,cyanobacteria_proteomes/FACHB-171_GCF_014697155.1.faa,Trichormus variabilis FACHB-171,Anabaena
+GCF_014697165.1,FACHB-319,cyanobacteria_proteomes/FACHB-319_GCF_014697165.1.faa,Trichormus variabilis FACHB-319,Anabaena
+GCF_014222245.1,FSR,cyanobacteria_proteomes/FSR_GCF_014222245.1.faa,Trichormus variabilis FSR,Anabaena
+GCF_014222155.1,N2B,cyanobacteria_proteomes/N2B_GCF_014222155.1.faa,Trichormus variabilis N2B,Anabaena
+GCF_014222225.1,PNB,cyanobacteria_proteomes/PNB_GCF_014222225.1.faa,Trichormus variabilis PNB,Anabaena
+GCF_003991935.1,SAG_1403-4b,cyanobacteria_proteomes/SAG_1403-4b_GCF_003991935.1.faa,Trichormus variabilis SAG 1403-4b,Anabaena
+GCF_014222125.1,V5,cyanobacteria_proteomes/V5_GCF_014222125.1.faa,Trichormus variabilis V5,Anabaena
+GCF_000009705.1,PCC_7120,cyanobacteria_proteomes/PCC_7120_GCF_000009705.1.faa,Nostoc sp. PCC 7120 = FACHB-418,Nostoc
+GCF_003990585.1,PCC_7120,cyanobacteria_proteomes/PCC_7120_GCF_003990585.1.faa,Nostoc sp. PCC 7120 = FACHB-418,Nostoc
+GCF_014696735.1,FACHB-418,cyanobacteria_proteomes/FACHB-418_GCF_014696735.1.faa,Nostoc sp. PCC 7120 = FACHB-418,Nostoc
+GCF_046081385.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_046081385.1.faa,Cylindrospermopsis raciborskii,Cylindrospermopsis
+GCF_049958775.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_049958775.1.faa,Cylindrospermopsis raciborskii,Cylindrospermopsis
+GCF_035282025.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_035282025.1.faa,Cylindrospermopsis raciborskii 1523720,Cylindrospermopsis
+GCF_051062915.1,A4,cyanobacteria_proteomes/A4_GCF_051062915.1.faa,Cylindrospermopsis raciborskii A4,Cylindrospermopsis
+GCF_048258825.1,AWT205,cyanobacteria_proteomes/AWT205_GCF_048258825.1.faa,Cylindrospermopsis raciborskii AWT205,Cylindrospermopsis
+GCF_002893155.1,C03,cyanobacteria_proteomes/C03_GCF_002893155.1.faa,Cylindrospermopsis raciborskii C03,Cylindrospermopsis
+GCF_002893145.1,C04,cyanobacteria_proteomes/C04_GCF_002893145.1.faa,Cylindrospermopsis raciborskii C04,Cylindrospermopsis
+GCF_002893125.1,C07,cyanobacteria_proteomes/C07_GCF_002893125.1.faa,Cylindrospermopsis raciborskii C07,Cylindrospermopsis
+GCF_002027345.1,CENA302,cyanobacteria_proteomes/CENA302_GCF_002027345.1.faa,Cylindrospermopsis raciborskii CENA302,Cylindrospermopsis
+GCF_002114155.1,CENA303,cyanobacteria_proteomes/CENA303_GCF_002114155.1.faa,Cylindrospermopsis raciborskii CENA303,Cylindrospermopsis
+GCF_022496815.1,CHAB3438,cyanobacteria_proteomes/CHAB3438_GCF_022496815.1.faa,Cylindrospermopsis raciborskii CHAB3438,Cylindrospermopsis
+GCF_003367075.2,Cr2010,cyanobacteria_proteomes/Cr2010_GCF_003367075.2.faa,Cylindrospermopsis raciborskii Cr2010,Cylindrospermopsis
+GCF_000175835.1,CS-505,cyanobacteria_proteomes/CS-505_GCF_000175835.1.faa,Cylindrospermopsis raciborskii CS-505,Cylindrospermopsis
+GCF_001676585.1,CS505,cyanobacteria_proteomes/CS505_GCF_001676585.1.faa,Cylindrospermopsis raciborskii CS-505,Cylindrospermopsis
+GCF_001858115.1,CS-508,cyanobacteria_proteomes/CS-508_GCF_001858115.1.faa,Cylindrospermopsis raciborskii CS-508,Cylindrospermopsis
+GCF_036409495.1,DSH,cyanobacteria_proteomes/DSH_GCF_036409495.1.faa,Cylindrospermopsis raciborskii DSH,Cylindrospermopsis
+GCF_051201415.1,G7,cyanobacteria_proteomes/G7_GCF_051201415.1.faa,Cylindrospermopsis raciborskii G7,Cylindrospermopsis
+GCF_006523545.1,GIHE_2018,cyanobacteria_proteomes/GIHE_2018_GCF_006523545.1.faa,Cylindrospermopsis raciborskii GIHE 2018,Cylindrospermopsis
+GCF_001586755.1,ITEP-A1,cyanobacteria_proteomes/ITEP-A1_GCF_001586755.1.faa,Cylindrospermopsis raciborskii ITEP-A1,Cylindrospermopsis
+GCF_015708265.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_015708265.1.faa,Cylindrospermopsis raciborskii KL1,Cylindrospermopsis
+GCF_021650815.1,KLL07,cyanobacteria_proteomes/KLL07_GCF_021650815.1.faa,Cylindrospermopsis raciborskii KLL07,Cylindrospermopsis
+GCF_001858125.1,MVCC14,cyanobacteria_proteomes/MVCC14_GCF_001858125.1.faa,Cylindrospermopsis raciborskii MVCC14,Cylindrospermopsis
+GCF_012583295.1,MVCC19,cyanobacteria_proteomes/MVCC19_GCF_012583295.1.faa,Cylindrospermopsis raciborskii MVCC19,Cylindrospermopsis
+GCF_018139025.1,N8,cyanobacteria_proteomes/N8_GCF_018139025.1.faa,Cylindrospermopsis raciborskii N8,Cylindrospermopsis
+GCF_026929835.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_026929835.1.faa,Cylindrospermopsis raciborskii PAMP2011,Cylindrospermopsis
+GCF_026929755.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_026929755.1.faa,Cylindrospermopsis raciborskii PAMP2012,Cylindrospermopsis
+GCF_002893285.1,S01,cyanobacteria_proteomes/S01_GCF_002893285.1.faa,Cylindrospermopsis raciborskii S01,Cylindrospermopsis
+GCF_002893265.1,S05,cyanobacteria_proteomes/S05_GCF_002893265.1.faa,Cylindrospermopsis raciborskii S05,Cylindrospermopsis
+GCF_002893245.1,S06,cyanobacteria_proteomes/S06_GCF_002893245.1.faa,Cylindrospermopsis raciborskii S06,Cylindrospermopsis
+GCF_002893205.1,S07,cyanobacteria_proteomes/S07_GCF_002893205.1.faa,Cylindrospermopsis raciborskii S07,Cylindrospermopsis
+GCF_002893215.1,S10,cyanobacteria_proteomes/S10_GCF_002893215.1.faa,Cylindrospermopsis raciborskii S10,Cylindrospermopsis
+GCF_002893185.1,S14,cyanobacteria_proteomes/S14_GCF_002893185.1.faa,Cylindrospermopsis raciborskii S14,Cylindrospermopsis
+GCF_045377515.1,UAM_DH-BiRr,cyanobacteria_proteomes/UAM_DH-BiRr_GCF_045377515.1.faa,Cylindrospermopsis raciborskii UAM/DH-BiRr,Cylindrospermopsis
+GCF_045377475.1,UAM_DH-KmRr,cyanobacteria_proteomes/UAM_DH-KmRr_GCF_045377475.1.faa,Cylindrospermopsis raciborskii UAM/DH-KmRr,Cylindrospermopsis
+GCF_045377415.1,UAM_DH-MRr,cyanobacteria_proteomes/UAM_DH-MRr_GCF_045377415.1.faa,Cylindrospermopsis raciborskii UAM/DH-MRr,Cylindrospermopsis
+GCF_045377345.1,UAM_DH-ZRr,cyanobacteria_proteomes/UAM_DH-ZRr_GCF_045377345.1.faa,Cylindrospermopsis raciborskii UAM/DH-ZRr,Cylindrospermopsis
+GCF_013388695.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_013388695.1.faa,Fischerella sp.,Fischerella
+GCF_019704275.1,NIES-88,cyanobacteria_proteomes/NIES-88_GCF_019704275.1.faa,Microcystis aeruginosa,Microcystis
+GCF_007990565.1,11-30S32,cyanobacteria_proteomes/11-30S32_GCF_007990565.1.faa,Microcystis aeruginosa 11-30S32,Microcystis
+GCF_038396575.1,1339,cyanobacteria_proteomes/1339_GCF_038396575.1.faa,Microcystis aeruginosa 1339,Microcystis
+GCF_014218745.1,BLCCF108,cyanobacteria_proteomes/BLCCF108_GCF_014218745.1.faa,Microcystis aeruginosa BLCC-F108,Microcystis
+GCF_014218765.1,BLCC-F158,cyanobacteria_proteomes/BLCC-F158_GCF_014218765.1.faa,Microcystis aeruginosa BLCC-F158,Microcystis
+GCF_001895325.1,CHAOHU_1326,cyanobacteria_proteomes/CHAOHU_1326_GCF_001895325.1.faa,Microcystis aeruginosa CHAOHU 1326,Microcystis
+GCF_028331215.1,CS-1036,cyanobacteria_proteomes/CS-1036_GCF_028331215.1.faa,Microcystis aeruginosa CS-1036,Microcystis
+GCF_028330905.1,CS-338_01,cyanobacteria_proteomes/CS-338_01_GCF_028330905.1.faa,Microcystis aeruginosa CS-338/01,Microcystis
+GCF_028328965.1,CS-552_01,cyanobacteria_proteomes/CS-552_01_GCF_028328965.1.faa,Microcystis aeruginosa CS-552/01,Microcystis
+GCF_028330745.1,CS-555_01A07,cyanobacteria_proteomes/CS-555_01A07_GCF_028330745.1.faa,Microcystis aeruginosa CS-555/01A07,Microcystis
+GCF_028331105.1,CS-556_03,cyanobacteria_proteomes/CS-556_03_GCF_028331105.1.faa,Microcystis aeruginosa CS-556/03,Microcystis
+GCF_028330645.1,CS-558_01A06,cyanobacteria_proteomes/CS-558_01A06_GCF_028330645.1.faa,Microcystis aeruginosa CS-558/01A06,Microcystis
+GCF_028329685.1,CS-563_04,cyanobacteria_proteomes/CS-563_04_GCF_028329685.1.faa,Microcystis aeruginosa CS-563/04,Microcystis
+GCF_028331205.1,CS-564_01,cyanobacteria_proteomes/CS-564_01_GCF_028331205.1.faa,Microcystis aeruginosa CS-564/01,Microcystis
+GCF_028330675.1,CS-567_02,cyanobacteria_proteomes/CS-567_02_GCF_028330675.1.faa,Microcystis aeruginosa CS-567/02,Microcystis
+GCF_028330165.1,CS-567_02-A1,cyanobacteria_proteomes/CS-567_02-A1_GCF_028330165.1.faa,Microcystis aeruginosa CS-567/02-A1,Microcystis
+GCF_028330705.1,CS-573,cyanobacteria_proteomes/CS-573_GCF_028330705.1.faa,Microcystis aeruginosa CS-573,Microcystis
+GCF_028330695.1,CS-579,cyanobacteria_proteomes/CS-579_GCF_028330695.1.faa,Microcystis aeruginosa CS-579,Microcystis
+GCF_028328845.1,CS-583,cyanobacteria_proteomes/CS-583_GCF_028328845.1.faa,Microcystis aeruginosa CS-583,Microcystis
+GCF_008757435.1,EAWAG127a,cyanobacteria_proteomes/EAWAG127a_GCF_008757435.1.faa,Microcystis aeruginosa EAWAG127a,Microcystis
+GCF_003730145.1,FACHB-524,cyanobacteria_proteomes/FACHB-524_GCF_003730145.1.faa,Microcystis aeruginosa FACHB-524,Microcystis
+GCF_048593405.1,FACHB-524,cyanobacteria_proteomes/FACHB-524_GCF_048593405.1.faa,Microcystis aeruginosa FACHB-524,Microcystis
+GCF_000332585.1,DIANCHI905,cyanobacteria_proteomes/DIANCHI905_GCF_000332585.1.faa,Microcystis aeruginosa FACHB-905 = DIANCHI905,Microcystis
+GCF_021172085.1,DIANCHI905,cyanobacteria_proteomes/DIANCHI905_GCF_021172085.1.faa,Microcystis aeruginosa FACHB-905 = DIANCHI905,Microcystis
+GCF_050500255.1,FBCC-A68,cyanobacteria_proteomes/FBCC-A68_GCF_050500255.1.faa,Microcystis aeruginosa FBCC-A68,Microcystis
+GCF_050711215.1,FBCC-A68,cyanobacteria_proteomes/FBCC-A68_GCF_050711215.1.faa,Microcystis aeruginosa FBCC-A68,Microcystis
+GCF_009792235.1,FD4,cyanobacteria_proteomes/FD4_GCF_009792235.1.faa,Microcystis aeruginosa FD4,Microcystis
+GCF_008257445.1,KLA2,cyanobacteria_proteomes/KLA2_GCF_008257445.1.faa,Microcystis aeruginosa KLA2,Microcystis
+GCF_002025445.1,KW,cyanobacteria_proteomes/KW_GCF_002025445.1.faa,Microcystis aeruginosa KW,Microcystis
+GCF_032701645.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_032701645.1.faa,Microcystis aeruginosa LE3,Microcystis
+GCF_015207885.1,LEGE_00239,cyanobacteria_proteomes/LEGE_00239_GCF_015207885.1.faa,Microcystis aeruginosa LEGE 00239,Microcystis
+GCF_015207115.1,LEGE_11464,cyanobacteria_proteomes/LEGE_11464_GCF_015207115.1.faa,Microcystis aeruginosa LEGE 11464,Microcystis
+GCF_015206885.1,LEGE_91341,cyanobacteria_proteomes/LEGE_91341_GCF_015206885.1.faa,Microcystis aeruginosa LEGE 91341,Microcystis
+GCF_001885655.1,NaRes975,cyanobacteria_proteomes/NaRes975_GCF_001885655.1.faa,Microcystis aeruginosa NaRes975,Microcystis
+GCF_003206625.1,NIES-1211,cyanobacteria_proteomes/NIES-1211_GCF_003206625.1.faa,Microcystis aeruginosa NIES-1211,Microcystis
+GCF_001704955.2,NIES-2481,cyanobacteria_proteomes/NIES-2481_GCF_001704955.2.faa,Microcystis aeruginosa NIES-2481,Microcystis
+GCF_008579225.1,NIES-2519,cyanobacteria_proteomes/NIES-2519_GCF_008579225.1.faa,Microcystis aeruginosa NIES-2519,Microcystis
+GCF_008579325.1,NIES-2520,cyanobacteria_proteomes/NIES-2520_GCF_008579325.1.faa,Microcystis aeruginosa NIES-2520,Microcystis
+GCF_008579445.1,NIES-2521,cyanobacteria_proteomes/NIES-2521_GCF_008579445.1.faa,Microcystis aeruginosa NIES-2521,Microcystis
+GCF_008579565.1,NIES-2522,cyanobacteria_proteomes/NIES-2522_GCF_008579565.1.faa,Microcystis aeruginosa NIES-2522,Microcystis
+GCF_000981785.2,NIES-2549,cyanobacteria_proteomes/NIES-2549_GCF_000981785.2.faa,Microcystis aeruginosa NIES-2549,Microcystis
+GCF_002897275.1,NIES-298,cyanobacteria_proteomes/NIES-298_GCF_002897275.1.faa,Microcystis aeruginosa NIES-298,Microcystis
+GCF_002897315.1,NIES-298,cyanobacteria_proteomes/NIES-298_GCF_002897315.1.faa,Microcystis aeruginosa NIES-298,Microcystis
+GCF_010196425.1,NIES-298,cyanobacteria_proteomes/NIES-298_GCF_010196425.1.faa,Microcystis aeruginosa NIES-298,Microcystis
+GCF_048820285.1,NIES-298,cyanobacteria_proteomes/NIES-298_GCF_048820285.1.faa,Microcystis aeruginosa NIES-298,Microcystis
+GCF_009811815.1,NIES-3787,cyanobacteria_proteomes/NIES-3787_GCF_009811815.1.faa,Microcystis aeruginosa NIES-3787,Microcystis
+GCF_009811835.1,NIES-3804,cyanobacteria_proteomes/NIES-3804_GCF_009811835.1.faa,Microcystis aeruginosa NIES-3804,Microcystis
+GCF_009811855.1,NIES-3806,cyanobacteria_proteomes/NIES-3806_GCF_009811855.1.faa,Microcystis aeruginosa NIES-3806,Microcystis
+GCF_009811875.1,NIES-3807,cyanobacteria_proteomes/NIES-3807_GCF_009811875.1.faa,Microcystis aeruginosa NIES-3807,Microcystis
+GCF_963885665.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963885665.1.faa,Microcystis aeruginosa NIES-3807,Microcystis
+GCF_008579685.1,NIES-4264,cyanobacteria_proteomes/NIES-4264_GCF_008579685.1.faa,Microcystis aeruginosa NIES-4264,Microcystis
+GCF_004305995.1,NIES-4285,cyanobacteria_proteomes/NIES-4285_GCF_004305995.1.faa,Microcystis aeruginosa NIES-4285,Microcystis
+GCF_008974145.1,NIES-4325,cyanobacteria_proteomes/NIES-4325_GCF_008974145.1.faa,Microcystis aeruginosa NIES-4325,Microcystis
+GCF_000787675.1,NIES-44,cyanobacteria_proteomes/NIES-44_GCF_000787675.1.faa,Microcystis aeruginosa NIES-44,Microcystis
+GCF_000010625.1,NIES-843,cyanobacteria_proteomes/NIES-843_GCF_000010625.1.faa,Microcystis aeruginosa NIES-843,Microcystis
+GCF_001578075.1,NIES-88,cyanobacteria_proteomes/NIES-88_GCF_001578075.1.faa,Microcystis aeruginosa NIES-88,Microcystis
+GCF_001725075.1,NIES-98,cyanobacteria_proteomes/NIES-98_GCF_001725075.1.faa,Microcystis aeruginosa NIES-98,Microcystis
+GCF_031754835.1,NRERC-214,cyanobacteria_proteomes/NRERC-214_GCF_031754835.1.faa,Microcystis aeruginosa NRERC-214,Microcystis
+GCF_000599945.1,PCC_7005,cyanobacteria_proteomes/PCC_7005_GCF_000599945.1.faa,Microcystis aeruginosa PCC 7005,Microcystis
+GCF_030553035.1,PCC_7806,cyanobacteria_proteomes/PCC_7806_GCF_030553035.1.faa,Microcystis aeruginosa PCC 7806,Microcystis
+GCF_041506625.1,PCC_7806,cyanobacteria_proteomes/PCC_7806_GCF_041506625.1.faa,Microcystis aeruginosa PCC 7806,Microcystis
+GCF_002095975.1,PCC_7806SL,cyanobacteria_proteomes/PCC_7806SL_GCF_002095975.1.faa,Microcystis aeruginosa PCC 7806SL,Microcystis
+GCF_000312205.1,7941,cyanobacteria_proteomes/7941_GCF_000312205.1.faa,Microcystis aeruginosa PCC 7941,Microcystis
+GCF_000307995.1,PCC_9432,cyanobacteria_proteomes/PCC_9432_GCF_000307995.1.faa,Microcystis aeruginosa PCC 9432,Microcystis
+GCF_000312185.1,PCC_9443,cyanobacteria_proteomes/PCC_9443_GCF_000312185.1.faa,Microcystis aeruginosa PCC 9443,Microcystis
+GCF_000312285.1,PCC_9701,cyanobacteria_proteomes/PCC_9701_GCF_000312285.1.faa,Microcystis aeruginosa PCC 9701,Microcystis
+GCF_000312165.1,PCC_9717,cyanobacteria_proteomes/PCC_9717_GCF_000312165.1.faa,Microcystis aeruginosa PCC 9717,Microcystis
+GCF_000312725.1,PCC_9806,cyanobacteria_proteomes/PCC_9806_GCF_000312725.1.faa,Microcystis aeruginosa PCC 9806,Microcystis
+GCF_000312225.1,PCC_9807,cyanobacteria_proteomes/PCC_9807_GCF_000312225.1.faa,Microcystis aeruginosa PCC 9807,Microcystis
+GCF_000312245.1,PCC_9808,cyanobacteria_proteomes/PCC_9808_GCF_000312245.1.faa,Microcystis aeruginosa PCC 9808,Microcystis
+GCF_000312265.1,PCC_9809,cyanobacteria_proteomes/PCC_9809_GCF_000312265.1.faa,Microcystis aeruginosa PCC 9809,Microcystis
+GCF_003206555.1,Sj,cyanobacteria_proteomes/Sj_GCF_003206555.1.faa,Microcystis aeruginosa Sj,Microcystis
+GCF_000412595.1,SPC777,cyanobacteria_proteomes/SPC777_GCF_000412595.1.faa,Microcystis aeruginosa SPC777,Microcystis
+GCF_026222535.1,Chao_1910,cyanobacteria_proteomes/Chao_1910_GCF_026222535.1.faa,Microcystis aeruginosa str. Chao 1910,Microcystis
+GCF_000330925.1,TAIHU98,cyanobacteria_proteomes/TAIHU98_GCF_000330925.1.faa,Microcystis aeruginosa TAIHU98,Microcystis
+GCF_904830935.1,No.976,cyanobacteria_proteomes/No.976_GCF_904830935.1.faa,Planktothrix agardhii,Planktothrix
+GCF_040381315.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_040381315.1.faa,Planktothrix agardhii,Planktothrix
+GCF_044237795.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_044237795.1.faa,Planktothrix agardhii,Planktothrix
+GCF_049240745.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_049240745.1.faa,Planktothrix agardhii,Planktothrix
+GCF_049243445.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_049243445.1.faa,Planktothrix agardhii,Planktothrix
+GCF_049586395.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_049586395.1.faa,Planktothrix agardhii,Planktothrix
+GCF_903969095.1,PCC_10110,cyanobacteria_proteomes/PCC_10110_GCF_903969095.1.faa,Planktothrix agardhii,Planktothrix
+GCF_904830765.1,NIVA-CYA126_8,cyanobacteria_proteomes/NIVA-CYA126_8_GCF_904830765.1.faa,Planktothrix agardhii,Planktothrix
+GCF_904830775.1,No.2A,cyanobacteria_proteomes/No.2A_GCF_904830775.1.faa,Planktothrix agardhii,Planktothrix
+GCF_904830845.1,No.365,cyanobacteria_proteomes/No.365_GCF_904830845.1.faa,Planktothrix agardhii,Planktothrix
+GCF_904830855.1,No.66,cyanobacteria_proteomes/No.66_GCF_904830855.1.faa,Planktothrix agardhii,Planktothrix
+GCF_904830885.1,PCC_7811,cyanobacteria_proteomes/PCC_7811_GCF_904830885.1.faa,Planktothrix agardhii,Planktothrix
+GCF_904830915.1,PCC7805,cyanobacteria_proteomes/PCC7805_GCF_904830915.1.faa,Planktothrix agardhii,Planktothrix
+GCF_904830945.1,No.758,cyanobacteria_proteomes/No.758_GCF_904830945.1.faa,Planktothrix agardhii,Planktothrix
+GCF_963901505.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963901505.1.faa,Planktothrix agardhii,Planktothrix
+GCF_020594695.1,1025,cyanobacteria_proteomes/1025_GCF_020594695.1.faa,Planktothrix agardhii 1025,Planktothrix
+GCF_021555015.1,1026,cyanobacteria_proteomes/1026_GCF_021555015.1.faa,Planktothrix agardhii 1026,Planktothrix
+GCF_021554995.1,1027,cyanobacteria_proteomes/1027_GCF_021554995.1.faa,Planktothrix agardhii 1027,Planktothrix
+GCF_021554935.1,1029,cyanobacteria_proteomes/1029_GCF_021554935.1.faa,Planktothrix agardhii 1029,Planktothrix
+GCF_021554965.1,1030,cyanobacteria_proteomes/1030_GCF_021554965.1.faa,Planktothrix agardhii 1030,Planktothrix
+GCF_020594635.1,1031,cyanobacteria_proteomes/1031_GCF_020594635.1.faa,Planktothrix agardhii 1031,Planktothrix
+GCF_021554955.1,1032,cyanobacteria_proteomes/1032_GCF_021554955.1.faa,Planktothrix agardhii 1032,Planktothrix
+GCF_021554875.1,1801,cyanobacteria_proteomes/1801_GCF_021554875.1.faa,Planktothrix agardhii 1801,Planktothrix
+GCF_021554915.1,1803,cyanobacteria_proteomes/1803_GCF_021554915.1.faa,Planktothrix agardhii 1803,Planktothrix
+GCF_021554855.1,1804,cyanobacteria_proteomes/1804_GCF_021554855.1.faa,Planktothrix agardhii 1804,Planktothrix
+GCF_021554815.1,1805,cyanobacteria_proteomes/1805_GCF_021554815.1.faa,Planktothrix agardhii 1805,Planktothrix
+GCF_021554825.1,1806,cyanobacteria_proteomes/1806_GCF_021554825.1.faa,Planktothrix agardhii 1806,Planktothrix
+GCF_021554785.1,1807,cyanobacteria_proteomes/1807_GCF_021554785.1.faa,Planktothrix agardhii 1807,Planktothrix
+GCF_020594595.1,1808,cyanobacteria_proteomes/1808_GCF_020594595.1.faa,Planktothrix agardhii 1808,Planktothrix
+GCF_020594555.1,1809,cyanobacteria_proteomes/1809_GCF_020594555.1.faa,Planktothrix agardhii 1809,Planktothrix
+GCF_020594575.1,1810,cyanobacteria_proteomes/1810_GCF_020594575.1.faa,Planktothrix agardhii 1810,Planktothrix
+GCF_021554705.1,1811,cyanobacteria_proteomes/1811_GCF_021554705.1.faa,Planktothrix agardhii 1811,Planktothrix
+GCF_021554755.1,1812,cyanobacteria_proteomes/1812_GCF_021554755.1.faa,Planktothrix agardhii 1812,Planktothrix
+GCF_020594525.1,1813,cyanobacteria_proteomes/1813_GCF_020594525.1.faa,Planktothrix agardhii 1813,Planktothrix
+GCF_005402765.1,NIES-905,cyanobacteria_proteomes/NIES-905_GCF_005402765.1.faa,Planktothrix agardhii CCAP 1459/11A,Planktothrix
+GCF_032120055.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_032120055.1.faa,Planktothrix agardhii G_PLANK,Planktothrix
+GCF_015708255.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_015708255.1.faa,Planktothrix agardhii KL2,Planktothrix
+GCF_024320855.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_024320855.1.faa,Planktothrix agardhii LY1,Planktothrix
+GCF_000710505.1,NIVA-CYA_126_8,cyanobacteria_proteomes/NIVA-CYA_126_8_GCF_000710505.1.faa,Planktothrix agardhii NIVA-CYA 126/8,Planktothrix
+GCF_000464665.1,NIVA-CYA_15,cyanobacteria_proteomes/NIVA-CYA_15_GCF_000464665.1.faa,Planktothrix agardhii NIVA-CYA 15,Planktothrix
+GCF_963864265.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963864265.1.faa,Planktothrix agardhii NIVA-CYA 15,Planktothrix
+GCF_000464725.1,NIVA-CYA_34,cyanobacteria_proteomes/NIVA-CYA_34_GCF_000464725.1.faa,Planktothrix agardhii NIVA-CYA 34,Planktothrix
+GCF_963863775.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963863775.1.faa,Planktothrix agardhii NIVA-CYA 34,Planktothrix
+GCF_000464825.1,NIVA-CYA_56_3,cyanobacteria_proteomes/NIVA-CYA_56_3_GCF_000464825.1.faa,Planktothrix agardhii NIVA-CYA 56/3,Planktothrix
+GCF_963863855.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963863855.1.faa,Planktothrix agardhii NIVA-CYA 56/3,Planktothrix
+GCF_031631805.1,NRERC-751,cyanobacteria_proteomes/NRERC-751_GCF_031631805.1.faa,Planktothrix agardhii NRERC-751,Planktothrix
+GCF_032116315.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_032116315.1.faa,Planktothrix agardhii P_PLANK,Planktothrix
+GCF_034931525.1,UHCC_0887,cyanobacteria_proteomes/UHCC_0887_GCF_034931525.1.faa,Planktothrix agardhii UHCC 0887,Planktothrix
+GCF_000789435.1,2012_KM1_D3,cyanobacteria_proteomes/2012_KM1_D3_GCF_000789435.1.faa,Aphanizomenon flos-aquae 2012/KM1/D3,Aphanizomenon
+GCF_014696815.1,FACHB-1040,cyanobacteria_proteomes/FACHB-1040_GCF_014696815.1.faa,Aphanizomenon flos-aquae FACHB-1040,Aphanizomenon
+GCF_014697315.1,FACHB-1171,cyanobacteria_proteomes/FACHB-1171_GCF_014697315.1.faa,Aphanizomenon flos-aquae FACHB-1171,Aphanizomenon
+GCF_014698725.1,FACHB-1249,cyanobacteria_proteomes/FACHB-1249_GCF_014698725.1.faa,Aphanizomenon flos-aquae FACHB-1249,Aphanizomenon
+GCF_014698705.1,FACHB-1265,cyanobacteria_proteomes/FACHB-1265_GCF_014698705.1.faa,Aphanizomenon flos-aquae FACHB-1265,Aphanizomenon
+GCF_014698755.1,FACHB-1287,cyanobacteria_proteomes/FACHB-1287_GCF_014698755.1.faa,Aphanizomenon flos-aquae FACHB-1287,Aphanizomenon
+GCF_014698295.1,FACHB-1290,cyanobacteria_proteomes/FACHB-1290_GCF_014698295.1.faa,Aphanizomenon flos-aquae FACHB-1290,Aphanizomenon
+GCF_014698695.1,FACHB-1416,cyanobacteria_proteomes/FACHB-1416_GCF_014698695.1.faa,Aphanizomenon flos-aquae FACHB-1416,Aphanizomenon
+GCF_000521175.1,NIES-81,cyanobacteria_proteomes/NIES-81_GCF_000521175.1.faa,Aphanizomenon flos-aquae NIES-81,Aphanizomenon
+GCF_031822415.1,NRERC-008,cyanobacteria_proteomes/NRERC-008_GCF_031822415.1.faa,Aphanizomenon flos-aquae NRERC-008,Aphanizomenon
+GCF_000014265.1,IMS101,cyanobacteria_proteomes/IMS101_GCF_000014265.1.faa,Trichodesmium erythraeum IMS101,Trichodesmium
+GCF_963903135.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963903135.1.faa,Crocosphaera watsonii,Crocosphaera
+GCF_000235665.1,WH_0003,cyanobacteria_proteomes/WH_0003_GCF_000235665.1.faa,Crocosphaera watsonii WH 0003,Crocosphaera
+GCF_963861925.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963861925.1.faa,Crocosphaera watsonii WH 0003,Crocosphaera
+GCF_001050835.1,WH_0005,cyanobacteria_proteomes/WH_0005_GCF_001050835.1.faa,Crocosphaera watsonii WH 0005,Crocosphaera
+GCF_001039615.1,WH_0401,cyanobacteria_proteomes/WH_0401_GCF_001039615.1.faa,Crocosphaera watsonii WH 0401,Crocosphaera
+GCF_963865715.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963865715.1.faa,Crocosphaera watsonii WH 0401,Crocosphaera
+GCF_001039635.1,WH_0402,cyanobacteria_proteomes/WH_0402_GCF_001039635.1.faa,Crocosphaera watsonii WH 0402,Crocosphaera
+GCF_963865765.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963865765.1.faa,Crocosphaera watsonii WH 0402,Crocosphaera
+GCF_000167195.1,WH_8501,cyanobacteria_proteomes/WH_8501_GCF_000167195.1.faa,Crocosphaera watsonii WH 8501,Crocosphaera
+GCF_050563455.1,WH_8501,cyanobacteria_proteomes/WH_8501_GCF_050563455.1.faa,Crocosphaera watsonii WH 8501,Crocosphaera
+GCF_963860105.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963860105.1.faa,Crocosphaera watsonii WH 8501,Crocosphaera
+GCF_001039555.1,WH_8502,cyanobacteria_proteomes/WH_8502_GCF_001039555.1.faa,Crocosphaera watsonii WH 8502,Crocosphaera
+GCF_963865605.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_963865605.1.faa,Crocosphaera watsonii WH 8502,Crocosphaera
+GCF_000350105.1,HH01,cyanobacteria_proteomes/HH01_GCF_000350105.1.faa,Richelia intracellularis HH01,Richelia
+GCF_000350125.1,HM01,cyanobacteria_proteomes/HM01_GCF_000350125.1.faa,Richelia intracellularis HM01,Richelia
+GCF_000011345.1,BP-1,cyanobacteria_proteomes/BP-1_GCF_000011345.1.faa,Thermosynechococcus vestitus BP-1,Thermosynechococcus
+GCF_002754935.1,PCC_6715,cyanobacteria_proteomes/PCC_6715_GCF_002754935.1.faa,Parathermosynechococcus lividus PCC 6715,Synechococcus
+GCF_000011385.1,PCC_7421,cyanobacteria_proteomes/PCC_7421_GCF_000011385.1.faa,Gloeobacter violaceus PCC 7421,Gloeobacter
+GCF_000484535.1,JS1,cyanobacteria_proteomes/JS1_GCF_000484535.1.faa,Gloeobacter kilaueensis JS1,Gloeobacter
+GCF_014698815.1,FACHB-835,cyanobacteria_proteomes/FACHB-835_GCF_014698815.1.faa,Arthrospira platensis FACHB-835,Arthrospira
+GCF_040505605.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_040505605.1.faa,Limnospira platensis,Arthrospira
+GCF_025200965.1,C1,cyanobacteria_proteomes/C1_GCF_025200965.1.faa,Limnospira platensis C1,Arthrospira
+GCF_050562215.1,CENA597,cyanobacteria_proteomes/CENA597_GCF_050562215.1.faa,Limnospira platensis CENA597,Arthrospira
+GCF_050753325.1,CENA650,cyanobacteria_proteomes/CENA650_GCF_050753325.1.faa,Limnospira platensis CENA650,Arthrospira
+GCF_014698675.1,FACHB-439,cyanobacteria_proteomes/FACHB-439_GCF_014698675.1.faa,Limnospira platensis FACHB-439,Arthrospira
+GCF_014698385.1,FACHB-971,cyanobacteria_proteomes/FACHB-971_GCF_014698385.1.faa,Limnospira platensis FACHB-971,Arthrospira
+GCF_029223075.1,NCB002,cyanobacteria_proteomes/NCB002_GCF_029223075.1.faa,Limnospira platensis NCB002,Arthrospira
+GCF_000210375.1,NIES-39,cyanobacteria_proteomes/NIES-39_GCF_000210375.1.faa,Limnospira platensis NIES-39,Arthrospira
+GCF_026000695.1,NIES-39,cyanobacteria_proteomes/NIES-39_GCF_026000695.1.faa,Limnospira platensis NIES-39,Arthrospira
+GCF_009176225.1,NIES-46,cyanobacteria_proteomes/NIES-46_GCF_009176225.1.faa,Limnospira platensis NIES-46,Arthrospira
+GCF_046480435.1,PCC_7345,cyanobacteria_proteomes/PCC_7345_GCF_046480435.1.faa,Limnospira platensis PCC 7345,Arthrospira
+GCF_000175415.3,Paraca,cyanobacteria_proteomes/Paraca_GCF_000175415.3.faa,Limnospira platensis str. Paraca,Arthrospira
+GCF_001611905.1,YZ,cyanobacteria_proteomes/YZ_GCF_001611905.1.faa,Limnospira platensis YZ,Arthrospira
+GCF_024347835.1,MBIC10699,cyanobacteria_proteomes/MBIC10699_GCF_024347835.1.faa,Acaryochloris marina MBIC10699,Acaryochloris
+GCF_000018105.1,MBIC11017,cyanobacteria_proteomes/MBIC11017_GCF_000018105.1.faa,Acaryochloris marina MBIC11017,Acaryochloris
+GCF_052827785.1,NIES-2412,cyanobacteria_proteomes/NIES-2412_GCF_052827785.1.faa,Acaryochloris marina NIES-2412,Acaryochloris
+GCF_018336915.1,S15,cyanobacteria_proteomes/S15_GCF_018336915.1.faa,Acaryochloris marina S15,Acaryochloris
+GCF_051657925.1,Unknown,cyanobacteria_proteomes/Unknown_GCF_051657925.1.faa,Chroococcidiopsis sp.,Chroococcidiopsis

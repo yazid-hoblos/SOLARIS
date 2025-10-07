@@ -1,0 +1,472 @@
+accession,organism,strain,assembly_level,date,genus
+GCF_001180245.1,Prochlorococcus marinus,SCGC AAA795-F05,Contig,Unknown,Prochlorococcus
+GCF_017696015.1,Prochlorococcus marinus CUG1415,CUG1415,Contig,Unknown,Prochlorococcus
+GCF_017695965.1,Prochlorococcus marinus CUG1416,CUG1416,Contig,Unknown,Prochlorococcus
+GCF_017695975.1,Prochlorococcus marinus CUG1417,CUG1417,Contig,Unknown,Prochlorococcus
+GCF_000015645.1,Prochlorococcus marinus str. AS9601,AS9601,Complete Genome,Unknown,Prochlorococcus
+GCF_000759875.1,Prochlorococcus marinus str. EQPAC1,EQPAC1,Contig,Unknown,Prochlorococcus
+GCF_000759885.1,Prochlorococcus marinus str. GP2,GP2,Contig,Unknown,Prochlorococcus
+GCF_047302875.1,Prochlorococcus marinus str. GP2,GP2,Complete Genome,Unknown,Prochlorococcus
+GCF_000760155.1,Prochlorococcus marinus str. LG,LG,Contig,Unknown,Prochlorococcus
+GCF_047302905.1,Prochlorococcus marinus str. LG,LG,Complete Genome,Unknown,Prochlorococcus
+GCF_027359595.1,Prochlorococcus marinus str. MIT 0912,MIT 0912,Complete Genome,Unknown,Prochlorococcus
+GCF_027359525.1,Prochlorococcus marinus str. MIT 0913,MIT 0913,Complete Genome,Unknown,Prochlorococcus
+GCF_027359475.1,Prochlorococcus marinus str. MIT 0915,MIT 0915,Complete Genome,Unknown,Prochlorococcus
+GCF_027359575.1,Prochlorococcus marinus str. MIT 0917,MIT 0917,Complete Genome,Unknown,Prochlorococcus
+GCF_027359415.1,Prochlorococcus marinus str. MIT 0918,MIT 0918,Complete Genome,Unknown,Prochlorococcus
+GCF_027359375.1,Prochlorococcus marinus str. MIT 0919,MIT 0919,Complete Genome,Unknown,Prochlorococcus
+GCF_047302745.1,Prochlorococcus marinus str. MIT 1012,MIT 1012,Complete Genome,Unknown,Prochlorococcus
+GCF_027359395.1,Prochlorococcus marinus str. MIT 1013,MIT 1013,Complete Genome,Unknown,Prochlorococcus
+GCF_027359355.1,Prochlorococcus marinus str. MIT 1214,MIT 1214,Complete Genome,Unknown,Prochlorococcus
+GCF_001632005.1,Prochlorococcus marinus str. MIT 1312,MIT 1312,Contig,Unknown,Prochlorococcus
+GCF_001632065.1,Prochlorococcus marinus str. MIT 1313,MIT 1313,Contig,Unknown,Prochlorococcus
+GCF_001632045.1,Prochlorococcus marinus str. MIT 1318,MIT 1318,Contig,Unknown,Prochlorococcus
+GCF_001632075.1,Prochlorococcus marinus str. MIT 1320,MIT 1320,Contig,Unknown,Prochlorococcus
+GCF_001632025.1,Prochlorococcus marinus str. MIT 1323,MIT 1323,Contig,Unknown,Prochlorococcus
+GCF_001632125.1,Prochlorococcus marinus str. MIT 1327,MIT 1327,Contig,Unknown,Prochlorococcus
+GCF_001632145.1,Prochlorococcus marinus str. MIT 1342,MIT 1342,Contig,Unknown,Prochlorococcus
+GCF_000759855.1,Prochlorococcus marinus str. MIT 9107,MIT 9107,Contig,Unknown,Prochlorococcus
+GCF_047302795.1,Prochlorococcus marinus str. MIT 9107,MIT 9107,Complete Genome,Unknown,Prochlorococcus
+GCF_000759865.1,Prochlorococcus marinus str. MIT 9116,MIT 9116,Contig,Unknown,Prochlorococcus
+GCF_000759935.1,Prochlorococcus marinus str. MIT 9123,MIT 9123,Contig,Unknown,Prochlorococcus
+GCF_000759955.1,Prochlorococcus marinus str. MIT 9201,MIT 9201,Contig,Unknown,Prochlorococcus
+GCF_047305125.1,Prochlorococcus marinus str. MIT 9201,MIT 9201,Complete Genome,Unknown,Prochlorococcus
+GCF_000158595.1,Prochlorococcus marinus str. MIT 9202,MIT 9202,Scaffold,Unknown,Prochlorococcus
+GCF_000018585.1,Prochlorococcus marinus str. MIT 9211,MIT 9211,Chromosome,Unknown,Prochlorococcus
+GCF_000018065.1,Prochlorococcus marinus str. MIT 9215,MIT 9215,Complete Genome,Unknown,Prochlorococcus
+GCF_000015965.1,Prochlorococcus marinus str. MIT 9301,MIT 9301,Complete Genome,Unknown,Prochlorococcus
+GCF_000759975.1,Prochlorococcus marinus str. MIT 9302,MIT 9302,Contig,Unknown,Prochlorococcus
+GCF_047947085.1,Prochlorococcus marinus str. MIT 9302,MIT 9302,Complete Genome,Unknown,Prochlorococcus
+GCF_000015705.1,Prochlorococcus marinus str. MIT 9303,MIT 9303,Complete Genome,Unknown,Prochlorococcus
+GCF_000760015.1,Prochlorococcus marinus str. MIT 9311,MIT 9311,Contig,Unknown,Prochlorococcus
+GCF_000012645.1,Prochlorococcus marinus str. MIT 9312,MIT 9312,Complete Genome,Unknown,Prochlorococcus
+GCF_000011485.1,Prochlorococcus marinus str. MIT 9313,MIT9313,Complete Genome,Unknown,Prochlorococcus
+GCF_000760035.1,Prochlorococcus marinus str. MIT 9314,MIT 9314,Contig,Unknown,Prochlorococcus
+GCF_000760055.1,Prochlorococcus marinus str. MIT 9321,MIT 9321,Contig,Unknown,Prochlorococcus
+GCF_000760075.1,Prochlorococcus marinus str. MIT 9322,MIT 9322,Contig,Unknown,Prochlorococcus
+GCF_000760095.1,Prochlorococcus marinus str. MIT 9401,MIT 9401,Contig,Unknown,Prochlorococcus
+GCF_000015665.1,Prochlorococcus marinus str. MIT 9515,MIT 9515,Complete Genome,Unknown,Prochlorococcus
+GCF_019325055.1,Prochlorococcus marinus str. MU1402,MU1402,Contig,Unknown,Prochlorococcus
+GCF_019325065.1,Prochlorococcus marinus str. MU1403,MU1403,Contig,Unknown,Prochlorococcus
+GCF_019325015.1,Prochlorococcus marinus str. MU1404,MU1404,Contig,Unknown,Prochlorococcus
+GCF_019325005.1,Prochlorococcus marinus str. MU1405,MU1405,Contig,Unknown,Prochlorococcus
+GCF_019324945.1,Prochlorococcus marinus str. MU1406,MU1406,Contig,Unknown,Prochlorococcus
+GCF_019324955.1,Prochlorococcus marinus str. MU1410,MU1410,Contig,Unknown,Prochlorococcus
+GCF_019324985.1,Prochlorococcus marinus str. MU1411,MU1411,Contig,Unknown,Prochlorococcus
+GCF_019324925.1,Prochlorococcus marinus str. MU1412,MU1412,Contig,Unknown,Prochlorococcus
+GCF_019324905.1,Prochlorococcus marinus str. MU1414,MU1414,Contig,Unknown,Prochlorococcus
+GCF_019324885.1,Prochlorococcus marinus str. MU1415,MU1415,Contig,Unknown,Prochlorococcus
+GCF_019324835.1,Prochlorococcus marinus str. MU1416,MU1416,Contig,Unknown,Prochlorococcus
+GCF_019324845.1,Prochlorococcus marinus str. MU1417,MU1417,Contig,Unknown,Prochlorococcus
+GCF_000015685.1,Prochlorococcus marinus str. NATL1A,NATL1A,Complete Genome,Unknown,Prochlorococcus
+GCF_000012465.1,Prochlorococcus marinus str. NATL2A,NATL2A,Complete Genome,Unknown,Prochlorococcus
+GCF_000760235.1,Prochlorococcus marinus str. PAC1,PAC1,Contig,Unknown,Prochlorococcus
+GCF_047304675.1,Prochlorococcus marinus str. PAC1,PAC1,Complete Genome,Unknown,Prochlorococcus
+GCF_000760115.1,Prochlorococcus marinus str. SB,SB,Contig,Unknown,Prochlorococcus
+GCF_047305225.1,Prochlorococcus marinus str. SB,SB,Complete Genome,Unknown,Prochlorococcus
+GCF_000760255.1,Prochlorococcus marinus str. SS2,SS2,Contig,Unknown,Prochlorococcus
+GCF_047302765.1,Prochlorococcus marinus str. SS2,SS2,Complete Genome,Unknown,Prochlorococcus
+GCF_000760275.1,Prochlorococcus marinus str. SS35,SS35,Contig,Unknown,Prochlorococcus
+GCF_047304605.1,Prochlorococcus marinus str. SS35,SS35,Complete Genome,Unknown,Prochlorococcus
+GCF_000760355.1,Prochlorococcus marinus str. SS51,SS51,Contig,Unknown,Prochlorococcus
+GCF_047302855.1,Prochlorococcus marinus str. SS51,SS51,Complete Genome,Unknown,Prochlorococcus
+GCF_002812945.1,Prochlorococcus marinus str. XMU1401,XMU1401,Contig,Unknown,Prochlorococcus
+GCF_017696245.1,Prochlorococcus marinus str. XMU1401,XMU1401,Contig,Unknown,Prochlorococcus
+GCF_019325115.1,Prochlorococcus marinus str. XMU1401E,XMU1401E,Contig,Unknown,Prochlorococcus
+GCF_019325045.1,Prochlorococcus marinus str. XMU1408,XMU1408,Contig,Unknown,Prochlorococcus
+GCF_019325105.1,Prochlorococcus marinus str. XMU1419,XMU1419,Contig,Unknown,Prochlorococcus
+GCF_000007925.1,Prochlorococcus marinus subsp. marinus str. CCMP1375,CCMP1375; SS120,Complete Genome,Unknown,Prochlorococcus
+GCF_000011465.1,Prochlorococcus marinus subsp. pastoris str. CCMP1986,MED4,Complete Genome,Unknown,Prochlorococcus
+GCF_047497115.1,Prochlorococcus marinus subsp. pastoris str. CCMP1986,MED4x substr. MED4x,Complete Genome,Unknown,Prochlorococcus
+GCF_047497125.1,Prochlorococcus marinus subsp. pastoris str. CCMP1986,MED4ax substr. MED4ax,Complete Genome,Unknown,Prochlorococcus
+GCF_017696205.1,Prochlorococcus marinus XMU1402,XMU1402,Contig,Unknown,Prochlorococcus
+GCF_003208065.1,Prochlorococcus marinus XMU1403,XMU1403,Contig,Unknown,Prochlorococcus
+GCF_017696175.1,Prochlorococcus marinus XMU1404,XMU1404,Contig,Unknown,Prochlorococcus
+GCF_017696275.1,Prochlorococcus marinus XMU1405,XMU1405,Scaffold,Unknown,Prochlorococcus
+GCF_017696055.1,Prochlorococcus marinus XMU1406,XMU1406,Contig,Unknown,Prochlorococcus
+GCF_003208055.1,Prochlorococcus marinus XMU1408,XMU1408,Contig,Unknown,Prochlorococcus
+GCF_017696085.1,Prochlorococcus marinus XMU1410,XMU1410,Scaffold,Unknown,Prochlorococcus
+GCF_017696075.1,Prochlorococcus marinus XMU1411,XMU1411,Contig,Unknown,Prochlorococcus
+GCF_017696315.1,Prochlorococcus marinus XMU1412,XMU1412,Scaffold,Unknown,Prochlorococcus
+GCF_017696035.1,Prochlorococcus marinus XMU1414,XMU1414,Contig,Unknown,Prochlorococcus
+GCF_017695955.1,Prochlorococcus marinus XMU1419,XMU1419,Contig,Unknown,Prochlorococcus
+GCF_964203435.1,Synechococcus sp.,Unknown,Contig,Unknown,Synechococcus
+GCF_000009725.1,Synechocystis sp. PCC 6803,PCC 6803,Complete Genome,Unknown,Synechocystis
+GCF_000270265.1,Synechocystis sp. PCC 6803,GT-S,Complete Genome,Unknown,Synechocystis
+GCF_000340785.1,Synechocystis sp. PCC 6803,PCC 6803,Complete Genome,Unknown,Synechocystis
+GCF_001318385.1,Synechocystis sp. PCC 6803,PCC 6803 substr. GT-G,Complete Genome,Unknown,Synechocystis
+GCF_011392055.1,Synechocystis sp. PCC 6803,PCC 6803,Scaffold,Unknown,Synechocystis
+GCF_018845095.1,Synechocystis sp. PCC 6803,PCC 6803,Complete Genome,Unknown,Synechocystis
+GCF_022869765.1,Synechocystis sp. PCC 6803,PCC 6803 substr. GT-T,Complete Genome,Unknown,Synechocystis
+GCF_026127295.1,Synechocystis sp. PCC 6803,PCC 6803,Scaffold,Unknown,Synechocystis
+GCF_050408035.1,Synechocystis sp. PCC 6803,PCC 6803,Complete Genome,Unknown,Synechocystis
+GCF_000284135.1,Synechocystis sp. PCC 6803 substr. GT-I,PCC 6803 substr. GT-I,Complete Genome,Unknown,Synechocystis
+GCF_046846445.1,Synechocystis sp. PCC 6803 substr. GT-T,PCC 6803 substr. GT-T,Complete Genome,Unknown,Synechocystis
+GCF_046847935.1,Synechocystis sp. PCC 6803 substr. GT-T,PCC 6803 substr. GT-T,Complete Genome,Unknown,Synechocystis
+GCF_046847945.1,Synechocystis sp. PCC 6803 substr. GT-T,PCC 6803 substr. GT-T,Complete Genome,Unknown,Synechocystis
+GCF_046847955.1,Synechocystis sp. PCC 6803 substr. GT-T,PCC 6803 substr. GT-T,Complete Genome,Unknown,Synechocystis
+GCF_000284215.1,Synechocystis sp. PCC 6803 substr. PCC-N,PCC 6803 substr. PCC-N,Complete Genome,Unknown,Synechocystis
+GCF_000284455.1,Synechocystis sp. PCC 6803 substr. PCC-P,PCC 6803 substr. PCC-P,Complete Genome,Unknown,Synechocystis
+GCF_051658205.1,Synechococcus elongatus,Unknown,Contig,Unknown,Synechococcus
+GCF_014698895.1,Synechococcus elongatus FACHB-1061,FACHB-1061,Contig,Unknown,Synechococcus
+GCF_014698415.1,Synechococcus elongatus FACHB-242,FACHB-242,Contig,Unknown,Synechococcus
+GCF_036630065.1,Synechococcus elongatus IITB3,IITB3,Complete Genome,Unknown,Synechococcus
+GCF_036630075.1,Synechococcus elongatus IITB4,IITB4,Complete Genome,Unknown,Synechococcus
+GCF_036630115.1,Synechococcus elongatus IITB5,IITB5,Complete Genome,Unknown,Synechococcus
+GCF_036630085.1,Synechococcus elongatus IITB6,IITB6,Complete Genome,Unknown,Synechococcus
+GCF_036630095.1,Synechococcus elongatus IITB7,IITB7,Complete Genome,Unknown,Synechococcus
+GCF_036630105.1,Synechococcus elongatus IITB8,IITB8,Complete Genome,Unknown,Synechococcus
+GCF_050422935.1,Synechococcus elongatus M14.2,M14.2,Complete Genome,Unknown,Synechococcus
+GCF_003846445.2,Synechococcus elongatus PCC 11801,PCC 11801,Complete Genome,Unknown,Synechococcus
+GCF_009498715.2,Synechococcus elongatus PCC 11802,PCC 11802,Complete Genome,Unknown,Synechococcus
+GCF_022984195.1,Synechococcus elongatus PCC 6301,PCC 6301,Complete Genome,Unknown,Synechococcus
+GCF_000010065.1,Synechococcus elongatus PCC 6301,PCC 6301,Complete Genome,Unknown,Synechococcus
+GCF_022984265.1,Synechococcus elongatus PCC 6311,PCC 6311,Chromosome,Unknown,Synechococcus
+GCF_000012525.1,Synechococcus elongatus PCC 7942 = FACHB-805,PCC 7942,Complete Genome,Unknown,Synechococcus
+GCF_014698905.1,Synechococcus elongatus PCC 7942 = FACHB-805,FACHB-805,Contig,Unknown,Synechococcus
+GCF_030544905.1,Synechococcus elongatus PCC 7942 = FACHB-805,UTEX 2434,Complete Genome,Unknown,Synechococcus
+GCF_022984345.1,Synechococcus elongatus PCC 7943,PCC 7943,Chromosome,Unknown,Synechococcus
+GCF_000817325.1,Synechococcus elongatus UTEX 2973,UTEX 2973,Complete Genome,Unknown,Synechococcus
+GCF_003957805.1,Synechococcus elongatus UTEX 3055,UTEX 3055,Complete Genome,Unknown,Synechococcus
+GCF_035638895.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916555.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916575.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916595.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916615.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916635.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916655.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916675.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916695.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916715.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916735.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916755.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916775.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916795.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916815.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916835.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916855.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916875.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916895.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916915.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916935.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916955.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916975.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036916985.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917015.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917035.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917055.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917075.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917095.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917115.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917135.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917155.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917175.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917195.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917215.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917235.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917255.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917275.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917295.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917315.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917335.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917355.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917375.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917395.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917415.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917435.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917455.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917465.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917495.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917515.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917535.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917555.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917575.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917595.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917615.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917635.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917655.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917675.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917695.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917715.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917735.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917755.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917775.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917795.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917815.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917835.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917855.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917875.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917895.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917915.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917935.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917955.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917975.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036917995.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918015.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918035.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918055.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918075.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918095.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918115.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918155.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918175.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918195.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918215.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918225.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918245.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918275.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918295.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036918375.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919455.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919475.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919495.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919515.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919535.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919555.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919575.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919595.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919615.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919635.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919655.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919675.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919695.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919715.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919735.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919755.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919765.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919795.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919815.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919835.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919855.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919875.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_036919895.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_037000565.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_041747015.1,Nostoc sp.,Unknown,Contig,Unknown,Nostoc
+GCF_014698495.1,Nostoc punctiforme FACHB-252,FACHB-252,Contig,Unknown,Nostoc
+GCF_000020025.1,Nostoc punctiforme PCC 73102,ATCC 29133; PCC 73102,Complete Genome,Unknown,Nostoc
+GCF_037619055.1,Nostoc punctiforme UO1,UO1,Scaffold,Unknown,Nostoc
+GCF_009856605.1,Trichormus variabilis 0441,0441,Complete Genome,Unknown,Anabaena
+GCF_014222145.1,Trichormus variabilis 9RC,9RC,Scaffold,Unknown,Anabaena
+GCF_020102815.1,Trichormus variabilis A2,A2,Contig,Unknown,Anabaena
+GCF_014222135.1,Trichormus variabilis ARAD,ARAD,Scaffold,Unknown,Anabaena
+GCF_000204075.1,Trichormus variabilis ATCC 29413,ATCC 29413,Complete Genome,Unknown,Anabaena
+GCF_014698355.1,Trichormus variabilis FACHB-164,FACHB-164,Contig,Unknown,Anabaena
+GCF_014697155.1,Trichormus variabilis FACHB-171,FACHB-171,Contig,Unknown,Anabaena
+GCF_014697165.1,Trichormus variabilis FACHB-319,FACHB-319,Contig,Unknown,Anabaena
+GCF_014222245.1,Trichormus variabilis FSR,FSR,Scaffold,Unknown,Anabaena
+GCF_014222155.1,Trichormus variabilis N2B,N2B,Scaffold,Unknown,Anabaena
+GCF_014222225.1,Trichormus variabilis PNB,PNB,Scaffold,Unknown,Anabaena
+GCF_003991935.1,Trichormus variabilis SAG 1403-4b,SAG 1403-4b,Scaffold,Unknown,Anabaena
+GCF_014222125.1,Trichormus variabilis V5,V5,Scaffold,Unknown,Anabaena
+GCF_000009705.1,Nostoc sp. PCC 7120 = FACHB-418,PCC 7120,Complete Genome,Unknown,Nostoc
+GCF_003990585.1,Nostoc sp. PCC 7120 = FACHB-418,PCC 7120,Scaffold,Unknown,Nostoc
+GCF_014696735.1,Nostoc sp. PCC 7120 = FACHB-418,FACHB-418,Contig,Unknown,Nostoc
+GCF_046081385.1,Cylindrospermopsis raciborskii,Unknown,Contig,Unknown,Cylindrospermopsis
+GCF_049958775.1,Cylindrospermopsis raciborskii,Unknown,Contig,Unknown,Cylindrospermopsis
+GCF_035282025.1,Cylindrospermopsis raciborskii 1523720,Unknown,Contig,Unknown,Cylindrospermopsis
+GCF_051062915.1,Cylindrospermopsis raciborskii A4,A4,Contig,Unknown,Cylindrospermopsis
+GCF_048258825.1,Cylindrospermopsis raciborskii AWT205,AWT205,Contig,Unknown,Cylindrospermopsis
+GCF_002893155.1,Cylindrospermopsis raciborskii C03,C03,Scaffold,Unknown,Cylindrospermopsis
+GCF_002893145.1,Cylindrospermopsis raciborskii C04,C04,Scaffold,Unknown,Cylindrospermopsis
+GCF_002893125.1,Cylindrospermopsis raciborskii C07,C07,Scaffold,Unknown,Cylindrospermopsis
+GCF_002027345.1,Cylindrospermopsis raciborskii CENA302,CENA302,Contig,Unknown,Cylindrospermopsis
+GCF_002114155.1,Cylindrospermopsis raciborskii CENA303,CENA303,Contig,Unknown,Cylindrospermopsis
+GCF_022496815.1,Cylindrospermopsis raciborskii CHAB3438,CHAB3438,Scaffold,Unknown,Cylindrospermopsis
+GCF_003367075.2,Cylindrospermopsis raciborskii Cr2010,Cr2010,Complete Genome,Unknown,Cylindrospermopsis
+GCF_000175835.1,Cylindrospermopsis raciborskii CS-505,CS-505,Contig,Unknown,Cylindrospermopsis
+GCF_001676585.1,Cylindrospermopsis raciborskii CS-505,CS505,Contig,Unknown,Cylindrospermopsis
+GCF_001858115.1,Cylindrospermopsis raciborskii CS-508,CS-508,Contig,Unknown,Cylindrospermopsis
+GCF_036409495.1,Cylindrospermopsis raciborskii DSH,DSH,Contig,Unknown,Cylindrospermopsis
+GCF_051201415.1,Cylindrospermopsis raciborskii G7,G7,Complete Genome,Unknown,Cylindrospermopsis
+GCF_006523545.1,Cylindrospermopsis raciborskii GIHE 2018,GIHE 2018,Contig,Unknown,Cylindrospermopsis
+GCF_001586755.1,Cylindrospermopsis raciborskii ITEP-A1,ITEP-A1,Contig,Unknown,Cylindrospermopsis
+GCF_015708265.1,Cylindrospermopsis raciborskii KL1,Unknown,Scaffold,Unknown,Cylindrospermopsis
+GCF_021650815.1,Cylindrospermopsis raciborskii KLL07,KLL07,Complete Genome,Unknown,Cylindrospermopsis
+GCF_001858125.1,Cylindrospermopsis raciborskii MVCC14,MVCC14,Contig,Unknown,Cylindrospermopsis
+GCF_012583295.1,Cylindrospermopsis raciborskii MVCC19,MVCC19,Contig,Unknown,Cylindrospermopsis
+GCF_018139025.1,Cylindrospermopsis raciborskii N8,N8,Complete Genome,Unknown,Cylindrospermopsis
+GCF_026929835.1,Cylindrospermopsis raciborskii PAMP2011,Unknown,Scaffold,Unknown,Cylindrospermopsis
+GCF_026929755.1,Cylindrospermopsis raciborskii PAMP2012,Unknown,Scaffold,Unknown,Cylindrospermopsis
+GCF_002893285.1,Cylindrospermopsis raciborskii S01,S01,Scaffold,Unknown,Cylindrospermopsis
+GCF_002893265.1,Cylindrospermopsis raciborskii S05,S05,Scaffold,Unknown,Cylindrospermopsis
+GCF_002893245.1,Cylindrospermopsis raciborskii S06,S06,Scaffold,Unknown,Cylindrospermopsis
+GCF_002893205.1,Cylindrospermopsis raciborskii S07,S07,Scaffold,Unknown,Cylindrospermopsis
+GCF_002893215.1,Cylindrospermopsis raciborskii S10,S10,Scaffold,Unknown,Cylindrospermopsis
+GCF_002893185.1,Cylindrospermopsis raciborskii S14,S14,Scaffold,Unknown,Cylindrospermopsis
+GCF_045377515.1,Cylindrospermopsis raciborskii UAM/DH-BiRr,UAM/DH-BiRr,Contig,Unknown,Cylindrospermopsis
+GCF_045377475.1,Cylindrospermopsis raciborskii UAM/DH-KmRr,UAM/DH-KmRr,Contig,Unknown,Cylindrospermopsis
+GCF_045377415.1,Cylindrospermopsis raciborskii UAM/DH-MRr,UAM/DH-MRr,Contig,Unknown,Cylindrospermopsis
+GCF_045377345.1,Cylindrospermopsis raciborskii UAM/DH-ZRr,UAM/DH-ZRr,Contig,Unknown,Cylindrospermopsis
+GCF_013388695.1,Fischerella sp.,Unknown,Contig,Unknown,Fischerella
+GCF_019704275.1,Microcystis aeruginosa,NIES-88,Complete Genome,Unknown,Microcystis
+GCF_007990565.1,Microcystis aeruginosa 11-30S32,11-30S32,Scaffold,Unknown,Microcystis
+GCF_038396575.1,Microcystis aeruginosa 1339,1339,Complete Genome,Unknown,Microcystis
+GCF_014218745.1,Microcystis aeruginosa BLCC-F108,BLCCF108,Contig,Unknown,Microcystis
+GCF_014218765.1,Microcystis aeruginosa BLCC-F158,BLCC-F158,Contig,Unknown,Microcystis
+GCF_001895325.1,Microcystis aeruginosa CHAOHU 1326,CHAOHU 1326,Scaffold,Unknown,Microcystis
+GCF_028331215.1,Microcystis aeruginosa CS-1036,CS-1036,Contig,Unknown,Microcystis
+GCF_028330905.1,Microcystis aeruginosa CS-338/01,CS-338/01,Contig,Unknown,Microcystis
+GCF_028328965.1,Microcystis aeruginosa CS-552/01,CS-552/01,Contig,Unknown,Microcystis
+GCF_028330745.1,Microcystis aeruginosa CS-555/01A07,CS-555/01A07,Contig,Unknown,Microcystis
+GCF_028331105.1,Microcystis aeruginosa CS-556/03,CS-556/03,Contig,Unknown,Microcystis
+GCF_028330645.1,Microcystis aeruginosa CS-558/01A06,CS-558/01A06,Contig,Unknown,Microcystis
+GCF_028329685.1,Microcystis aeruginosa CS-563/04,CS-563/04,Contig,Unknown,Microcystis
+GCF_028331205.1,Microcystis aeruginosa CS-564/01,CS-564/01,Contig,Unknown,Microcystis
+GCF_028330675.1,Microcystis aeruginosa CS-567/02,CS-567/02,Contig,Unknown,Microcystis
+GCF_028330165.1,Microcystis aeruginosa CS-567/02-A1,CS-567/02-A1,Contig,Unknown,Microcystis
+GCF_028330705.1,Microcystis aeruginosa CS-573,CS-573,Contig,Unknown,Microcystis
+GCF_028330695.1,Microcystis aeruginosa CS-579,CS-579,Contig,Unknown,Microcystis
+GCF_028328845.1,Microcystis aeruginosa CS-583,CS-583,Contig,Unknown,Microcystis
+GCF_008757435.1,Microcystis aeruginosa EAWAG127a,EAWAG127a,Contig,Unknown,Microcystis
+GCF_003730145.1,Microcystis aeruginosa FACHB-524,FACHB-524,Scaffold,Unknown,Microcystis
+GCF_048593405.1,Microcystis aeruginosa FACHB-524,FACHB-524,Complete Genome,Unknown,Microcystis
+GCF_000332585.1,Microcystis aeruginosa FACHB-905 = DIANCHI905,DIANCHI905,Contig,Unknown,Microcystis
+GCF_021172085.1,Microcystis aeruginosa FACHB-905 = DIANCHI905,DIANCHI905,Complete Genome,Unknown,Microcystis
+GCF_050500255.1,Microcystis aeruginosa FBCC-A68,FBCC-A68,Complete Genome,Unknown,Microcystis
+GCF_050711215.1,Microcystis aeruginosa FBCC-A68,FBCC-A68,Complete Genome,Unknown,Microcystis
+GCF_009792235.1,Microcystis aeruginosa FD4,FD4,Complete Genome,Unknown,Microcystis
+GCF_008257445.1,Microcystis aeruginosa KLA2,KLA2,Scaffold,Unknown,Microcystis
+GCF_002025445.1,Microcystis aeruginosa KW,KW,Contig,Unknown,Microcystis
+GCF_032701645.1,Microcystis aeruginosa LE3,Unknown,Chromosome,Unknown,Microcystis
+GCF_015207885.1,Microcystis aeruginosa LEGE 00239,LEGE 00239,Contig,Unknown,Microcystis
+GCF_015207115.1,Microcystis aeruginosa LEGE 11464,LEGE 11464,Contig,Unknown,Microcystis
+GCF_015206885.1,Microcystis aeruginosa LEGE 91341,LEGE 91341,Contig,Unknown,Microcystis
+GCF_001885655.1,Microcystis aeruginosa NaRes975,NaRes975,Contig,Unknown,Microcystis
+GCF_003206625.1,Microcystis aeruginosa NIES-1211,NIES-1211,Scaffold,Unknown,Microcystis
+GCF_001704955.2,Microcystis aeruginosa NIES-2481,NIES-2481,Complete Genome,Unknown,Microcystis
+GCF_008579225.1,Microcystis aeruginosa NIES-2519,NIES-2519,Scaffold,Unknown,Microcystis
+GCF_008579325.1,Microcystis aeruginosa NIES-2520,NIES-2520,Scaffold,Unknown,Microcystis
+GCF_008579445.1,Microcystis aeruginosa NIES-2521,NIES-2521,Scaffold,Unknown,Microcystis
+GCF_008579565.1,Microcystis aeruginosa NIES-2522,NIES-2522,Scaffold,Unknown,Microcystis
+GCF_000981785.2,Microcystis aeruginosa NIES-2549,NIES-2549,Complete Genome,Unknown,Microcystis
+GCF_002897275.1,Microcystis aeruginosa NIES-298,NIES-298,Scaffold,Unknown,Microcystis
+GCF_002897315.1,Microcystis aeruginosa NIES-298,NIES-298,Scaffold,Unknown,Microcystis
+GCF_010196425.1,Microcystis aeruginosa NIES-298,NIES-298,Complete Genome,Unknown,Microcystis
+GCF_048820285.1,Microcystis aeruginosa NIES-298,NIES-298,Complete Genome,Unknown,Microcystis
+GCF_009811815.1,Microcystis aeruginosa NIES-3787,NIES-3787,Contig,Unknown,Microcystis
+GCF_009811835.1,Microcystis aeruginosa NIES-3804,NIES-3804,Contig,Unknown,Microcystis
+GCF_009811855.1,Microcystis aeruginosa NIES-3806,NIES-3806,Contig,Unknown,Microcystis
+GCF_009811875.1,Microcystis aeruginosa NIES-3807,NIES-3807,Contig,Unknown,Microcystis
+GCF_963885665.1,Microcystis aeruginosa NIES-3807,Unknown,Contig,Unknown,Microcystis
+GCF_008579685.1,Microcystis aeruginosa NIES-4264,NIES-4264,Scaffold,Unknown,Microcystis
+GCF_004305995.1,Microcystis aeruginosa NIES-4285,NIES-4285,Scaffold,Unknown,Microcystis
+GCF_008974145.1,Microcystis aeruginosa NIES-4325,NIES-4325,Scaffold,Unknown,Microcystis
+GCF_000787675.1,Microcystis aeruginosa NIES-44,NIES-44,Contig,Unknown,Microcystis
+GCF_000010625.1,Microcystis aeruginosa NIES-843,NIES-843,Complete Genome,Unknown,Microcystis
+GCF_001578075.1,Microcystis aeruginosa NIES-88,NIES-88,Scaffold,Unknown,Microcystis
+GCF_001725075.1,Microcystis aeruginosa NIES-98,NIES-98,Scaffold,Unknown,Microcystis
+GCF_031754835.1,Microcystis aeruginosa NRERC-214,NRERC-214,Complete Genome,Unknown,Microcystis
+GCF_000599945.1,Microcystis aeruginosa PCC 7005,PCC 7005,Contig,Unknown,Microcystis
+GCF_030553035.1,Microcystis aeruginosa PCC 7806,PCC 7806,Complete Genome,Unknown,Microcystis
+GCF_041506625.1,Microcystis aeruginosa PCC 7806,PCC 7806,Complete Genome,Unknown,Microcystis
+GCF_002095975.1,Microcystis aeruginosa PCC 7806SL,PCC 7806SL,Complete Genome,Unknown,Microcystis
+GCF_000312205.1,Microcystis aeruginosa PCC 7941,7941,Scaffold,Unknown,Microcystis
+GCF_000307995.1,Microcystis aeruginosa PCC 9432,PCC 9432,Scaffold,Unknown,Microcystis
+GCF_000312185.1,Microcystis aeruginosa PCC 9443,PCC 9443,Scaffold,Unknown,Microcystis
+GCF_000312285.1,Microcystis aeruginosa PCC 9701,PCC 9701,Scaffold,Unknown,Microcystis
+GCF_000312165.1,Microcystis aeruginosa PCC 9717,PCC 9717,Scaffold,Unknown,Microcystis
+GCF_000312725.1,Microcystis aeruginosa PCC 9806,PCC 9806,Scaffold,Unknown,Microcystis
+GCF_000312225.1,Microcystis aeruginosa PCC 9807,PCC 9807,Scaffold,Unknown,Microcystis
+GCF_000312245.1,Microcystis aeruginosa PCC 9808,PCC 9808,Scaffold,Unknown,Microcystis
+GCF_000312265.1,Microcystis aeruginosa PCC 9809,PCC 9809,Scaffold,Unknown,Microcystis
+GCF_003206555.1,Microcystis aeruginosa Sj,Sj,Scaffold,Unknown,Microcystis
+GCF_000412595.1,Microcystis aeruginosa SPC777,SPC777,Contig,Unknown,Microcystis
+GCF_026222535.1,Microcystis aeruginosa str. Chao 1910,Chao 1910,Complete Genome,Unknown,Microcystis
+GCF_000330925.1,Microcystis aeruginosa TAIHU98,TAIHU98,Contig,Unknown,Microcystis
+GCF_904830935.1,Planktothrix agardhii,No.976,Complete Genome,Unknown,Planktothrix
+GCF_040381315.1,Planktothrix agardhii,Unknown,Contig,Unknown,Planktothrix
+GCF_044237795.1,Planktothrix agardhii,Unknown,Contig,Unknown,Planktothrix
+GCF_049240745.1,Planktothrix agardhii,Unknown,Scaffold,Unknown,Planktothrix
+GCF_049243445.1,Planktothrix agardhii,Unknown,Scaffold,Unknown,Planktothrix
+GCF_049586395.1,Planktothrix agardhii,Unknown,Contig,Unknown,Planktothrix
+GCF_903969095.1,Planktothrix agardhii,PCC 10110,Scaffold,Unknown,Planktothrix
+GCF_904830765.1,Planktothrix agardhii,NIVA-CYA126/8,Complete Genome,Unknown,Planktothrix
+GCF_904830775.1,Planktothrix agardhii,No.2A,Complete Genome,Unknown,Planktothrix
+GCF_904830845.1,Planktothrix agardhii,No.365,Complete Genome,Unknown,Planktothrix
+GCF_904830855.1,Planktothrix agardhii,No.66,Complete Genome,Unknown,Planktothrix
+GCF_904830885.1,Planktothrix agardhii,PCC 7811,Chromosome,Unknown,Planktothrix
+GCF_904830915.1,Planktothrix agardhii,PCC7805,Complete Genome,Unknown,Planktothrix
+GCF_904830945.1,Planktothrix agardhii,No.758,Chromosome,Unknown,Planktothrix
+GCF_963901505.1,Planktothrix agardhii,Unknown,Scaffold,Unknown,Planktothrix
+GCF_020594695.1,Planktothrix agardhii 1025,1025,Contig,Unknown,Planktothrix
+GCF_021555015.1,Planktothrix agardhii 1026,1026,Contig,Unknown,Planktothrix
+GCF_021554995.1,Planktothrix agardhii 1027,1027,Contig,Unknown,Planktothrix
+GCF_021554935.1,Planktothrix agardhii 1029,1029,Contig,Unknown,Planktothrix
+GCF_021554965.1,Planktothrix agardhii 1030,1030,Contig,Unknown,Planktothrix
+GCF_020594635.1,Planktothrix agardhii 1031,1031,Contig,Unknown,Planktothrix
+GCF_021554955.1,Planktothrix agardhii 1032,1032,Contig,Unknown,Planktothrix
+GCF_021554875.1,Planktothrix agardhii 1801,1801,Contig,Unknown,Planktothrix
+GCF_021554915.1,Planktothrix agardhii 1803,1803,Contig,Unknown,Planktothrix
+GCF_021554855.1,Planktothrix agardhii 1804,1804,Contig,Unknown,Planktothrix
+GCF_021554815.1,Planktothrix agardhii 1805,1805,Contig,Unknown,Planktothrix
+GCF_021554825.1,Planktothrix agardhii 1806,1806,Contig,Unknown,Planktothrix
+GCF_021554785.1,Planktothrix agardhii 1807,1807,Contig,Unknown,Planktothrix
+GCF_020594595.1,Planktothrix agardhii 1808,1808,Contig,Unknown,Planktothrix
+GCF_020594555.1,Planktothrix agardhii 1809,1809,Contig,Unknown,Planktothrix
+GCF_020594575.1,Planktothrix agardhii 1810,1810,Contig,Unknown,Planktothrix
+GCF_021554705.1,Planktothrix agardhii 1811,1811,Contig,Unknown,Planktothrix
+GCF_021554755.1,Planktothrix agardhii 1812,1812,Contig,Unknown,Planktothrix
+GCF_020594525.1,Planktothrix agardhii 1813,1813,Contig,Unknown,Planktothrix
+GCF_005402765.1,Planktothrix agardhii CCAP 1459/11A,NIES-905,Contig,Unknown,Planktothrix
+GCF_032120055.1,Planktothrix agardhii G_PLANK,Unknown,Scaffold,Unknown,Planktothrix
+GCF_015708255.1,Planktothrix agardhii KL2,Unknown,Scaffold,Unknown,Planktothrix
+GCF_024320855.1,Planktothrix agardhii LY1,Unknown,Scaffold,Unknown,Planktothrix
+GCF_000710505.1,Planktothrix agardhii NIVA-CYA 126/8,NIVA-CYA 126/8,Chromosome,Unknown,Planktothrix
+GCF_000464665.1,Planktothrix agardhii NIVA-CYA 15,NIVA-CYA 15,Scaffold,Unknown,Planktothrix
+GCF_963864265.1,Planktothrix agardhii NIVA-CYA 15,Unknown,Scaffold,Unknown,Planktothrix
+GCF_000464725.1,Planktothrix agardhii NIVA-CYA 34,NIVA-CYA 34,Scaffold,Unknown,Planktothrix
+GCF_963863775.1,Planktothrix agardhii NIVA-CYA 34,Unknown,Scaffold,Unknown,Planktothrix
+GCF_000464825.1,Planktothrix agardhii NIVA-CYA 56/3,NIVA-CYA 56/3,Scaffold,Unknown,Planktothrix
+GCF_963863855.1,Planktothrix agardhii NIVA-CYA 56/3,Unknown,Scaffold,Unknown,Planktothrix
+GCF_031631805.1,Planktothrix agardhii NRERC-751,NRERC-751,Contig,Unknown,Planktothrix
+GCF_032116315.1,Planktothrix agardhii P_PLANK,Unknown,Scaffold,Unknown,Planktothrix
+GCF_034931525.1,Planktothrix agardhii UHCC 0887,UHCC 0887,Scaffold,Unknown,Planktothrix
+GCF_000789435.1,Aphanizomenon flos-aquae 2012/KM1/D3,2012/KM1/D3,Contig,Unknown,Aphanizomenon
+GCF_014696815.1,Aphanizomenon flos-aquae FACHB-1040,FACHB-1040,Contig,Unknown,Aphanizomenon
+GCF_014697315.1,Aphanizomenon flos-aquae FACHB-1171,FACHB-1171,Contig,Unknown,Aphanizomenon
+GCF_014698725.1,Aphanizomenon flos-aquae FACHB-1249,FACHB-1249,Contig,Unknown,Aphanizomenon
+GCF_014698705.1,Aphanizomenon flos-aquae FACHB-1265,FACHB-1265,Contig,Unknown,Aphanizomenon
+GCF_014698755.1,Aphanizomenon flos-aquae FACHB-1287,FACHB-1287,Contig,Unknown,Aphanizomenon
+GCF_014698295.1,Aphanizomenon flos-aquae FACHB-1290,FACHB-1290,Contig,Unknown,Aphanizomenon
+GCF_014698695.1,Aphanizomenon flos-aquae FACHB-1416,FACHB-1416,Contig,Unknown,Aphanizomenon
+GCF_000521175.1,Aphanizomenon flos-aquae NIES-81,NIES-81,Scaffold,Unknown,Aphanizomenon
+GCF_031822415.1,Aphanizomenon flos-aquae NRERC-008,NRERC-008,Contig,Unknown,Aphanizomenon
+GCF_000014265.1,Trichodesmium erythraeum IMS101,IMS101,Complete Genome,Unknown,Trichodesmium
+GCF_963903135.1,Crocosphaera watsonii,Unknown,Contig,Unknown,Crocosphaera
+GCF_000235665.1,Crocosphaera watsonii WH 0003,WH 0003,Contig,Unknown,Crocosphaera
+GCF_963861925.1,Crocosphaera watsonii WH 0003,Unknown,Contig,Unknown,Crocosphaera
+GCF_001050835.1,Crocosphaera watsonii WH 0005,WH 0005,Contig,Unknown,Crocosphaera
+GCF_001039615.1,Crocosphaera watsonii WH 0401,WH 0401,Contig,Unknown,Crocosphaera
+GCF_963865715.1,Crocosphaera watsonii WH 0401,Unknown,Contig,Unknown,Crocosphaera
+GCF_001039635.1,Crocosphaera watsonii WH 0402,WH 0402,Contig,Unknown,Crocosphaera
+GCF_963865765.1,Crocosphaera watsonii WH 0402,Unknown,Contig,Unknown,Crocosphaera
+GCF_000167195.1,Crocosphaera watsonii WH 8501,WH 8501,Scaffold,Unknown,Crocosphaera
+GCF_050563455.1,Crocosphaera watsonii WH 8501,WH 8501,Complete Genome,Unknown,Crocosphaera
+GCF_963860105.1,Crocosphaera watsonii WH 8501,Unknown,Scaffold,Unknown,Crocosphaera
+GCF_001039555.1,Crocosphaera watsonii WH 8502,WH 8502,Contig,Unknown,Crocosphaera
+GCF_963865605.1,Crocosphaera watsonii WH 8502,Unknown,Contig,Unknown,Crocosphaera
+GCF_000350105.1,Richelia intracellularis HH01,HH01,Contig,Unknown,Richelia
+GCF_000350125.1,Richelia intracellularis HM01,HM01,Contig,Unknown,Richelia
+GCF_000011345.1,Thermosynechococcus vestitus BP-1,BP-1,Complete Genome,Unknown,Thermosynechococcus
+GCF_002754935.1,Parathermosynechococcus lividus PCC 6715,PCC 6715,Complete Genome,Unknown,Synechococcus
+GCF_000011385.1,Gloeobacter violaceus PCC 7421,PCC 7421,Complete Genome,Unknown,Gloeobacter
+GCF_000484535.1,Gloeobacter kilaueensis JS1,JS1,Complete Genome,Unknown,Gloeobacter
+GCF_014698815.1,Arthrospira platensis FACHB-835,FACHB-835,Contig,Unknown,Arthrospira
+GCF_040505605.1,Limnospira platensis,Unknown,Contig,Unknown,Arthrospira
+GCF_025200965.1,Limnospira platensis C1,C1,Complete Genome,Unknown,Arthrospira
+GCF_050562215.1,Limnospira platensis CENA597,CENA597,Chromosome,Unknown,Arthrospira
+GCF_050753325.1,Limnospira platensis CENA650,CENA650,Scaffold,Unknown,Arthrospira
+GCF_014698675.1,Limnospira platensis FACHB-439,FACHB-439,Contig,Unknown,Arthrospira
+GCF_014698385.1,Limnospira platensis FACHB-971,FACHB-971,Contig,Unknown,Arthrospira
+GCF_029223075.1,Limnospira platensis NCB002,NCB002,Contig,Unknown,Arthrospira
+GCF_000210375.1,Limnospira platensis NIES-39,NIES-39,Chromosome,Unknown,Arthrospira
+GCF_026000695.1,Limnospira platensis NIES-39,NIES-39,Complete Genome,Unknown,Arthrospira
+GCF_009176225.1,Limnospira platensis NIES-46,NIES-46,Contig,Unknown,Arthrospira
+GCF_046480435.1,Limnospira platensis PCC 7345,PCC 7345,Scaffold,Unknown,Arthrospira
+GCF_000175415.3,Limnospira platensis str. Paraca,Paraca,Contig,Unknown,Arthrospira
+GCF_001611905.1,Limnospira platensis YZ,YZ,Chromosome,Unknown,Arthrospira
+GCF_024347835.1,Acaryochloris marina MBIC10699,MBIC10699,Complete Genome,Unknown,Acaryochloris
+GCF_000018105.1,Acaryochloris marina MBIC11017,MBIC11017,Complete Genome,Unknown,Acaryochloris
+GCF_052827785.1,Acaryochloris marina NIES-2412,NIES-2412,Contig,Unknown,Acaryochloris
+GCF_018336915.1,Acaryochloris marina S15,S15,Complete Genome,Unknown,Acaryochloris
+GCF_051657925.1,Chroococcidiopsis sp.,Unknown,Contig,Unknown,Chroococcidiopsis

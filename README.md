@@ -359,8 +359,8 @@ We extend our gratitude to the following contributors:
 - **Yazid** - [@yazid-hoblos](https://github.com/yazid-hoblos)
 - **Colombe** - [@colombearchambaud](https://github.com/colombearchambaud)
 - **Matheo** - [@paradoxe-tech](https://github.com/paradoxe-tech)
+- **Ada** - [@adaozin](https://github.com/adaozin)
 - **Kenan**
-- **Ada**
 
 
 ### Citation

@@ -585,7 +585,7 @@ class VisualizationManager:
         # Hierarchical clustering
         linkage_matrix = linkage(data, method=method, metric=metric)
         
-        # Cut tree to get clusters
+        # Cut tree to get clusters (use original threshold)
         clusters = fcluster(linkage_matrix, t=0.3, criterion='distance')
         
         # Create cluster assignments
@@ -599,98 +599,183 @@ class VisualizationManager:
         
         logger.info(f"✓ Found {len(set(clusters))} clusters")
         
-        # Log cluster composition
+        # Log cluster composition with meaningful names
         for cluster_id in sorted(set(clusters)):
             members = strain_clusters[strain_clusters['cluster'] == cluster_id]['strain'].tolist()
-            logger.info(f"  Cluster {cluster_id}: {len(members)} strain(s)")
+            # Generate meaningful cluster name based on common genus/characteristics
+            cluster_name = self._generate_cluster_name(members, cluster_id)
+            logger.info(f"  {cluster_name}: {len(members)} strain(s)")
         
         return strain_clusters, linkage_matrix
     
+    def _generate_cluster_name(self, strain_names: List[str], cluster_id: int) -> str:
+        """Generate meaningful cluster names based on strain characteristics."""
+        # Extract genus names
+        genera = []
+        for strain in strain_names:
+            # Extract genus from strain name (usually first part before underscore)
+            parts = strain.split('_')
+            if len(parts) > 0:
+                genus_candidate = parts[0]
+                # Clean up common prefixes
+                if genus_candidate.startswith('GCF') or genus_candidate.startswith('GCA'):
+                    # Try next part if it's an accession
+                    if len(parts) > 1:
+                        genus_candidate = parts[1]
+                genera.append(genus_candidate)
+        
+        # Find most common genus
+        from collections import Counter
+        if genera:
+            genus_counts = Counter(genera)
+            most_common_genus = genus_counts.most_common(1)[0][0]
+            
+            # Generate cluster name based on composition
+            if len(set(genera)) == 1:
+                # All strains from same genus
+                return f"Cluster {cluster_id}: {most_common_genus} group"
+            elif genus_counts[most_common_genus] > len(genera) * 0.7:
+                # Predominantly one genus
+                return f"Cluster {cluster_id}: {most_common_genus}-dominated"
+            else:
+                # Mixed genera
+                top_genera = [genus for genus, count in genus_counts.most_common(2)]
+                return f"Cluster {cluster_id}: {'/'.join(top_genera)} mixed"
+        else:
+            return f"Cluster {cluster_id}: Mixed group"
+    
+    def cluster_ecs(self, matrix_df: pd.DataFrame, method: str = 'ward', 
+                    metric: str = 'euclidean') -> Tuple[pd.DataFrame, np.ndarray]:
+        """Cluster EC numbers based on presence patterns across strains."""
+        from scipy.cluster.hierarchy import linkage, fcluster
+        
+        logger.info("Clustering EC numbers by presence pattern...")
+        
+        # Use EC data directly (rows are ECs, columns are strains)
+        strains = [col for col in matrix_df.columns if col != 'EC_number']
+        data = matrix_df[strains].values  # ECs as rows
+        
+        # Hierarchical clustering
+        linkage_matrix = linkage(data, method=method, metric=metric)
+        
+        # Cut tree to get clusters
+        clusters = fcluster(linkage_matrix, t=0.3, criterion='distance')
+        
+        # Create cluster assignments
+        ec_clusters = pd.DataFrame({
+            'EC_number': matrix_df['EC_number'],
+            'cluster': clusters
+        })
+        
+        # Sort by cluster
+        ec_clusters = ec_clusters.sort_values('cluster')
+        
+        logger.info(f"✓ Found {len(set(clusters))} EC clusters")
+        
+        return ec_clusters, linkage_matrix
+    
     def plot_clustered_heatmap(self, matrix_df: pd.DataFrame, strain_clusters: pd.DataFrame,
                               output_file: Optional[str] = None) -> str:
-        """Heatmap with strains ordered by cluster and simplified labels."""
+        """Heatmap with seaborn clustermap for automatic hierarchical clustering."""
         if output_file is None:
             output_file = str(self.output_dir / "pangenome_clustered_heatmap.png")
         
-        logger.info("Creating clustered heatmap...")
+        logger.info("Creating clustered heatmap using seaborn clustermap...")
         
-        # Reorder strains by cluster
-        ordered_strains = strain_clusters['strain'].tolist()
-        data = matrix_df[ordered_strains].values
+        # Prepare data for clustermap
+        strains = [col for col in matrix_df.columns if col != 'EC_number']
+        data_matrix = matrix_df.set_index('EC_number')[strains]
+        
+        num_strains = len(strains)
+        num_ecs = len(data_matrix)
         
         # Simplify strain labels with adaptive shortening
-        num_strains = len(ordered_strains)
-        num_ecs = len(matrix_df)
-        
-        simple_labels = []
-        for strain in ordered_strains:
+        simple_strain_labels = {}
+        for strain in strains:
             parts = strain.split('_')
             if num_strains > 50:
                 # Very short labels for crowded plots
                 if len(parts) > 1:
-                    simple_labels.append(f'{parts[0][:6]}_{parts[1][:4]}')
+                    simple_strain_labels[strain] = f'{parts[0][:6]}_{parts[1][:4]}'
                 else:
-                    simple_labels.append(strain[:8])
+                    simple_strain_labels[strain] = strain[:8]
             elif len(parts) > 1:
-                simple_labels.append(f'{parts[0][:8]}_{parts[1][:6]}')
+                simple_strain_labels[strain] = f'{parts[0][:8]}_{parts[1][:6]}'
             else:
-                simple_labels.append(strain[:12])
+                simple_strain_labels[strain] = strain[:12]
+        
+        # Rename columns for display
+        display_data = data_matrix.copy()
+        if num_strains <= 50:  # Only rename if labels will be visible
+            display_data.columns = [simple_strain_labels[col] for col in display_data.columns]
         
         # Adaptive figure sizing
         if num_strains > 50:
-            fig_width = min(40, num_strains * 0.5)
-            font_size_x = max(6, 10 - num_strains // 20)
+            fig_width = min(25, num_strains * 0.3)
+            font_size = max(4, 8 - num_strains // 20)
         else:
-            fig_width = max(12, num_strains * 0.8)
-            font_size_x = 10
+            fig_width = max(10, num_strains * 0.4)
+            font_size = 8
             
-        if num_ecs > 20:
-            fig_height = min(25, num_ecs * 0.3)
-            font_size_y = max(6, 8 - num_ecs // 10)
+        if num_ecs > 30:
+            fig_height = min(20, num_ecs * 0.3)
         else:
-            fig_height = max(8, num_ecs * 0.4)
-            font_size_y = 8
+            fig_height = max(6, num_ecs * 0.3)
         
-        fig, ax = plt.subplots(figsize=(fig_width, fig_height))
+        # Create clustered heatmap using seaborn
+        plt.figure(figsize=(fig_width, fig_height))
         
-        im = ax.imshow(data, aspect='auto', cmap='RdYlGn', vmin=0, vmax=2)
+        # Custom colormap
+        colors = ['#e74c3c', '#f39c12', '#2ecc71']  # Red, Orange, Green
+        cmap = sns.color_palette(colors, as_cmap=True)
         
-        # Add cluster separators
-        cluster_changes = strain_clusters['cluster'].diff().fillna(0) != 0
-        change_positions = np.where(cluster_changes)[0]
-        
-        for pos in change_positions[1:]:
-            ax.axvline(x=pos-0.5, color='black', linewidth=3)
-        
-        # Adaptive tick spacing for very crowded plots
-        if num_strains > 50:
-            # Remove x-axis labels for very crowded clustered plots
-            ax.set_xticks([])
-            xlabel = f'Strains grouped by cluster (n={num_strains}) - Labels hidden due to crowding'
-        elif num_strains > 25:
-            step = max(1, num_strains // 25)
-            x_indices = range(0, len(ordered_strains), step)
-            ax.set_xticks(x_indices)
-            ax.set_xticklabels([simple_labels[i] for i in x_indices], 
-                              rotation=90, ha='center', fontsize=font_size_x)
-            xlabel = 'Strain (grouped by cluster)'
+        # Create clustermap with hierarchical clustering on both axes
+        if num_strains > 80 or num_ecs > 50:
+            # For very large datasets, hide labels to avoid crowding
+            g = sns.clustermap(
+                display_data,
+                cmap=cmap,
+                vmin=0, vmax=2,
+                figsize=(fig_width, fig_height),
+                cbar_kws={'label': 'Enzyme Status'},
+                xticklabels=False,
+                yticklabels=True if num_ecs <= 50 else False,
+                linewidths=0.1,
+                method='ward',
+                metric='euclidean'
+            )
         else:
-            ax.set_xticks(np.arange(len(ordered_strains)))
-            ax.set_xticklabels(simple_labels, rotation=45, ha='right', fontsize=font_size_x)
-            xlabel = 'Strain (grouped by cluster)'
+            # For smaller datasets, show labels
+            g = sns.clustermap(
+                display_data,
+                cmap=cmap,
+                vmin=0, vmax=2,
+                figsize=(fig_width, fig_height),
+                cbar_kws={'label': 'Enzyme Status'},
+                xticklabels=True,
+                yticklabels=True,
+                linewidths=0.1,
+                method='ward',
+                metric='euclidean'
+            )
         
-        ax.set_yticks(np.arange(len(matrix_df)))
-        ax.set_yticklabels(matrix_df['EC_number'], fontsize=font_size_y)
+        # Adjust font sizes
+        if num_strains <= 50:
+            g.ax_heatmap.tick_params(axis='x', labelsize=font_size, rotation=45)
+        g.ax_heatmap.tick_params(axis='y', labelsize=max(6, font_size))
         
-        ax.set_xlabel(xlabel, fontsize=12, weight='bold')
-        ax.set_ylabel('EC Number', fontsize=12, weight='bold')
-        ax.set_title('Clustered EC Number Presence Across Strains', 
-                    fontsize=14, weight='bold', pad=20)
+        # Update colorbar labels
+        cbar = g.ax_cbar
+        cbar.set_yticklabels(['Not Found', 'Partial Hit', 'Complete'])
+        cbar.set_ylabel('Enzyme Status', rotation=270, labelpad=20, fontweight='bold')
         
-        cbar = plt.colorbar(im, ax=ax)
-        cbar.set_label('Status', rotation=270, labelpad=20)
-        cbar.set_ticks([0, 1, 2])
-        cbar.set_ticklabels(['Not Found', 'Partial', 'Fully Found'])
+        # Set title
+        g.fig.suptitle('Hierarchically Clustered EC Number Presence Across Strains', 
+                      fontsize=14, fontweight='bold', y=0.98)
+        
+        # Add meaningful cluster annotations if not too crowded
+        if num_strains <= 30 and hasattr(strain_clusters, 'cluster'):
+            self._add_cluster_labels_to_clustermap(g, strain_clusters, simple_strain_labels)
         
         plt.tight_layout()
         plt.savefig(output_file, dpi=300, bbox_inches='tight')
@@ -699,28 +784,95 @@ class VisualizationManager:
         logger.info(f"✓ Saved clustered heatmap to {output_file}")
         return str(output_file)
     
+    def _add_cluster_labels_to_clustermap(self, g, strain_clusters: pd.DataFrame, simple_strain_labels: dict):
+        """Add meaningful cluster name annotations to seaborn clustermap."""
+        
+        # Get the reordered column order from the clustermap
+        reordered_cols = g.dendrogram_col.reordered_ind
+        original_strains = list(strain_clusters['strain'])
+        
+        # Map positions to cluster names
+        cluster_info = {}
+        for i, original_idx in enumerate(reordered_cols):
+            if original_idx < len(original_strains):
+                strain = original_strains[original_idx]
+                cluster_id = strain_clusters[strain_clusters['strain'] == strain]['cluster'].iloc[0]
+                if cluster_id not in cluster_info:
+                    cluster_info[cluster_id] = {'positions': [], 'strains': []}
+                cluster_info[cluster_id]['positions'].append(i)
+                cluster_info[cluster_id]['strains'].append(strain)
+        
+        # Add cluster annotations above the heatmap
+        ax = g.ax_heatmap
+        for cluster_id, info in cluster_info.items():
+            if len(info['positions']) > 1:  # Only annotate multi-strain clusters
+                cluster_center = np.mean(info['positions'])
+                # Use simple cluster number for annotation
+                cluster_label = f"C{cluster_id}"
+                
+                # Add annotation above the plot
+                ax.text(cluster_center, len(ax.get_yticklabels()) + 0.5, cluster_label, 
+                       ha='center', va='bottom', rotation=45, fontsize=8,
+                       weight='bold', color='darkblue')
+    
+    def _add_cluster_annotations(self, ax, strain_clusters: pd.DataFrame, ec_clusters: pd.DataFrame,
+                               num_strains: int, num_ecs: int, font_size_x: int, font_size_y: int):
+        """Add meaningful cluster name annotations to the heatmap (legacy method)."""
+        
+        # Add strain cluster annotations (top of plot)
+        if num_strains <= 50:  # Only for readable plots
+            current_pos = 0
+            for cluster_id in sorted(strain_clusters['cluster'].unique()):
+                cluster_strains = strain_clusters[strain_clusters['cluster'] == cluster_id]['strain'].tolist()
+                cluster_size = len(cluster_strains)
+                cluster_center = current_pos + cluster_size / 2 - 0.5
+                
+                # Use simple cluster number for annotation
+                cluster_label = f"C{cluster_id}"
+                
+                # Add annotation above the plot
+                ax.text(cluster_center, -0.5, cluster_label, 
+                       ha='center', va='top', rotation=45, fontsize=max(6, font_size_x-2),
+                       weight='bold', color='darkblue')
+                
+                current_pos += cluster_size
+        
+        # Add EC cluster annotations (right side of plot)
+        if num_ecs <= 30:  # Only for readable plots
+            current_pos = 0
+            for cluster_id in sorted(ec_clusters['cluster'].unique()):
+                cluster_ecs = ec_clusters[ec_clusters['cluster'] == cluster_id]['EC_number'].tolist()
+                cluster_size = len(cluster_ecs)
+                cluster_center = current_pos + cluster_size / 2 - 0.5
+                
+                # Generate EC cluster name based on pathway function if possible
+                ec_cluster_name = f"EC-C{cluster_id}"
+                
+                # Add annotation to the right of the plot
+                ax.text(num_strains + 0.5, cluster_center, ec_cluster_name, 
+                       ha='left', va='center', fontsize=max(6, font_size_y-1),
+                       weight='bold', color='darkred')
+                
+                current_pos += cluster_size
+    
     def plot_cluster_representatives(self, matrix_df: pd.DataFrame, strain_clusters: pd.DataFrame,
                                    output_file: Optional[str] = None) -> str:
-        """Show one representative per cluster with clean labels."""
+        """Show one representative per cluster with meaningful cluster names."""
         if output_file is None:
             output_file = str(self.output_dir / "cluster_representatives.png")
         
-        logger.info("Creating cluster representative plot...")
+        logger.info("Creating cluster representative plot with meaningful names...")
         
         representatives = []
         cluster_labels = []
         
         for cluster_id in sorted(strain_clusters['cluster'].unique()):
             cluster_members = strain_clusters[strain_clusters['cluster'] == cluster_id]['strain'].tolist()
-            rep = cluster_members[0]
+            rep = cluster_members[0]  # Use first member as representative
             representatives.append(rep)
             
-            # Extract genus name for cluster label
-            genus = rep.split('_')[0]
-            if len(cluster_members) == 1:
-                cluster_labels.append(f"{genus}")
-            else:
-                cluster_labels.append(f"{genus}\ncluster\n(n={len(cluster_members)})")
+            # Use simple cluster numbers for x-axis labels
+            cluster_labels.append(f"Cluster {cluster_id}\n(n={len(cluster_members)})")
         
         data = matrix_df[representatives].values
         
@@ -731,18 +883,22 @@ class VisualizationManager:
         
         ax.set_xticks(np.arange(len(representatives)))
         ax.set_yticks(np.arange(len(matrix_df)))
-        ax.set_xticklabels(cluster_labels, rotation=0, ha='center', fontsize=11)
+        ax.set_xticklabels(cluster_labels, rotation=0, ha='center', fontsize=10, weight='bold')
         ax.set_yticklabels(matrix_df['EC_number'], fontsize=9)
         
-        ax.set_xlabel('Cluster Representative', fontsize=12, weight='bold')
+        ax.set_xlabel('Cluster Representative (by phylogenetic similarity)', fontsize=12, weight='bold')
         ax.set_ylabel('EC Number', fontsize=12, weight='bold')
-        ax.set_title('EC Profiles - Cluster Representatives Only', 
+        ax.set_title('Pathway Profiles by Strain Cluster Representatives', 
                     fontsize=14, weight='bold', pad=20)
         
-        cbar = plt.colorbar(im, ax=ax)
-        cbar.set_label('Status', rotation=270, labelpad=20)
+        # Add cluster separators
+        for i in range(1, len(representatives)):
+            ax.axvline(x=i-0.5, color='black', linewidth=1, alpha=0.5)
+        
+        cbar = plt.colorbar(im, ax=ax, shrink=0.8)
+        cbar.set_label('Enzyme Status', rotation=270, labelpad=20, weight='bold')
         cbar.set_ticks([0, 1, 2])
-        cbar.set_ticklabels(['Not Found', 'Partial', 'Fully Found'])
+        cbar.set_ticklabels(['Not Found', 'Partial Hit', 'Complete'])
         
         plt.tight_layout()
         plt.savefig(output_file, dpi=300, bbox_inches='tight')
@@ -804,11 +960,11 @@ class VisualizationManager:
     
     def save_cluster_summary(self, strain_clusters: pd.DataFrame, matrix_df: pd.DataFrame,
                            output_file: Optional[str] = None) -> pd.DataFrame:
-        """Save detailed cluster information."""
+        """Save detailed cluster information with meaningful names."""
         if output_file is None:
             output_file = str(self.output_dir / "cluster_summary.csv")
         
-        logger.info("Creating cluster summary...")
+        logger.info("Creating cluster summary with meaningful names...")
         
         summary = []
         
@@ -819,39 +975,64 @@ class VisualizationManager:
             cluster_data = matrix_df[members]
             avg_completeness = (cluster_data == 2).sum().sum() / (len(cluster_data) * len(members)) * 100
             
+            # Generate meaningful cluster name
+            cluster_name = self._generate_cluster_name(members, cluster_id)
+            
+            # Calculate additional cluster statistics
+            partial_completeness = (cluster_data == 1).sum().sum() / (len(cluster_data) * len(members)) * 100
+            not_found_percent = (cluster_data == 0).sum().sum() / (len(cluster_data) * len(members)) * 100
+            
             summary.append({
                 'cluster_id': cluster_id,
+                'cluster_name': cluster_name,
                 'num_strains': len(members),
                 'members': '; '.join(members),
-                'avg_completeness_percent': avg_completeness,
-                'representative': members[0]
+                'avg_completeness_percent': round(avg_completeness, 2),
+                'avg_partial_percent': round(partial_completeness, 2),
+                'avg_not_found_percent': round(not_found_percent, 2),
+                'representative': members[0],
+                'dominant_genus': self._get_dominant_genus(members),
+                'diversity_score': len(set([m.split('_')[0] for m in members])) / len(members)
             })
         
         summary_df = pd.DataFrame(summary)
+        summary_df = summary_df.sort_values('avg_completeness_percent', ascending=False)
         summary_df.to_csv(output_file, index=False)
         
-        logger.info(f"✓ Saved cluster summary to {output_file}")
+        logger.info(f"✓ Saved cluster summary with meaningful names to {output_file}")
         return summary_df
     
+    def _get_dominant_genus(self, strain_names: List[str]) -> str:
+        """Get the dominant genus in a cluster."""
+        genera = [strain.split('_')[0] for strain in strain_names]
+        from collections import Counter
+        genus_counts = Counter(genera)
+        return genus_counts.most_common(1)[0][0]
+    
     def generate_clustered_plots(self, matrix_df: pd.DataFrame) -> List[str]:
-        """Generate all clustering-related plots."""
-        logger.info("Generating clustered visualization plots...")
+        """Generate all clustering-related plots with bi-clustering."""
+        logger.info("Generating bi-clustered visualization plots...")
         
         plot_files = []
         
         try:
-            # Cluster strains
-            strain_clusters, linkage_matrix = self.cluster_strains(matrix_df)
+            # Cluster strains and ECs
+            strain_clusters, strain_linkage = self.cluster_strains(matrix_df)
+            ec_clusters, ec_linkage = self.cluster_ecs(matrix_df)
             
-            # Save cluster info
+            # Save cluster info with meaningful names
             cluster_summary = self.save_cluster_summary(strain_clusters, matrix_df)
             
             # Generate visualizations
-            plot_files.append(self.plot_dendrogram(linkage_matrix, strain_clusters))
+            plot_files.append(self.plot_dendrogram(strain_linkage, strain_clusters))
             plot_files.append(self.plot_clustered_heatmap(matrix_df, strain_clusters))
             plot_files.append(self.plot_cluster_representatives(matrix_df, strain_clusters))
             
-            logger.info(f"✓ Generated {len(plot_files)} clustered plots")
+            # Add EC clustering dendrogram
+            ec_dendrogram_file = str(self.output_dir / "ec_dendrogram.png")
+            plot_files.append(self.plot_ec_dendrogram(ec_linkage, ec_clusters, ec_dendrogram_file))
+            
+            logger.info(f"✓ Generated {len(plot_files)} bi-clustered plots with meaningful naming")
             
         except Exception as e:
             logger.error(f"Error generating clustered plots: {e}")
@@ -859,6 +1040,51 @@ class VisualizationManager:
             traceback.print_exc()
         
         return plot_files
+    
+    def plot_ec_dendrogram(self, linkage_matrix: np.ndarray, ec_clusters: pd.DataFrame,
+                          output_file: str) -> str:
+        """Plot dendrogram showing EC number relationships."""
+        from scipy.cluster.hierarchy import dendrogram
+        
+        logger.info("Creating EC dendrogram...")
+        
+        num_ecs = len(ec_clusters)
+        fig, ax = plt.subplots(figsize=(max(10, num_ecs * 0.2), 6))
+        
+        if num_ecs > 30:
+            # Hide labels for crowded dendrograms
+            dendrogram(
+                linkage_matrix,
+                ax=ax,
+                leaf_rotation=90,
+                leaf_font_size=0,
+                no_labels=True
+            )
+            xlabel = f'EC Numbers (n={num_ecs}) - Labels hidden due to crowding'
+        else:
+            # Show labels for smaller numbers
+            ec_labels = ec_clusters['EC_number'].tolist()
+            
+            dendrogram(
+                linkage_matrix,
+                labels=ec_labels,
+                ax=ax,
+                leaf_rotation=90,
+                leaf_font_size=max(6, 10 - num_ecs // 5)
+            )
+            xlabel = 'EC Number'
+        
+        ax.set_xlabel(xlabel, fontsize=12, weight='bold')
+        ax.set_ylabel('Distance', fontsize=12, weight='bold')
+        ax.set_title('Hierarchical Clustering of EC Numbers by Presence Pattern', 
+                    fontsize=14, weight='bold', pad=20)
+        
+        plt.tight_layout()
+        plt.savefig(output_file, dpi=300, bbox_inches='tight')
+        plt.close()
+        
+        logger.info(f"✓ Saved EC dendrogram to {output_file}")
+        return str(output_file)
     
     def generate_comparison_plots(self, matrix_df: pd.DataFrame) -> List[str]:
         """Generate basic comparison plots for matrix data."""
