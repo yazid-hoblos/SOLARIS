@@ -466,20 +466,18 @@ class VisualizationManager:
         avg_completeness = rankings_df['Completeness_Score'].mean()
         best_strain = rankings_df.iloc[0]
         
-        stats_text = f"""
-        PANGENOMIC ANALYSIS SUMMARY
-        
-        Total Strains Analyzed: {total_strains}
-        Total EC Numbers: {total_ecs}
-        Average Completeness: {avg_completeness:.1f}%
-        
-        Best Performing Strain:
-        {best_strain['Strain']}
-        Score: {best_strain['Completeness_Score']:.1f}%
-        
-        Total Hits: {rankings_df['Total_Hits'].sum():,}
-        Unique Proteins: {rankings_df['Unique_Proteins'].sum():,}
-        """
+        stats_text = f"""PANGENOMIC ANALYSIS SUMMARY
+
+Total Strains Analyzed: {total_strains}
+Total EC Numbers: {total_ecs}
+Average Completeness: {avg_completeness:.1f}%
+
+Best Performing Strain:
+{best_strain['Strain']}
+Score: {best_strain['Completeness_Score']:.1f}%
+
+Total Hits: {rankings_df['Total_Hits'].sum():,}
+Unique Proteins: {rankings_df['Unique_Proteins'].sum():,}"""
         
         ax1.text(0.05, 0.95, stats_text, transform=ax1.transAxes, fontsize=12,
                 verticalalignment='top', fontfamily='monospace',
