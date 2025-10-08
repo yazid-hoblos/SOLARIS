@@ -1,0 +1,131 @@
+{
+  "matches": [
+    {
+      "taxid": "480224",
+      "scientific_name": "Chloroflexus aurantiacus Y-400-fl",
+      "rank": "strain",
+      "kegg_name": "Chloroflexus aurantiacus Y-400-fl",
+      "kegg_code": "chl",
+      "bacdive_name": "Chloroflexus aurantiacus Pierson and Castenholz 1974 emend. Nouioui et al. 2018",
+      "bacdive_id": 2419
+    }
+  ],
+  "kegg_no_taxid": [
+    "Saccharolobus solfataricus SARC-B",
+    "Leptospira borgpetersenii JB197"
+  ],
+  "bacdive_no_taxid": [],
+  "no_match": [
+    {
+      "taxid": "41673",
+      "species_name": "Acidianus brierleyi",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "32641",
+      "species_name": "Saccharolobus solfataricus SULA",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2283",
+      "species_name": "Acidianus ambivalens",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "76887",
+      "species_name": "Caldivirga maquilingensis",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "119627",
+      "species_name": "Larus michahellis",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "3016528",
+      "species_name": "Vibrio chaetopteri",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2494375",
+      "species_name": "Aequorivita ciconiae",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "1813880",
+      "species_name": "Nostocoides sp. HKS02",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "410",
+      "species_name": "Methylobacterium organophilum",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "1325090",
+      "species_name": "Bradyrhizobium guangdongense",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "3240790",
+      "species_name": "Pseudomonas gorinensis",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "1393",
+      "species_name": "Brevibacillus brevis",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "1727214",
+      "species_name": "Rhodococcus sp. H-CA8f",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "879274",
+      "species_name": "Shinella sp. HZN7",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2932245",
+      "species_name": "Leucobacter rhizosphaerae",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2991972",
+      "species_name": "Rhodopseudomonas sp. P2A-2r",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2852098",
+      "species_name": "Kaistella faecalis",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2584122",
+      "species_name": "Aureibaculum algae",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "223390",
+      "species_name": "Ancylobacter polymorphus",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "234827",
+      "species_name": "Candidatus Midichloria mitochondrii",
+      "source": "kegg_only"
+    }
+  ],
+  "statistics": {
+    "total_kegg_organisms": 23,
+    "kegg_with_taxid": 21,
+    "kegg_without_taxid": 2,
+    "total_bacdive_organisms": 7,
+    "bacdive_with_taxid_in_data": 7,
+    "bacdive_unique_taxids": 6,
+    "bacdive_without_taxid": 0,
+    "total_matches": 1,
+    "kegg_unmatched": 20
+  }
+}

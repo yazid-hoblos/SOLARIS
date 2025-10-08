@@ -1,0 +1,4 @@
+# Species matched using NCBI Taxonomy IDs
+# Format: Taxid | Scientific Name | KEGG Code | BacDive ID
+
+480224	Chloroflexus aurantiacus Y-400-fl	chl	2419

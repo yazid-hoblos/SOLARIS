@@ -1,0 +1,14 @@
+[
+  {
+    "bacdive_id": 751,
+    "ncbi_taxid": "1408",
+    "name": "Bacillus pumilus Meyer and Gottheil 1901",
+    "oxygen_tolerance": "aerobe, obligate aerobe"
+  },
+  {
+    "bacdive_id": 602,
+    "ncbi_taxid": "1348627",
+    "name": "Bacillus badius Batchelor 1919",
+    "oxygen_tolerance": "aerobe, obligate aerobe"
+  }
+]
