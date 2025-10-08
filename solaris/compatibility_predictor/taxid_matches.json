@@ -1,0 +1,125 @@
+{
+  "matches": [
+    {
+      "taxid": "152260",
+      "scientific_name": "Chloroflexus aggregans",
+      "rank": "species",
+      "kegg_name": "Chloroflexus aggregans",
+      "kegg_code": "cag",
+      "bacdive_name": "Chloroflexus aggregans Hanada et al. 1995",
+      "bacdive_id": 2422
+    }
+  ],
+  "kegg_no_taxid": [
+    "Azospirillum brasilense Sp 7"
+  ],
+  "bacdive_no_taxid": [],
+  "no_match": [
+    {
+      "taxid": "2286",
+      "species_name": "Saccharolobus shibatae",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "1241935",
+      "species_name": "Saccharolobus islandicus LAL14/1",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "34",
+      "species_name": "Myxococcus xanthus",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2736640",
+      "species_name": "Pseudonocardia broussonetiae",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "1385625",
+      "species_name": "Thiohalocapsa sp. PB-PSB1",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "1170699",
+      "species_name": "Galbibacter sp. BG1",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "351672",
+      "species_name": "Xenorhabdus griffiniae",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "135740",
+      "species_name": "Paracoccus kondratievae",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "270351",
+      "species_name": "Methylobacterium aquaticum",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2904122",
+      "species_name": "Moraxella nasicaprae",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2738979",
+      "species_name": "Brevibacillus sp. HD3.3A",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "43348",
+      "species_name": "Mycobacterium branderi",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "3422227",
+      "species_name": "Verrucosispora sp. TAA-831",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2594005",
+      "species_name": "Thalassotalea sp. PS06",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "151783",
+      "species_name": "Cupriavidus campinensis",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "130825",
+      "species_name": "Ochotona curzoniae",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "2006",
+      "species_name": "Thermobispora bispora",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "1896196",
+      "species_name": "Porphyrobacter sp. LM 6",
+      "source": "kegg_only"
+    },
+    {
+      "taxid": "1112",
+      "species_name": "Erythrobacter neustonensis",
+      "source": "kegg_only"
+    }
+  ],
+  "statistics": {
+    "total_kegg_organisms": 21,
+    "kegg_with_taxid": 20,
+    "kegg_without_taxid": 1,
+    "total_bacdive_organisms": 7,
+    "bacdive_with_taxid_in_data": 7,
+    "bacdive_unique_taxids": 6,
+    "bacdive_without_taxid": 0,
+    "total_matches": 1,
+    "kegg_unmatched": 19
+  }
+}

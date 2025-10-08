@@ -1,0 +1,4 @@
+# Species matched using NCBI Taxonomy IDs
+# Format: Taxid | Scientific Name | KEGG Code | BacDive ID
+
+152260	Chloroflexus aggregans	cag	2422

@@ -14,6 +14,7 @@ import json
 import time
 from typing import List, Dict, Set
 from collections import defaultdict
+import sys
 
 
 class KEGGQuery:
@@ -373,8 +374,13 @@ def save_species_list(results: Dict, output_file: str):
 
 
 def main():
+    if len(sys.argv) != 2:
+        print("Usage: python kegg.py <ec_numbers.txt>")
+        print("  <ec_numbers.txt>: Text file with one EC number per line")
+        return
+    
     # Configuration
-    EC_FILE = "ec_numbers.txt"  # Input file with EC numbers
+    EC_FILE = sys.argv[1]
     OUTPUT_JSON = "kegg_results.json"  # Detailed results
     OUTPUT_SPECIES = "kegg_species.txt"  # Simple species list
     
@@ -386,12 +392,6 @@ def main():
     except FileNotFoundError:
         print(f"Error: File '{EC_FILE}' not found!")
         print("\nCreating example file...")
-        with open(EC_FILE, 'w') as f:
-            f.write("# Example EC numbers (one per line)\n")
-            f.write("1.1.1.1\n")
-            f.write("2.7.7.6\n")
-            f.write("3.2.1.1\n")
-        print(f"Created example file '{EC_FILE}'. Please edit it and run again.")
         return
     
     # Query KEGG

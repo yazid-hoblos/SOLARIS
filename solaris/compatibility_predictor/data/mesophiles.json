@@ -1,0 +1,65 @@
+[
+  {
+    "bacdive_id": 133098,
+    "ncbi_taxid": "1707952",
+    "name": "Chloroflexus islandicus Gaisin et al. 2017",
+    "temperature": {
+      "temp": "46-59",
+      "type": "growth"
+    }
+  },
+  {
+    "bacdive_id": 2422,
+    "ncbi_taxid": "152260",
+    "name": "Chloroflexus aggregans Hanada et al. 1995",
+    "temperature": {
+      "temp": "55",
+      "type": "growth"
+    }
+  },
+  {
+    "bacdive_id": 2421,
+    "ncbi_taxid": "326427",
+    "name": "Chloroflexus aggregans Hanada et al. 1995",
+    "temperature": {
+      "temp": "50",
+      "type": "growth"
+    }
+  },
+  {
+    "bacdive_id": 2420,
+    "ncbi_taxid": "1108",
+    "name": "Chloroflexus aurantiacus Pierson and Castenholz 1974 emend. Nouioui et al. 2018",
+    "temperature": {
+      "temp": "48",
+      "type": "growth"
+    }
+  },
+  {
+    "bacdive_id": 2419,
+    "ncbi_taxid": "480224",
+    "name": "Chloroflexus aurantiacus Pierson and Castenholz 1974 emend. Nouioui et al. 2018",
+    "temperature": {
+      "temp": "48",
+      "type": "growth"
+    }
+  },
+  {
+    "bacdive_id": 2418,
+    "ncbi_taxid": "1108",
+    "name": "Chloroflexus aurantiacus Pierson and Castenholz 1974 emend. Nouioui et al. 2018",
+    "temperature": {
+      "temp": "48",
+      "type": "growth"
+    }
+  },
+  {
+    "bacdive_id": 2417,
+    "ncbi_taxid": "324602",
+    "name": "Chloroflexus aurantiacus Pierson and Castenholz 1974 emend. Nouioui et al. 2018",
+    "temperature": {
+      "temp": "49",
+      "type": "growth"
+    }
+  }
+]

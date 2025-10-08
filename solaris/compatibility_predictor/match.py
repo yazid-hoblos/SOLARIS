@@ -4,12 +4,15 @@ Matches KEGG and BacDive organisms using NCBI taxonomy IDs for accurate identifi
 
 Requirements: pip install requests
 
-Usage: python3 taxid_matcher.py
+Usage: 
+    python3 match.py --email your@email.com --kegg-file kegg_results.json --bacdive-file mesophiles.json
+    python3 match.py -e your@email.com -k kegg_data.json -b bacdive_data.json
 """
 
 import json
 import requests
 import time
+import argparse
 from typing import List, Dict
 
 
@@ -377,16 +380,34 @@ def print_summary(results: Dict):
 
 
 def main():
-    # Configuration
-    KEGG_FILE = "kegg_results.json"
-    BACDIVE_FILE = "mesophiles.json"
-    OUTPUT_JSON = "taxid_matches.json"
-    OUTPUT_TXT = "taxid_matched_species.txt"
-    EMAIL = "your_email@example.com"  # Required by NCBI
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(description='Match species using NCBI Taxonomy IDs')
+    parser.add_argument('--kegg-file', '-k', default="kegg_results.json", 
+                       help='KEGG results JSON file (default: kegg_results.json)')
+    parser.add_argument('--bacdive-file', '-b', default="mesophiles.json",
+                       help='BacDive results JSON file (default: mesophiles.json)')
+    parser.add_argument('--email', '-e', required=True,
+                       help='Your email address (required by NCBI E-utilities)')
+    parser.add_argument('--output-json', default="taxid_matches.json",
+                       help='Output JSON file (default: taxid_matches.json)')
+    parser.add_argument('--output-txt', default="taxid_matched_species.txt",
+                       help='Output text file (default: taxid_matched_species.txt)')
+    
+    args = parser.parse_args()
+    
+    # Configuration from arguments
+    KEGG_FILE = args.kegg_file
+    BACDIVE_FILE = args.bacdive_file
+    OUTPUT_JSON = args.output_json
+    OUTPUT_TXT = args.output_txt
+    EMAIL = args.email
     
     print("="*60)
     print("RIGOROUS SPECIES MATCHING USING TAXONOMY IDs")
     print("="*60)
+    print(f"KEGG file: {KEGG_FILE}")
+    print(f"BacDive file: {BACDIVE_FILE}")
+    print(f"Email: {EMAIL}")
     
     # Load data
     print("\nLoading data...")

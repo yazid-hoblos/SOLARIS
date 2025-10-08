@@ -1,13 +1,20 @@
 """
-BacDive Database Query Script - CORRECTED VERSION
+BacDive Database Query Script - Command Line Version
 Install: pip install bacdive
 Register: https://api.bacdive.dsmz.de/login
 
 Documentation: https://api.bacdive.dsmz.de/strain_fields_information
+
+Usage:
+python bacdive_access.py --email your@email.com --taxonomy Synechococcus --temp-min 20 --temp-max 40
+(Password will be prompted securely, or use --password flag if needed)
 """
 
 import bacdive
 import json
+import argparse
+import sys
+import getpass
 
 
 def inspect_strain_structure(strain_data, bacdive_id):
@@ -177,7 +184,7 @@ def extract_ncbi_taxid(strain_data):
         # Location 1: General section (preferred - species level)
         if 'General' in strain_data:
             if 'NCBI tax id' in strain_data['General']:
-                print(strain_data['General']['NCBI tax id'])
+                # print(strain_data['General']['NCBI tax id'])
                 tax_info = strain_data['General']['NCBI tax id']
                 if isinstance(tax_info, dict) and 'NCBI tax id' in tax_info:
                     taxid = tax_info['NCBI tax id']
@@ -259,7 +266,7 @@ def filter_by_oxygen_tolerance(client, taxonomy_query, oxygen_types=['aerobe'], 
 
 
 def filter_by_temperature(client, taxonomy_query, min_temp=None, max_temp=None, 
-                         temp_type='optimum', max_strains=100):
+                         temp_type=None, max_strains=100):
     """
     Filter organisms by growth temperature.
     temp_type can be: 'optimum', 'maximum', 'minimum', or None for any
@@ -287,7 +294,6 @@ def filter_by_temperature(client, taxonomy_query, min_temp=None, max_temp=None,
         
         try:
             temp_entries = extract_temperature(strain)
-            
             if temp_entries:
                 for temp_entry in temp_entries:
                     # Check if this entry matches our criteria
@@ -301,7 +307,6 @@ def filter_by_temperature(client, taxonomy_query, min_temp=None, max_temp=None,
                                 temp_value = float(temp_entry['temp'])
                             else:
                                 temp_value = float(temp_entry['temp'].split('-')[0].strip())
-                            
                             # Check temperature range
                             if min_temp and temp_value < min_temp:
                                 continue
@@ -326,89 +331,132 @@ def filter_by_temperature(client, taxonomy_query, min_temp=None, max_temp=None,
     return matching_organisms
 
 
+
 def main():
-    # Replace with your credentials
-    EMAIL = "yazidhoblos4@gmail.com"
-    PASSWORD = "djAyrr4XhCW@73n"
+    """Main function with command-line argument support."""
+    parser = argparse.ArgumentParser(description='Query BacDive for organisms by taxonomy with aerobic and temperature filters')
     
-    print("Connecting to BacDive...")
-    client = bacdive.BacdiveClient(EMAIL, PASSWORD)
+    # Required arguments
+    parser.add_argument('--email', '-e', required=True, help='BacDive email credentials')
+    parser.add_argument('--password', '-p', help='BacDive password (if not provided, will prompt securely)')
+    parser.add_argument('--taxonomy', '-t', required=True, help='Taxonomy search term (e.g., Synechococcus, Cyanobacteria)')
     
-    # # FIRST: Inspect a single strain to understand the structure
-    # print("\n" + "="*60)
-    # print("STEP 1: Inspecting data structure of one strain")
-    # print("="*60)
+    # Temperature range arguments (mesophile range as default)
+    parser.add_argument('--temp-min', type=float, default=20.0, help='Minimum temperature (°C). Default: 20 (mesophile range)')
+    parser.add_argument('--temp-max', type=float, default=45.0, help='Maximum temperature (°C). Default: 45 (mesophile range)')
+    parser.add_argument('--temp-type', default=None, help='Temperature type (optimum/minimum/maximum). Default: optimum')
     
-    # # Get one strain to inspect
-    # client.search(culturecolno="DSM 402")
-    # for strain in client.retrieve():
-    #     inspect_strain_structure(strain, "DSM 402")
-    #     break
+    # Optional arguments
+    parser.add_argument('--max-strains', type=int, default=200, help='Maximum strains to process. Default: 200')
+    parser.add_argument('--output', help='Output file prefix. Default: taxonomy name')
     
-    # Example 1: Filter by oxygen tolerance
-    print("\n" + "="*60)
-    print("STEP 2: Filter by oxygen tolerance (aerobe)")
-    print("="*60)
+    args = parser.parse_args()
+    
+    # Use provided credentials
+    EMAIL = args.email
+    
+    # Get password securely
+    if args.password:
+        PASSWORD = args.password
+    else:
+        print(f"Enter password for BacDive account ({EMAIL}):")
+        PASSWORD = getpass.getpass("Password: ")
+    
+    print(f"Connecting to BacDive with email: {EMAIL}")
+    try:
+        client = bacdive.BacdiveClient(EMAIL, PASSWORD)
+    except Exception as e:
+        print(f"Error connecting to BacDive: {e}")
+        print("Please check your credentials and internet connection.")
+        sys.exit(1)
+    
+    # Set output filename
+    output_prefix = args.output or args.taxonomy.lower().replace(' ', '_')
+    output_file = f"{output_prefix}_aerobic_mesophile.json"
+    
+    print(f"\n{'='*80}")
+    print(f"SEARCHING: {args.taxonomy}")
+    print(f"Filters: Aerobic + Temperature {args.temp_min}-{args.temp_max}°C ({args.temp_type})")
+    print(f"Max strains: {args.max_strains}")
+    print(f"{'='*80}")
+    
+    # Step 1: Filter by oxygen tolerance (aerobic)
+    print(f"\nStep 1: Filtering by oxygen tolerance (aerobic)...")
     aerobic_organisms = filter_by_oxygen_tolerance(
-        client,
-        taxonomy_query='Bacillus',
+        client=client,
+        taxonomy_query=args.taxonomy,
         oxygen_types=['aerobe'],
-        max_strains=200
+        max_strains=args.max_strains
     )
     
-    print(f"\n✓ Found {len(aerobic_organisms)} aerobic organisms")
-    for org in aerobic_organisms[:10]:
-        print(f"  - {org['name']}")
-        print(f"    ID: {org['bacdive_id']}, O2: {org['oxygen_tolerance']}")
-        if org['ncbi_taxid']:
-            print(f"    NCBI TaxID: {org['ncbi_taxid']}")
-        else:
-            print(f"    NCBI TaxID: Not available")
+    print(f"✓ Found {len(aerobic_organisms)} aerobic organisms")
     
+    # Step 2: Filter by temperature range
+    print(f"\nStep 2: Filtering by temperature ({args.temp_min}-{args.temp_max}°C, {args.temp_type})...")
+    temperature_organisms = filter_by_temperature(
+        client=client,
+        taxonomy_query=args.taxonomy,
+        min_temp=args.temp_min,
+        max_temp=args.temp_max,
+        temp_type=args.temp_type,
+        max_strains=args.max_strains
+    )
+    
+    print(f"✓ Found {len(temperature_organisms)} organisms in temperature range")
+    
+    # Display results from both filters
+    print(f"\n{'='*60}")
+    print("RESULTS SUMMARY")
+    print(f"{'='*60}")
+    print(f"Aerobic organisms: {len(aerobic_organisms)}")
+    print(f"Temperature-suitable organisms: {len(temperature_organisms)}")
+    
+    # Save and display aerobic results
     if aerobic_organisms:
-        with open('aerobic_organisms.json', 'w') as f:
-            # Don't save full strain_data to keep file smaller
+        aerobic_file = f"{output_prefix}_aerobic.json"
+        print(f"\nAerobic organisms sample (first 10):")
+        for i, org in enumerate(aerobic_organisms[:10], 1):
+            print(f"  {i}. {org['name']}")
+            print(f"     ID: {org['bacdive_id']}, O2: {org['oxygen_tolerance']}")
+            if org.get('ncbi_taxid'):
+                print(f"     NCBI TaxID: {org['ncbi_taxid']}")
+        
+        with open(aerobic_file, 'w') as f:
             simplified = [{k: v for k, v in org.items() if k != 'strain_data'} 
                          for org in aerobic_organisms]
             json.dump(simplified, f, indent=2)
-        print(f"\n✓ Saved to aerobic_organisms.json")
         
-        # Count how many have taxonomy IDs
-        with_taxid = sum(1 for org in aerobic_organisms if org.get('ncbi_taxid'))
-        print(f"  - {with_taxid}/{len(aerobic_organisms)} organisms have NCBI taxonomy IDs")
+        aerobic_with_taxid = sum(1 for org in aerobic_organisms if org.get('ncbi_taxid'))
+        print(f"✓ Aerobic results saved to {aerobic_file}")
+        print(f"✓ {aerobic_with_taxid}/{len(aerobic_organisms)} aerobic organisms have NCBI taxonomy IDs")
     
-    # Example 2: Filter by temperature
-    print("\n" + "="*60)
-    print("STEP 3: Filter by temperature (30-40°C, any type)")
-    print("="*60)
-    mesophiles = filter_by_temperature(
-        client,
-        taxonomy_query='Chloroflexus',
-        min_temp=0,
-        max_temp=100,
-        temp_type=None,  # Accept any type (growth, optimum, etc.)
-        max_strains=200
-    )
-    
-    print(f"\n✓ Found {len(mesophiles)} mesophilic organisms (30-40°C)")
-    for org in mesophiles[:10]:
-        print(f"  - {org['name']}")
-        print(f"    ID: {org['bacdive_id']}, Temp: {org['temperature']}")
-        if org['ncbi_taxid']:
-            print(f"    NCBI TaxID: {org['ncbi_taxid']}")
-        else:
-            print(f"    NCBI TaxID: Not available")
-    
-    if mesophiles:
-        with open('mesophiles.json', 'w') as f:
+    # Save and display temperature results
+    if temperature_organisms:
+        temp_file = f"{output_prefix}_temperature.json"
+        print(f"\nTemperature-suitable organisms sample (first 10):")
+        for i, org in enumerate(temperature_organisms[:10], 1):
+            print(f"  {i}. {org['name']}")
+            print(f"     ID: {org['bacdive_id']}")
+            if org.get('temperature'):
+                temp = org['temperature']
+                if isinstance(temp, list) and temp:
+                    temp_str = f"{temp[0].get('temp', 'N/A')}°C ({temp[0].get('type', 'N/A')})"
+                    print(f"     Temp: {temp_str}")
+            if org.get('ncbi_taxid'):
+                print(f"     NCBI TaxID: {org['ncbi_taxid']}")
+        
+        with open(temp_file, 'w') as f:
             simplified = [{k: v for k, v in org.items() if k != 'strain_data'} 
-                         for org in mesophiles]
+                         for org in temperature_organisms]
             json.dump(simplified, f, indent=2)
-        print(f"\n✓ Saved to mesophiles.json")
         
-        # Count how many have taxonomy IDs
-        with_taxid = sum(1 for org in mesophiles if org.get('ncbi_taxid'))
-        print(f"  - {with_taxid}/{len(mesophiles)} organisms have NCBI taxonomy IDs")
+        temp_with_taxid = sum(1 for org in temperature_organisms if org.get('ncbi_taxid'))
+        print(f"✓ Temperature results saved to {temp_file}")
+        print(f"✓ {temp_with_taxid}/{len(temperature_organisms)} temperature-suitable organisms have NCBI taxonomy IDs")
+    
+    if not aerobic_organisms and not temperature_organisms:
+        print(f"\n⚠ No organisms found matching either criteria.")
+        print(f"Try adjusting the temperature range or taxonomy term.")
 
 
 if __name__ == "__main__":
