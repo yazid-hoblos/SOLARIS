@@ -1,7 +1,8 @@
 __pycache__/
 tmp/
-genomes/GCA*
-genomes/GCF*
+GCA*
+GCF*
 *.faa
 *egg-info*
 geckodriver.log
+batch/

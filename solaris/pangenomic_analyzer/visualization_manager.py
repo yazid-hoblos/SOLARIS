@@ -889,9 +889,13 @@ Unique Proteins: {rankings_df['Unique_Proteins'].sum():,}"""
         ax.set_title('Pathway Profiles by Strain Cluster Representatives', 
                     fontsize=14, weight='bold', pad=20)
         
-        # Add cluster separators
-        for i in range(1, len(representatives)):
-            ax.axvline(x=i-0.5, color='black', linewidth=1, alpha=0.5)
+        # Remove all grid lines for cleaner appearance
+        ax.grid(False)
+        ax.set_axisbelow(False)
+        
+        # # Add cluster separators
+        # for i in range(1, len(representatives)):
+        #     ax.axvline(x=i-0.5, color='black', linewidth=1, alpha=0.5)
         
         cbar = plt.colorbar(im, ax=ax, shrink=0.8)
         cbar.set_label('Enzyme Status', rotation=270, labelpad=20, weight='bold')
