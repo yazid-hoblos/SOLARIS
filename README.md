@@ -24,6 +24,13 @@ Developed by **Team Evry-Paris-Saclay** for iGEM 2025, SOLARIS addresses critica
 - Generate scalable visualizations with intelligent plot management for large datasets
 - Rank strains by pathway completeness scores with comprehensive reporting
 
+**🧪 Compatibility Predictor**
+- Extract genes associated with target EC numbers from KEGG database
+- Filter candidate organisms using user-defined criteria from BacDive database
+- Match organisms across databases using rigorous NCBI taxonomy ID validation
+- Apply physiological filters (oxygen tolerance, temperature range, growth conditions)
+- Generate compatibility reports for heterologous pathway implementation feasibility
+
 **💰 Product Valorization**
 - Enumerate sub-pathways with energetic cost modeling using KEGG data
 - Rank metabolic routes by ATP usage, redox balance, and reaction complexity
@@ -185,7 +192,18 @@ solaris pangenomic_analyzer complete \
 ```
 Output: Strain rankings, comparison matrix, hierarchical clustering dendrograms
 
-**3. Product Valorization - Economic Analysis**
+**3. Compatibility Predictor - Organism Matching**
+```bash
+# Match organisms between KEGG and BacDive databases
+solaris compatibility_predictor match \
+    --kegg-file kegg_organisms.json \
+    --bacdive-file bacdive_data.json \
+    --email your.email@example.com \
+    --output matched_organisms.json
+```
+Output: Cross-referenced organism database with taxonomy validation and physiological compatibility scores
+
+**4. Product Valorization - Economic Analysis**
 ```python
 # Analyze pyruvate valorization options
 import solaris.product_valorization.search as search
@@ -193,7 +211,7 @@ search.visualize_best_subpathway("map00720", "C00022")  # Opens KEGG browser
 ```
 Output: Economic pathway ranking, KEGG pathway visualization with highlighted routes
 
-**4. BIOMERA AI Agent - Automated Workflow**
+**5. BIOMERA AI Agent - Automated Workflow**
 ```bash
 cd biomera/
 python main.py
