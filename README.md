@@ -151,7 +151,10 @@ solaris pathway_profiler get-profiles \
     --pfam-db /path/to/pfam \
     --output selected_pfam.hmm
 
-# To obtain proteomes from NCBI, you may run `access_gcf_only.py`, or setup your own genomes directory with .faa files.
+# To obtain proteomes from NCBI, you may run `access_genomes.py`, or setup your own genomes directory with .faa files.
+# By default, a comprehensive list of cyanobacteria strains will be downloaded to genomes/ directory if no parameters are given to `access_genomes.py`.
+python access_genomes.py -s synechococcus -o synechoccocus_proteomes
+
 
 # Step 3: Analyze all strains
 solaris pangenomic_analyzer complete \

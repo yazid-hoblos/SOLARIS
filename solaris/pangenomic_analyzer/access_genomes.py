@@ -205,6 +205,7 @@ def download_proteomes(assemblies, output_dir='genomes'):
 
 
 def main():
+    import argparse
     
     SPECIES_LIST = [
     # Marine picocyanobacteria
@@ -258,11 +259,22 @@ def main():
     "Pleurocapsa sp.",
     "Chroococcidiopsis sp.",]
     
-    output_dir = input("Enter directory name for proteomes (e.g., 'cyanobacteria_proteomes'): ").strip()
-    if not output_dir:
-        output_dir = 'genomes'
+    parser = argparse.ArgumentParser(description='Download cyanobacteria genomes from NCBI')
+    parser.add_argument('--species', '-s', help='Single species to download (overrides default list)')
+    parser.add_argument('--output-dir', '-o', default='genomes', help='Output directory (default: genomes)')
     
-    print()
+    args = parser.parse_args()
+    
+    output_dir = args.output_dir
+    
+    if args.species:
+        SPECIES_LIST = [args.species]
+    else:
+        print("No species provided. Using default cyanobacteria list.")
+        print("To specify a species, use the --species/-s argument.")
+        print("You can also specify an output directory with --output-dir/-o.")
+        print()
+    
     assemblies = search_ncbi_genomes(SPECIES_LIST, output_dir)
     
     if assemblies:
