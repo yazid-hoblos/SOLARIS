@@ -47,7 +47,7 @@ You may refer to each of these directories for comprehensive documentation of ea
 
 ### Background
 
-SOLARIS addresses fundamental challenges in **strain selection** and **pathway optimization** for metabolic engineering. Traditional approaches require manual analysis of individual genomes and pathways, which is time-consuming and error-prone when working with large datasets. Our toolkit automates this process while adding economic analysis and AI-powered workflow management.
+SOLARIS addresses fundamental challenges in **strain selection** and **pathway optimization** for metabolic engineering. Traditional approaches require manual analysis of individual genomes and pathways, which is time-consuming and error-prone when working with large datasets. Our toolkit automates this process while adding economic analysis and AI-powered workflow management. Our work remains in progress.
 
 **Differentiating Factors:**
 - **Integrated workflow**: Seamless integration from pathway extraction to strain ranking to economic analysis
@@ -119,21 +119,6 @@ solaris --help
 python -c "import solaris; print('SOLARIS installed successfully')"
 ```
 
-### Development Installation
-
-For contributors and developers:
-
-```bash
-# Install with development dependencies
-pip install -e ".[dev,docs]"
-
-# Install pre-commit hooks
-pre-commit install
-
-# Run tests to verify everything works
-pytest tests/ -v
-```
-
 ## Usage
 
 ### Basic Usage
@@ -157,7 +142,7 @@ python access_genomes.py -s synechococcus -o synechoccocus_proteomes
 
 # Step 3: Analyze all strains
 solaris pangenomic_analyzer complete \
-    --genomes-dir genomes/ \
+    --genomes-dir synechoccocus_proteomes/ \
     --hmm-file selected_pfam.hmm \
     --ec-pfam-mapping pfam_ids.txt \
     --target-ecs ec_numbers.txt \
@@ -260,28 +245,6 @@ solaris pangenomic_analyzer complete \
 
 We welcome contributions from the bioinformatics and synthetic biology communities! SOLARIS is designed to be extensible and we encourage community involvement to expand its capabilities.
 
-### Getting Started
-
-If you want to contribute to SOLARIS, here's how to set up your development environment:
-
-```bash
-# Fork the repository on GitLab and clone your fork
-git clone https://gitlab.igem.org/YOUR_USERNAME/evry-paris-saclay.git
-cd evry-paris-saclay
-
-# Create a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install in development mode with all dependencies
-pip install -e ".[dev,docs]"
-
-# Install pre-commit hooks for code quality
-pre-commit install
-
-# Run tests to make sure everything works
-pytest tests/ -v
-```
 ### Development Workflow
 
 1. **Create a feature branch** from `main`
@@ -298,7 +261,6 @@ pytest tests/ -v
    ```
 
 4. **Push and create a merge request**
-
 
 ### Areas We're Looking For Help
 
@@ -328,7 +290,6 @@ We extend our gratitude to the following contributors:
 - **Matheo** - [@paradoxe-tech](https://github.com/paradoxe-tech)
 - **Ada** - [@adaozin](https://github.com/adaozin)
 - **Kenan**
-
 
 ### Citation
 
