@@ -11,37 +11,39 @@ Developed by **Team Evry-Paris-Saclay** for iGEM 2025, SOLARIS addresses critica
 
 ### Key Features
 
-**🧬 Pathway Profiler**
+**🧬 Pathway Profiler** 📁 `solaris/pathway_profiler/`
 - Extract enzyme information from KEGG pathways and modules
 - Retrieve protein sequences and Pfam domain annotations from UniProt
 - Generate custom HMM profiles for pathway-specific protein families
 - Screen target genomes for pathway enzymes using sensitive HMM searches
 - Create interactive pathway completion plots and enzyme distribution analysis
 
-**🔍 Pangenomic Analyzer**
+**🔍 Pangenomic Analyzer** 📁 `solaris/pangenomic_analyzer/`
 - Analyze pathway completeness across 100+ bacterial strains simultaneously
 - Perform hierarchical clustering and similarity analysis for strain selection
 - Generate scalable visualizations with intelligent plot management for large datasets
 - Rank strains by pathway completeness scores with comprehensive reporting
 
-**🧪 Compatibility Predictor**
+**🧪 Compatibility Predictor** 📁 `solaris/compatibility_predictor/`
 - Extract genes associated with target EC numbers from KEGG database
 - Filter candidate organisms using user-defined criteria from BacDive database
 - Match organisms across databases using rigorous NCBI taxonomy ID validation
 - Apply physiological filters (oxygen tolerance, temperature range, growth conditions)
 - Generate compatibility reports for heterologous pathway implementation feasibility
 
-**💰 Product Valorization**
+**💰 Product Valorization** 📁 `solaris/product_valorization/`
 - Enumerate sub-pathways with energetic cost modeling using KEGG data
 - Rank metabolic routes by ATP usage, redox balance, and reaction complexity
 - Analyze pyruvate valorization to convert excess metabolites into valuable products
 - Assess O₂ consumption, CO₂ release, and literature precedent for pathway feasibility
 
-**🤖 BIOMERA (BioProd Agent)**
+**🤖 BIOMERA (BioProd Agent)** 📁 `/biomera/`
 - World-first bioproduction AI agent specialized in molecular biology tasks
 - Automate complex biotechnology workflows for non-experts
 - Execute any biotool through Docker container integration
 - Manage complete analysis pipelines with local or cloud-based AI models
+
+You may refer to each of these directories for comprehensive documentation of each feature in their corresponding **WORFLOW_USAGE.md**.
 
 ### Background
 
@@ -141,7 +143,7 @@ The simplest way to use SOLARIS is through the complete workflow command. Here's
 ```bash
 # Complete workflow: pathway extraction → HMM generation → strain analysis
 # Step 1: Extract pathway enzymes from KEGG
-solaris pathway_profiler extract-ec --pathway map00720 --output pfam_ids.txt
+solaris pathway_profiler extract-ec --pathway 00720 --output pfam_ids.txt
 
 # Step 2: Generate HMM profiles
 solaris pathway_profiler get-profiles \
@@ -149,12 +151,15 @@ solaris pathway_profiler get-profiles \
     --pfam-db /path/to/pfam \
     --output selected_pfam.hmm
 
+# To obtain proteomes from NCBI, you may run `access_gcf_only.py`, or setup your own genomes directory with .faa files.
+
 # Step 3: Analyze all strains
 solaris pangenomic_analyzer complete \
     --genomes-dir genomes/ \
     --hmm-file selected_pfam.hmm \
     --ec-pfam-mapping pfam_ids.txt \
-    --clustered-plots
+    --target-ecs ec_numbers.txt \
+    --plot
 ```
 
 **Expected Output:**
@@ -173,7 +178,7 @@ Analyzing 122 strains for carbon fixation pathway (map00720)...
 ```bash
 # Complete workflow for one genome
 solaris pathway_profiler workflow \
-    --pathway map00720 \
+    --pathway 00720 \
     --genome target_genome.faa \
     --pfam-db /path/to/pfam \
     --output-dir results/ \

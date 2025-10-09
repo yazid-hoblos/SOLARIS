@@ -154,6 +154,13 @@ def handle_pathway_mapper(args):
             results = discoverer.interactive_module_selection(entity_id)
         
         if results and 'ec_numbers' in results:
+            # Save simple EC numbers list
+            ec_numbers_file = 'ec_numbers.txt'
+            with open(ec_numbers_file, 'w') as f:
+                for ec in sorted(results['ec_numbers']):
+                    f.write(f"{ec}\n")
+            print(f"✓ Saved {len(results['ec_numbers'])} EC numbers to {ec_numbers_file}")
+            
             # Get UniProt data for EC numbers
             ec_data = uniprot_handler.process_ec_list(list(results['ec_numbers']))
             uniprot_handler.save_to_csv(ec_data, args.output)
