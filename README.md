@@ -11,33 +11,33 @@ Developed by **Team Evry-Paris-Saclay** for iGEM 2025, SOLARIS addresses critica
 
 ### Key Features
 
-**🧬 Pathway Profiler** 📁 `solaris/pathway_profiler/`
+**🧬 Pathway Profiler** 📁 [`solaris/pathway_profiler/`](solaris/pathway_profiler/README.md)
 - Extract enzyme information from KEGG pathways and modules
 - Retrieve protein sequences and Pfam domain annotations from UniProt
 - Generate custom HMM profiles for pathway-specific protein families
 - Screen target genomes for pathway enzymes using sensitive HMM searches
 - Create interactive pathway completion plots and enzyme distribution analysis
 
-**🔍 Pangenomic Analyzer** 📁 `solaris/pangenomic_analyzer/`
+**🔍 Pangenomic Analyzer** 📁 [`solaris/pangenomic_analyzer/`](solaris/pangenomic_analyzer/README.md)
 - Analyze pathway completeness across 100+ bacterial strains simultaneously
 - Perform hierarchical clustering and similarity analysis for strain selection
 - Generate scalable visualizations with intelligent plot management for large datasets
 - Rank strains by pathway completeness scores with comprehensive reporting
 
-**🧪 Compatibility Predictor** 📁 `solaris/compatibility_predictor/`
+**🧪 Compatibility Predictor** 📁 [`solaris/compatibility_predictor/`](solaris/compatibility_predictor/README.md)
 - Extract genes associated with target EC numbers from KEGG database
 - Filter candidate organisms using user-defined criteria from BacDive database
 - Match organisms across databases using rigorous NCBI taxonomy ID validation
 - Apply physiological filters (oxygen tolerance, temperature range, growth conditions)
 - Generate compatibility reports for heterologous pathway implementation feasibility
 
-**💰 Product Valorization** 📁 `solaris/product_valorization/`
+**💰 Product Valorization** 📁 [`solaris/product_valorization/`](solaris/product_valorization/README.md)
 - Enumerate sub-pathways with energetic cost modeling using KEGG data
 - Rank metabolic routes by ATP usage, redox balance, and reaction complexity
 - Analyze pyruvate valorization to convert excess metabolites into valuable products
 - Assess O₂ consumption, CO₂ release, and literature precedent for pathway feasibility
 
-**🤖 BIOMERA (BioProd Agent)** 📁 `/biomera/`
+**🤖 BIOMERA (BioProd Agent)** 📁 [`/biomera/`](biomera/README.md)
 - World-first bioproduction AI agent specialized in molecular biology tasks
 - Automate complex biotechnology workflows for non-experts
 - Execute any biotool through Docker container integration
