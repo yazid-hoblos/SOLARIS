@@ -43,7 +43,7 @@ Developed by **Team Evry-Paris-Saclay** for iGEM 2025, SOLARIS addresses critica
 - Execute any biotool through Docker container integration
 - Manage complete analysis pipelines with local or cloud-based AI models
 
-You may refer to each of these directories for comprehensive documentation of each feature in their corresponding **WORFLOW_USAGE.md**.
+You may refer to each of these directories for comprehensive documentation of each feature in their corresponding **README.md**.
 
 ### Background
 

@@ -60,9 +60,9 @@ INPUT FILES                     WORKFLOW STEPS                        OUTPUT FIL
 ┌─────────────────────────────────────────────────────────────────────────────────────┐
 │                                 KEY FEATURES                                         
 ├─────────────────────────────────────────────────────────────────────────────────────┤
-│ ⚡ Single command workflow    📊 Comprehensive analysis    🎨 Interactive visualize 
+│ ⚡ Single command workflow    📊 Comprehensive analysis   🎨 Interactive visualize 
 │ 🔍 Interactive pathway search 🧬 Multi-genome support     📋 Detailed reporting    
-│ 🚀 Fast HMM searching        🎯 E-value filtering        🌐 KEGG integration      
+│ 🚀 Fast HMM searching         🎯 E-value filtering        🌐 KEGG integration      
 └─────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -72,8 +72,8 @@ Run the entire analysis pipeline with a single command:
 
 ```bash
 # Complete workflow - all steps automated
-solaris pathway-profiler workflow \
-    --pathway "map00720" \
+solaris pathway_profiler workflow \
+    --pathway 00720 \
     --genome "/path/to/genome.faa" \
     --pfam-db "/path/to/Pfam-A.hmm" \
     --output-dir "my_analysis_results" \
@@ -82,8 +82,7 @@ solaris pathway-profiler workflow \
     --plot
 
 # Interactive pathway selection with search terms (default)
-solaris pathway-profiler workflow \
-    --pathway "carbon fixation" \
+solaris pathway_profiler workflow \
     --genome "/path/to/genome.faa" \
     --pfam-db "/path/to/Pfam-A.hmm" \
     --interactive \ 
@@ -130,27 +129,27 @@ You can still run each step individually if needed:
 
 ### 1. Extract EC numbers
 ```bash
-solaris pathway-profiler extract-ec --pathway "map00720" --output "ec_pfam_mapping.txt"
+solaris pathway_profiler extract-ec --pathway 00720 --output ec_pfam_mapping.txt
 ```
 
 ### 2. Get HMM profiles
 ```bash
-solaris pathway-profiler get-profiles --input "ec_pfam_mapping.txt" --pfam-db "/path/to/Pfam-A.hmm" --output "selected_pfam.hmm"
+solaris pathway_profiler get-profiles --input ec_pfam_mapping.txt --pfam-db "/path/to/Pfam-A.hmm" --output selected_pfam.hmm
 ```
 
 ### 3. Search genome
 ```bash
-solaris pathway-profiler search --hmm "selected_pfam.hmm" --genome "/path/to/genome.faa" --output "hits_table.txt" --evalue 1e-5
+solaris pathway_profiler search --hmm selected_pfam.hmm --genome "/path/to/genome.faa" --output hits_table.txt --evalue 1e-5
 ```
 
 ### 4. Analyze results
 ```bash
-solaris pathway-profiler analyze --hits "hits_table.txt" --input "ec_pfam_mapping.txt" --hmm "selected_pfam.hmm" --output-dir "results"
+solaris pathway_profiler analyze --hits hits_table.txt --input ec_pfam_mapping.txt --hmm selected_pfam.hmm --output-dir results
 ```
 
 ### 5. Visualize (optional)
 ```bash
-solaris pathway-profiler visualize --results "results/ec_results.csv" --headless
+solaris pathway_profiler visualize --results results/ec_results.csv --headless
 ```
 
 ## 📁 Output Files
@@ -219,22 +218,21 @@ The workflow generates a comprehensive set of output files:
 ### Example 1: 3-Hydroxypropanoate Carbon Fixation Pathway
 ```bash
 # Analyze the 3HP/4HB carbon fixation pathway in Synechococcus
-solaris pathway-profiler workflow \
-    --pathway "map00720" \
-    --genome "genomes/synechococcus_PCC7002.faa" \
-    --pfam-db "/databases/Pfam-A.hmm" \
+solaris pathway_profiler workflow \
+    --module M00376 \
+    --genome tests/cyanobacteria_proteomess/PCC_10110_GCF_903969095.1.faa \
+    --pfam-db "/path/to/Pfam" \
     --output-dir "3HP_carbon_fixation_analysis" \
     --evalue 1e-5 \
-    --visualize --headless
+    --visualize 
 ```
 
 ### Example 2: Interactive Pathway Search
 ```bash
 # Search and select from multiple pathways interactively
-solaris pathway-profiler workflow \
-    --pathway "reductive citrate cycle" \
-    --genome "cyanobacteria_genome.faa" \
-    --pfam-db "/home/user/databases/Pfam-A.hmm" \
+solaris pathway_profiler workflow \
+    --genome cyanobacteria_genome.faa \
+    --pfam-db "/path/to/Pfam" \
     --interactive \
     --evalue 1e-3 \
     --output-dir "rTCA_analysis" \
@@ -244,23 +242,23 @@ solaris pathway-profiler workflow \
 ### Example 3: High-Throughput Analysis
 ```bash
 # Automated analysis for multiple pathways (using shell loop)
-for pathway in "map00720" "map00190" "map00710"; do
-    solaris pathway-profiler workflow \
+for pathway in "00720" "00190" "00710"; do
+    solaris pathway_profiler workflow \
         --pathway "$pathway" \
         --genome "my_organism.faa" \
-        --pfam-db "/databases/Pfam-A.hmm" \
+        --pfam-db "/path/to/Pfam" \
         --output-dir "analysis_${pathway}" \
-        --headless --visualize
+        --visualize
 done
 ```
 
 ### Example 4: Sensitive Search
 ```bash
 # More sensitive search with relaxed E-value threshold
-solaris pathway-profiler workflow \
-    --pathway "map00190" \
+solaris pathway_profiler workflow \
+    --pathway 00190 \
     --genome "draft_genome.faa" \
-    --pfam-db "Pfam-A.hmm" \
+    --pfam-db "/path/to/Pfam" \
     --evalue 1e-2 \
     --output-dir "oxidative_phosphorylation" \
     --visualize
@@ -284,8 +282,8 @@ If you need more control, you can run each step individually:
 ### Step 1: Extract EC Numbers
 ```bash
 # Extract EC numbers from a specific pathway
-solaris pathway-profiler extract-ec \
-    --pathway "map00720" \
+solaris pathway_profiler extract-ec \
+    --pathway 00720 \
     --output "ec_pfam_mapping.txt" \
     --interactive  # Optional: for pathway search
 ```
@@ -293,38 +291,38 @@ solaris pathway-profiler extract-ec \
 ### Step 2: Get HMM Profiles
 ```bash
 # Extract relevant HMM profiles from Pfam database
-solaris pathway-profiler get-profiles \
-    --input "ec_pfam_mapping.txt" \
-    --pfam-db "/path/to/Pfam-A.hmm" \
-    --output "selected_pfam.hmm"
+solaris pathway_profiler get-profiles \
+    --input ec_pfam_mapping.txt \
+    --pfam-db "/path/to/Pfam" \
+    --output selected_pfam.hmm
 ```
 
 ### Step 3: Search Genome
 ```bash
 # Search genome using HMM profiles
-solaris pathway-profiler search \
-    --hmm "selected_pfam.hmm" \
-    --genome "target_genome.faa" \
-    --output "hits_table.txt" \
+solaris pathway_profiler search \
+    --hmm selected_pfam.hmm \
+    --genome target_genome.faa \
+    --output hits_table.txt \
     --evalue 1e-5
 ```
 
 ### Step 4: Analyze Results
 ```bash
 # Analyze hits and generate reports
-solaris pathway-profiler analyze \
-    --hits "hits_table.txt" \
-    --input "ec_pfam_mapping.txt" \
-    --hmm "selected_pfam.hmm" \
-    --output-dir "analysis_results"
+solaris pathway_profiler analyze \
+    --hits hits_table.txt \
+    --input ec_pfam_mapping.txt \
+    --hmm selected_pfam.hmm \
+    --output-dir analysis_results
 ```
 
 ### Step 5: Visualize Results
 ```bash
 # Generate KEGG pathway visualization
-solaris pathway-profiler visualize \
-    --results "analysis_results/ec_results.csv" \
-    --pathway "map00720" \
+solaris pathway_profiler visualize \
+    --results analysis_results/ec_results.csv \
+    --pathway 00720 \
     --headless
 ```
 
@@ -364,7 +362,7 @@ hmmpress Pfam-A.hmm
 - ✅ Python 3.8+ with required packages (`pandas`, `biopython`, `pyhmmer`, `selenium`)
 - ✅ HMMER tools (`hmmfetch`, `hmmpress`) installed and in PATH
 - ✅ Pfam-A.hmm database downloaded and indexed
-- ✅ Firefox browser (for visualization)
+- ✅ Firefox browser (for interactive visualization)
 - ✅ Target genome in FASTA amino acid format (.faa)
 
 ## 🎯 Result Interpretation
