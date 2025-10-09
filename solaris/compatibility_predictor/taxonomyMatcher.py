@@ -382,9 +382,9 @@ def print_summary(results: Dict):
 def main():
     # Parse command-line arguments
     parser = argparse.ArgumentParser(description='Match species using NCBI Taxonomy IDs')
-    parser.add_argument('--kegg-file', '-k', default="kegg_results.json", 
+    parser.add_argument('--kegg-file', '-k', required=True, default="kegg_results.json", 
                        help='KEGG results JSON file (default: kegg_results.json)')
-    parser.add_argument('--bacdive-file', '-b', default="mesophiles.json",
+    parser.add_argument('--bacdive-file', '-b', required=True, default="mesophiles.json",
                        help='BacDive results JSON file (default: mesophiles.json)')
     parser.add_argument('--email', '-e', required=True,
                        help='Your email address (required by NCBI E-utilities)')
@@ -419,7 +419,7 @@ def main():
     except FileNotFoundError as e:
         print(f"Error: {e}")
         print("\nMake sure you have:")
-        print(f"  1. {KEGG_FILE} (from kegg.py)")
+        print(f"  1. {KEGG_FILE} (from keggQuery.py)")
         print(f"  2. {BACDIVE_FILE} (from bacdive_access.py)")
         return
     

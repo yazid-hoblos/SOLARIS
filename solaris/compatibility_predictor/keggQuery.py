@@ -15,6 +15,7 @@ import time
 from typing import List, Dict, Set
 from collections import defaultdict
 import sys
+import argparse
 
 
 class KEGGQuery:
@@ -22,14 +23,16 @@ class KEGGQuery:
     
     BASE_URL = "https://rest.kegg.jp"
     
-    def __init__(self, delay=0.5):
+    def __init__(self, delay=0.5, max_species=3):
         """
         Initialize KEGG query client.
         
         Args:
             delay: Delay between API requests in seconds (be nice to KEGG!)
+            max_species: Maximum number of species to process per EC number
         """
         self.delay = delay
+        self.max_species = max_species
         self.session = requests.Session()
         self.organism_cache = {}  # Cache organism info to reduce API calls
         self._load_organism_list()
@@ -298,10 +301,10 @@ class KEGGQuery:
             # Get full organism information (use cached data)
             if org_codes:
                 print(f"  Found {len(org_codes)} unique organisms")
-                # Limit to first 3 organisms to reduce processing time
-                limited_org_codes = list(org_codes)[:3]
-                if len(org_codes) > 3:
-                    print(f"  Limiting to first 3 organisms to reduce processing time")
+                # Limit organisms to reduce processing time (configurable)
+                limited_org_codes = list(org_codes)[:self.max_species]
+                if len(org_codes) > self.max_species:
+                    print(f"  Limiting to first {self.max_species} organisms to reduce processing time")
                 for org_code in limited_org_codes:
                     if org_code not in results['all_species']:
                         org_details = self.get_organism_info(org_code)
@@ -374,15 +377,49 @@ def save_species_list(results: Dict, output_file: str):
 
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python kegg.py <ec_numbers.txt>")
-        print("  <ec_numbers.txt>: Text file with one EC number per line")
-        return
+    parser = argparse.ArgumentParser(
+        description="Query KEGG database for EC numbers and extract associated genes and species",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python3 keggQuery.py --ec-file ec_numbers.txt
+  python3 keggQuery.py -e pathway_ecs.txt -o kegg_pathway_data.json -s 5
+  python3 keggQuery.py --ec-file single_ec.txt --output detailed_results.json --max-species 10
+
+Input file format:
+  Text file with one EC number per line:
+  1.1.1.1
+  2.3.1.15
+  3.2.1.23
+        """
+    )
+    
+    parser.add_argument(
+        '--ec-file', '-e',
+        required=True,
+        help='Path to file containing EC numbers (one per line)'
+    )
+    
+    parser.add_argument(
+        '--output', '-o',
+        default='kegg_results.json',
+        help='Output JSON file (default: kegg_results.json)'
+    )
+    
+    parser.add_argument(
+        '--max-species', '-s',
+        type=int,
+        default=3,
+        help='Maximum number of species per EC number (default: 3)'
+    )
+    
+    args = parser.parse_args()
     
     # Configuration
-    EC_FILE = sys.argv[1]
-    OUTPUT_JSON = "kegg_results.json"  # Detailed results
-    OUTPUT_SPECIES = "kegg_species.txt"  # Simple species list
+    EC_FILE = args.ec_file
+    OUTPUT_JSON = args.output
+    OUTPUT_SPECIES = OUTPUT_JSON.replace('.json', '_species.txt')
+    MAX_SPECIES = args.max_species
     
     # Load EC numbers
     print("Loading EC numbers...")
@@ -391,11 +428,15 @@ def main():
         print(f"Loaded {len(ec_numbers)} EC numbers")
     except FileNotFoundError:
         print(f"Error: File '{EC_FILE}' not found!")
-        print("\nCreating example file...")
+        print("\nExample file format:")
+        print("1.1.1.1")
+        print("2.3.1.15")
+        print("3.2.1.23")
         return
     
     # Query KEGG
-    kegg = KEGGQuery(delay=0.5)  # 0.5 second delay between requests
+    print(f"Configuration: max {MAX_SPECIES} species per EC number")
+    kegg = KEGGQuery(delay=0.5, max_species=MAX_SPECIES)
     results = kegg.query_ec_numbers(ec_numbers)
     
     # Save results
