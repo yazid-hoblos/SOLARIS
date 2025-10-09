@@ -155,7 +155,6 @@ solaris pathway_profiler get-profiles \
 # By default, a comprehensive list of cyanobacteria strains will be downloaded to genomes/ directory if no parameters are given to `access_genomes.py`.
 python access_genomes.py -s synechococcus -o synechoccocus_proteomes
 
-
 # Step 3: Analyze all strains
 solaris pangenomic_analyzer complete \
     --genomes-dir genomes/ \
@@ -196,7 +195,8 @@ solaris pangenomic_analyzer complete \
     --genomes-dir genomes/ \
     --hmm-file profiles.hmm \
     --ec-pfam-mapping pfam_ids.txt \
-    --clustered-plots
+    --target-ecs ec_numbers.txt \
+    --plot
 ```
 Output: Strain rankings, comparison matrix, hierarchical clustering dendrograms
 
@@ -218,6 +218,8 @@ import solaris.product_valorization.search as search
 search.visualize_best_subpathway("map00720", "C00022")  # Opens KEGG browser
 ```
 Output: Economic pathway ranking, KEGG pathway visualization with highlighted routes
+
+Under development, for now you may run `demo.py`.
 
 **5. BIOMERA AI Agent - Automated Workflow**
 ```bash
@@ -254,17 +256,6 @@ solaris pangenomic_analyzer complete \
     --ec-pfam-mapping pfam_ids.txt
 ```
 
-**Economic Route Comparison:**
-```python
-import solaris.product_valorization.cost as cost
-# Compare lactate vs ethanol production from pyruvate  
-lactate_cost, _ = cost.subpathway_cost_relative([("R00703", 1)])  # pyruvate → lactate
-ethanol_cost, _ = cost.subpathway_cost_relative([("R00754", 1), ("R00710", 1)])  # pyruvate → ethanol
-print(f"Lactate route cost: {lactate_cost:.2f}, Ethanol route cost: {ethanol_cost:.2f}")
-```
-
-For more sophisticated examples including multi-pathway analysis, custom visualization, and integration with external databases, see the [examples directory](examples/) and individual module documentation.
-
 ## Contributing
 
 We welcome contributions from the bioinformatics and synthetic biology communities! SOLARIS is designed to be extensible and we encourage community involvement to expand its capabilities.
@@ -291,16 +282,6 @@ pre-commit install
 # Run tests to make sure everything works
 pytest tests/ -v
 ```
-
-### Requirements for Contributions
-
-Before submitting a contribution, please ensure:
-
-1. **Code Quality**: All code passes `black` formatting and `flake8` linting
-2. **Testing**: New features include comprehensive tests with >80% coverage
-3. **Documentation**: Functions and classes include docstrings, README updates for new features
-4. **Compatibility**: Changes work across Python 3.8-3.11 and major platforms
-
 ### Development Workflow
 
 1. **Create a feature branch** from `main`
@@ -308,17 +289,7 @@ Before submitting a contribution, please ensure:
    git checkout -b feature/your-feature-name
    ```
 
-2. **Make your changes** following our coding standards
-   ```bash
-   # Format code
-   black solaris/ biomera/
-   
-   # Check for issues  
-   flake8 solaris/ biomera/
-   
-   # Run tests
-   pytest tests/ -v --cov=solaris
-   ```
+2. **Make your changes** 
 
 3. **Commit your changes** with descriptive messages
    ```bash
@@ -327,10 +298,7 @@ Before submitting a contribution, please ensure:
    ```
 
 4. **Push and create a merge request**
-   ```bash
-   git push origin feature/your-feature-name
-   # Then create a merge request on GitLab
-   ```
+
 
 ### Areas We're Looking For Help
 
@@ -342,33 +310,6 @@ Before submitting a contribution, please ensure:
 - **Economic modeling**: Thermodynamic feasibility, toxicity assessment, market analysis
 - **Platform support**: Windows native support, cloud deployment, containerization
 - **Documentation**: Tutorials, video guides, translated documentation
-
-### Testing Guidelines
-
-We use pytest for testing. When adding new features:
-
-```bash
-# Run specific test modules
-pytest tests/test_pathway_profiler.py -v
-pytest tests/test_pangenomic_analyzer.py -v
-
-# Run with coverage reporting
-pytest tests/ --cov=solaris --cov-report=html
-
-# Test specific functionality
-pytest tests/ -k "test_kegg_extraction"
-```
-
-For BIOMERA AI agent testing, you may need Docker and AI model access:
-```bash
-# Test with mock AI responses
-BIOMERA_TEST_MODE=mock pytest tests/test_biomera.py
-
-# Test with actual AI models (requires API keys)
-pytest tests/test_biomera.py -v --ai-integration
-```
-
-These instructions help ensure code quality and make your contributions valuable to the entire community. Thank you for helping make SOLARIS better!
 
 ## Authors and acknowledgment
 
