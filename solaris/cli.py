@@ -12,14 +12,20 @@ warnings.filterwarnings("ignore", message="The value of the smallest subnormal.*
 warnings.filterwarnings("ignore", category=UserWarning, module="numpy")
 
 def main():
+    class WideRawDescriptionHelpFormatter(argparse.RawDescriptionHelpFormatter):
+        def __init__(self, prog):
+            # increase max_help_position so the help text column starts later
+            super().__init__(prog, max_help_position=40)
+
     parser = argparse.ArgumentParser(
         prog='solaris',
         description='SOLARIS: Toolkit for heterologous pathway transfer for metabolic engineering',
-        formatter_class=argparse.RawDescriptionHelpFormatter,
+        formatter_class=WideRawDescriptionHelpFormatter,
         epilog="""
-Available Tools:
+  Available Tools:
   pathway_profiler      EC-based pathway profiling and visualization
   pangenomic_analyzer   Comprehensive pangenomic analysis across multiple strains
+  compatibility_predictor  Organism compatibility prediction tools (KEGG / BacDive / matching)
 
 For more information, visit: https://gitlab.igem.org/2025/software-tools/evry-paris-saclay/
         """
@@ -45,9 +51,10 @@ For more information, visit: https://gitlab.igem.org/2025/software-tools/evry-pa
     from solaris.pangenomic_analyzer.cli import setup_pangenomic_parser
     setup_pangenomic_parser(pangenomic_parser)
     
-    # Add other subcommands here
-    # feature3_parser = subparsers.add_parser('feature3', help='...')
-    
+    # Compatibility Predictor subcommand
+    from solaris.compatibility_predictor.cli import setup_compatibility_parser
+    setup_compatibility_parser(subparsers)
+        
     args = parser.parse_args()
     
     if not args.command:
@@ -62,10 +69,11 @@ For more information, visit: https://gitlab.igem.org/2025/software-tools/evry-pa
     elif args.command == 'pangenomic_analyzer':
         from solaris.pangenomic_analyzer.cli import handle_pangenomic_analyzer
         handle_pangenomic_analyzer(args)
-    
-    # elif args.command == 'feature3':
-    #     from solaris.feature3.cli import handle_feature3
-    #     handle_feature3(args)
+
+    elif args.command == 'compatibility_predictor':
+        from solaris.compatibility_predictor.cli import handle_compatibility
+        # pass the parsed namespace to the compatibility handler
+        handle_compatibility(args)
     
     else:
         parser.print_help()
