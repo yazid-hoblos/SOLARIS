@@ -38,7 +38,7 @@
     "toolset": "config/tools_solaris.json",
     "use_online": false,
     "max_iterations": 10,
-    "max_tokens": 2000,
+    "max_tokens": 1000,
     "comment": "Using mistral with detailed SOLARIS documentation prompt"
   },
   "logging": {

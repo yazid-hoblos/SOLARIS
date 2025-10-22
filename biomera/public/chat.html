@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLARIS Chatbot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .chat-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 800px;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 20px 20px 0 0;
+        }
+
+        .chat-header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .chat-header p {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .chat-messages {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message.bot {
+            justify-content: flex-start;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 12px 18px;
+            border-radius: 18px;
+            word-wrap: break-word;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message.bot .message-content {
+            background: white;
+            color: #333;
+            border-bottom-left-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .command-output {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 10px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            margin-top: 10px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+        }
+
+        .chat-input-container {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input {
+            flex: 1;
+            padding: 12px 18px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .chat-input:focus {
+            border-color: #11998e;
+        }
+
+        .send-button {
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .send-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(17, 153, 142, 0.4);
+        }
+
+        .send-button:active {
+            transform: translateY(0);
+        }
+
+        .send-button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .typing-indicator {
+            display: none;
+            padding: 12px 18px;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            max-width: 70px;
+        }
+
+        .typing-indicator.active {
+            display: block;
+        }
+
+        .typing-indicator span {
+            height: 8px;
+            width: 8px;
+            background: #11998e;
+            border-radius: 50%;
+            display: inline-block;
+            margin: 0 2px;
+            animation: bounce 1.4s infinite ease-in-out both;
+        }
+
+        .typing-indicator span:nth-child(1) {
+            animation-delay: -0.32s;
+        }
+
+        .typing-indicator span:nth-child(2) {
+            animation-delay: -0.16s;
+        }
+
+        @keyframes bounce {
+            0%, 80%, 100% {
+                transform: scale(0);
+            }
+            40% {
+                transform: scale(1);
+            }
+        }
+
+        .examples {
+            padding: 15px 20px;
+            background: #f9f9f9;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .examples-title {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .example-chips {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .example-chip {
+            padding: 6px 12px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 15px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .example-chip:hover {
+            background: #11998e;
+            color: white;
+            border-color: #11998e;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #11998e;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #38ef7d;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🧬 SOLARIS Chatbot</h1>
+            <p>Metabolic Pathway Analysis Assistant</p>
+        </div>
+
+        <div class="examples">
+            <div class="examples-title">Try asking:</div>
+            <div class="example-chips">
+                <div class="example-chip" onclick="testConnection()">🔍 Test Connection</div>
+                <div class="example-chip" onclick="sendExample('extract EC numbers for 3HP pathway')">Extract EC numbers</div>
+                <div class="example-chip" onclick="sendExample('check my files')">Check files</div>
+                <div class="example-chip" onclick="sendExample('what can compatibility_predictor do?')">Compatibility predictor</div>
+                <div class="example-chip" onclick="sendExample('help with pangenomic analysis')">Pangenomic help</div>
+            </div>
+        </div>
+
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <div class="message-content">
+                    👋 Hello! I'm your SOLARIS assistant. I can help you with:
+                    <br><br>
+                    • <strong>Pathway profiling</strong> - Analyze pathway coverage<br>
+                    • <strong>Pangenomic analysis</strong> - Compare multiple strains<br>
+                    • <strong>Compatibility prediction</strong> - Find suitable hosts<br>
+                    <br>
+                    Ask me anything about SOLARIS commands!
+                </div>
+            </div>
+        </div>
+
+        <div class="typing-indicator" id="typingIndicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="chat-input-container">
+            <input 
+                type="text" 
+                class="chat-input" 
+                id="chatInput" 
+                placeholder="Ask about SOLARIS commands..."
+                onkeypress="handleKeyPress(event)"
+            >
+            <button class="send-button" onclick="sendMessage()" id="sendButton">Send</button>
+        </div>
+    </div>
+
+    <script>
+        const chatMessages = document.getElementById('chatMessages');
+        const chatInput = document.getElementById('chatInput');
+        const sendButton = document.getElementById('sendButton');
+        const typingIndicator = document.getElementById('typingIndicator');
+
+        function addMessage(text, isUser, isCommand = false) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user' : 'bot'}`;
+            
+            const contentDiv = document.createElement('div');
+            contentDiv.className = 'message-content';
+            
+            if (isCommand) {
+                contentDiv.innerHTML = text;
+            } else {
+                contentDiv.textContent = text;
+            }
+            
+            messageDiv.appendChild(contentDiv);
+            chatMessages.appendChild(messageDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        function addCommandOutput(command, output) {
+            const lastMessage = chatMessages.lastElementChild;
+            const commandDiv = document.createElement('div');
+            commandDiv.className = 'command-output';
+            commandDiv.textContent = `$ ${command}\n\n${output}`;
+            lastMessage.querySelector('.message-content').appendChild(commandDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+
+        async function sendMessage() {
+            const message = chatInput.value.trim();
+            if (!message) return;
+
+            // Add user message
+            addMessage(message, true);
+            chatInput.value = '';
+            sendButton.disabled = true;
+            typingIndicator.classList.add('active');
+
+            // Add message showing LLM is thinking
+            addMessage('🤔 Processing your request... (This may take 1-2 minutes for the LLM to respond)', false);
+
+            try {
+                // Create abort controller for timeout (10 minutes for LLM processing)
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), 600000); // 10 minute timeout
+
+                addMessage('🔍 [DEBUG] Sending request to /ask endpoint...', false);
+
+                // Use relative URL to work with both localhost and WSL
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ message: message }),
+                    signal: controller.signal
+                });
+
+                clearTimeout(timeoutId); // Clear timeout if request completes
+                addMessage(`✅ [DEBUG] Received response (Status: ${response.status})`, false);
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    addMessage(`❌ [DEBUG] Error response: ${errorText.substring(0, 200)}`, false);
+                    throw new Error(`Server returned ${response.status}: ${errorText}`);
+                }
+
+                addMessage('🔍 [DEBUG] Parsing response...', false);
+                const data = await response.json();
+                console.log('Response data:', data);
+                
+                typingIndicator.classList.remove('active');
+                
+                if (data.error) {
+                    addMessage(`❌ Error: ${data.error}`, false);
+                    if (data.details) {
+                        addMessage(`� [DEBUG] Full error details:\n${data.details}`, false);
+                    }
+                } else if (data.response) {
+                    // Check if response is an array (multiple parts)
+                    if (Array.isArray(data.response)) {
+                        let responseText = '';
+                        let command = '';
+                        let output = '';
+                        
+                        for (let part of data.response) {
+                            if (part.startsWith('$')) {
+                                command = part.substring(2).trim();
+                            } else if (command && !part.startsWith('Response:')) {
+                                output += part + '\n';
+                            } else {
+                                responseText += part.replace('Response:', '').trim() + ' ';
+                            }
+                        }
+                        
+                        if (responseText) {
+                            addMessage(responseText.trim(), false);
+                        }
+                        
+                        if (command && output) {
+                            addCommandOutput(command, output.trim());
+                        }
+                    } else if (typeof data.response === 'string') {
+                        addMessage(data.response, false);
+                    } else {
+                        addMessage(JSON.stringify(data.response), false);
+                    }
+                } else {
+                    addMessage('⚠️ Received empty response from server', false);
+                }
+            } catch (error) {
+                typingIndicator.classList.remove('active');
+                console.error('Fetch error:', error);
+                
+                if (error.name === 'AbortError') {
+                    addMessage(`⏱️ Request timed out after 10 minutes. The LLM might be taking too long to respond.`, false);
+                } else {
+                    addMessage(`❌ Connection error: ${error.message}`, false);
+                }
+                
+                addMessage(`🔍 [DEBUG] Error type: ${error.name}, Message: ${error.message}`, false);
+            }
+
+            sendButton.disabled = false;
+            chatInput.focus();
+        }
+
+        function sendExample(text) {
+            chatInput.value = text;
+            sendMessage();
+        }
+
+        async function testConnection() {
+            addMessage('Testing server connection...', false);
+            try {
+                const response = await fetch('/health');
+                const data = await response.json();
+                addMessage(`✅ Server is running! Status: ${data.status}, Message: ${data.message}`, false);
+            } catch (error) {
+                addMessage(`❌ Cannot connect to server: ${error.message}`, false);
+                console.error('Connection test failed:', error);
+            }
+        }
+
+        function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        // Focus input on load
+        chatInput.focus();
+    </script>
+</body>
+</html>
