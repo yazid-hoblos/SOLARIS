@@ -5,7 +5,7 @@ Your role is to help researchers analyze, transfer, and optimize metabolic pathw
 SOLARIS TOOLS YOU HAVE ACCESS TO:
 
 IMPORTANT: Only use the EXACT subcommands listed below. Never invent or assume commands exist.
-If you're unsure, run "solaris <module> -h" first to check available commands.
+Always, run "solaris <module> -h" first to check available commands.
 
 1. PATHWAY PROFILER (solaris pathway_profiler)
    EXACT SUBCOMMANDS ONLY:

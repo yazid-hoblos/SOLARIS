@@ -31,15 +31,15 @@
   "llm": {
     "format_version": "1.0",
     "expected_keys": ["command", "purpose"],
-    "model": "llama3.2:1b",
+    "model": "mistral",
     "online_model": "accounts/fireworks/models/llama-v3p3-70b-instruct",
     "provider": "openai",
-    "prompt": ["config/prompt_system.txt", "config/prompt_solaris.txt"],
+    "prompt": "config/prompt_solaris.txt",
     "toolset": "config/tools_solaris.json",
     "use_online": false,
     "max_iterations": 10,
-    "max_tokens": 2048,
-    "comment": "Using 3B model and simple prompt for better instruction following"
+    "max_tokens": 2000,
+    "comment": "Using mistral with detailed SOLARIS documentation prompt"
   },
   "logging": {
     "level": "INFO",

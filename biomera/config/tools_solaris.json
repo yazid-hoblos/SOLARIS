@@ -2,35 +2,27 @@
   "tools": [
     {
       "name": "shell",
-      "description": "Execute SOLARIS commands for pathway analysis, pangenomic comparison, and compatibility prediction",
+      "description": "Execute shell commands including SOLARIS bioinformatics tools",
       "parameters": {
         "type": "object",
         "properties": {
           "value": {
             "type": "string",
-            "description": "The SOLARIS command to execute (e.g., 'python -m solaris pathway_profiler workflow --genome file.fasta --pfam-db /path/to/pfam')"
+            "description": "Command to execute"
           }
         },
         "required": ["value"]
-      },
-      "examples": [
-        "solaris pathway_profiler workflow --pathway map00720 --genome genome.fasta --pfam-db ./pfam --output-dir results",
-        "solaris pangenomic_analyzer complete --genomes-dir ./genomes --hmm-file profiles.hmm --output-dir results --plot",
-        "solaris compatibility_predictor kegg --ec-file ec_numbers.txt --output kegg_results.json",
-        "solaris pathway_profiler extract-ec --pathway map00720 --output ec_numbers.txt",
-        "solaris pangenomic_analyzer hmm-analysis --genomes-dir ./genomes --hmm-file profiles.hmm",
-        "solaris pathway_profiler visualize --results ec_results.csv --pathway map00720"
-      ]
+      }
     },
     {
       "name": "ask",
-      "description": "Ask a follow-up question to the user for clarification",
+      "description": "Ask user for clarification",
       "parameters": {
         "type": "object",
         "properties": {
           "value": {
             "type": "string",
-            "description": "The question to ask the user"
+            "description": "Question to ask"
           }
         },
         "required": ["value"]
@@ -38,32 +30,48 @@
     },
     {
       "name": "end",
-      "description": "End the conversation or complete the current task",
+      "description": "Complete the task",
       "parameters": {}
     }
   ],
-  "allowed_commands": [
-    "python",
-    "ls",
-    "cat",
-    "find",
-    "grep",
-    "head",
-    "tail",
-    "wc"
-  ],
-  "solaris_modules": {
+  
+  "solaris": {
     "pathway_profiler": {
-      "commands": ["workflow", "extract-ec", "get-profiles", "search", "analyze", "visualize"],
-      "description": "EC-based pathway profiling and genome analysis"
+      "description": "Analyze pathway coverage in genomes",
+      "commands": {
+        "workflow": "Full pipeline | --pathway <id> --genome <file> --pfam-db <path>",
+        "extract-ec": "Get EC numbers | --pathway <id> --output <file>",
+        "get-profiles": "Extract HMMs | --input <file> --pfam-db <path> --output <file>",
+        "search": "Search genome | --hmm <file> --genome <file> --output <file>",
+        "analyze": "Analyze coverage | --hits <file> --input <file> --output-dir <dir>",
+        "visualize": "Create pathway map | --results <csv> --pathway <id>"
+      }
     },
+    
     "pangenomic_analyzer": {
-      "commands": ["complete", "hmm-analysis", "pathway-analysis"],
-      "description": "Multi-strain pangenomic comparison and chassis selection"
+      "description": "Compare multiple strains",
+      "commands": {
+        "complete": "Full workflow | --genomes-dir <dir> --hmm-file <file> [--plot]",
+        "hmm-analysis": "HMM search only | --genomes-dir <dir> --hmm-file <file>",
+        "pathway-analysis": "Analyze results | --results-dir <dir> [--plot]"
+      }
     },
+    
     "compatibility_predictor": {
-      "commands": ["kegg", "bacdive", "match"],
-      "description": "Enzyme-host compatibility scoring and organism matching"
+      "description": "Find suitable host organisms",
+      "commands": {
+        "kegg": "Query organisms | --ec-file <file> --output <json>",
+        "bacdive": "Filter by conditions | --email <email> --taxonomy <term> --temp-min <n> --temp-max <n>",
+        "match": "Cross-reference | --email <email> --kegg-file <json> --bacdive-file <json>"
+      }
     }
-  }
+  },
+  
+  "examples": [
+    "solaris pathway_profiler extract-ec --module M00376 --output ec.txt",
+    "solaris pangenomic_analyzer complete --genomes-dir ./genomes --hmm-file pfam.hmm --plot",
+    "solaris compatibility_predictor kegg --ec-file ec.txt --output results.json",
+    "ls -la",
+    "cat ec_numbers.txt"
+  ]
 }
