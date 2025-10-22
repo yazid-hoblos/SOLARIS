@@ -1,0 +1,69 @@
+{
+  "tools": [
+    {
+      "name": "shell",
+      "description": "Execute SOLARIS commands for pathway analysis, pangenomic comparison, and compatibility prediction",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "description": "The SOLARIS command to execute (e.g., 'python -m solaris pathway_profiler workflow --genome file.fasta --pfam-db /path/to/pfam')"
+          }
+        },
+        "required": ["value"]
+      },
+      "examples": [
+        "solaris pathway_profiler workflow --pathway map00720 --genome genome.fasta --pfam-db ./pfam --output-dir results",
+        "solaris pangenomic_analyzer complete --genomes-dir ./genomes --hmm-file profiles.hmm --output-dir results --plot",
+        "solaris compatibility_predictor kegg --ec-file ec_numbers.txt --output kegg_results.json",
+        "solaris pathway_profiler extract-ec --pathway map00720 --output ec_numbers.txt",
+        "solaris pangenomic_analyzer hmm-analysis --genomes-dir ./genomes --hmm-file profiles.hmm",
+        "solaris pathway_profiler visualize --results ec_results.csv --pathway map00720"
+      ]
+    },
+    {
+      "name": "ask",
+      "description": "Ask a follow-up question to the user for clarification",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "description": "The question to ask the user"
+          }
+        },
+        "required": ["value"]
+      }
+    },
+    {
+      "name": "end",
+      "description": "End the conversation or complete the current task",
+      "parameters": {}
+    }
+  ],
+  "allowed_commands": [
+    "python",
+    "ls",
+    "cat",
+    "find",
+    "grep",
+    "head",
+    "tail",
+    "wc"
+  ],
+  "solaris_modules": {
+    "pathway_profiler": {
+      "commands": ["workflow", "extract-ec", "get-profiles", "search", "analyze", "visualize"],
+      "description": "EC-based pathway profiling and genome analysis"
+    },
+    "pangenomic_analyzer": {
+      "commands": ["complete", "hmm-analysis", "pathway-analysis"],
+      "description": "Multi-strain pangenomic comparison and chassis selection"
+    },
+    "compatibility_predictor": {
+      "commands": ["kegg", "bacdive", "match"],
+      "description": "Enzyme-host compatibility scoring and organism matching"
+    }
+  }
+}

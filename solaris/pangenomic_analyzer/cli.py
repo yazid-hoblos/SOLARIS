@@ -21,8 +21,15 @@ from .visualization_manager import VisualizationManager
 
 def setup_pangenomic_parser(parent_parser):
     """Set up the pangenomic analyzer argument parser."""
-    parser = parent_parser.add_parser('pangenomic-analyzer', 
+    parser = parent_parser.add_parser('pangenomic_analyzer', 
                                      help='Pangenomic analysis tools')
+    
+    # Global arguments
+    parser.add_argument('-v', '--verbose', action='store_true',
+                       help='Enable verbose logging')
+    parser.add_argument('-o', '--output-dir', default='results',
+                       help='Output directory for results (default: results)')
+    
     subparsers = parser.add_subparsers(dest='pangenomic_command', 
                                       help='Available commands')
     
@@ -92,34 +99,6 @@ def setup_pangenomic_parser(parent_parser):
     pathways_parser.add_argument('--similarity-analysis', action='store_true',
                                 help='Include strain similarity analysis')
     pathways_parser.set_defaults(func=run_pathway_analysis)
-
-    # Step 2: HMM Analysis (like tmp/run_comparison.py)
-    step2_parser = subparsers.add_parser('step2-hmm', 
-                                        help='Step 2: Run HMM analysis on all strains')
-    step2_parser.add_argument('--genomes-dir', '--genome-dir', required=True,
-                             help='Directory containing genome FASTA files')
-    step2_parser.add_argument('--hmm-file', '--hmm-profiles', required=True,
-                             help='HMM profiles file (.hmm)')
-    step2_parser.add_argument('--pfam-ids-file', 
-                             help='Pfam-EC mapping file (pfam_ids.txt) - optional')
-    step2_parser.add_argument('--output-dir', default='results/batch',
-                             help='Output directory (default: results/batch)')
-    step2_parser.add_argument('--evalue', type=float, default=1e-5,
-                             help='E-value threshold (default: 1e-5)')
-    step2_parser.set_defaults(func=run_hmm_analysis)
-
-    # Step 3: Comparison Matrix (like tmp/rank_strains.py)
-    step3_parser = subparsers.add_parser('step3-matrix',
-                                        help='Step 3: Create comparison matrix from results')
-    step3_parser.add_argument('--results-dir', default='results/batch',
-                             help='Directory with EC results files (default: results/batch)')
-    step3_parser.add_argument('--output-dir', default='results',
-                             help='Output directory for matrix (default: results)')
-    step3_parser.add_argument('--plot', action='store_true',
-                             help='Generate visualization plots')
-    step3_parser.add_argument('--clustered-plots', action='store_true',
-                             help='Generate clustered visualization plots (like plots_collapsed.py)')
-    step3_parser.set_defaults(func=run_comparison_matrix)
 
 
 def handle_pangenomic_analyzer(args):

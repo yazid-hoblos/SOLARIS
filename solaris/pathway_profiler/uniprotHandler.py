@@ -165,7 +165,7 @@ class UniProtHandler:
             return entries
         
         # Process each result
-        for result in results:
+        for result in results[:1]:
             accession = result["primaryAccession"]
             
             # Extract protein name

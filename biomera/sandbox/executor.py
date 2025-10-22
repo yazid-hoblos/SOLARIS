@@ -1,11 +1,23 @@
 import docker, re, os, io, tarfile
 from typing import Dict, List, Union, Optional
 from docker.models.containers import Container
+from docker.errors import DockerException
 
 class DockerExecutor:
     
     def __init__(self, docker_config: Dict):
-        self.client = docker.from_env()
+        # Try environment-based client first, fallback to unix socket on error
+        try:
+            self.client = docker.from_env()
+        except DockerException as e:
+            # Handle unsupported URL schemes like 'http+docker' by trying unix socket
+            try:
+                self.client = docker.DockerClient(base_url='unix://var/run/docker.sock')
+            except Exception as fallback_error:
+                raise DockerException(
+                    f"Failed to connect to Docker. Original error: {str(e)}. "
+                    f"Fallback error: {str(fallback_error)}"
+                )
         self.image = docker_config.get("image", "alpine")
         self.constraints = {
             "remove": docker_config.get("remove", True),

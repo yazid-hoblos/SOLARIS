@@ -1,4 +1,10 @@
 {
+  "executor": {
+    "type": "local",
+    "local": {
+      "workspace": "./workspace"
+    }
+  },
   "docker": {
     "image": "alpine:latest",
     "remove": true,
@@ -12,24 +18,28 @@
     ]
   },
   "security": {
-    "allowed_commands": ["ls", "cat", "echo", "grep", "find", "wc", "curl", "cd", "wget", "awk", "cut","wget","python"],
+    "allowed_commands": ["ls", "cat", "echo", "grep", "find", "wc", "curl", "cd", "wget", "awk", "cut", "python", "python3", "head", "tail", "mkdir", "solaris", "less", "more", "tree", "file", "pwd"],
     "allowed_flags": {
       "ls": ["-l", "-a", "-h", "-t", "-r"],
-      "cat": ["-n", "-b"]
+      "cat": ["-n", "-b"],
+      "python": ["-m", "-c", "--version"],
+      "python3": ["-m", "-c", "--version"],
+      "solaris": ["pathway_profiler", "pangenomic_analyzer", "compatibility_predictor"]
     },
-    "blocked_patterns": ["rm", "sudo", "$("]
+    "blocked_patterns": ["rm", "sudo", "$(", "eval", "exec"]
   },
   "llm": {
     "format_version": "1.0",
     "expected_keys": ["command", "purpose"],
-    "model": "mistral",
+    "model": "llama3.2:1b",
     "online_model": "accounts/fireworks/models/llama-v3p3-70b-instruct",
     "provider": "openai",
-    "prompt": "config/prompt.txt",
-    "toolset": "config/tools.json",
-    "use_online": true,
-    "max_iterations": 5,
-    "max_tokens": 1500
+    "prompt": ["config/prompt_system.txt", "config/prompt_solaris.txt"],
+    "toolset": "config/tools_solaris.json",
+    "use_online": false,
+    "max_iterations": 10,
+    "max_tokens": 2048,
+    "comment": "Using 3B model and simple prompt for better instruction following"
   },
   "logging": {
     "level": "INFO",
