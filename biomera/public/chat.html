@@ -350,15 +350,10 @@
             sendButton.disabled = true;
             typingIndicator.classList.add('active');
 
-            // Add message showing LLM is thinking
-            addMessage('🤔 Processing your request... (This may take 1-2 minutes for the LLM to respond)', false);
-
             try {
                 // Create abort controller for timeout (10 minutes for LLM processing)
                 const controller = new AbortController();
                 const timeoutId = setTimeout(() => controller.abort(), 600000); // 10 minute timeout
-
-                addMessage('🔍 [DEBUG] Sending request to /ask endpoint...', false);
 
                 // Use relative URL to work with both localhost and WSL
                 const response = await fetch('/ask', {
@@ -371,15 +366,12 @@
                 });
 
                 clearTimeout(timeoutId); // Clear timeout if request completes
-                addMessage(`✅ [DEBUG] Received response (Status: ${response.status})`, false);
 
                 if (!response.ok) {
                     const errorText = await response.text();
-                    addMessage(`❌ [DEBUG] Error response: ${errorText.substring(0, 200)}`, false);
                     throw new Error(`Server returned ${response.status}: ${errorText}`);
                 }
 
-                addMessage('🔍 [DEBUG] Parsing response...', false);
                 const data = await response.json();
                 console.log('Response data:', data);
                 
@@ -387,32 +379,47 @@
                 
                 if (data.error) {
                     addMessage(`❌ Error: ${data.error}`, false);
-                    if (data.details) {
-                        addMessage(`� [DEBUG] Full error details:\n${data.details}`, false);
-                    }
                 } else if (data.response) {
                     // Check if response is an array (multiple parts)
                     if (Array.isArray(data.response)) {
-                        let responseText = '';
-                        let command = '';
-                        let output = '';
+                        let seenCommands = new Set();
+                        let responseTexts = [];
+                        let commands = [];
                         
                         for (let part of data.response) {
-                            if (part.startsWith('$')) {
-                                command = part.substring(2).trim();
-                            } else if (command && !part.startsWith('Response:')) {
-                                output += part + '\n';
-                            } else {
-                                responseText += part.replace('Response:', '').trim() + ' ';
+                            const trimmed = part.trim();
+                            
+                            // If it's a command (starts with $)
+                            if (trimmed.startsWith('$')) {
+                                const cmd = trimmed.substring(1).trim();
+                                if (!seenCommands.has(cmd)) {
+                                    seenCommands.add(cmd);
+                                    commands.push({cmd: cmd, output: ''});
+                                }
+                            }
+                            // If it's command output (and we have a command waiting)
+                            else if (commands.length > 0 && !trimmed.startsWith('Response:') && trimmed.length > 0) {
+                                commands[commands.length - 1].output += trimmed + '\n';
+                            }
+                            // Otherwise it's response text
+                            else if (trimmed.length > 0) {
+                                const cleanText = trimmed.replace(/^Response:\s*/i, '').trim();
+                                if (cleanText && !responseTexts.includes(cleanText)) {
+                                    responseTexts.push(cleanText);
+                                }
                             }
                         }
                         
-                        if (responseText) {
-                            addMessage(responseText.trim(), false);
+                        // Display response text first
+                        if (responseTexts.length > 0) {
+                            addMessage(responseTexts.join('\n\n'), false);
                         }
                         
-                        if (command && output) {
-                            addCommandOutput(command, output.trim());
+                        // Then display commands and their outputs
+                        for (let cmdInfo of commands) {
+                            if (cmdInfo.output.trim()) {
+                                addCommandOutput(cmdInfo.cmd, cmdInfo.output.trim());
+                            }
                         }
                     } else if (typeof data.response === 'string') {
                         addMessage(data.response, false);
@@ -427,12 +434,10 @@
                 console.error('Fetch error:', error);
                 
                 if (error.name === 'AbortError') {
-                    addMessage(`⏱️ Request timed out after 10 minutes. The LLM might be taking too long to respond.`, false);
+                    addMessage(`⏱️ Request timed out. The server might be overloaded.`, false);
                 } else {
                     addMessage(`❌ Connection error: ${error.message}`, false);
                 }
-                
-                addMessage(`🔍 [DEBUG] Error type: ${error.name}, Message: ${error.message}`, false);
             }
 
             sendButton.disabled = false;

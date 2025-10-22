@@ -31,7 +31,7 @@
   "llm": {
     "format_version": "1.0",
     "expected_keys": ["command", "purpose"],
-    "model": "mistral",
+    "model": "llama3.2:3b",
     "online_model": "accounts/fireworks/models/llama-v3p3-70b-instruct",
     "provider": "openai",
     "prompt": "config/prompt_solaris.txt",
