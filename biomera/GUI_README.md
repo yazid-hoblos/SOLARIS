@@ -44,7 +44,7 @@ Try clicking the example chips or type:
 
 The GUI uses the same configuration as the CLI:
 - **Config**: `config/config.json`
-- **Prompts**: `config/prompt_solaris.txt` or `config/prompt_solaris_detailed.txt`
+- **Prompts**: `config/prompt_solaris.txt` 
 - **Tools**: `config/tools_solaris.json`
 
 ## 🔧 Requirements

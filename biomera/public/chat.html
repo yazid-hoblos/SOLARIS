@@ -102,6 +102,38 @@
             border-bottom-left-radius: 4px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
+        
+            .command-output {
+                margin-top: 8px;
+                background: #0f1720;
+                color: #e6f3f0;
+                padding: 10px;
+                border-radius: 8px;
+                font-family: monospace;
+                font-size: 13px;
+            }
+        
+            .command-header {
+                font-weight: 700;
+                margin-bottom: 6px;
+                color: #8de6cf;
+            }
+        
+            .command-pre {
+                white-space: pre-wrap;
+                word-break: break-word;
+                margin: 0 0 8px 0;
+            }
+        
+            .small-btn {
+                background: transparent;
+                border: 1px solid rgba(255,255,255,0.08);
+                color: #9eead7;
+                padding: 6px 8px;
+                border-radius: 6px;
+                cursor: pointer;
+                font-size: 12px;
+            }
 
         .command-output {
             background: #1e1e1e;
@@ -267,11 +299,11 @@
         <div class="examples">
             <div class="examples-title">Try asking:</div>
             <div class="example-chips">
-                <div class="example-chip" onclick="testConnection()">🔍 Test Connection</div>
-                <div class="example-chip" onclick="sendExample('extract EC numbers for 3HP pathway')">Extract EC numbers</div>
-                <div class="example-chip" onclick="sendExample('check my files')">Check files</div>
-                <div class="example-chip" onclick="sendExample('what can compatibility_predictor do?')">Compatibility predictor</div>
-                <div class="example-chip" onclick="sendExample('help with pangenomic analysis')">Pangenomic help</div>
+                <!-- <div class="example-chip" onclick="testConnection()">🔍 Test Connection</div> -->
+                <div class="example-chip" onclick="sendExample('check my files')">📁 Check workspace files</div>               
+                <div class="example-chip" onclick="sendExample('extract EC numbers for 3HP pathway')">🧬 Extract EC numbers</div>
+                <div class="example-chip" onclick="sendExample('help with pangenomic analysis')">🔬 Pangenomic help</div>
+                <div class="example-chip" onclick="sendExample('what can compatibility_predictor do?')">🔍 Compatibility predictor</div>
             </div>
         </div>
 
@@ -333,10 +365,55 @@
 
         function addCommandOutput(command, output) {
             const lastMessage = chatMessages.lastElementChild;
-            const commandDiv = document.createElement('div');
-            commandDiv.className = 'command-output';
-            commandDiv.textContent = `$ ${command}\n\n${output}`;
-            lastMessage.querySelector('.message-content').appendChild(commandDiv);
+            const container = lastMessage.querySelector('.message-content');
+
+            // Normalize whitespace for deduping
+            const normalized = output.replace(/\r/g, '').replace(/\n+/g, '\n').trim();
+            const hash = btoa(unescape(encodeURIComponent(normalized))).slice(0, 16);
+
+            // Check if this exact command+hash already exists in the last message
+            if (container.querySelector(`[data-cmd-hash="${hash}"]`)) {
+                return; // skip duplicate
+            }
+
+            const commandWrapper = document.createElement('div');
+            commandWrapper.className = 'command-output';
+            commandWrapper.setAttribute('data-cmd-hash', hash);
+
+            const cmdHeader = document.createElement('div');
+            cmdHeader.className = 'command-header';
+            cmdHeader.textContent = `$ ${command}`;
+
+            const outputPre = document.createElement('pre');
+            outputPre.className = 'command-pre';
+            outputPre.textContent = normalized;
+
+            // Collapse long outputs
+            if (normalized.length > 2000) {
+                const shortText = normalized.slice(0, 1200) + '\n\n... (truncated)';
+                outputPre.textContent = shortText;
+
+                const toggle = document.createElement('button');
+                toggle.className = 'small-btn';
+                toggle.textContent = 'Show more';
+                toggle.onclick = () => {
+                    if (toggle.textContent === 'Show more') {
+                        outputPre.textContent = normalized;
+                        toggle.textContent = 'Show less';
+                    } else {
+                        outputPre.textContent = shortText;
+                        toggle.textContent = 'Show more';
+                    }
+                };
+                commandWrapper.appendChild(cmdHeader);
+                commandWrapper.appendChild(outputPre);
+                commandWrapper.appendChild(toggle);
+            } else {
+                commandWrapper.appendChild(cmdHeader);
+                commandWrapper.appendChild(outputPre);
+            }
+
+            container.appendChild(commandWrapper);
             chatMessages.scrollTop = chatMessages.scrollHeight;
         }
 

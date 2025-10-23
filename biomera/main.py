@@ -126,7 +126,10 @@ class Main:
                 result_lines = [response, f"\n$ {command}", output]
                 
                 # Only continue the loop if we haven't hit max iterations
-                if stack < 3:  # Limit recursion depth
+                # Skip recursion for simple read-only commands and help commands
+                skip_recursion = any(cmd in command.lower() for cmd in ['ls', 'cat', 'echo', 'pwd', 'tree', 'head', 'tail', ' -h', ' --help', 'help'])
+                
+                if stack < 3 and not skip_recursion:  # Limit recursion depth
                     next = self.query("user", f"""Here is the result of your previous action ({command}):
                         {output}.\n Your task is to answer the question: {input}""", stack + 1)
                     return result_lines + next
