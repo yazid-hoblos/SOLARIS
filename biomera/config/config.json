@@ -39,7 +39,7 @@
     "use_online": false,
     "max_iterations": 10,
     "max_tokens": 1000,
-    "comment": "Using mistral with detailed SOLARIS documentation prompt"
+    "comment": "Using qwen2.5:7b with detailed SOLARIS documentation prompt"
   },
   "logging": {
     "level": "INFO",

@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify, send_from_directory, Response, stream_with_context
 from main import Main
 import subprocess
 import shlex
@@ -65,21 +65,27 @@ def message():
         # If message is intended for solaris, forward to the chat_solaris handler
         if msg.lower().startswith("solaris:"):
             print(f"[/ask] Forwarding to solaris handler")
-            # strip the prefix and forward
             solaris_cmd = msg.split(":", 1)[1].strip()
-            # construct a fake request body like /chat_solaris expects
             return chat_solaris_internal(solaris_cmd)
 
-        print(f"[/ask] Getting biomera instance...")
-        biomera_instance = get_biomera()
-        print(f"[/ask] Querying biomera...")
-        response = biomera_instance.query("user", content["message"])
-        print(f"[/ask] Got response: {response}")
+        # Use streaming response
+        def generate():
+            biomera_instance = get_biomera()
+            try:
+                for part in biomera_instance.query("user", msg):
+                    # Send each part as it's generated
+                    import json
+                    yield f"data: {json.dumps({'type': 'progress', 'content': part})}\n\n"
+                
+                # Send completion signal
+                yield f"data: {json.dumps({'type': 'done'})}\n\n"
+            except Exception as e:
+                import traceback
+                error_details = traceback.format_exc()
+                print(f"[/ask] ERROR in generator: {error_details}")
+                yield f"data: {json.dumps({'type': 'error', 'error': str(e)})}\n\n"
 
-        return jsonify({
-            "input": content["message"],
-            "response": response,
-        }), 200
+        return Response(stream_with_context(generate()), mimetype='text/event-stream')
     
     except Exception as e:
         import traceback

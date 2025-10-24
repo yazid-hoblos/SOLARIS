@@ -1,0 +1,122 @@
+================================================================================
+EC NUMBER SEARCH RESULTS SUMMARY
+================================================================================
+
+OVERVIEW
+--------------------------------------------------------------------------------
+Total EC numbers searched: 16
+  ✓ Fully found (all Pfam domains present): 8
+  ◐ Partially found (some Pfam domains present): 2
+  ✗ Not found (no Pfam domains present): 6
+
+
+================================================================================
+FULLY FOUND EC NUMBERS (8)
+================================================================================
+
+EC 1.1.1.298
+  Protein(s): NADP-dependent 3-hydroxy acid dehydrogenase YdfG
+  Pfam domains found: PF00106
+  Total hits: 34
+  Unique proteins with hits: 34
+  Hit proteins (first 5): WP_010994528.1, WP_010994651.1, WP_010995142.1, WP_010995592.1, WP_010995813.1...
+
+EC 1.2.1.75
+  Protein(s): Unknown
+  Pfam domains found: PF00106, PF13561
+  Total hits: 62
+  Unique proteins with hits: 34
+  Hit proteins (first 5): WP_010994528.1, WP_010994651.1, WP_010995142.1, WP_010995592.1, WP_010995813.1...
+
+EC 1.3.1.84
+  Protein(s): Probable acrylyl-CoA reductase AcuI
+  Pfam domains found: PF00107, PF08240
+  Total hits: 27
+  Unique proteins with hits: 14
+  Hit proteins (first 5): WP_010994588.1, WP_010995053.1, WP_010995069.1, WP_010995071.1, WP_010996491.1...
+
+EC 1.3.5.1
+  Protein(s): Fumarate reductase flavoprotein subunit
+  Pfam domains found: PF00890, PF02910
+  Total hits: 21
+  Unique proteins with hits: 19
+  Hit proteins (first 5): WP_010995382.1, WP_010995956.1, WP_010996225.1, WP_010996489.1, WP_010996538.1...
+
+EC 4.2.1.116
+  Protein(s): Unknown
+  Pfam domains found: PF00378
+  Total hits: 2
+  Unique proteins with hits: 2
+  Hit proteins: WP_010996503.1, WP_010998588.1
+
+EC 4.2.1.2
+  Protein(s): Fumarate hydratase class II
+  Pfam domains found: PF00206, PF10415
+  Total hits: 4
+  Unique proteins with hits: 3
+  Hit proteins: WP_010997545.1, WP_010997867.1, WP_010998028.1
+
+EC 5.1.99.1
+  Protein(s): Ethylmalonyl-CoA/methylmalonyl-CoA epimerase
+  Pfam domains found: PF13669
+  Total hits: 4
+  Unique proteins with hits: 4
+  Hit proteins: WP_010994945.1, WP_010996477.1, WP_010998602.1, WP_190449817.1
+
+EC 6.4.1.2
+  Protein(s): acetyl-CoA carboxylase
+  Pfam domains found: PF00289, PF00364, PF01039, PF02785, PF02786
+  Total hits: 21
+  Unique proteins with hits: 19
+  Hit proteins (first 5): WP_010994749.1, WP_010995113.1, WP_010995471.1, WP_010996092.1, WP_010996520.1...
+
+
+================================================================================
+PARTIALLY FOUND EC NUMBERS (2)
+================================================================================
+
+EC 5.4.99.2
+  Protein(s): Methylmalonyl-CoA mutase
+  Pfam domains FOUND: PF02310
+  Pfam domains NOT FOUND: PF01642
+  Total hits: 4
+  Unique proteins with hits: 4
+  Hit proteins: WP_010994484.1, WP_010996184.1, WP_010996262.1, WP_010998043.1
+
+EC 6.4.1.3
+  Protein(s): Propionyl-CoA carboxylase alpha chain
+  Pfam domains FOUND: PF00289, PF00364, PF02785, PF02786
+  Pfam domains NOT FOUND: PF18140
+  Total hits: 19
+  Unique proteins with hits: 17
+  Hit proteins (first 5): WP_010994749.1, WP_010995113.1, WP_010995471.1, WP_010996092.1, WP_010997755.1...
+
+
+================================================================================
+NOT FOUND EC NUMBERS (6)
+================================================================================
+
+EC 4.1.3.24
+  Protein(s): L-malyl-CoA/beta-methylmalyl-CoA lyase
+  Pfam domains searched: PF03328
+
+EC 4.1.3.25
+  Protein(s): L-malyl-CoA/beta-methylmalyl-CoA lyase
+  Pfam domains searched: PF03328
+
+EC 4.2.1.148
+  Protein(s): Beta-methylmalyl-CoA dehydratase
+  Pfam domains searched: PF19315
+
+EC 4.2.1.153
+  Protein(s): Mesaconyl-C(4)-CoA hydratase
+  Pfam domains searched: No Pfam
+
+EC 5.4.1.3
+  Protein(s): 2-methylfumaryl-CoA isomerase
+  Pfam domains searched: PF02515
+
+EC 6.2.1.36
+  Protein(s): Unknown
+  Pfam domains searched: No Pfam
+

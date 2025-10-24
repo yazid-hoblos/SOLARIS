@@ -386,6 +386,19 @@
 
             const outputPre = document.createElement('pre');
             outputPre.className = 'command-pre';
+            
+            // Check if this is an error output
+            const isError = normalized.startsWith('Execution error:') || 
+                           normalized.includes('error:') || 
+                           normalized.includes('Error:') ||
+                           normalized.includes('Command exited with code');
+            
+            // Style errors differently
+            if (isError) {
+                outputPre.style.cssText = 'background:#ffebee;border-left:3px solid #e53935;color:#c62828;';
+                cmdHeader.style.cssText = 'color:#e53935;font-weight:600;';
+            }
+            
             outputPre.textContent = normalized;
 
             // Collapse long outputs
@@ -428,93 +441,116 @@
             typingIndicator.classList.add('active');
 
             try {
-                // Create abort controller for timeout (10 minutes for LLM processing)
-                const controller = new AbortController();
-                const timeoutId = setTimeout(() => controller.abort(), 600000); // 10 minute timeout
-
-                // Use relative URL to work with both localhost and WSL
+                // Create EventSource for streaming
                 const response = await fetch('/ask', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ message: message }),
-                    signal: controller.signal
+                    body: JSON.stringify({ message: message })
                 });
 
-                clearTimeout(timeoutId); // Clear timeout if request completes
-
                 if (!response.ok) {
-                    const errorText = await response.text();
-                    throw new Error(`Server returned ${response.status}: ${errorText}`);
+                    throw new Error(`Server returned ${response.status}`);
                 }
 
-                const data = await response.json();
-                console.log('Response data:', data);
-                
                 typingIndicator.classList.remove('active');
+
+                // Read the stream
+                const reader = response.body.getReader();
+                const decoder = new TextDecoder();
+                let buffer = '';
                 
-                if (data.error) {
-                    addMessage(`❌ Error: ${data.error}`, false);
-                } else if (data.response) {
-                    // Check if response is an array (multiple parts)
-                    if (Array.isArray(data.response)) {
-                        let seenCommands = new Set();
-                        let responseTexts = [];
-                        let commands = [];
+                let progressDiv = null;
+                let lastBotMessage = null;
+                let seenCommands = new Set();
+                let currentCommand = null;
+                
+                while (true) {
+                    const {done, value} = await reader.read();
+                    if (done) break;
+                    
+                    buffer += decoder.decode(value, {stream: true});
+                    const lines = buffer.split('\n');
+                    buffer = lines.pop(); // Keep incomplete line in buffer
+                    
+                    for (const line of lines) {
+                        if (!line.startsWith('data: ')) continue;
                         
-                        for (let part of data.response) {
-                            const trimmed = part.trim();
+                        try {
+                            const data = JSON.parse(line.slice(6));
                             
-                            // If it's a command (starts with $)
-                            if (trimmed.startsWith('$')) {
-                                const cmd = trimmed.substring(1).trim();
-                                if (!seenCommands.has(cmd)) {
-                                    seenCommands.add(cmd);
-                                    commands.push({cmd: cmd, output: ''});
+                            if (data.type === 'error') {
+                                addMessage(`❌ Error: ${data.error}`, false);
+                                break;
+                            }
+                            
+                            if (data.type === 'done') {
+                                break;
+                            }
+                            
+                            if (data.type === 'progress') {
+                                const content = data.content.trim();
+                                
+                                console.log('[DEBUG] Progress content:', content.substring(0, 100));
+                                
+                                // Progress indicators (ONLY our specific progress messages)
+                                if (content.match(/^(🤔 Analyzing|📋 Parsing|⚡ Executing|🔄 Analyzing results)/)) {
+                                    if (!progressDiv) {
+                                        // Create progress box
+                                        if (!lastBotMessage) {
+                                            addMessage('', false);
+                                            lastBotMessage = chatMessages.lastElementChild;
+                                        }
+                                        progressDiv = document.createElement('div');
+                                        progressDiv.style.cssText = 'background:#e3f2fd;border-left:3px solid #2196f3;padding:8px 12px;margin:8px 0;border-radius:4px;font-size:13px;color:#666;';
+                                        lastBotMessage.querySelector('.message-content').appendChild(progressDiv);
+                                    }
+                                    progressDiv.innerHTML += content + '<br>';
+                                    chatMessages.scrollTop = chatMessages.scrollHeight;
+                                }
+                                // Command execution
+                                else if (content.startsWith('$') || content.trim().startsWith('$')) {
+                                    const cmd = content.trim().substring(1).trim();
+                                    if (!seenCommands.has(cmd)) {
+                                        seenCommands.add(cmd);
+                                        currentCommand = {cmd: cmd, output: ''};
+                                    }
+                                }
+                                // Command output
+                                else if (currentCommand && content.length > 0 && !content.startsWith('Response:')) {
+                                    currentCommand.output += content + '\n';
+                                }
+                                // Response text
+                                else if (content.length > 0) {
+                                    const cleanText = content.replace(/^Response:\s*/i, '').trim();
+                                    if (cleanText) {
+                                        addMessage(cleanText, false);
+                                        lastBotMessage = chatMessages.lastElementChild;
+                                        
+                                        // Show command output if we have it
+                                        if (currentCommand && currentCommand.output.trim()) {
+                                            addCommandOutput(currentCommand.cmd, currentCommand.output.trim());
+                                            currentCommand = null;
+                                        }
+                                    }
                                 }
                             }
-                            // If it's command output (and we have a command waiting)
-                            else if (commands.length > 0 && !trimmed.startsWith('Response:') && trimmed.length > 0) {
-                                commands[commands.length - 1].output += trimmed + '\n';
-                            }
-                            // Otherwise it's response text
-                            else if (trimmed.length > 0) {
-                                const cleanText = trimmed.replace(/^Response:\s*/i, '').trim();
-                                if (cleanText && !responseTexts.includes(cleanText)) {
-                                    responseTexts.push(cleanText);
-                                }
-                            }
+                        } catch (e) {
+                            console.error('Failed to parse SSE data:', e, line);
                         }
-                        
-                        // Display response text first
-                        if (responseTexts.length > 0) {
-                            addMessage(responseTexts.join('\n\n'), false);
-                        }
-                        
-                        // Then display commands and their outputs
-                        for (let cmdInfo of commands) {
-                            if (cmdInfo.output.trim()) {
-                                addCommandOutput(cmdInfo.cmd, cmdInfo.output.trim());
-                            }
-                        }
-                    } else if (typeof data.response === 'string') {
-                        addMessage(data.response, false);
-                    } else {
-                        addMessage(JSON.stringify(data.response), false);
                     }
-                } else {
-                    addMessage('⚠️ Received empty response from server', false);
                 }
+                
+                // Final command output if any
+                if (currentCommand && currentCommand.output.trim()) {
+                    addCommandOutput(currentCommand.cmd, currentCommand.output.trim());
+                }
+                
             } catch (error) {
                 typingIndicator.classList.remove('active');
                 console.error('Fetch error:', error);
-                
-                if (error.name === 'AbortError') {
-                    addMessage(`⏱️ Request timed out. The server might be overloaded.`, false);
-                } else {
-                    addMessage(`❌ Connection error: ${error.message}`, false);
-                }
+                addMessage(`❌ Connection error: ${error.message}`, false);
             }
 
             sendButton.disabled = false;

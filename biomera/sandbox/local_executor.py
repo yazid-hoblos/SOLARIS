@@ -44,10 +44,29 @@ class LocalExecutor:
             if result.stderr:
                 output += "\n" + result.stderr
             
+            # If command failed, include the error details
+            if result.returncode != 0:
+                # Build comprehensive error message
+                error_msg = f"Command exited with code {result.returncode}"
+                
+                # Add stderr details to error message
+                if result.stderr and result.stderr.strip():
+                    error_msg += f"\n\nError details:\n{result.stderr.strip()}"
+                
+                # Also include stdout if it has useful info
+                if result.stdout and result.stdout.strip():
+                    error_msg += f"\n\nCommand output:\n{result.stdout.strip()}"
+                
+                return {
+                    "success": False,
+                    "output": output.strip() if output else "",
+                    "error": error_msg
+                }
+            
             return {
-                "success": result.returncode == 0,
+                "success": True,
                 "output": output.strip() if output else "",
-                "error": None if result.returncode == 0 else f"Command exited with code {result.returncode}"
+                "error": None
             }
         except subprocess.TimeoutExpired:
             return {

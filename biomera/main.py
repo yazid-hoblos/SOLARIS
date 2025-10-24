@@ -1,5 +1,5 @@
 import sys, importlib, json, os
-from typing import List
+from typing import List, Generator
 from sandbox.executor import DockerExecutor
 from sandbox.local_executor import LocalExecutor
 from sandbox.security import CommandValidator
@@ -62,17 +62,23 @@ class Main:
         
         return [question] if question else []
         
-    def query(self, role: str, input: str, stack = 0) -> List[str]:
+    def query(self, role: str, input: str, stack = 0):
 
         if stack > 5:
             self.logger.error("Stack overflow detected.")
             return [f"! The model is not able to iterate more than {self.config['llm']['max_iterations']} times."]
 
+        # Show thinking message to user
+        if stack == 0:
+            yield "🤔 Analyzing your request..."
+        
         output = self.agent.ask(role, input)
         
         if self.verbose:
             self.logger.info(f"LLM raw output length: {len(output)} chars")
             self.logger.debug(f"LLM full output: {output}")
+        
+        yield "📋 Parsing response..."
         
         thought, response, action = parse_output(output)
         
@@ -82,7 +88,8 @@ class Main:
         # If response is "None" (the string), it means no structured output was found
         # In that case, treat the entire output as the response
         if response == "None" and not output.startswith("{"):
-            return [output]
+            yield output
+            return
 
         if output.startswith("{") and output.endswith("}"):
             action = output
@@ -98,11 +105,17 @@ class Main:
                 self.logger.info(f"Action parsed: {action.get('name')}")
             
             if action["name"] == "end":
-                return [response] if response else ["Task completed."]
+                if response:
+                    yield response
+                else:
+                    yield "Task completed."
+                return
             
             if action["name"] == "ask":
                 # Return response and let the main loop handle the next question
-                return [response] if response else []
+                if response:
+                    yield response
+                return
             
             if action["name"] == "shell":
                 command = action["parameters"]["value"]
@@ -112,34 +125,76 @@ class Main:
 
                 if stack > 0 and command in self.executed:
                     self.logger.error(f"Command already executed: {command}")
-                    next = self.query("user", f"""Your previous action ({command}) was rejected because it has already been executed.
-                    Your task is to answer the question: {input}""", stack + 1)
-
-                    return [response, f"$ {command}", "! This command has already been executed."] + next
+                    yield response
+                    yield f"$ {command}"
+                    yield "! This command has already been executed."
+                    
+                    for item in self.query("user", f"""Your previous action ({command}) was rejected because it has already been executed.
+                    Your task is to answer the question: {input}""", stack + 1):
+                        yield item
+                    return
+                
+                # Show what we're about to execute
+                yield f"⚡ Executing: {command}"
                 
                 # Execute the command
                 if self.verbose:
                     self.logger.info(f"Executing: {command}")
                 output = self.execute(command, stack)
                 
-                # Show the command and its output immediately
-                result_lines = [response, f"\n$ {command}", output]
+                # Check if command failed
+                command_failed = output.startswith("Execution error:")
+                
+                # Show the result
+                if response:
+                    yield response
+                yield f"$ {command}"
+                yield output
                 
                 # Only continue the loop if we haven't hit max iterations
-                # Skip recursion for simple read-only commands and help commands
-                skip_recursion = any(cmd in command.lower() for cmd in ['ls', 'cat', 'echo', 'pwd', 'tree', 'head', 'tail', ' -h', ' --help', 'help'])
+                # Skip recursion for:
+                # 1. Simple read-only commands (ls, cat, etc.)
+                # 2. Help commands (-h, --help)
+                # 3. Complete workflow commands that already show full output (ONLY IF SUCCESSFUL)
+                skip_recursion = any(cmd in command.lower() for cmd in [
+                    'ls', 'cat', 'echo', 'pwd', 'tree', 'head', 'tail',
+                    ' -h', ' --help', 'help',
+                ])
+                
+                # For workflow/complete commands, only skip recursion if successful
+                if not command_failed and any(cmd in command.lower() for cmd in ['workflow', 'complete']):
+                    skip_recursion = True
                 
                 if stack < 3 and not skip_recursion:  # Limit recursion depth
-                    next = self.query("user", f"""Here is the result of your previous action ({command}):
-                        {output}.\n Your task is to answer the question: {input}""", stack + 1)
-                    return result_lines + next
-                else:
-                    return result_lines
+                    yield "🔄 Analyzing results..."
+                    
+                    # Give better context to LLM when there's an error
+                    if command_failed:
+                        context_msg = f"""Your previous command failed:
+Command: {command}
+Error: {output}
+
+Please analyze the error and try again with the correct parameters. You may need to:
+1. Run the command with -h to check the correct parameter names
+2. Check if files exist with ls
+3. Fix any typos in parameter names
+
+Original task: {input}"""
+                    else:
+                        context_msg = f"""Here is the result of your previous action ({command}):
+{output}
+
+Your task is to answer the question: {input}"""
+                    
+                    for item in self.query("user", context_msg, stack + 1):
+                        yield item
+                return
                 
         except json.JSONDecodeError:
             pass
         
-        return [response] + self.ask()
+        if response:
+            yield response
 
     def execute(self, input_str: str, stack = 0) -> str:
         """Execute a command in the workspace."""
@@ -164,7 +219,14 @@ class Main:
         if not response["success"]:
             error_msg = response['error']
             self.logger.error(f"Execution error: {error_msg}")
-            return f"Execution error: {error_msg}"
+            # Include the command output (which may contain stderr) for context
+            error_output = response.get('output', '')
+            
+            # Always show the full error with output
+            full_error = f"Execution error: {error_msg}"
+            if error_output:
+                full_error += f"\n\nCommand output:\n{error_output}"
+            return full_error
         
         return response['output']
 
