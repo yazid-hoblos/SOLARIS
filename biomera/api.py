@@ -104,6 +104,11 @@ def files():
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+@app.route('/files/<path:filename>', methods=["GET"])
+def download_file(filename):
+    workspace_dir = get_biomera().executor.workspace
+    return send_from_directory(workspace_dir, filename, as_attachment=True)
+
 
 def chat_solaris_internal(command_text: str):
     """Internal helper to execute a solaris command and return Flask response tuple."""
