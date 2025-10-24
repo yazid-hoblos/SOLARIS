@@ -31,15 +31,15 @@
   "llm": {
     "format_version": "1.0",
     "expected_keys": ["command", "purpose"],
-    "model": "llama3.2:3b",
-    "online_model": "accounts/fireworks/models/llama-v3p3-70b-instruct",
-    "provider": "openai",
+    "model": "qwen2.5:7b",
+    "online_model": "llama-3.1-70b-versatile",
+    "provider": "groq",
     "prompt": "config/prompt_solaris.txt",
     "toolset": "config/tools_solaris.json",
-    "use_online": false,
+    "use_online": true,
     "max_iterations": 10,
     "max_tokens": 1000,
-    "comment": "Using qwen2.5:7b with detailed SOLARIS documentation prompt"
+    "comment": "Local: qwen2.5:7b | Online: Groq llama-3.1-70b (free, fast)"
   },
   "logging": {
     "level": "INFO",

@@ -155,14 +155,25 @@ class Main:
                 # Skip recursion for:
                 # 1. Simple read-only commands (ls, cat, etc.)
                 # 2. Help commands (-h, --help)
-                # 3. Complete workflow commands that already show full output (ONLY IF SUCCESSFUL)
+                # 3. Complete workflow commands and standalone operations that show full output (ONLY IF SUCCESSFUL)
                 skip_recursion = any(cmd in command.lower() for cmd in [
                     'ls', 'cat', 'echo', 'pwd', 'tree', 'head', 'tail',
                     ' -h', ' --help', 'help',
                 ])
                 
-                # For workflow/complete commands, only skip recursion if successful
-                if not command_failed and any(cmd in command.lower() for cmd in ['workflow', 'complete']):
+                # For commands that produce complete output, skip recursion if successful
+                if not command_failed and any(cmd in command.lower() for cmd in [
+                    'workflow',      # pathway_profiler workflow shows complete output
+                    'complete',      # pangenomic_analyzer complete shows complete output
+                    'extract-ec',    # extract-ec shows all EC numbers found
+                    'get-profiles',  # get-profiles shows HMM extraction
+                    'search',        # search shows HMM search results
+                    'analyze',       # analyze shows analysis results
+                    'visualize',     # visualize generates visualization
+                    'kegg',          # compatibility_predictor kegg queries
+                    'bacdive',       # compatibility_predictor bacdive queries
+                    'match',         # compatibility_predictor match
+                ]):
                     skip_recursion = True
                 
                 if stack < 3 and not skip_recursion:  # Limit recursion depth

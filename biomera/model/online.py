@@ -7,13 +7,23 @@ class Agent:
 
     def __init__(self, config: Dict):
         self.config = config
-        self.api_key = os.environ.get("FIREWORKS_API_KEY", "")
+        self.provider = config.get("provider", "fireworks").lower()
+        
+        # Support multiple providers
+        if self.provider == "groq":
+            self.api_key = os.environ.get("GROQ_API_KEY", "")
+            self.api_base = "https://api.groq.com/openai/v1"
+            self.model_name = config.get("online_model", "llama-3.1-70b-versatile")
+            env_var_name = "GROQ_API_KEY"
+        else:  # fireworks
+            self.api_key = os.environ.get("FIREWORKS_API_KEY", "")
+            self.api_base = "https://api.fireworks.ai/inference/v1"
+            self.model_name = config.get("online_model", "accounts/fireworks/models/mixtral-8x7b-instruct")
+            env_var_name = "FIREWORKS_API_KEY"
+        
         if not self.api_key:
-            print("\nWARNING: FIREWORKS_API_KEY environment variable not set!")
-            print("Set it with: export FIREWORKS_API_KEY=your_api_key_here\n")
-
-        self.api_base = "https://api.fireworks.ai/inference/v1"
-        self.model_name = self.config.get("online_model", "accounts/fireworks/models/mixtral-8x7b-instruct")
+            print(f"\nWARNING: {env_var_name} environment variable not set!")
+            print(f"Set it with: export {env_var_name}=your_api_key_here\n")
 
         config_dir = os.path.dirname(os.path.abspath(__file__))
         prompt_path = os.path.join(config_dir, "prompt.txt")

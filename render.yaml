@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: solaris-chatbot
+    env: python
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r biomera/requirements.txt
+      pip install -e .
+    startCommand: cd biomera && python api.py
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: GROQ_API_KEY
+        sync: false
+      - key: PYTHONUNBUFFERED
+        value: 1
+    healthCheckPath: /health

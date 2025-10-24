@@ -4,36 +4,43 @@ EC NUMBER SEARCH RESULTS SUMMARY
 
 OVERVIEW
 --------------------------------------------------------------------------------
-Total EC numbers searched: 16
-  ✓ Fully found (all Pfam domains present): 8
+Total EC numbers searched: 18
+  ✓ Fully found (all Pfam domains present): 14
   ◐ Partially found (some Pfam domains present): 2
-  ✗ Not found (no Pfam domains present): 6
+  ✗ Not found (no Pfam domains present): 2
 
 
 ================================================================================
-FULLY FOUND EC NUMBERS (8)
+FULLY FOUND EC NUMBERS (14)
 ================================================================================
 
-EC 1.1.1.298
-  Protein(s): NADP-dependent 3-hydroxy acid dehydrogenase YdfG
-  Pfam domains found: PF00106
-  Total hits: 34
-  Unique proteins with hits: 34
-  Hit proteins (first 5): WP_010994528.1, WP_010994651.1, WP_010995142.1, WP_010995592.1, WP_010995813.1...
+EC 1.1.1.37
+  Protein(s): Malate dehydrogenase
+  Pfam domains found: PF00056, PF02866
+  Total hits: 2
+  Unique proteins with hits: 1
+  Hit proteins: WP_044522156.1
 
-EC 1.2.1.75
+EC 1.1.1.41
   Protein(s): Unknown
-  Pfam domains found: PF00106, PF13561
-  Total hits: 62
-  Unique proteins with hits: 34
-  Hit proteins (first 5): WP_010994528.1, WP_010994651.1, WP_010995142.1, WP_010995592.1, WP_010995813.1...
+  Pfam domains found: PF00180
+  Total hits: 2
+  Unique proteins with hits: 2
+  Hit proteins: WP_010995485.1, WP_010995995.1
 
-EC 1.3.1.84
-  Protein(s): Probable acrylyl-CoA reductase AcuI
-  Pfam domains found: PF00107, PF08240
-  Total hits: 27
-  Unique proteins with hits: 14
-  Hit proteins (first 5): WP_010994588.1, WP_010995053.1, WP_010995069.1, WP_010995071.1, WP_010996491.1...
+EC 1.1.1.42
+  Protein(s): Isocitrate dehydrogenase [NADP]
+  Pfam domains found: PF00180
+  Total hits: 2
+  Unique proteins with hits: 2
+  Hit proteins: WP_010995485.1, WP_010995995.1
+
+EC 1.2.7.3
+  Protein(s): 2-oxoglutarate oxidoreductase subunit KorB
+  Pfam domains found: PF02775
+  Total hits: 5
+  Unique proteins with hits: 5
+  Hit proteins: WP_010996954.1, WP_010997705.1, WP_010998744.1, WP_044520618.1, WP_044521124.1
 
 EC 1.3.5.1
   Protein(s): Fumarate reductase flavoprotein subunit
@@ -42,12 +49,40 @@ EC 1.3.5.1
   Unique proteins with hits: 19
   Hit proteins (first 5): WP_010995382.1, WP_010995956.1, WP_010996225.1, WP_010996489.1, WP_010996538.1...
 
-EC 4.2.1.116
+EC 1.8.1.4
+  Protein(s): Dihydrolipoyl dehydrogenase
+  Pfam domains found: PF02852, PF07992
+  Total hits: 36
+  Unique proteins with hits: 32
+  Hit proteins (first 5): WP_010994305.1, WP_010994568.1, WP_010995299.1, WP_010995300.1, WP_010995382.1...
+
+EC 2.3.1.61
+  Protein(s): Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+  Pfam domains found: PF00198, PF00364, PF02817
+  Total hits: 14
+  Unique proteins with hits: 12
+  Hit proteins (first 5): WP_010996092.1, WP_010997755.1, WP_010997791.1, WP_010997853.1, WP_010998378.1...
+
+EC 2.3.3.1
   Protein(s): Unknown
-  Pfam domains found: PF00378
-  Total hits: 2
-  Unique proteins with hits: 2
-  Hit proteins: WP_010996503.1, WP_010998588.1
+  Pfam domains found: PF00285
+  Total hits: 1
+  Unique proteins with hits: 1
+  Hit proteins: WP_010994399.1
+
+EC 2.3.3.3
+  Protein(s): Citrate (Re)-synthase
+  Pfam domains found: PF00682, PF22673
+  Total hits: 6
+  Unique proteins with hits: 6
+  Hit proteins (first 5): WP_010995579.1, WP_010997119.1, WP_010997672.1, WP_010998968.1, WP_044520690.1...
+
+EC 2.3.3.5
+  Protein(s): 2-methylcitrate synthase
+  Pfam domains found: PF00285
+  Total hits: 1
+  Unique proteins with hits: 1
+  Hit proteins: WP_010994399.1
 
 EC 4.2.1.2
   Protein(s): Fumarate hydratase class II
@@ -56,67 +91,58 @@ EC 4.2.1.2
   Unique proteins with hits: 3
   Hit proteins: WP_010997545.1, WP_010997867.1, WP_010998028.1
 
-EC 5.1.99.1
-  Protein(s): Ethylmalonyl-CoA/methylmalonyl-CoA epimerase
-  Pfam domains found: PF13669
+EC 4.2.1.3
+  Protein(s): Aconitate hydratase A
+  Pfam domains found: PF00330, PF00694
+  Total hits: 3
+  Unique proteins with hits: 3
+  Hit proteins: WP_010995439.1, WP_010995588.1, WP_010995589.1
+
+EC 6.2.1.4
+  Protein(s): Succinate--CoA ligase [GDP-forming] subunit beta
+  Pfam domains found: PF00549, PF08442
   Total hits: 4
   Unique proteins with hits: 4
-  Hit proteins: WP_010994945.1, WP_010996477.1, WP_010998602.1, WP_190449817.1
+  Hit proteins: WP_010994943.1, WP_010997950.1, WP_010998054.1, WP_010998055.1
 
-EC 6.4.1.2
-  Protein(s): acetyl-CoA carboxylase
-  Pfam domains found: PF00289, PF00364, PF01039, PF02785, PF02786
-  Total hits: 21
-  Unique proteins with hits: 19
-  Hit proteins (first 5): WP_010994749.1, WP_010995113.1, WP_010995471.1, WP_010996092.1, WP_010996520.1...
+EC 6.2.1.5
+  Protein(s): Succinate--CoA ligase [ADP-forming] subunit beta
+  Pfam domains found: PF00549, PF08442
+  Total hits: 4
+  Unique proteins with hits: 4
+  Hit proteins: WP_010994943.1, WP_010997950.1, WP_010998054.1, WP_010998055.1
 
 
 ================================================================================
 PARTIALLY FOUND EC NUMBERS (2)
 ================================================================================
 
-EC 5.4.99.2
-  Protein(s): Methylmalonyl-CoA mutase
-  Pfam domains FOUND: PF02310
-  Pfam domains NOT FOUND: PF01642
-  Total hits: 4
-  Unique proteins with hits: 4
-  Hit proteins: WP_010994484.1, WP_010996184.1, WP_010996262.1, WP_010998043.1
+EC 1.2.4.2
+  Protein(s): 2-oxoglutarate dehydrogenase E1 component
+  Pfam domains FOUND: PF00676, PF02779
+  Pfam domains NOT FOUND: PF16078, PF16870
+  Total hits: 7
+  Unique proteins with hits: 6
+  Hit proteins (first 5): WP_010994299.1, WP_010994775.1, WP_010996018.1, WP_010996861.1, WP_010997495.1...
 
-EC 6.4.1.3
-  Protein(s): Propionyl-CoA carboxylase alpha chain
-  Pfam domains FOUND: PF00289, PF00364, PF02785, PF02786
-  Pfam domains NOT FOUND: PF18140
-  Total hits: 19
-  Unique proteins with hits: 17
-  Hit proteins (first 5): WP_010994749.1, WP_010995113.1, WP_010995471.1, WP_010996092.1, WP_010997755.1...
-
-
-================================================================================
-NOT FOUND EC NUMBERS (6)
-================================================================================
-
-EC 4.1.3.24
-  Protein(s): L-malyl-CoA/beta-methylmalyl-CoA lyase
-  Pfam domains searched: PF03328
-
-EC 4.1.3.25
-  Protein(s): L-malyl-CoA/beta-methylmalyl-CoA lyase
-  Pfam domains searched: PF03328
-
-EC 4.2.1.148
-  Protein(s): Beta-methylmalyl-CoA dehydratase
-  Pfam domains searched: PF19315
-
-EC 4.2.1.153
-  Protein(s): Mesaconyl-C(4)-CoA hydratase
-  Pfam domains searched: No Pfam
-
-EC 5.4.1.3
-  Protein(s): 2-methylfumaryl-CoA isomerase
-  Pfam domains searched: PF02515
-
-EC 6.2.1.36
+EC 1.2.7.11
   Protein(s): Unknown
-  Pfam domains searched: No Pfam
+  Pfam domains FOUND: PF02775
+  Pfam domains NOT FOUND: PF12367
+  Total hits: 5
+  Unique proteins with hits: 5
+  Hit proteins: WP_010996954.1, WP_010997705.1, WP_010998744.1, WP_044520618.1, WP_044521124.1
+
+
+================================================================================
+NOT FOUND EC NUMBERS (2)
+================================================================================
+
+EC 1.1.5.4
+  Protein(s): Malate:quinone oxidoreductase
+  Pfam domains searched: PF06039
+
+EC 2.8.3.18
+  Protein(s): Succinyl-CoA:acetate CoA-transferase
+  Pfam domains searched: PF02550, PF13336
 

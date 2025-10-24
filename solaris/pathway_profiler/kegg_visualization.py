@@ -64,7 +64,7 @@ def get_colored_pathway_url(driver, mapper_data):
     for link in links:
         text = link.text.strip()
         if re.match(r'^map\d+', text):
-            if '01100' in text or '01120' in text:  # skip "map01100"
+            if '01100' in text or '01120' in text or '01110' in text:  # skip "map01100"
                 continue
             first_pathway_link = link
             break

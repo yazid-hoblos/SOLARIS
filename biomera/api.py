@@ -164,6 +164,9 @@ def reset():
         }), 500
 
 if __name__ == '__main__':
+    import os
+    port = int(os.environ.get('PORT', 5000))
+    
     print("Starting SOLARIS Chatbot API...")
     print("Initializing BIOMERA (this may take a moment)...")
     try:
@@ -173,5 +176,5 @@ if __name__ == '__main__':
         print(f"⚠️ Warning: Failed to pre-initialize BIOMERA: {e}")
         print("Will initialize on first request instead.")
     
-    print("Open http://localhost:5000 in your browser")
-    app.run(debug=False, host='0.0.0.0', port=5000)
+    print(f"Open http://localhost:{port} in your browser")
+    app.run(debug=False, host='0.0.0.0', port=port)

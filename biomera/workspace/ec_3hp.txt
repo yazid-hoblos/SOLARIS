@@ -1,30 +1,34 @@
 EC_number	UniProt_ID	Protein_Name	Pfam_ID	Species
-4.2.1.153	A9WC41	Mesaconyl-C(4)-CoA hydratase	No Pfam	Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl)
-1.1.1.298	P39831	NADP-dependent 3-hydroxy acid dehydrogenase YdfG	PF00106	Escherichia coli (strain K12)
-4.2.1.116	A0A1K0JS59	Unknown	PF00378	Cupriavidus necator
+1.2.7.3	O53181	2-oxoglutarate oxidoreductase subunit KorB	PF02775	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+4.2.1.3	P25516	Aconitate hydratase A	PF00330	Escherichia coli (strain K12)
+4.2.1.3	P25516	Aconitate hydratase A	PF00694	Escherichia coli (strain K12)
+1.1.1.42	P08200	Isocitrate dehydrogenase [NADP]	PF00180	Escherichia coli (strain K12)
+1.1.5.4	P33940	Malate:quinone oxidoreductase	PF06039	Escherichia coli (strain K12)
 1.3.5.1	P00363	Fumarate reductase flavoprotein subunit	PF00890	Escherichia coli (strain K12)
 1.3.5.1	P00363	Fumarate reductase flavoprotein subunit	PF02910	Escherichia coli (strain K12)
-4.1.3.25	Q3J5L6	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
-4.1.3.24	B6E2X2	L-malyl-CoA/beta-methylmalyl-CoA lyase	PF03328	Rhodobacter capsulatus
-5.1.99.1	Q3IZP4	Ethylmalonyl-CoA/methylmalonyl-CoA epimerase	PF13669	Cereibacter sphaeroides (strain ATCC 17023 / DSM 158 / JCM 6121 / CCUG 31486 / LMG 2827 / NBRC 12203 / NCIMB 8253 / ATH 2.4.1.)
 4.2.1.2	P05042	Fumarate hydratase class II	PF10415	Escherichia coli (strain K12)
 4.2.1.2	P05042	Fumarate hydratase class II	PF00206	Escherichia coli (strain K12)
-1.3.1.84	P26646	Probable acrylyl-CoA reductase AcuI	PF08240	Escherichia coli (strain K12)
-1.3.1.84	P26646	Probable acrylyl-CoA reductase AcuI	PF00107	Escherichia coli (strain K12)
-5.4.99.2	O86028	Methylmalonyl-CoA mutase	PF02310	Rhizobium meliloti (strain 1021)
-5.4.99.2	O86028	Methylmalonyl-CoA mutase	PF01642	Rhizobium meliloti (strain 1021)
-6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF02785	Mycobacterium triplex
-6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF00289	Mycobacterium triplex
-6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF00364	Mycobacterium triplex
-6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF01039	Mycobacterium triplex
-6.4.1.2	A0A024JXA5	acetyl-CoA carboxylase	PF02786	Mycobacterium triplex
-5.4.1.3	A9WC36	2-methylfumaryl-CoA isomerase	PF02515	Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl)
-6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF02785	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
-6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF00289	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
-6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF00364	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
-6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF02786	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
-6.4.1.3	Q5LUF3	Propionyl-CoA carboxylase alpha chain	PF18140	Ruegeria pomeroyi (strain ATCC 700808 / DSM 15171 / DSS-3)
-1.2.1.75	A0A841L016	Unknown	PF00106	Polymorphobacter multimanifer
-1.2.1.75	A0A841L016	Unknown	PF13561	Polymorphobacter multimanifer
-6.2.1.36	A0ABS4SQI2	Unknown	No Pfam	Azospirillum rugosum
-4.2.1.148	A9WC34	Beta-methylmalyl-CoA dehydratase	PF19315	Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl)
+6.2.1.4	P25126	Succinate--CoA ligase [GDP-forming] subunit beta	PF08442	Thermus thermophilus
+6.2.1.4	P25126	Succinate--CoA ligase [GDP-forming] subunit beta	PF00549	Thermus thermophilus
+2.8.3.18	B3EY95	Succinyl-CoA:acetate CoA-transferase	PF13336	Acetobacter aceti
+2.8.3.18	B3EY95	Succinyl-CoA:acetate CoA-transferase	PF02550	Acetobacter aceti
+2.3.3.1	A0A418L5M9	Unknown	PF00285	Mycobacteroides abscessus
+2.3.3.5	P31660	2-methylcitrate synthase	PF00285	Escherichia coli (strain K12)
+1.8.1.4	P0A9P0	Dihydrolipoyl dehydrogenase	PF07992	Escherichia coli (strain K12)
+1.8.1.4	P0A9P0	Dihydrolipoyl dehydrogenase	PF02852	Escherichia coli (strain K12)
+1.2.7.11	A0A084J4B3	Unknown	PF12367	Bacillus mycoides
+1.2.7.11	A0A084J4B3	Unknown	PF02775	Bacillus mycoides
+1.1.1.37	P61889	Malate dehydrogenase	PF02866	Escherichia coli (strain K12)
+1.1.1.37	P61889	Malate dehydrogenase	PF00056	Escherichia coli (strain K12)
+6.2.1.5	P0A836	Succinate--CoA ligase [ADP-forming] subunit beta	PF08442	Escherichia coli (strain K12)
+6.2.1.5	P0A836	Succinate--CoA ligase [ADP-forming] subunit beta	PF00549	Escherichia coli (strain K12)
+1.2.4.2	P0AFG3	2-oxoglutarate dehydrogenase E1 component	PF16078	Escherichia coli (strain K12)
+1.2.4.2	P0AFG3	2-oxoglutarate dehydrogenase E1 component	PF00676	Escherichia coli (strain K12)
+1.2.4.2	P0AFG3	2-oxoglutarate dehydrogenase E1 component	PF16870	Escherichia coli (strain K12)
+1.2.4.2	P0AFG3	2-oxoglutarate dehydrogenase E1 component	PF02779	Escherichia coli (strain K12)
+2.3.3.3	Q2LTE1	Citrate (Re)-synthase	PF00682	Syntrophus aciditrophicus (strain SB)
+2.3.3.3	Q2LTE1	Citrate (Re)-synthase	PF22673	Syntrophus aciditrophicus (strain SB)
+2.3.1.61	P0AFG6	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	PF00198	Escherichia coli (strain K12)
+2.3.1.61	P0AFG6	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	PF00364	Escherichia coli (strain K12)
+2.3.1.61	P0AFG6	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	PF02817	Escherichia coli (strain K12)
+1.1.1.41	A0A0H3J6J9	Unknown	PF00180	Clostridium pasteurianum DSM 525 = ATCC 6013
