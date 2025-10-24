@@ -32,7 +32,7 @@
     "format_version": "1.0",
     "expected_keys": ["command", "purpose"],
     "model": "qwen2.5:7b",
-    "online_model": "llama-3.1-70b-versatile",
+    "online_model": "llama-3-8b-8192",
     "provider": "groq",
     "prompt": "config/prompt_solaris.txt",
     "toolset": "config/tools_solaris.json",
