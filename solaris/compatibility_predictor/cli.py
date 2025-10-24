@@ -30,7 +30,7 @@ def setup_compatibility_parser(parent_parser):
     bacdive.add_argument('--taxonomy', '-t', help='Taxonomy search term')
     bacdive.add_argument('--temp-min', type=float, default=20.0, help='Minimum temperature')
     bacdive.add_argument('--temp-max', type=float, default=45.0, help='Maximum temperature')
-    bacdive.add_argument('--output', '-o', default='bacdive_results.json', help='Output file')
+    bacdive.add_argument('--output', '-o', help='Output file')
     bacdive.set_defaults(func=run_bacdive)
 
     # Taxonomy matching
@@ -58,19 +58,45 @@ def run_kegg(args):
 
 def run_bacdive(args):
     from . import bacdive_access
+    import sys
 
-    # Call bacdive_access main-like function if present, else run programmatically
-    # We'll try to call a function named `query_bacdive` if exists
-    if hasattr(bacdive_access, 'query_bacdive'):
-        bacdive_access.query_bacdive(email=args.email, password=args.password,
-                                     taxonomy=args.taxonomy, temp_min=args.temp_min,
-                                     temp_max=args.temp_max, output=args.output)
-    else:
-        # Fallback: call as script (exec)
-        script_path = Path(bacdive_access.__file__)
-        print(f"Executing BacDive script: {script_path}")
-        import runpy
-        runpy.run_path(str(script_path), run_name='__main__')
+    # Save original sys.argv
+    original_argv = sys.argv
+    
+    try:
+        # Build new argv for the bacdive script (without solaris subcommands)
+        sys.argv = [
+            'bacdive_access.py',
+            '--email', args.email,
+            '--taxonomy', args.taxonomy,
+            '--temp-min', str(args.temp_min),
+            '--temp-max', str(args.temp_max),
+            '--output', args.output
+        ]
+        
+        # Add password if provided
+        if args.password:
+            sys.argv.extend(['--password', args.password])
+        
+        # Call bacdive_access main-like function if present
+        if hasattr(bacdive_access, 'query_bacdive'):
+            bacdive_access.query_bacdive(
+                email=args.email, 
+                password=args.password,
+                taxonomy=args.taxonomy, 
+                temp_min=args.temp_min,
+                temp_max=args.temp_max,
+                output=args.output
+            )
+        else:
+            # Fallback: run as script with modified argv
+            script_path = Path(bacdive_access.__file__)
+            print(f"Executing BacDive script: {script_path}")
+            import runpy
+            runpy.run_path(str(script_path), run_name='__main__')
+    finally:
+        # Restore original sys.argv
+        sys.argv = original_argv
 
 
 def run_match(args):
