@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Workspace File Browser</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            background: #f7f7f7;
+        }
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            padding: 32px 40px;
+        }
+        h1 {
+            font-size: 2em;
+            color: #444;
+            margin-bottom: 0.5em;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 1em;
+        }
+        li {
+            margin-bottom: 0.5em;
+            font-size: 1.08em;
+        }
+        .folder {
+            font-weight: 600;
+            color: #444;
+            margin-bottom: 0.2em;
+        }
+        .file-link {
+            text-decoration: none;
+            color: #0074d9;
+            font-weight: 500;
+            padding: 2px 8px;
+            border-radius: 4px;
+            transition: background 0.2s;
+            margin-right: 8px;
+        }
+        .file-link:hover {
+            background: #f0f8ff;
+            text-decoration: underline;
+        }
+        .path {
+            color: #888;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Workspace Files</h1>
+        <div id="file-list"></div>
+    </div>
+    <script>
+        async function fetchFiles() {
+            const res = await fetch('/files');
+            const files = await res.json();
+            document.getElementById('file-list').innerHTML = renderFiles(files);
+        }
+
+        function renderFiles(files, parentPath = '') {
+            let html = '<ul>';
+            for (const item of files) {
+                const fullPath = parentPath ? parentPath + '/' + item.name : item.name;
+                if (item.children) {
+                    html += `<li class="folder">📁 ${item.name}`;
+                    html += renderFiles(item.children, fullPath);
+                    html += '</li>';
+                } else {
+                    html += `<li><a class="file-link" href="/files/${encodeURIComponent(fullPath)}" download>${item.name}</a></li>`;
+                }
+            }
+            html += '</ul>';
+            return html;
+        }
+
+        fetchFiles();
+    </script>
+</body>
+</html>

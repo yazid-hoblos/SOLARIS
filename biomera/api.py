@@ -30,6 +30,10 @@ def health():
 def options():
     return '', 204
 
+@app.route('/files.html')
+def files_html():
+    return send_from_directory("public", "files.html")
+
 @app.route('/<path:path>')
 def static_file(path):
     return send_from_directory("public", path)
