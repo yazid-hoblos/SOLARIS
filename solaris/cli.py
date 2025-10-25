@@ -7,9 +7,8 @@ import argparse
 import sys
 import warnings
 
-# Suppress numpy warnings about subnormal values
-warnings.filterwarnings("ignore", message="The value of the smallest subnormal.*is zero", category=UserWarning)
-warnings.filterwarnings("ignore", category=UserWarning, module="numpy")
+# Suppress all warnings globally
+warnings.filterwarnings("ignore")
 
 def main():
     class WideRawDescriptionHelpFormatter(argparse.RawDescriptionHelpFormatter):
