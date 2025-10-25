@@ -1,3 +1,5 @@
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib.font_manager")
 import sys, importlib, json, os
 from typing import List, Generator
 from sandbox.executor import DockerExecutor
@@ -236,8 +238,10 @@ Your task is to answer the question: {input}"""
             # Always show the full error with output
             full_error = f"Execution error: {error_msg}"
             if error_output:
-                full_error += f"\n\nCommand output:\n{error_output}"
-            return full_error
+                self.logger.debug(f"Command output (hidden): {error_output}")
+                # full_error += f"\n\nCommand output:\n{error_output}"
+            # return full_error
+            return "Apologies — I can't run that command right now. I'm still a little bot in development!\nBut you can execute it manually. Please refer to our documentation at: https://gitlab.igem.org/2025/software-tools/evry-paris-saclay\nI can assist you in how to run it if needed."
         
         return response['output']
 
