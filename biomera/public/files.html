@@ -35,18 +35,36 @@
             color: #444;
             margin-bottom: 0.2em;
         }
+        details[open] > summary {
+            background: #e6e9ee;
+        }
+        summary {
+            cursor: pointer;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 1.08em;
+            font-weight: 600;
+            color: #444;
+            transition: background 0.2s;
+            outline: none;
+        }
+        summary:hover, summary:focus {
+            background: #f0f0f0;
+        }
         .file-link {
             text-decoration: none;
-            color: #0074d9;
+            color: #222;
             font-weight: 500;
             padding: 2px 8px;
             border-radius: 4px;
-            transition: background 0.2s;
+            transition: background 0.2s, color 0.2s;
             margin-right: 8px;
+            font-size: 1.05em;
         }
         .file-link:hover {
-            background: #f0f8ff;
-            text-decoration: underline;
+            background: #e6e9ee;
+            color: #0366d6;
+            text-decoration: none;
         }
         .path {
             color: #888;
@@ -55,33 +73,72 @@
     </style>
 </head>
 <body>
-    <div class="container">
-    <h1>Workspace Files</h1>
-        <div id="file-list"></div>
+    <div class="wrap">
+        <div class="container">
+            <h1>Workspace Files</h1>
+            <input id="search" type="search" placeholder="Search files or folders..." style="width:100%;max-width:400px;margin:16px auto 24px auto;display:block;padding:8px 12px;border-radius:8px;border:1px solid #e6e9ee;">
+            <div id="file-list"></div>
+        </div>
     </div>
     <script>
+        const fileListEl = document.getElementById('file-list');
+        const searchInput = document.getElementById('search');
+        let rawTree = [];
+
         async function fetchFiles() {
             const res = await fetch('/files');
-            const files = await res.json();
-            document.getElementById('file-list').innerHTML = renderFiles(files);
+            rawTree = await res.json();
+            renderTree(rawTree);
         }
 
-        function renderFiles(files, parentPath = '') {
+        function renderTree(tree, parentPath = '') {
+            const q = (searchInput.value || '').toLowerCase().trim();
+            fileListEl.innerHTML = renderFiles(tree, parentPath, q);
+        }
+
+        function renderFiles(files, parentPath = '', q = '') {
             let html = '<ul>';
             for (const item of files) {
                 const fullPath = parentPath ? parentPath + '/' + item.name : item.name;
                 if (item.children) {
-                    html += `<li class="folder">📁 ${item.name}`;
-                    html += renderFiles(item.children, fullPath);
-                    html += '</li>';
+                    if(q && !matchesQuery(item, q)) continue;
+                    html += `<li class="folder"><details><summary>📁 ${item.name}</summary>`;
+                    html += renderFiles(item.children, fullPath, q);
+                    html += '</details></li>';
                 } else {
-                    html += `<li><a class="file-link" href="/files/${encodeURIComponent(fullPath)}" download>${item.name}</a></li>`;
+                    if(q && !item.name.toLowerCase().includes(q)) continue;
+                    let details = '';
+                    if (item.mtime || item.size) {
+                        details = `<span class='meta'>`;
+                        if (item.mtime) details += ` • ${formatTime(item.mtime)}`;
+                        if (item.size) details += ` • ${formatSize(item.size)}`;
+                        details += `</span>`;
+                    }
+                    html += `<li><a class="file-link" href="/files/${encodeURIComponent(fullPath)}" download>${item.name}</a>${details}</li>`;
                 }
             }
             html += '</ul>';
             return html;
         }
 
+        function formatTime(ts) {
+            const d = new Date(ts * 1000);
+            return d.toLocaleString();
+        }
+        function formatSize(bytes) {
+            if (!bytes) return '';
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1024*1024) return (bytes/1024).toFixed(1) + ' KB';
+            return (bytes/1024/1024).toFixed(1) + ' MB';
+        }
+
+        function matchesQuery(node, q) {
+            if(node.name && node.name.toLowerCase().includes(q)) return true;
+            if(node.children) return node.children.some(child => matchesQuery(child, q));
+            return false;
+        }
+
+        searchInput.addEventListener('input', () => renderTree(rawTree));
         fetchFiles();
     </script>
 </body>
