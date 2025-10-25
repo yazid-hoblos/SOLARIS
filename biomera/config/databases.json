@@ -69,7 +69,7 @@
       "description": "Bacterial Diversity Metadatabase.",
       "url": "https://bacdive.dsmz.de/",
       "api": "https://bacdive.dsmz.de/api/v1/",
-      "access": "import bacdive; client = bacdive.BacdiveClient('yazidhoblos4@gmail.com', 'djAyrr4XhCW@73n'); client.setSearchType('exact'); for strain in client.retrieve(): print(strain)",
+      "access": "import bacdive; client = bacdive.BacdiveClient(email, password); client.setSearchType('exact'); for strain in client.retrieve(): print(strain)",
       "notes": "write python code from access and run it with python"
     }
   ]
