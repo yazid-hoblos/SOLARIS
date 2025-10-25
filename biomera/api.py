@@ -3,6 +3,9 @@ from main import Main
 import subprocess
 import shlex
 import sys
+import warnings
+
+warnings.filterwarnings("ignore")
 
 app = Flask(__name__, static_folder="public", static_url_path="/")
 
@@ -127,7 +130,8 @@ def chat_solaris_internal(command_text: str):
         return jsonify({"error": f"Failed to parse command: {str(e)}"}), 400
 
     # Build the invocation: use the current Python executable to run solaris as a module
-    cmd = [sys.executable, "-m", "solaris"] + args
+    # Add "-W ignore" so the child process suppresses Python warnings (e.g., matplotlib font cache messages)
+    cmd = [sys.executable, "-W", "ignore", "-m", "solaris"] + args
 
     try:
         proc = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
