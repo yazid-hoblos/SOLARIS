@@ -34,7 +34,7 @@
     "model": "qwen2.5:7b",
     "online_model": "llama-3.1-8b-instant",
     "provider": "groq",
-    "prompt": "config/prompt_solaris.txt",
+    "prompt": "config/prompt_solaris_detailed.txt",
     "toolset": "config/tools_solaris.json",
     "use_online": true,
     "max_iterations": 10,
