@@ -15,7 +15,7 @@ NEVER output just Response without Action! NEVER skip the Action line!
 Examples:
 ✅ CORRECT - Running command:
 Response: I'll extract EC numbers from module M00376.
-Action: {"name": "shell", "parameters": {"value": "solaris pathway_profiler extract-ec --module M00376 --output ec_numbers.txt"}}
+Action: {"name": "shell", "parameters": {"value": "solaris pathway_profiler extract-ec --module M00376 --output ec_pfam_mapping.txt"}}
 
 ✅ CORRECT - Greeting:
 Response: Hello! I'm ready to help with SOLARIS bioinformatics analysis.

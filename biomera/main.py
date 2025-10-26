@@ -20,10 +20,15 @@ REQUIRED_PARAMS = {
     "pangenomic_analyzer strains": ["--genomes-dir", "--hmm-file"],
     "pangenomic_analyzer pathways": ["--hmm-results", "--target-ecs"],
     "pangenomic_analyzer hmm": ["--genomes-dir"],
-    "compatibility_predictor bacdive": ["--email", "--taxonomy"],
+    "compatibility_predictor bacdive": ["--email", "--taxonomy", "--password"],
     "compatibility_predictor kegg": ["--ec-file"],
     "compatibility_predictor match": ["--email"],
-    "pathway_profiler workflow": ["--module", "--genome", "--pfam-db"]
+    "pathway_profiler workflow": ["--module", "--genome", "--pfam-db"],
+    "pathway_profiler extract-ec": ["--module"],
+    "pathway_profiler get-profiles": ["--input", "--pfam-db"],
+    "pathway_profiler search": ["--hmm", "--genome"],
+    "pathway_profiler analyze": ["--hits", "--input", "--hmm"],
+    "pathway_profiler visualize": ["--results"]
 }
 
 
@@ -362,14 +367,8 @@ Your task is to answer the question: {input}"""
         if response:
             yield response
 
-    def execute(self, input_str: str, stack = 0):
-        """Execute a command in the workspace.
-
-        Returns a tuple: (success: bool, output: str, apology: Optional[str])
-        - success: True when command ran successfully
-        - output: stdout or error output (to be shown in the terminal block)
-        - apology: a user-facing apology string to be shown as normal text when success is False
-        """
+    def execute(self, input_str: str, stack = 0) -> str:
+        """Execute a command in the workspace."""
 
         input = self.interface.parse(input_str)
 
