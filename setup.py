@@ -17,6 +17,7 @@ setup(
         'scipy>=1.7.0',
         'numpy>=1.20.0',
         'biopython>=1.79',
+        'bacdive>=1.0.0',
     ],
     extras_require={
         'dev': [

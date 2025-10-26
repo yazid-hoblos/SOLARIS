@@ -375,13 +375,14 @@ Your task is to answer the question: {input}"""
             apology = (
                 "Apologies — I can't run that command right now. I'm still a little bot in development!\n"
                 "But you can execute it manually. Please refer to our documentation at: https://gitlab.igem.org/2025/software-tools/evry-paris-saclay\n"
-                "I can assist you in how to run it if needed.\n"
+                "The encountered error message is displayed below.\n"
             )
 
             # If we have command output, include it after the apology so the UI will render it in the
             # command-output box (frontend recognizes lines starting with "$" followed by output).
+            yield apology
             if error_output:
-                return f"{apology}\n$ {command}\n{error_output}"
+                return f"$ {' '.join(command)}\n{error_output}"
 
             return apology
         
