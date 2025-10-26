@@ -1,5 +1,8 @@
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib.font_manager")
+import logging
+logging.getLogger('matplotlib.font_manager').setLevel(logging.ERROR)
+logging.getLogger('matplotlib').setLevel(logging.ERROR)
 import sys, importlib, json, os, shlex
 from typing import List, Generator
 from sandbox.executor import DockerExecutor

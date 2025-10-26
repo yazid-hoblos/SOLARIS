@@ -1,3 +1,13 @@
+import os
+import warnings
+import logging
+mpl_dir = os.path.join(os.getcwd(), 'tmp', 'matplotlib')
+os.makedirs(mpl_dir, exist_ok=True)
+os.environ.setdefault('MPLCONFIGDIR', mpl_dir)
+warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib.font_manager")
+logging.getLogger('matplotlib.font_manager').setLevel(logging.ERROR)
+logging.getLogger('matplotlib').setLevel(logging.ERROR)
+
 from main import Main
 
 if __name__ == "__main__":

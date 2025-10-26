@@ -4,8 +4,16 @@ import subprocess
 import shlex
 import sys
 import warnings
+import logging
+import os
 
-warnings.filterwarnings("ignore")
+# Ensure matplotlib font-cache/log messages are silenced during API runs.
+mpl_dir = os.path.join(os.getcwd(), 'tmp', 'matplotlib')
+os.makedirs(mpl_dir, exist_ok=True)
+os.environ.setdefault('MPLCONFIGDIR', mpl_dir)
+warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib.font_manager")
+logging.getLogger('matplotlib.font_manager').setLevel(logging.ERROR)
+logging.getLogger('matplotlib').setLevel(logging.ERROR)
 
 app = Flask(__name__, static_folder="public", static_url_path="/")
 
