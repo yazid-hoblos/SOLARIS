@@ -17,6 +17,8 @@ import json
 import argparse
 import sys
 import getpass
+import threading
+import queue
 
 
 def inspect_strain_structure(strain_data, bacdive_id):
@@ -365,12 +367,36 @@ def worker_main():
         PASSWORD = getpass.getpass("Password: ")
 
     print(f"Connecting to BacDive with email: {EMAIL}")
-    try:
-        client = bacdive.BacdiveClient(EMAIL, PASSWORD)
-    except Exception as e:
-        print(f"Error connecting to BacDive: {e}")
+
+    # Try to create the BacDive client but guard against long internal
+    # retries inside the bacdive library by using a background thread and
+    # waiting a short timeout. If client creation blocks (for example due
+    # to authentication retries), we will exit with a clear error instead
+    # of hanging for a long time.
+    def try_create_client(email, password, timeout=12):
+        q = queue.Queue()
+
+        def _target():
+            try:
+                c = bacdive.BacdiveClient(email, password)
+                q.put((True, c))
+            except Exception as e:
+                q.put((False, str(e)))
+
+        t = threading.Thread(target=_target, daemon=True)
+        t.start()
+        try:
+            ok, payload = q.get(timeout=timeout)
+        except queue.Empty:
+            return False, f"Timeout ({timeout}s) while attempting to authenticate to BacDive"
+        return ok, payload
+
+    ok, result = try_create_client(EMAIL, PASSWORD, timeout=7)
+    if not ok:
+        print(f"Error connecting to BacDive: {result}")
         print("Please check your credentials and internet connection.")
         sys.exit(1)
+    client = result
 
     # Set output filename
     output_prefix = args.output or args.taxonomy.lower().replace(' ', '_')
@@ -465,36 +491,38 @@ def worker_main():
 
 
 if __name__ == "__main__":
+    # if os.environ.get('BACDIVE_WORKER') == '1':
+    worker_main()
     # If BACDIVE_WORKER is set, run the worker code in this process.
     # Otherwise, spawn a worker subprocess so we can monitor output and abort
     # immediately on authentication failures (avoid long internal retries).
-    if os.environ.get('BACDIVE_WORKER') == '1':
-        worker_main()
-    else:
-        cmd = [sys.executable, __file__] + sys.argv[1:]
-        env = os.environ.copy()
-        env['BACDIVE_WORKER'] = '1'
-        env['PYTHONUNBUFFERED'] = '1'
+    # if os.environ.get('BACDIVE_WORKER') == '1':
+    #     worker_main()
+    # else:
+    #     cmd = [sys.executable, __file__] + sys.argv[1:]
+    #     env = os.environ.copy()
+    #     env['BACDIVE_WORKER'] = '1'
+    #     env['PYTHONUNBUFFERED'] = '1'
 
-        proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, env=env, text=True)
+    #     proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, env=env, text=True)
 
-        try:
-            for line in proc.stdout:
-                print(line, end='')
-                # Detect authentication failure or immediate retry notice
-                if ('Keycloak Authentication failed' in line
-                        or 'invalid_grant' in line
-                        or 'Retrying in' in line
-                        or ('401' in line and 'invalid_grant' in line)):
-                    proc.kill()
-                    print('ERROR: Authentication with BacDive failed — aborting immediately.')
-                    sys.exit(1)
-        except KeyboardInterrupt:
-            try:
-                proc.kill()
-            except Exception:
-                pass
-            sys.exit(1)
+    #     try:
+    #         for line in proc.stdout:
+    #             print(line, end='')
+    #             # Detect authentication failure or immediate retry notice
+    #             if ('Keycloak Authentication failed' in line
+    #                     or 'invalid_grant' in line
+    #                     or 'Retrying in' in line
+    #                     or ('401' in line and 'invalid_grant' in line)):
+    #                 proc.kill()
+    #                 print('ERROR: Authentication with BacDive failed — aborting immediately.')
+    #                 sys.exit(1)
+    #     except KeyboardInterrupt:
+    #         try:
+    #             proc.kill()
+    #         except Exception:
+    #             pass
+    #         sys.exit(1)
 
-        rc = proc.wait()
-        sys.exit(rc)
+    #     rc = proc.wait()
+    #     sys.exit(rc)
