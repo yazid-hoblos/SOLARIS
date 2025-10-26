@@ -187,18 +187,36 @@ class Main:
                 if self.verbose:
                     self.logger.info(f"Shell action - command: {command[:100]}...")
 
-                # If the model attempts to run help automatically, skip it.
-                # We don't want the agent to auto-run '-h/--help' and clutter the
-                # conversation; help can be requested explicitly by the user.
-                # try:
-                #     token_check = shlex.split(command)
-                #     if any(t in ('-h', '--help') for t in token_check):
-                #         if self.verbose:
-                #             self.logger.info("Skipping automatic execution of help flag (-h/--help).")
-                #         return
-                # except Exception:
-                #     # If tokenization fails, continue to normal handling
-                #     pass
+                # If the model attempts to run help automatically, skip it in the
+                # general/automatic case to avoid clutter. However, if the *user*
+                # explicitly asked for help (for example: "what can X do?",
+                # "show me help", or the query contains the word 'help' or a
+                # trailing question mark) then allow the help command to run so
+                # we can show usage to the user.
+                try:
+                    token_check = shlex.split(command)
+                    if any(t in ('-h', '--help') for t in token_check):
+                        # Detect whether the original user input asked for help.
+                        # If so, allow running the help command. Typical user
+                        # phrasings include: 'help', 'what can', 'show', 'list',
+                        # or a trailing '?'. Otherwise, assume the model is
+                        # attempting an automatic help run and skip it.
+                        user_q = (input or "").lower()
+                        wants_help = False
+                        if 'help' in user_q:
+                            wants_help = True
+                        elif any(w in user_q for w in ('what can', 'what does', 'show', 'list')):
+                            wants_help = True
+                        elif user_q.strip().endswith('?'):
+                            wants_help = True
+
+                        if not wants_help:
+                            if self.verbose:
+                                self.logger.info("Skipping automatic execution of help flag (-h/--help).")
+                            return
+                except Exception:
+                    # If tokenization fails, continue to normal handling
+                    pass
 
                 if stack > 0 and command in self.executed:
                     self.logger.error(f"Command already executed: {command}")
@@ -306,8 +324,11 @@ class Main:
                     # If parsing fails, fall back to the normal execution path
                     pass
 
-                # Announce execution only in verbose mode to avoid duplicate-looking output
-                if self.verbose:
+                # Announce execution for top-level user requests or when verbose
+                # logging is enabled. This shows the "⚡ Executing" line to the
+                # user for normal interactions while still avoiding duplicate
+                # announcements during recursive LLM-driven analysis (stack>0).
+                if self.verbose or stack == 0:
                     yield f"⚡ Executing: {command}"
                     self.logger.info(f"Executing: {command}")
                 success, cmd_output, apology = self.execute(command, stack)
