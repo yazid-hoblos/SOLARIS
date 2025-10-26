@@ -349,16 +349,28 @@
         function addMessage(text, isUser, isCommand = false) {
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${isUser ? 'user' : 'bot'}`;
-            
+
             const contentDiv = document.createElement('div');
             contentDiv.className = 'message-content';
-            
+
             if (isCommand) {
+                // trusted HTML for command messages
                 contentDiv.innerHTML = text;
             } else {
-                contentDiv.textContent = text;
+                // Preserve newlines safely by inserting text nodes and <br> elements
+                if (typeof text === 'string' && text.includes('\n')) {
+                    const parts = text.split('\n');
+                    parts.forEach((part, idx) => {
+                        contentDiv.appendChild(document.createTextNode(part));
+                        if (idx < parts.length - 1) {
+                            contentDiv.appendChild(document.createElement('br'));
+                        }
+                    });
+                } else {
+                    contentDiv.textContent = text;
+                }
             }
-            
+
             messageDiv.appendChild(contentDiv);
             chatMessages.appendChild(messageDiv);
             chatMessages.scrollTop = chatMessages.scrollHeight;

@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="matplotlib.font_manager")
-import sys, importlib, json, os
+import sys, importlib, json, os, shlex
 from typing import List, Generator
 from sandbox.executor import DockerExecutor
 from sandbox.local_executor import LocalExecutor
@@ -12,6 +12,41 @@ from utils.prompt import prompt
 from utils.tree import tree
 from utils.parser import parse_output
 from model.toolset import setup_toolset
+
+
+# Mapping of tool subcommands to parameters that must be supplied by the user when running via the agent.
+REQUIRED_PARAMS = {
+    "pangenomic_analyzer complete": ["--genomes-dir", "--hmm-file", "--target-ecs", "--ec-pfam-mapping"],
+    "compatibility_predictor bacdive": ["--email", "--taxonomy"],
+    "compatibility_predictor kegg": ["--ec-file"],
+    "compatibility_predictor match": ["--email"],
+    "pathway_profiler workflow": ["--module", "--genome", "--pfam-db"]
+}
+
+
+def _missing_required_flags(args: list):
+    """Return (key, missing_flags) for the first matching tool subcommand, or (None, []).
+    args: tokenized argument list (e.g. ['pangenomic_analyzer','complete','--genomes-dir','./data']).
+    """
+    if not args:
+        return None, []
+    tool = args[1]
+    sub = args[2] if len(args) > 2 else None
+    if sub:
+        key = f"{tool} {sub}"
+        required = REQUIRED_PARAMS.get(key)
+        if required:
+            missing = []
+            for flag in required:
+                found = False
+                for a in args[2:]:
+                    if a == flag or a.startswith(flag + "="):
+                        found = True
+                        break
+                if not found:
+                    missing.append(flag)
+            return key, missing
+    return None, []
 
 class Main:
     def __init__(self, filepath: str = "config/config.json"):
@@ -135,8 +170,102 @@ class Main:
                     Your task is to answer the question: {input}""", stack + 1):
                         yield item
                     return
-                
                 # Show what we're about to execute
+                # Before announcing execution, ensure required params are present
+                try:
+                    tokens = shlex.split(command)
+                    key, missing = _missing_required_flags(tokens)
+                    if missing:
+                        missing_list = ', '.join(missing)
+                        # Prompt user to provide missing parameters instead of executing
+                        yield ("⚠️ Missing required parameters\n"
+                               f"Command: {command}\n"
+                               f"Missing: {missing_list}\n\n"
+                               "Please provide the missing flags and try again.\n"
+                               "I'll show the command help below to assist you.")
+
+                        # Run the command's help (-h) to show usage, but do NOT run the full command
+                        try:
+                            command = tokens[0] + " " + tokens[1] + " " + tokens[2]
+                            help_cmd =  command + " -h"
+                            if self.verbose:
+                                self.logger.info(f"Running help for command: {help_cmd}")
+                            help_exec = self.executor.run(help_cmd)
+                            help_resp = self.interface.standardify(help_exec)
+
+                            if help_resp.get("success"):
+                                help_output = help_resp.get("output", "")
+                                if help_output:
+                                    yield f"$ {help_cmd}"
+                                    yield help_output
+                            else:
+                                yield "(Could not retrieve help for this command.)"
+                        except Exception:
+                            # Never raise on help retrieval; just continue
+                            yield "(Failed to run help for this command.)"
+
+                        return
+                    # If all required flags were provided, verify any file/dir values exist in the workspace
+                    try:
+                        required = REQUIRED_PARAMS.get(key, []) if key else []
+                        if required:
+                            from pathlib import Path
+                            bad = []
+                            i = 0
+                            while i < len(tokens):
+                                t = tokens[i]
+                                for flag in required:
+                                    # flag as separate token: --flag value
+                                    if t == flag and i + 1 < len(tokens) and not tokens[i+1].startswith('--'):
+                                        val = tokens[i+1]
+                                    # flag as --flag=value
+                                    elif t.startswith(flag + "="):
+                                        val = t.split('=', 1)[1]
+                                    else:
+                                        val = None
+
+                                    if val:
+                                        p = Path(val)
+                                        # Resolve relative paths against executor workspace
+                                        try:
+                                            ws = Path(self.executor.workspace)
+                                        except Exception:
+                                            ws = Path('.')
+                                        if not p.is_absolute():
+                                            p = (ws / p).resolve()
+
+                                        # If the flag explicitly references a directory name, require directory
+                                        if 'dir' in flag or 'db' in flag:
+                                            if not p.exists() or not p.is_dir():
+                                                bad.append((flag, val))
+                                        else:
+                                            # Only treat the value as a file path if it has a filename extension.
+                                            # Many flags accept identifiers or names (no extension) which shouldn't be checked.
+                                            import os as _os
+                                            _, ext = _os.path.splitext(val)
+                                            if ext:
+                                                if not p.exists():
+                                                    bad.append((flag, val))
+                                            else:
+                                                # No extension -> assume non-file argument (skip existence check)
+                                                pass
+                                i += 1
+
+                            if bad:
+                                # Inform the user which required paths are missing and show help
+                                missing_lines = '\n'.join([f"{f}: {v}" for f, v in bad])
+                                yield (f"Tried Command: {command}\n\n"
+                                       "⚠️ Required files/directories not found in workspace:\n"
+                                       f"{missing_lines}\n"
+                                       "Please provide correct paths and try again.")
+                                return
+                    except Exception:
+                        # If existence checks fail for any reason, fall back to normal execution path
+                        pass
+                except Exception:
+                    # If parsing fails, fall back to the normal execution path
+                    pass
+
                 yield f"⚡ Executing: {command}"
                 
                 # Execute the command
