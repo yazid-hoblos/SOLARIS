@@ -184,6 +184,19 @@ class Main:
                 if self.verbose:
                     self.logger.info(f"Shell action - command: {command[:100]}...")
 
+                # If the model attempts to run help automatically, skip it.
+                # We don't want the agent to auto-run '-h/--help' and clutter the
+                # conversation; help can be requested explicitly by the user.
+                try:
+                    token_check = shlex.split(command)
+                    if any(t in ('-h', '--help') for t in token_check):
+                        if self.verbose:
+                            self.logger.info("Skipping automatic execution of help flag (-h/--help).")
+                        return
+                except Exception:
+                    # If tokenization fails, continue to normal handling
+                    pass
+
                 if stack > 0 and command in self.executed:
                     self.logger.error(f"Command already executed: {command}")
                     yield response
@@ -414,8 +427,8 @@ Your task is to answer the question: {input}"""
 
             # Apology shown as normal text (not in terminal block)
             apology = (
-                "Apologies — I can't run that command right now. I'm still a little bot in development!\n"
-                "But you can execute it manually. Please refer to our documentation at: https://gitlab.igem.org/2025/software-tools/evry-paris-saclay\n"
+                "Apologies — I couldn't run that command right now. I'm still a little bot in development!\n"
+                "But you can try executing it manually. Please refer to our documentation at: https://gitlab.igem.org/2025/software-tools/evry-paris-saclay\n\n"
                 "The encountered error message is displayed below.\n"
             )
 
