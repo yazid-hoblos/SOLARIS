@@ -205,7 +205,7 @@ class Main:
                         wants_help = False
                         if 'help' in user_q:
                             wants_help = True
-                        elif any(w in user_q for w in ('what can', 'what does', 'show', 'list')):
+                        elif any(w in user_q for w in ('what can', 'what does', 'show', 'list', 'how to run')):
                             wants_help = True
                         elif user_q.strip().endswith('?'):
                             wants_help = True
