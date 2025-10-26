@@ -310,7 +310,14 @@ class Main:
                 # with "$ <command>" and will render following yields as the command output box.
                 yield f"$ {command}"
                 yield cmd_output
-                
+
+                # If the command failed, stop here and do not automatically invoke
+                # further LLM-driven actions (like running -h). Let the user decide
+                # how to proceed. This prevents the agent from auto-running help
+                # commands when the user likely wanted to see the error and fix it.
+                if command_failed:
+                    return
+
                 # Only continue the loop if we haven't hit max iterations
                 # Skip recursion for:
                 # 1. Simple read-only commands (ls, cat, etc.)
@@ -391,10 +398,19 @@ Your task is to answer the question: {input}"""
             error_msg = response.get('error', 'Execution failed')
             self.logger.error(f"Execution error: {error_msg}")
             # Include the command output (which may contain stderr) for context
-            error_output = response.get('output', '')
+            stdout_output = response.get('output', '') or ''
 
-            if error_output:
-                self.logger.debug(f"Command output (hidden): {error_output}")
+            if stdout_output:
+                self.logger.debug(f"Command output (hidden): {stdout_output}")
+
+            # Build terminal output: prefer stdout+stderr (output), but also append the
+            # standardized error message which often includes return code or traceback.
+            terminal_output_parts = []
+            if stdout_output:
+                terminal_output_parts.append(stdout_output)
+            if error_msg:
+                terminal_output_parts.append(f"ERROR: {error_msg}")
+            terminal_output = "\n\n".join(terminal_output_parts) if terminal_output_parts else "(no output)"
 
             # Apology shown as normal text (not in terminal block)
             apology = (
@@ -404,7 +420,7 @@ Your task is to answer the question: {input}"""
             )
 
             # Return structured tuple: failure, terminal output (without the leading $ line), apology
-            return (False, error_output or "(no output)", apology)
+            return (False, terminal_output, apology)
 
         return (True, response.get('output', ''), None)
 

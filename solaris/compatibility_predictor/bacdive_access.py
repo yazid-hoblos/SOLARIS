@@ -10,6 +10,8 @@ python bacdive_access.py --email your@email.com --taxonomy Synechococcus --temp-
 (Password will be prompted securely, or use --password flag if needed)
 """
 
+import os
+import subprocess
 import bacdive
 import json
 import argparse
@@ -332,36 +334,36 @@ def filter_by_temperature(client, taxonomy_query, min_temp=None, max_temp=None,
 
 
 
-def main():
-    """Main function with command-line argument support."""
+def worker_main():
+    """Worker main: performs the full BacDive query flow. This runs in the child process."""
     parser = argparse.ArgumentParser(description='Query BacDive for organisms by taxonomy with aerobic and temperature filters')
-    
+
     # Required arguments
     parser.add_argument('--email', '-e', required=True, help='BacDive email credentials')
     parser.add_argument('--password', '-p', help='BacDive password (if not provided, will prompt securely)')
     parser.add_argument('--taxonomy', '-t', required=True, help='Taxonomy search term (e.g., Synechococcus, Cyanobacteria)')
-    
+
     # Temperature range arguments (mesophile range as default)
     parser.add_argument('--temp-min', type=float, default=20.0, help='Minimum temperature (°C). Default: 20 (mesophile range)')
     parser.add_argument('--temp-max', type=float, default=45.0, help='Maximum temperature (°C). Default: 45 (mesophile range)')
     parser.add_argument('--temp-type', default=None, help='Temperature type (optimum/minimum/maximum). Default: optimum')
-    
+
     # Optional arguments
     parser.add_argument('--max-strains', type=int, default=200, help='Maximum strains to process. Default: 200')
     parser.add_argument('--output', help='Output file prefix. Default: taxonomy name')
-    
+
     args = parser.parse_args()
-    
+
     # Use provided credentials
     EMAIL = args.email
-    
+
     # Get password securely
     if args.password:
         PASSWORD = args.password
     else:
         print(f"Enter password for BacDive account ({EMAIL}):")
         PASSWORD = getpass.getpass("Password: ")
-    
+
     print(f"Connecting to BacDive with email: {EMAIL}")
     try:
         client = bacdive.BacdiveClient(EMAIL, PASSWORD)
@@ -369,20 +371,20 @@ def main():
         print(f"Error connecting to BacDive: {e}")
         print("Please check your credentials and internet connection.")
         sys.exit(1)
-    
+
     # Set output filename
     output_prefix = args.output or args.taxonomy.lower().replace(' ', '_')
     # print('-----Here----')
     print(args.output)
     print(output_prefix)
     output_file = f"{output_prefix}_aerobic_mesophile.json"
-    
+
     print(f"\n{'='*80}")
     print(f"SEARCHING: {args.taxonomy}")
     print(f"Filters: Aerobic + Temperature {args.temp_min}-{args.temp_max}°C ({args.temp_type})")
     print(f"Max strains: {args.max_strains}")
     print(f"{'='*80}")
-    
+
     # Step 1: Filter by oxygen tolerance (aerobic)
     print(f"\nStep 1: Filtering by oxygen tolerance (aerobic)...")
     aerobic_organisms = filter_by_oxygen_tolerance(
@@ -391,9 +393,9 @@ def main():
         oxygen_types=['aerobe'],
         max_strains=args.max_strains
     )
-    
+
     print(f"✓ Found {len(aerobic_organisms)} aerobic organisms")
-    
+
     # Step 2: Filter by temperature range
     print(f"\nStep 2: Filtering by temperature ({args.temp_min}-{args.temp_max}°C, {args.temp_type})...")
     temperature_organisms = filter_by_temperature(
@@ -404,16 +406,16 @@ def main():
         temp_type=args.temp_type,
         max_strains=args.max_strains
     )
-    
+
     print(f"✓ Found {len(temperature_organisms)} organisms in temperature range")
-    
+
     # Display results from both filters
     print(f"\n{'='*60}")
     print("RESULTS SUMMARY")
     print(f"{'='*60}")
     print(f"Aerobic organisms: {len(aerobic_organisms)}")
     print(f"Temperature-suitable organisms: {len(temperature_organisms)}")
-    
+
     # Save and display aerobic results
     if aerobic_organisms:
         aerobic_file = f"{output_prefix}_aerobic.json"
@@ -423,16 +425,16 @@ def main():
             print(f"     ID: {org['bacdive_id']}, O2: {org['oxygen_tolerance']}")
             if org.get('ncbi_taxid'):
                 print(f"     NCBI TaxID: {org['ncbi_taxid']}")
-        
+
         with open(aerobic_file, 'w') as f:
             simplified = [{k: v for k, v in org.items() if k != 'strain_data'} 
                          for org in aerobic_organisms]
             json.dump(simplified, f, indent=2)
-        
+
         aerobic_with_taxid = sum(1 for org in aerobic_organisms if org.get('ncbi_taxid'))
         print(f"✓ Aerobic results saved to {aerobic_file}")
         print(f"✓ {aerobic_with_taxid}/{len(aerobic_organisms)} aerobic organisms have NCBI taxonomy IDs")
-    
+
     # Save and display temperature results
     if temperature_organisms:
         temp_file = f"{output_prefix}_temperature.json"
@@ -447,20 +449,52 @@ def main():
                     print(f"     Temp: {temp_str}")
             if org.get('ncbi_taxid'):
                 print(f"     NCBI TaxID: {org['ncbi_taxid']}")
-        
+
         with open(temp_file, 'w') as f:
             simplified = [{k: v for k, v in org.items() if k != 'strain_data'} 
                          for org in temperature_organisms]
             json.dump(simplified, f, indent=2)
-        
+
         temp_with_taxid = sum(1 for org in temperature_organisms if org.get('ncbi_taxid'))
         print(f"✓ Temperature results saved to {temp_file}")
         print(f"✓ {temp_with_taxid}/{len(temperature_organisms)} temperature-suitable organisms have NCBI taxonomy IDs")
-    
+
     if not aerobic_organisms and not temperature_organisms:
         print(f"\n⚠ No organisms found matching either criteria.")
         print(f"Try adjusting the temperature range or taxonomy term.")
 
 
 if __name__ == "__main__":
-    main()
+    # If BACDIVE_WORKER is set, run the worker code in this process.
+    # Otherwise, spawn a worker subprocess so we can monitor output and abort
+    # immediately on authentication failures (avoid long internal retries).
+    if os.environ.get('BACDIVE_WORKER') == '1':
+        worker_main()
+    else:
+        cmd = [sys.executable, __file__] + sys.argv[1:]
+        env = os.environ.copy()
+        env['BACDIVE_WORKER'] = '1'
+        env['PYTHONUNBUFFERED'] = '1'
+
+        proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, env=env, text=True)
+
+        try:
+            for line in proc.stdout:
+                print(line, end='')
+                # Detect authentication failure or immediate retry notice
+                if ('Keycloak Authentication failed' in line
+                        or 'invalid_grant' in line
+                        or 'Retrying in' in line
+                        or ('401' in line and 'invalid_grant' in line)):
+                    proc.kill()
+                    print('ERROR: Authentication with BacDive failed — aborting immediately.')
+                    sys.exit(1)
+        except KeyboardInterrupt:
+            try:
+                proc.kill()
+            except Exception:
+                pass
+            sys.exit(1)
+
+        rc = proc.wait()
+        sys.exit(rc)

@@ -26,8 +26,8 @@ def setup_compatibility_parser(parent_parser):
     # BacDive access
     bacdive = subparsers.add_parser('bacdive', help='Query BacDive and filter organisms')
     bacdive.add_argument('--email', '-e', required=True, help='BacDive account email')
+    bacdive.add_argument('--taxonomy', '-t', required=True, help='Taxonomy search term')
     bacdive.add_argument('--password', '-p', help='BacDive password (will prompt if not provided)')
-    bacdive.add_argument('--taxonomy', '-t', help='Taxonomy search term')
     bacdive.add_argument('--temp-min', type=float, default=20.0, help='Minimum temperature')
     bacdive.add_argument('--temp-max', type=float, default=45.0, help='Maximum temperature')
     bacdive.add_argument('--output', '-o', help='Output file')
