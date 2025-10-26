@@ -181,7 +181,7 @@ class Main:
                         missing_list = ', '.join(missing)
                         # Prompt user to provide missing parameters instead of executing
                         yield ("⚠️ Missing required parameters\n"
-                               f"Command: {command}\n"
+                               f"Tried Command: {command}\n"
                                f"Missing: {missing_list}\n\n"
                                "Please provide the missing flags and try again.\n"
                                "I'll show the command help below to assist you.")
@@ -366,13 +366,24 @@ Your task is to answer the question: {input}"""
             # Include the command output (which may contain stderr) for context
             error_output = response.get('output', '')
             
-            # Always show the full error with output
+            # Always show the full error with output (log for debugging)
             full_error = f"Execution error: {error_msg}"
             if error_output:
                 self.logger.debug(f"Command output (hidden): {error_output}")
-                # full_error += f"\n\nCommand output:\n{error_output}"
-            # return full_error
-            return "Apologies — I can't run that command right now. I'm still a little bot in development!\nBut you can execute it manually. Please refer to our documentation at: https://gitlab.igem.org/2025/software-tools/evry-paris-saclay\nI can assist you in how to run it if needed."
+
+            # Build a user-friendly response: apology first, then show the terminal error
+            apology = (
+                "Apologies — I can't run that command right now. I'm still a little bot in development!\n"
+                "But you can execute it manually. Please refer to our documentation at: https://gitlab.igem.org/2025/software-tools/evry-paris-saclay\n"
+                "I can assist you in how to run it if needed.\n"
+            )
+
+            # If we have command output, include it after the apology so the UI will render it in the
+            # command-output box (frontend recognizes lines starting with "$" followed by output).
+            if error_output:
+                return f"{apology}\n$ {command}\n{error_output}"
+
+            return apology
         
         return response['output']
 
