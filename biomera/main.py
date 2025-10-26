@@ -306,10 +306,9 @@ class Main:
                     # If parsing fails, fall back to the normal execution path
                     pass
 
-                yield f"⚡ Executing: {command}"
-                
-                # Execute the command
+                # Announce execution only in verbose mode to avoid duplicate-looking output
                 if self.verbose:
+                    yield f"⚡ Executing: {command}"
                     self.logger.info(f"Executing: {command}")
                 success, cmd_output, apology = self.execute(command, stack)
                 command_failed = not success
