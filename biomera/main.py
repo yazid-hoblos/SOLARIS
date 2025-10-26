@@ -190,15 +190,15 @@ class Main:
                 # If the model attempts to run help automatically, skip it.
                 # We don't want the agent to auto-run '-h/--help' and clutter the
                 # conversation; help can be requested explicitly by the user.
-                try:
-                    token_check = shlex.split(command)
-                    if any(t in ('-h', '--help') for t in token_check):
-                        if self.verbose:
-                            self.logger.info("Skipping automatic execution of help flag (-h/--help).")
-                        return
-                except Exception:
-                    # If tokenization fails, continue to normal handling
-                    pass
+                # try:
+                #     token_check = shlex.split(command)
+                #     if any(t in ('-h', '--help') for t in token_check):
+                #         if self.verbose:
+                #             self.logger.info("Skipping automatic execution of help flag (-h/--help).")
+                #         return
+                # except Exception:
+                #     # If tokenization fails, continue to normal handling
+                #     pass
 
                 if stack > 0 and command in self.executed:
                     self.logger.error(f"Command already executed: {command}")
