@@ -196,24 +196,11 @@ class Main:
                 try:
                     token_check = shlex.split(command)
                     if any(t in ('-h', '--help') for t in token_check):
-                        # Detect whether the original user input asked for help.
-                        # If so, allow running the help command. Typical user
-                        # phrasings include: 'help', 'what can', 'show', 'list',
-                        # or a trailing '?'. Otherwise, assume the model is
-                        # attempting an automatic help run and skip it.
-                        user_q = (input or "").lower()
-                        wants_help = False
-                        if 'help' in user_q:
-                            wants_help = True
-                        elif any(w in user_q for w in ('what can', 'what does', 'show', 'list', 'how to run')):
-                            wants_help = True
-                        elif user_q.strip().endswith('?'):
-                            wants_help = True
-
-                        if not wants_help:
-                            if self.verbose:
-                                self.logger.info("Skipping automatic execution of help flag (-h/--help).")
-                            return
+                        # No special-casing: allow help (-h/--help) to be executed
+                        # whenever the model requests it. This restores the previous
+                        # behavior where the agent may run help even if the user did
+                        # not explicitly ask for it.
+                        pass
                 except Exception:
                     # If tokenization fails, continue to normal handling
                     pass
