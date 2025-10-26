@@ -32,7 +32,7 @@ def _missing_required_flags(args: list):
         return None, []
     tool = args[1]
     sub = args[2] if len(args) > 2 else None
-    if len(args) > 3 and (args[3] == '--help' or args[3] == '-h):
+    if len(args) > 3 and (args[3] == '--help' or args[3] == '-h'):
         return None, []
     if sub:
         key = f"{tool} {sub}"
