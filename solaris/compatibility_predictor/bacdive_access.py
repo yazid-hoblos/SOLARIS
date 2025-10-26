@@ -372,7 +372,7 @@ def main():
     
     # Set output filename
     output_prefix = args.output or args.taxonomy.lower().replace(' ', '_')
-    print('-----Here----')
+    # print('-----Here----')
     print(args.output)
     print(output_prefix)
     output_file = f"{output_prefix}_aerobic_mesophile.json"

@@ -17,6 +17,9 @@ from model.toolset import setup_toolset
 # Mapping of tool subcommands to parameters that must be supplied by the user when running via the agent.
 REQUIRED_PARAMS = {
     "pangenomic_analyzer complete": ["--genomes-dir", "--hmm-file", "--target-ecs", "--ec-pfam-mapping"],
+    "pangenomic_analyzer strains": ["--genomes-dir", "--hmm-file"],
+    "pangenomic_analyzer pathways": ["--hmm-results", "--target-ecs"],
+    "pangenomic_analyzer hmm": ["--genomes-dir"],
     "compatibility_predictor bacdive": ["--email", "--taxonomy"],
     "compatibility_predictor kegg": ["--ec-file"],
     "compatibility_predictor match": ["--email"],
@@ -87,7 +90,7 @@ class Main:
             self.logger.error(f"Failed to import {module_name}: {str(e)}")
             raise
 
-    def ask(self, question = None) -> List[str]:
+    def ask(self, question = None):
         if __name__ == "__main__":
             if not sys.stdin.isatty():
                 input = sys.stdin.read().strip()
@@ -112,9 +115,23 @@ class Main:
             yield "🤔 Analyzing your request..."
         
         output = self.agent.ask(role, input)
-        
+
+        # Normalize output: some agent implementations may return generators or lists.
+        try:
+            import types
+            if isinstance(output, types.GeneratorType):
+                output = "".join(list(output))
+            elif isinstance(output, (list, tuple)):
+                output = "".join(output)
+        except Exception:
+            # If normalization fails, leave as-is and let downstream logic handle it
+            pass
+
         if self.verbose:
-            self.logger.info(f"LLM raw output length: {len(output)} chars")
+            try:
+                self.logger.info(f"LLM raw output length: {len(output)} chars")
+            except Exception:
+                self.logger.info("LLM raw output length: (unknown)")
             self.logger.debug(f"LLM full output: {output}")
         
         yield "📋 Parsing response..."
@@ -180,8 +197,8 @@ class Main:
                     if missing:
                         missing_list = ', '.join(missing)
                         # Prompt user to provide missing parameters instead of executing
-                        yield ("⚠️ Missing required parameters\n"
-                               f"Tried Command: {command}\n"
+                        yield (f"Tried Command: {command}\n\n"
+                               "⚠️ Missing required parameters\n"
                                f"Missing: {missing_list}\n\n"
                                "Please provide the missing flags and try again.\n"
                                "I'll show the command help below to assist you.")
@@ -273,16 +290,21 @@ class Main:
                 # Execute the command
                 if self.verbose:
                     self.logger.info(f"Executing: {command}")
-                output = self.execute(command, stack)
-                
-                # Check if command failed
-                command_failed = output.startswith("Execution error:")
-                
-                # Show the result
+                success, cmd_output, apology = self.execute(command, stack)
+                command_failed = not success
+
+                # Show the result: first any agent response
                 if response:
                     yield response
+
+                # If there is an apology text, show it as normal text (not in terminal)
+                if apology:
+                    yield apology
+
+                # Then show terminal-style output: the frontend recognizes the line starting
+                # with "$ <command>" and will render following yields as the command output box.
                 yield f"$ {command}"
-                yield output
+                yield cmd_output
                 
                 # Only continue the loop if we haven't hit max iterations
                 # Skip recursion for:
@@ -340,8 +362,14 @@ Your task is to answer the question: {input}"""
         if response:
             yield response
 
-    def execute(self, input_str: str, stack = 0) -> str:
-        """Execute a command in the workspace."""
+    def execute(self, input_str: str, stack = 0):
+        """Execute a command in the workspace.
+
+        Returns a tuple: (success: bool, output: str, apology: Optional[str])
+        - success: True when command ran successfully
+        - output: stdout or error output (to be shown in the terminal block)
+        - apology: a user-facing apology string to be shown as normal text when success is False
+        """
 
         input = self.interface.parse(input_str)
 
@@ -359,34 +387,27 @@ Your task is to answer the question: {input}"""
         execution = self.executor.run(command)
         self.executed.append(command)
         response = self.interface.standardify(execution)
-        
+
         if not response["success"]:
-            error_msg = response['error']
+            error_msg = response.get('error', 'Execution failed')
             self.logger.error(f"Execution error: {error_msg}")
             # Include the command output (which may contain stderr) for context
             error_output = response.get('output', '')
-            
-            # Always show the full error with output (log for debugging)
-            full_error = f"Execution error: {error_msg}"
+
             if error_output:
                 self.logger.debug(f"Command output (hidden): {error_output}")
 
-            # Build a user-friendly response: apology first, then show the terminal error
+            # Apology shown as normal text (not in terminal block)
             apology = (
                 "Apologies — I can't run that command right now. I'm still a little bot in development!\n"
                 "But you can execute it manually. Please refer to our documentation at: https://gitlab.igem.org/2025/software-tools/evry-paris-saclay\n"
                 "The encountered error message is displayed below.\n"
             )
 
-            # If we have command output, include it after the apology so the UI will render it in the
-            # command-output box (frontend recognizes lines starting with "$" followed by output).
-            yield apology
-            if error_output:
-                return f"$ {' '.join(command)}\n{error_output}"
+            # Return structured tuple: failure, terminal output (without the leading $ line), apology
+            return (False, error_output or "(no output)", apology)
 
-            return apology
-        
-        return response['output']
+        return (True, response.get('output', ''), None)
 
 
 def main_entrypoint(config_path: str = "config/config.json"):

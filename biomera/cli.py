@@ -6,8 +6,16 @@ if __name__ == "__main__":
     while True:
         try:
             cmd = input("run > ")
-            output = process.execute(cmd)
-            print(output)
+            result = process.execute(cmd)
+            # execute() now returns (success, output, apology)
+            if isinstance(result, tuple):
+                success, out, apology = result
+                if apology:
+                    print(apology)
+                print(f"$ {cmd}")
+                print(out)
+            else:
+                print(result)
         except KeyboardInterrupt:
             break
         except Exception as e:
