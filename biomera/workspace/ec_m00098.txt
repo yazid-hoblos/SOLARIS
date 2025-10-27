@@ -1,3 +1,0 @@
-EC_number	UniProt_ID	Protein_Name	Pfam_ID	Species
-3.1.1.23	O07427	Monoacylglycerol lipase	PF12146	Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
-3.1.1.3	Q79F14	Extracellular esterase EstB	PF01674	Bacillus subtilis (strain 168)
