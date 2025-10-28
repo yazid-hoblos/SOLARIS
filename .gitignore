@@ -1,8 +1,7 @@
 __pycache__/
 tmp/
-GCA*
-GCF*
-*.faa
+*GCA*
+*GCF*
 *egg-info*
 geckodriver.log
 batch/
