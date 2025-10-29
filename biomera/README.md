@@ -19,24 +19,27 @@ This README explains what BIOMERA is, how the repository is organized, how the s
 Key design goals: safety (no hidden interactive prompts), reproducibility (Docker), and explainability (the agent returns both an apology/explanation and the raw terminal output when commands fail).
 
 ## Repository structure
-Top-level overview (most relevant folders and files):
 
-- `biomera/` — BIOMERA chatbot code and Dockerfile (this folder). Key files:
-	- `main.py` — chat loop / agent orchestration and LLM integration.
-	- `api.py` — lightweight Flask API used by the web UI.
-	- `cli.py` — CLI entrypoint for running the agent locally.
-	- `Dockerfile` — Docker image used for Render and production builds (install system deps such as HMMER).
-	- `README.md` — this file.
+The `biomera/` folder contains the chatbot agent, web UI assets and supporting runtime directories. Current layout (folders and notable files):
 
-- `model/` — LLM adapter implementations (local and online options).
+- `api.py` — Flask-based HTTP API used by the web UI.
+- `cli.py` — command-line entrypoint to start the agent interactively.
+- `main.py` — main chat/agent orchestration loop used in CLI mode.
+- `Dockerfile` — Docker image definition for production/Render builds.
+- `start_gui.sh` and `GUI_README.md` — helper script and notes to start the optional GUI.
+- `bioprod.log` — runtime log file (generated at runtime).
+- `requirements.txt` — Python dependencies for the BIOMERA service.
 
-- `config/` — configuration files (LLM settings, tool definitions, prompts). Important files:
-	- `config/config.json` — central BIOMERA configuration (which model to use, executor choices).
-	- `config/prompt.txt` — default system prompt for the agent.
+- `config/` — configuration files for the agent (LLM settings, prompts, tool definitions).
+- `model/` — LLM adapter / model integration code used by BIOMERA.
+- `sandbox/` — sandboxed execution helpers and safety wrappers used when running commands.
+- `utils/` — BIOMERA helper utilities (small scripts used by the agent and API).
 
-- `sandbox/` — sandboxed execution helpers and safety wrappers used when running untrusted commands locally.
+- `public/` — static web assets (HTML/CSS/JS) for the web UI.
+- `workspace/` — agent workspace (user session files, generated artifacts).
 
-- `tests/`, `results/`, `modeling/`, `cyanobacteria_proteomes/` — supporting test data, example outputs and models (not required to run BIOMERA but useful for development and validation).
+This README documents the BIOMERA components; if you expect additional files or a different layout please tell me and I will adjust the documentation accordingly.
+
 
 ## How to run
 
@@ -51,7 +54,7 @@ pip install -e .
 pip install -r requirements.txt
 
 # start the chat agent (interactive terminal)
-python biomera/main.py
+python biomera/start_gui.sh
 ```
 
 Configuration:
@@ -59,21 +62,10 @@ Configuration:
 
 ### 2) Docker (recommended / production)
 
-Docker bundles system tools (HMMER, etc.) that the SOLARIS modules require.
-
 ```bash
 # build the image
 docker build -f biomera/Dockerfile -t solaris-biomera:dev .
 
 # run the container and connect to the chat service
 docker run --rm -it -p 5000:5000 solaris-biomera:dev
-
-# quick check inside the container to confirm system tools are present
-docker run --rm solaris-biomera:dev bash -lc "which hmmfetch && hmmfetch --version"
 ```
-
-### 3) Render deploy
-
-This repository includes `render.yaml` to instruct Render to build the Docker image (`biomera/Dockerfile`). Ensure you push the branch configured in `render.yaml` (default: `dev`) and set any needed secrets in the Render dashboard (API keys, credentials).
-
-If Render logs show a Python buildpack instead of Docker, confirm `render.yaml` is present and that the service is configured to use the repo manifest.

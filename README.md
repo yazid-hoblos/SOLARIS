@@ -38,10 +38,10 @@ Developed by **Team Evry-Paris-Saclay** for iGEM 2025, SOLARIS addresses critica
 - Assess O₂ consumption, CO₂ release, and literature precedent for pathway feasibility
 
 **🤖 BIOMERA (BioProd Agent)** 📁 [`/biomera/`](biomera/README.md)
-- World-first bioproduction AI agent specialized in molecular biology tasks
-- Automate complex biotechnology workflows for non-experts
-- Execute any biotool through Docker container integration
-- Manage complete analysis pipelines with local or cloud-based AI models
+- Chatbot-style AI agent that automates SOLARIS workflows and runs Solaris commands on your behalf.
+- Public chatbot UI: https://solaris-chatbot-wwd4.onrender.com/
+- BIOMERA converts natural-language instructions into validated command plans, executes them in controlled executors (local sandbox or Docker), and returns both an explanation and the raw terminal output.
+- For full usage, deployment notes (Docker / Render) and developer details see `biomera/README.md`.
 
 You may refer to each of these directories for comprehensive documentation of each feature in their corresponding **README.md**.
 
