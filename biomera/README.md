@@ -38,8 +38,6 @@ The `biomera/` folder contains the chatbot agent, web UI assets and supporting r
 - `public/` — static web assets (HTML/CSS/JS) for the web UI.
 - `workspace/` — agent workspace (user session files, generated artifacts).
 
-This README documents the BIOMERA components; if you expect additional files or a different layout please tell me and I will adjust the documentation accordingly.
-
 
 ## How to run
 
@@ -54,7 +52,8 @@ pip install -e .
 pip install -r requirements.txt
 
 # start the chat agent (interactive terminal)
-python biomera/start_gui.sh
+python biomera/api.py #or
+biomera/start_gui.sh
 ```
 
 Configuration:
